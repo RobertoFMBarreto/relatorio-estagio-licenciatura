@@ -1,5 +1,5 @@
 \babel@toc {portuges}{}\relax 
-\contentsline {section}{\numberline {0.1}Diagramas de estados}{1}{section.0.1}%
-\contentsline {subsection}{\numberline {0.1.1}Diagrama de estados criação de tópico}{1}{subsection.0.1.1}%
-\contentsline {subsection}{\numberline {0.1.2}Diagrama de estados responder a tópico}{2}{subsection.0.1.2}%
-\contentsline {subsection}{\numberline {0.1.3}Diagrama de estados autenticação e validação de conta}{3}{subsection.0.1.3}%
+\contentsline {section}{\numberline {0.1}Diagrama de sequência}{1}{section.0.1}%
+\contentsline {subsection}{\numberline {0.1.1}Diagrama de sequência Login e ativação de conta}{1}{subsection.0.1.1}%
+\contentsline {subsection}{\numberline {0.1.2}Diagrama de sequência Registo e ativação de conta}{2}{subsection.0.1.2}%
+\contentsline {subsection}{\numberline {0.1.3}Diagrama de sequência registo de técnicos}{3}{subsection.0.1.3}%
