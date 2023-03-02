@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.27)  2 MAR 2023 12:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.27)  2 MAR 2023 12:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -687,12 +687,12 @@ LaTeX Info: Redefining \nameref on input line 34.
  (/usr/share/texlive/texmf-dist/tex/latex/ninecolors/ninecolors.sty
 Package: ninecolors 2021/05/24 v2021C Select colors with proper color contrast
 )
-<lesi/logos/logo_ipca.png, id=20, 707.64375pt x 356.33125pt>
+<lesi/logos/logo_ipca.png, id=24, 707.64375pt x 356.33125pt>
 File: lesi/logos/logo_ipca.png Graphic file (type png)
 <use lesi/logos/logo_ipca.png>
 Package pdftex.def Info: lesi/logos/logo_ipca.png  used on input line 38.
 (pdftex.def)             Requested size: 113.00935pt x 56.9055pt.
-<lesi/logos/logo_est.png, id=22, 2971.1pt x 1124.2pt>
+<lesi/logos/logo_est.png, id=26, 2971.1pt x 1124.2pt>
 File: lesi/logos/logo_est.png Graphic file (type png)
 <use lesi/logos/logo_est.png>
 Package pdftex.def Info: lesi/logos/logo_est.png  used on input line 38.
@@ -726,43 +726,75 @@ Package pdftex.def Info: lesi/logos/logo_est.png  used on input line 38.
 
  [13] [14
 
-] (./chap3.tex (./sections/chap3/19.diagrama_sequencia.tex
-<images/diagramas/sequencia/diagrama_login.png, id=107, 756.8275pt x 982.67125pt>
-File: images/diagramas/sequencia/diagrama_login.png Graphic file (type png)
-<use images/diagramas/sequencia/diagrama_login.png>
-Package pdftex.def Info: images/diagramas/sequencia/diagrama_login.png  used on input line 23.
-(pdftex.def)             Requested size: 305.01271pt x 396.03041pt.
- [1 <./images/diagramas/sequencia/diagrama_login.png>]
-<images/diagramas/sequencia/diagrama_registo.png, id=115, 888.31876pt x 826.08624pt>
-File: images/diagramas/sequencia/diagrama_registo.png Graphic file (type png)
-<use images/diagramas/sequencia/diagrama_registo.png>
-Package pdftex.def Info: images/diagramas/sequencia/diagrama_registo.png  used on input line 42.
-(pdftex.def)             Requested size: 364.19667pt x 338.67233pt.
- [2 <./images/diagramas/sequencia/diagrama_registo.png>]
-<images/diagramas/sequencia/registo_tecnico.png, id=122, 1204.5pt x 557.08125pt>
-File: images/diagramas/sequencia/registo_tecnico.png Graphic file (type png)
-<use images/diagramas/sequencia/registo_tecnico.png>
-Package pdftex.def Info: images/diagramas/sequencia/registo_tecnico.png  used on input line 57.
-(pdftex.def)             Requested size: 364.19667pt x 168.44322pt.
-))
+] (./chap4.tex
+Cap\'{\i }tulo 1.
+<images/Arquiteturas/arquitetura_de_solucao.png, id=115, 543.02875pt x 131.49126pt>
+File: images/Arquiteturas/arquitetura_de_solucao.png Graphic file (type png)
+<use images/Arquiteturas/arquitetura_de_solucao.png>
+Package pdftex.def Info: images/Arquiteturas/arquitetura_de_solucao.png  used on input line 11.
+(pdftex.def)             Requested size: 455.24411pt x 110.23921pt.
+[1
+
+ <./images/Arquiteturas/arquitetura_de_solucao.png>]
+<images/Arquiteturas/arquitetura_funcional.png, id=122, 1614.03pt x 443.6575pt>
+File: images/Arquiteturas/arquitetura_funcional.png Graphic file (type png)
+<use images/Arquiteturas/arquitetura_funcional.png>
+Package pdftex.def Info: images/Arquiteturas/arquitetura_funcional.png  used on input line 43.
+(pdftex.def)             Requested size: 455.24411pt x 125.13715pt.
+ [2 <./images/Arquiteturas/arquitetura_funcional.png>]
+<images/Arquiteturas/arquitetura_de_componentes_final.png, id=129, 645.41125pt x 502.87875pt>
+File: images/Arquiteturas/arquitetura_de_componentes_final.png Graphic file (type png)
+<use images/Arquiteturas/arquitetura_de_componentes_final.png>
+Package pdftex.def Info: images/Arquiteturas/arquitetura_de_componentes_final.png  used on input line 57.
+(pdftex.def)             Requested size: 318.66948pt x 248.2927pt.
+ (./tables/tabela_endpoints.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+
+Package tabularray Warning: Table width is too small, need 16.94412pt more!
+
+> Step: build the whole table.
+
+Overfull \hbox (16.94412pt too wide) detected at line 34
+ [] 
+ []
+
+[3 <./images/Arquiteturas/arquitetura_de_componentes_final.png>]
+Overfull \hbox (16.94412pt too wide) detected at line 34
+ [] 
+ []
+
+) [4])
 No file main.bbl.
-[3 <./images/diagramas/sequencia/registo_tecnico.png>] (./main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 694863A8D648593729688824EDA71B7C;1108.
+[5] (./main.aux)
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: DC521263DBB6EBA5F4DD91FDD376EF37;796
+(rerunfilecheck)             After:  B5C19CAA9D2A624B1CD962F265632540;1063.
  ) 
 Here is how much of TeX's memory you used:
- 23140 strings out of 480139
- 411751 string characters out of 5892167
- 758933 words of memory out of 5000000
- 40737 multiletter control sequences out of 15000+600000
- 481449 words of font info for 52 fonts, out of 8000000 for 9000
+ 23555 strings out of 480139
+ 426567 string characters out of 5892167
+ 851550 words of memory out of 5000000
+ 41149 multiletter control sequences out of 15000+600000
+ 483734 words of font info for 55 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
- 106i,6n,105p,1219b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsl1200.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk>
-Output written on main.pdf (17 pages, 365636 bytes).
+ 106i,6n,115p,1219b,1049s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsl1200.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk>
+Output written on main.pdf (19 pages, 377757 bytes).
 PDF statistics:
- 403 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 447 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
