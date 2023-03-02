@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.27)  2 MAR 2023 12:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.27)  2 MAR 2023 12:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -687,12 +687,12 @@ LaTeX Info: Redefining \nameref on input line 34.
  (/usr/share/texlive/texmf-dist/tex/latex/ninecolors/ninecolors.sty
 Package: ninecolors 2021/05/24 v2021C Select colors with proper color contrast
 )
-<lesi/logos/logo_ipca.png, id=24, 707.64375pt x 356.33125pt>
+<lesi/logos/logo_ipca.png, id=28, 707.64375pt x 356.33125pt>
 File: lesi/logos/logo_ipca.png Graphic file (type png)
 <use lesi/logos/logo_ipca.png>
 Package pdftex.def Info: lesi/logos/logo_ipca.png  used on input line 38.
 (pdftex.def)             Requested size: 113.00935pt x 56.9055pt.
-<lesi/logos/logo_est.png, id=26, 2971.1pt x 1124.2pt>
+<lesi/logos/logo_est.png, id=30, 2971.1pt x 1124.2pt>
 File: lesi/logos/logo_est.png Graphic file (type png)
 <use lesi/logos/logo_est.png>
 Package pdftex.def Info: lesi/logos/logo_est.png  used on input line 38.
@@ -726,23 +726,67 @@ Package pdftex.def Info: lesi/logos/logo_est.png  used on input line 38.
 
  [13] [14
 
-] (./chap4.tex
+] (./chap1.tex
 Cap\'{\i }tulo 1.
-<images/Arquiteturas/arquitetura_de_solucao.png, id=115, 543.02875pt x 131.49126pt>
+[1
+
+] [2]) (./chap2.tex [3] [4
+
+]
+Cap\'{\i }tulo 2.
+[5]
+
+LaTeX Warning: Reference `fig:1' on page 6 undefined on input line 45.
+
+<images/etapa1_sprint_planning.png, id=149, 1084.05pt x 1483.5425pt>
+File: images/etapa1_sprint_planning.png Graphic file (type png)
+<use images/etapa1_sprint_planning.png>
+Package pdftex.def Info: images/etapa1_sprint_planning.png  used on input line 49.
+(pdftex.def)             Requested size: 364.19667pt x 498.39897pt.
+) (./chap3.tex (./sections/chap3/19.diagrama_sequencia.tex [6 <./images/etapa1_sprint_planning.png>]
+
+LaTeX Warning: Reference `fig:30' on page 7 undefined on input line 10.
+
+<images/diagramas/sequencia/diagrama_login.png, id=157, 756.8275pt x 982.67125pt>
+File: images/diagramas/sequencia/diagrama_login.png Graphic file (type png)
+<use images/diagramas/sequencia/diagrama_login.png>
+Package pdftex.def Info: images/diagramas/sequencia/diagrama_login.png  used on input line 23.
+(pdftex.def)             Requested size: 305.01271pt x 396.03041pt.
+[7 <./images/diagramas/sequencia/diagrama_login.png>]
+
+LaTeX Warning: Reference `fig:31' on page 8 undefined on input line 32.
+
+<images/diagramas/sequencia/diagrama_registo.png, id=165, 888.31876pt x 826.08624pt>
+File: images/diagramas/sequencia/diagrama_registo.png Graphic file (type png)
+<use images/diagramas/sequencia/diagrama_registo.png>
+Package pdftex.def Info: images/diagramas/sequencia/diagrama_registo.png  used on input line 42.
+(pdftex.def)             Requested size: 364.19667pt x 338.67233pt.
+[8 <./images/diagramas/sequencia/diagrama_registo.png>]
+
+LaTeX Warning: Reference `fig:32' on page 9 undefined on input line 51.
+
+<images/diagramas/sequencia/registo_tecnico.png, id=172, 1204.5pt x 557.08125pt>
+File: images/diagramas/sequencia/registo_tecnico.png Graphic file (type png)
+<use images/diagramas/sequencia/registo_tecnico.png>
+Package pdftex.def Info: images/diagramas/sequencia/registo_tecnico.png  used on input line 57.
+(pdftex.def)             Requested size: 364.19667pt x 168.44322pt.
+)) (./chap4.tex [9 <./images/diagramas/sequencia/registo_tecnico.png>] [10
+
+]
+Cap\'{\i }tulo 3.
+<images/Arquiteturas/arquitetura_de_solucao.png, id=185, 543.02875pt x 131.49126pt>
 File: images/Arquiteturas/arquitetura_de_solucao.png Graphic file (type png)
 <use images/Arquiteturas/arquitetura_de_solucao.png>
 Package pdftex.def Info: images/Arquiteturas/arquitetura_de_solucao.png  used on input line 11.
 (pdftex.def)             Requested size: 455.24411pt x 110.23921pt.
-[1
-
- <./images/Arquiteturas/arquitetura_de_solucao.png>]
-<images/Arquiteturas/arquitetura_funcional.png, id=122, 1614.03pt x 443.6575pt>
+[11 <./images/Arquiteturas/arquitetura_de_solucao.png>]
+<images/Arquiteturas/arquitetura_funcional.png, id=195, 1614.03pt x 443.6575pt>
 File: images/Arquiteturas/arquitetura_funcional.png Graphic file (type png)
 <use images/Arquiteturas/arquitetura_funcional.png>
 Package pdftex.def Info: images/Arquiteturas/arquitetura_funcional.png  used on input line 43.
 (pdftex.def)             Requested size: 455.24411pt x 125.13715pt.
- [2 <./images/Arquiteturas/arquitetura_funcional.png>]
-<images/Arquiteturas/arquitetura_de_componentes_final.png, id=129, 645.41125pt x 502.87875pt>
+ [12 <./images/Arquiteturas/arquitetura_funcional.png>]
+<images/Arquiteturas/arquitetura_de_componentes_final.png, id=203, 645.41125pt x 502.87875pt>
 File: images/Arquiteturas/arquitetura_de_componentes_final.png Graphic file (type png)
 <use images/Arquiteturas/arquitetura_de_componentes_final.png>
 Package pdftex.def Info: images/Arquiteturas/arquitetura_de_componentes_final.png  used on input line 57.
@@ -765,36 +809,48 @@ Overfull \hbox (16.94412pt too wide) detected at line 34
  [] 
  []
 
-[3 <./images/Arquiteturas/arquitetura_de_componentes_final.png>]
+[13 <./images/Arquiteturas/arquitetura_de_componentes_final.png>]
 Overfull \hbox (16.94412pt too wide) detected at line 34
  [] 
  []
 
-) [4])
+) [14])
 No file main.bbl.
-[5] (./main.aux)
+[15] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 
 Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: DC521263DBB6EBA5F4DD91FDD376EF37;796
-(rerunfilecheck)             After:  B5C19CAA9D2A624B1CD962F265632540;1063.
+(rerunfilecheck)             Before: B5C19CAA9D2A624B1CD962F265632540;1063
+(rerunfilecheck)             After:  A6AE07F235C549882BA0DA6620964A2C;3233.
  ) 
 Here is how much of TeX's memory you used:
- 23555 strings out of 480139
- 426567 string characters out of 5892167
- 851550 words of memory out of 5000000
- 41149 multiletter control sequences out of 15000+600000
- 483734 words of font info for 55 fonts, out of 8000000 for 9000
+ 23656 strings out of 480139
+ 428735 string characters out of 5892167
+ 851832 words of memory out of 5000000
+ 41194 multiletter control sequences out of 15000+600000
+ 484071 words of font info for 56 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
- 106i,6n,115p,1219b,1049s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsl1200.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk>
-Output written on main.pdf (19 pages, 377757 bytes).
+ 106i,7n,115p,1219b,1049s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{table.1.1} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.5} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.4} has been referenced but does not exist, replaced by a fixed one
+
+ </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsl1200.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk>
+Output written on main.pdf (29 pages, 762749 bytes).
 PDF statistics:
- 447 PDF objects out of 1000 (max. 8388607)
- 158 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 581 PDF objects out of 1000 (max. 8388607)
+ 229 compressed objects within 3 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 94 words of extra memory for PDF output out of 10000 (max. 10000000)
 
