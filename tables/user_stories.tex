@@ -1,0 +1,123 @@
+% \usepackage{color}
+% \usepackage{tabularray}
+\definecolor{Concrete}{rgb}{0.952,0.952,0.952}
+\begin{longtblr}
+[
+caption={Tabela de histórias de utilizador},
+label={tab:3},
+]{
+     width = \linewidth,
+     colspec = {Q[75]Q[110]Q[700]},
+     row{1} = {Concrete},
+  row{2} = {Concrete},
+  row{8} = {Concrete},
+  row{19} = {Concrete},
+  row{25} = {Concrete},
+  row{30} = {Concrete},
+  row{34} = {Concrete},
+  row{39} = {Concrete},
+  row{43} = {Concrete},
+  row{47} = {Concrete},
+  column{2} = {c},
+  cell{1}{1} = {c},
+  cell{2}{2} = {c=2}{0.891\linewidth},
+  cell{3}{1} = {c},
+  cell{4}{1} = {c},
+  cell{5}{1} = {c},
+  cell{8}{2} = {c=2}{0.891\linewidth},
+  cell{9}{1} = {c},
+  cell{10}{1} = {c},
+  cell{11}{1} = {c},
+  cell{12}{1} = {c},
+  cell{13}{1} = {c},
+  cell{14}{1} = {c},
+  cell{15}{1} = {c},
+  cell{16}{1} = {c},
+  cell{17}{1} = {c},
+  cell{18}{1} = {c},
+  cell{19}{2} = {c=2}{0.891\linewidth},
+  cell{20}{1} = {c},
+  cell{21}{1} = {c},
+  cell{22}{1} = {c},
+  cell{23}{1} = {c},
+  cell{24}{1} = {c},
+  cell{25}{2} = {c=2}{0.891\linewidth},
+  cell{26}{1} = {c},
+  cell{27}{1} = {c},
+  cell{28}{1} = {c},
+  cell{29}{1} = {c},
+  cell{30}{2} = {c=2}{0.891\linewidth},
+  cell{31}{1} = {c},
+  cell{32}{1} = {c},
+  cell{33}{1} = {c},
+  cell{34}{2} = {c=2}{0.891\linewidth},
+  cell{35}{1} = {c},
+  cell{36}{1} = {c},
+  cell{37}{1} = {c},
+  cell{38}{1} = {c},
+  cell{39}{2} = {c=2}{0.891\linewidth},
+  cell{40}{1} = {c},
+  cell{41}{1} = {c},
+  cell{42}{1} = {c},
+  cell{43}{2} = {c=2}{0.891\linewidth},
+  cell{44}{1} = {c},
+  cell{45}{1} = {c},
+  cell{46}{1} = {c},
+  cell{47}{2} = {c=2}{0.891\linewidth},
+  cell{48}{1} = {c},
+  cell{49}{1} = {c},
+  cell{50}{1} = {c},
+  hlines,
+  vlines,
+}
+\#   & Ator                       & Descrição                                                                                                                                                                              \\
+     & Autenticação               &                                                                                                                                                                                        \\
+US01 & Utilizador                 & Eu como Utilizador, quero conseguir utilizar a aplicação sem realizar o login                                                                                                          \\
+US02 & Empresa                    & Eu como Empresa, quero conseguir realizar o registo na aplicação                                                                                                                       \\
+US03 & Técnico                    & Eu como Técnico, quero conseguir realizar o login na aplicação utilizando o número de contribuinte e password                                                                          \\
+US04 & Técnico                    & Eu como Técnico, quero conseguir pedir reenvio de código de ativação de conta caso eu não receba o código                                                                              \\
+US05 & Técnico                    & Eu como Técnico, quero conseguir ser identificado como tal na aplicação                                                                                                                \\
+     & Fórum                      &                                                                                                                                                                                        \\*
+US06 & Utilizador                 & Eu como Utilizador, quero conseguir acessar ao fórum                                                                                                                                      \\*
+US07 & Utilizador                 & Eu como Utilizador, quero conseguir visualizar os tópicos mais recentes, de forma a conseguir ver os mais falados no dia atual                                                            \\
+US08 & Utilizador                 & Eu como Utilizador, quero conseguir visualizar os tópicos em destaque, de forma a ver quais são mais falados                                                                      \\
+US09 & Técnico                    & Eu como Técnico, quero conseguir ver os meus tópicos de forma a conseguir aceder a estes facilmente                                                                                    \\
+US10 & Utilizador                 & Eu como Utilizador, quero conseguir visualizar os tópicos por responder, de forma a conseguir ajudar alguém com maior facilidade                                                          \\
+US11 & Técnico                    & Eu como Técnico, quero conseguir visualizar os tópicos privados                                                                                                                        \\
+US12 & Utilizador                 & Eu como Utilizador, quero conseguir realizar filtragem de tópicos por tipo                                                                                \\
+US13 & Utilizador                 & Eu como Utilizador, quero conseguir pesquisar por um tópico relativo a um assunto de forma a obter a solução                                                                              \\
+US14 & Utilizador                 & Eu como Utilizador, quero conseguir pesquisar por um tópico relativo a um produto de forma a encontrar questões comuns a este                                                             \\
+US15 & Utilizador                 & Eu como Utilizador, quero conseguir pesquisar por código QR de um produto de forma a encontrar tópicos referentes ao mesmo mais facilmente                                                 \\
+     & Criar Tópico               &                                                                                                                                                                                        \\
+US16 & Técnico                    & Eu como Técnico, quero conseguir criar tópicos de forma a conseguir expor questões                                                                                                     \\
+US17 & Técnico                    & Eu como Técnico, quero conseguir indicar se o meu tópico é publico ou privado, de forma a conseguir respostas de qualquer cliente, ou apenas de técnicos                               \\
+US18 & Técnico                    & Eu como Técnico, quero conseguir indicar o tipo de tópico em que o este se enquadra de forma a facilitar a sua identificação                                                          \\
+US19 & Técnico                    & Eu como Técnico, quero conseguir indicar o produto referente ao tópico para facilitar a identificação do mesmo                                                                         \\
+US20 & Técnico                    & Eu como Técnico, quero conseguir anexar imagens ao tópico de forma a facilitar a comunicação e identificação do problema                                                               \\
+     & Gestão de Tópico           &                                                                                                                                                                                        \\*
+US21 & Técnico                    & Eu como Técnico quero conseguir indicar qual a melhor resposta ao meu tópico de forma a facilitar o encontro da solução do problema a outros clientes ou técnicos com o mesmo problema \\*
+US22 & Técnico                    & Eu como Técnico quero conseguir indicar que o tópico se encontra finalizado quando o problema está resolvido                                                                           \\
+US23 & Técnico                    & Eu como Técnico quero conseguir remover o meu tópico                                                                                                                                   \\
+US24 & Técnico                    & Eu como Técnico quero conseguir alterar a visibilidade do meu tópico                                                                                                                   \\
+     & Tópicos                    &                                                                                                                                                                                        \\
+US25 & Utilizador                 & Eu como Utilizador, quero conseguir ver todas as respostas a um tópico                                                                                                                    \\
+US26 & Técnico                    & Eu como Técnico, quero conseguir gostar de um tópico caso o ache relevante                                                                                                             \\
+US27 & Técnico                    & Eu como Técnico, quero conseguir apagar uma resposta minha                                                                                                                             \\
+     & Respostas a Tópicos        &                                                                                                                                                                                        \\
+US28 & Técnico                    & Eu como Técnico, quero conseguir comentar um tópico de forma a dar a minha resposta                                                                                                    \\
+US29 & Técnico                    & Eu como Técnico, quero conseguir responder a um comentário de forma a comunicar                                                                                                        \\
+US30 & Técnico                    & Eu como Técnico, quero conseguir anexar imagens ao meu comentário                                                                                                                      \\
+US31 & Técnico                    & Eu como Técnico, quero conseguir gostar de um comentário caso ache este relevante                                                                                                      \\
+     & Perfil                     &                                                                                                                                                                                        \\
+US32 & Técnico                    & Eu como Técnico quero conseguir alterar o meu email                                                                                                                                    \\
+US33 & Técnico                    & Eu como Técnico quero conseguir alterar a minha imagem de perfil                                                                                                                       \\
+US34 & Técnico                    & Eu como Técnico quero conseguir alterar o meu nome                                                                                                                                     \\
+     & Notificações               &                                                                                                                                                                                        \\
+US35 & Técnico                    & Eu como Técnico quero conseguir receber notificações por email e/ou push de forma a manter-me atualizado das minhas questões                                                           \\
+US36 & Técnico                    & Eu como Técnico quero conseguir alterar o tipo de notificação que recebo entre relatório diário e tempo real                                                                           \\
+US37 & Técnico                    & Eu como Técnico quero conseguir apagar as minhas notificações de forma a evitar aglomeração                                                                                            \\
+     & Gestão de recursos humanos &                                                                                                                                                                                        \\*
+US38 & Empresa                    & Eu como empresa quero conseguir criar conta para os meus técnicos utilizarem o fórum                                                                                                   \\
+US39 & Empresa                    & Eu como empresa quero conseguir impedir acesso a uma conta de técnico                                                                                                                  \\
+US40 & Empresa                    & Eu como empresa quero conseguir remover uma conta de técnico em caso de este já não pertencer à empresa                                                                                
+\end{longtblr}

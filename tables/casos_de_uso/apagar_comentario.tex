@@ -1,0 +1,42 @@
+% \usepackage{color}
+% \usepackage{tabularray}
+\definecolor{Concrete}{rgb}{0.952,0.952,0.952}
+\begin{table}[htb]
+\centering
+\label{tab:17}
+\caption{Tabela de especificação de caso de uso de apagar comentário}
+\begin{tblr}{
+  width = \linewidth,
+  colspec = {Q[271]Q[394]Q[273]},
+  row{6} = {Concrete},
+  cell{1}{1} = {Concrete},
+  cell{1}{2} = {c=2}{0.667\linewidth},
+  cell{2}{1} = {Concrete},
+  cell{2}{2} = {c=2}{0.667\linewidth},
+  cell{3}{1} = {Concrete},
+  cell{3}{2} = {c=2}{0.667\linewidth},
+  cell{4}{1} = {Concrete},
+  cell{4}{2} = {c=2}{0.667\linewidth},
+  cell{5}{1} = {Concrete},
+  cell{5}{2} = {c=2}{0.667\linewidth},
+  cell{6}{2} = {c},
+  cell{6}{3} = {c},
+  cell{7}{1} = {r=2}{Concrete},
+  cell{9}{1} = {Concrete},
+  cell{9}{2} = {c},
+  cell{9}{3} = {c},
+  vlines,
+  hline{1-7,9-10} = {-}{},
+  hline{8} = {2-3}{},
+}
+Caso de Uso           & Apagar comentário              &                     \\
+Descrição             & Apagar comentário de um tópico &                     \\
+Ator                  & Técnico                        &                     \\
+Pré-condição          & Clicar no tópico desejado      &                     \\
+Pós-condição          & Comentário apagado             &                     \\
+                      & Ator                           & Sistema             \\
+Fluxo Principal       & 1-Clicar em apagar comentário  &                     \\
+                      &                                & 2-Apagar comentário \\
+Fluxo Alternativo(A1) & -                              & -                   
+\end{tblr}
+\end{table}

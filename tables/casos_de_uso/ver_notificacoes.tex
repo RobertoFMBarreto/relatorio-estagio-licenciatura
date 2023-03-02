@@ -1,0 +1,41 @@
+% \usepackage{color}
+% \usepackage{tabularray}
+\definecolor{Concrete}{rgb}{0.952,0.952,0.952}
+\begin{table}[htb]
+\centering
+\begin{tblr}{
+  width = \linewidth,
+  colspec = {Q[287]Q[285]Q[363]},
+  row{6} = {Concrete},
+  cell{1}{1} = {Concrete},
+  cell{1}{2} = {c=2}{0.647\linewidth},
+  cell{2}{1} = {Concrete},
+  cell{2}{2} = {c=2}{0.647\linewidth},
+  cell{3}{1} = {Concrete},
+  cell{3}{2} = {c=2}{0.647\linewidth},
+  cell{4}{1} = {Concrete},
+  cell{4}{2} = {c=2}{0.647\linewidth},
+  cell{5}{1} = {Concrete},
+  cell{5}{2} = {c=2}{0.647\linewidth},
+  cell{6}{2} = {c},
+  cell{6}{3} = {c},
+  cell{7}{1} = {r=2}{Concrete},
+  cell{9}{1} = {r=4}{Concrete},
+  vlines,
+  hline{1-7,9,13} = {-}{},
+  hline{8,10-12} = {2-3}{},
+}
+Caso de Uso           & Ver Notificações            &                            \\
+Descrição             & Ver notificações do técnico &                            \\
+Ator                  & Técnico                     &                            \\
+Pré-condição          & -                           &                            \\
+Pós-condição          & -                           &                            \\
+                      & Ator                        & Sistema                    \\
+Fluxo Principal       & 1-Ver notificações          &                            \\
+                      &                             & 2-Listagem de notificações \\
+Fluxo Alternativo(A1) & 1-Ver notificações          &                            \\
+                      &                             & 2-Listagem de notificações \\
+                      & 3-Apagar notificação        &                            \\
+                      &                             & 4-Eliminar notificação     
+\end{tblr}
+\end{table}

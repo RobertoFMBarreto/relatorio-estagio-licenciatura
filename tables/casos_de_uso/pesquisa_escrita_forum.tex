@@ -1,0 +1,42 @@
+% \usepackage{color}
+% \usepackage{tabularray}
+\definecolor{Concrete}{rgb}{0.952,0.952,0.952}
+\begin{longtblr}
+[
+caption={Tabela de especificação de caso de uso de pesquisa por escrito},
+label={tab:6},
+]{
+  width = \linewidth,
+  colspec = {Q[190]Q[217]Q[533]},
+  row{6} = {Concrete},
+  cell{1}{1} = {Concrete},
+  cell{1}{2} = {c=2}{0.702\linewidth},
+  cell{2}{1} = {Concrete},
+  cell{2}{2} = {c=2}{0.702\linewidth},
+  cell{3}{1} = {Concrete},
+  cell{3}{2} = {c=2}{0.702\linewidth},
+  cell{4}{1} = {Concrete},
+  cell{4}{2} = {c=2}{0.702\linewidth},
+  cell{5}{1} = {Concrete},
+  cell{5}{2} = {c=2}{0.702\linewidth,c},
+  cell{6}{2} = {c},
+  cell{6}{3} = {c},
+  cell{7}{1} = {r=4}{Concrete},
+  cell{11}{1} = {r=2}{Concrete},
+  vlines,
+  hline{1-7,11,13} = {-}{},
+  hline{8-10,12} = {2-3}{},
+}
+Caso de Uso           & Pesquisa por escrita           &                                            \\
+Descrição             & Pesquisar por tópicos no fórum &                                            \\
+Ator                  & Utilizador                     &                                            \\
+Pré-condição          & Selecionar pesquisa de fórum   &                                            \\
+Pós-condição          & -                              &                                            \\
+                      & Ator                           & Sistema                                    \\
+Fluxo Principal       & 1-Pesquisar assunto            &                                            \\
+                      &                                & 2-Lista de tópicos do assunto              \\
+                      & 3-Filtrar por tipo             &                                            \\
+                      &                                & 3-Filtragem de tópicos do assunto por tipo \\
+Fluxo Alternativo(A1) & 1-Pesquisar assunto            &                                            \\
+                      &                                & 2-Lista de tópicos do assunto              
+\end{longtblr}

@@ -1,0 +1,42 @@
+% \usepackage{color}
+% \usepackage{tabularray}
+\definecolor{Concrete}{rgb}{0.952,0.952,0.952}
+\begin{table}[htb]
+\centering
+\label{tab:13}
+\caption{Tabela de especificação de caso de uso de alteração de visibilidade de um tópico}
+\begin{tblr}{
+  width = \linewidth,
+  colspec = {Q[242]Q[344]Q[354]},
+  row{6} = {Concrete},
+  cell{1}{1} = {Concrete},
+  cell{1}{2} = {c=2}{0.698\linewidth},
+  cell{2}{1} = {Concrete},
+  cell{2}{2} = {c=2}{0.698\linewidth},
+  cell{3}{1} = {Concrete},
+  cell{3}{2} = {c=2}{0.698\linewidth},
+  cell{4}{1} = {Concrete},
+  cell{4}{2} = {c=2}{0.698\linewidth},
+  cell{5}{1} = {Concrete},
+  cell{5}{2} = {c=2}{0.698\linewidth},
+  cell{6}{2} = {c},
+  cell{6}{3} = {c},
+  cell{7}{1} = {r=2}{Concrete},
+  cell{9}{1} = {Concrete},
+  cell{9}{2} = {c},
+  cell{9}{3} = {c},
+  vlines,
+  hline{1-7,9-10} = {-}{},
+  hline{8} = {2-3}{},
+}
+Caso de Uso           & Alterar visibilidade do tópico                              &                                   \\
+Descrição             & Alterar a visibilidade de um tópico entre publico e privado &                                   \\
+Ator                  & Técnico                                                     &                                   \\
+Pré-condição          & Clicar no tópico desejado                                   &                                   \\
+Pós-condição          & Alterar visibilidade do tópico                              &                                   \\
+                      & Ator                                                        & Sistema                           \\
+Fluxo Principal       & 1-Clicar em alterar visibilidade                            &                                   \\
+                      &                                                             & 2-Inverter visibilidade do tópico \\
+Fluxo Alternativo(A1) & -                                                           & -                                 
+\end{tblr}
+\end{table}

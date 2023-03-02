@@ -1,0 +1,21 @@
+\definecolor{Alto}{rgb}{0.85,0.85,0.85}
+\begin{table}[htb]
+\centering
+\caption{Tabela de requisitos não funcionais}
+\label{tab:2}
+\begin{tblr}{
+  width = \linewidth,
+  colspec = {Q[77]Q[165]Q[698]},
+  row{1} = {Alto},
+  hlines,
+  vlines,
+  vline{3} = {-}{black},
+}
+\#    & Tipo            & Descrição                                                                        \\
+RNF01 & Cultural        & O software tem de suportar vários idiomas (prioritariamente, português e inglês) \\
+RNF02 & Configuração    & A falha dos servidores, implica a inutilidade total da aplicação                 \\
+RNF03 & Conexão         & Necessário o uso de dados móveis ou WIFI                                         \\
+RNF04 & Segurança       & O software tem de ser seguro para proteger os dados do consumidor          \\
+RNF05 & Desenvolvimento & A aplicação deverá ser desenvolvida utilizando a tecnologia flutter              
+\end{tblr}
+\end{table}

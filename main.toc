@@ -1,0 +1,13 @@
+\babel@toc {portuges}{}\relax 
+\contentsline {section}{\numberline {0.1}Diagramas de atividades}{1}{section.0.1}%
+\contentsline {subsection}{\numberline {0.1.1}Diagrama de atividades página inicial}{1}{subsection.0.1.1}%
+\contentsline {subsection}{\numberline {0.1.2}Diagrama de atividades página inicial do fórum}{2}{subsection.0.1.2}%
+\contentsline {subsection}{\numberline {0.1.3}Diagrama de atividades página de criação de tópico}{3}{subsection.0.1.3}%
+\contentsline {subsection}{\numberline {0.1.4}Diagrama de atividades página de detalhes do tópico}{4}{subsection.0.1.4}%
+\contentsline {subsection}{\numberline {0.1.5}Diagrama de atividades páginas de autenticação}{5}{subsection.0.1.5}%
+\contentsline {subsection}{\numberline {0.1.6}Diagrama de atividades página de notificações}{6}{subsection.0.1.6}%
+\contentsline {subsection}{\numberline {0.1.7}Diagrama de atividades página de perfil}{6}{subsection.0.1.7}%
+\contentsline {subsection}{\numberline {0.1.8}Diagrama de atividades gestão de recursos humanos}{7}{subsection.0.1.8}%
+\contentsline {subsection}{\numberline {0.1.9}Diagrama de atividades perfil de técnico}{7}{subsection.0.1.9}%
+\contentsline {subsection}{\numberline {0.1.10}Diagrama de atividades registar técnico}{8}{subsection.0.1.10}%
+\contentsline {subsection}{\numberline {0.1.11}Diagrama de atividades confirmar conta}{8}{subsection.0.1.11}%

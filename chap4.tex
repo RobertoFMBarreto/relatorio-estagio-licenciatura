@@ -1,0 +1,45 @@
+\chapter{Arquitetura de sistema}
+Na Figura~\ref{fig:2} é possível visualizar a arquitetura do sistema que indica os principais componentes deste software. Entre estes componentes é possível visualizar a aplicação frontend, onde esta realiza pedidos a uma aplicação backend e espera respostas. A aplicação backend é composta de uma api rest que receberá os pedidos e responderá aos mesmos, este backend é composto também por uma base de dados a qual vai receber queries e devolver dados para a aplicação api rest.
+
+\begin{figure}[htb]
+    \centering
+    
+    \includegraphics[width=\textwidth]{images/Arquiteturas/arquitetura_de_solucao.png}
+    \caption{Arquitetura do sistema}
+    \label{fig:2}
+\end{figure}
+
+\newpage
+
+\section{Arquitetura de backend}
+
+De forma a especificar a implementação da api rest foi então criada uma arquitetura de backend( Figura~\ref{fig:3}), nesta arquitetura é possivel visualizar que sempre que a api recebe um request este é redirecionado primeiramente para o router, o router tem como função identificar a rota a ser pedida e redirecionar para os respetivos middlewares. 
+
+Os middlewares tem como função realizar todo o código necessário antes de proceder à execução do código de rota, os middlewares existentes são o SessionTokenValidator, este middleware tem como função validar a sessão do utilizador a realizar o pedido, De forma similar o middleware RefreshTokenValidator, valida a sessão principal do utilizador, por fim o middleware RoleValidator, tem como função validar se o utilizador que está a realizar o pedido tem cargos suficientes para o realizar. Caso o pedido não seja impedido por nenhum middleware este é então direcionado para o controller.
+
+O controller tem como função principal extrair os dados do pedido, validar os dados, verificando se os dados obrigatórios existem e encaminhar o pedido para o serviço, procedendo depois à formação da resposta e devolução da mesma. No serviço primeiramente serão aplicadas as regras de negócio de forma a validar o conteúdo do pedido, caso o pedido não seja impedido por nenhuma das validações de regras de negócio, este então, em caso de necessidade, irá proceder à interaçãocom base de dados, podendo esta realizar diversas interações como, obter dados, atualizar dados, apagar dados e inserir dados. Por fim a resposta é formada e devolvida como resposta ao pedido recebido.
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=\textwidth]{images/Arquiteturas/arquitetura_funcional.png}
+    \caption{Arquitetura do funcional}
+    \label{fig:3}
+\end{figure}
+
+\newpage
+
+\section{Arquitetura de componentes}
+Após a perceção de todas as necessidades da aplicação do frontend, foi então desenvolvida a arquitetura de componentes na qual estão contidos todos os serviços que deverão ser implementados na api frontend, identificando também qual ator poderá realizar estes pedidos.
+
+\begin{figure}[htb]
+    \centering
+    
+    \includegraphics[width=0.7\textwidth]{images/Arquiteturas/arquitetura_de_componentes_final.png}
+    \caption{Arquitetura de componentes}
+    \label{fig:4}
+\end{figure}
+
+\section{Tabela de endpoints}
+De forma a evitar colisões de endpoints durante a implementação dos mesmos, foi então desenvolvida a tabela de endpoints que contém uma estrutura semelhante à arquitetura de componentes, mas que contém para cada serviço a rota e o método a utilizar.
+
+\input{tables/tabela_endpoints}

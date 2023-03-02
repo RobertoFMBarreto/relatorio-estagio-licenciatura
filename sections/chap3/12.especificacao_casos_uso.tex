@@ -1,0 +1,192 @@
+\section{Casos de uso}
+De forma a transformar as histórias de utilizador em ações e especificar todas as ações dos atores do 
+software e todas as reações do sistema com o qual o ator interage foram desenvolvidos casos de uso.
+
+\input{tables/casos_de_uso/tabela_casos_uso}
+\newpage
+
+\subsection{Especificação de casos de uso}
+
+De forma a demonstrar todas as interações entre os atores e o sistema, assim como também todas as ações 
+destes e fluxos possíveis, foram realizadas especificações de casos de uso.
+
+\subsubsection{Especificação de caso de uso de criar novo tópico}
+
+Aquando a criação de um tópico um técnico poderá realizar diversas ações sendo que obrigatoriamente 
+terá sempre de indicar o título, descrição do tópico e tipo de tópico, para além desta informação o técnico poderá também
+anexar imagens, referenciar um produto e indicar a visibilidade.
+
+\input{tables/casos_de_uso/criar_topico}
+
+\subsubsection{Especificação de caso de uso de pesquisar tópicos por escrito}
+
+Assim que um utilizador deseje pesquisar por um assunto específico de tópico este poderá realizar uma 
+pesquisa escrita onde conseguirá realizar filtragem por tipo de tópico também.
+
+\input{tables/casos_de_uso/pesquisa_escrita_forum}
+
+\newpage
+
+\subsubsection{Especificação de caso de uso de pesquisar tópicos por código QR}
+
+Assim que um utilizador deseje pesquisar por tópicos relativos a um produto, este poderá utilizar 
+o código QR do mesmo, conseguindo também realizar uma pesquisa por escrito.    
+
+\input{tables/casos_de_uso/pesquisa_qr_forum}
+
+\newpage
+
+\subsubsection{Especificação de caso de uso de listagem de tópicos}
+
+Através da listagem de tópicos é possível visualizar todas as listagens de tópicos que o utilizador poderá 
+visualizar, sendo que o técnico consegue para além destas listagens, ver os seus tópicos e ver os tópicos 
+privados.
+
+\input{tables/casos_de_uso/listagem_topicos_cliente}
+
+\input{tables/casos_de_uso/listagem_topicos_tecnico}
+
+\subsubsection{Especificação de caso de uso de ver finalizar tópico}
+
+Quando um técnico já se encontra satisfeito com a solução do problema este poderá indicar que o tópico se 
+encontra finalizado sinalizando então para outros técnicos que o tópico tem solução.
+
+\input{tables/casos_de_uso/finalizar_topico}
+
+\newpage
+
+\subsubsection{Especificação de caso de uso de selecionar melhor resposta}
+
+Sempre que o técnico encontrar uma resposta no seu tópico que se destaca na solução da sua questão, 
+este poderá colocar esta resposta como melhor resposta do tópico, caso já exista uma melhor resposta no 
+tópico, esta é removida de melhor resposta e a nova resposta é colocada como melhor resposta.
+
+\input{tables/casos_de_uso/selecionar_melhor_resposta}
+
+\newpage
+
+\subsubsection{Especificação de caso de uso de eliminar tópico}
+
+O técnico sempre que desejar poderá eliminar o tópico, conseguindo assim remover este tópico do fórum, 
+não sendo este novamente mostrado.
+
+\input{tables/casos_de_uso/eliminar_topico}
+
+\subsubsection{Especificação de caso de uso de alterar visibilidade de um tópico}
+
+Quando um técnico pública um tópico este pode desejar alterar a sua visibilidade para apenas técnicos ou 
+todos os utilizadores conseguirem ver.
+
+\input{tables/casos_de_uso/alterar_visibilidade_topico}
+
+\newpage
+
+\subsubsection{Especificação de caso de uso de comentar tópico}
+
+Sempre que um técnico encontra um tópico que sobre uma questão que poderá ajudar este consegue responder 
+a um tópico, criando assim um comentário, onde este poderá anexar também imagens.
+
+\input{tables/casos_de_uso/comentar_topico}
+
+\newpage
+
+\subsubsection{Especificação de caso de uso gostar de um tópico}
+
+O técnico sempre que encontra um tópico que identifica como útil, este poderá gostar o tópico dando assim 
+destaque a este.
+
+\input{tables/casos_de_uso/gostar_topico}
+
+\subsubsection{Especificação de caso de uso pedir reenvio de código de verificação}
+
+O técnico poderá aquando a validação da sua conta pedir o reenvio de um novo código de validação em caso 
+de algum imprevisto.
+
+\input{tables/casos_de_uso/pedir_novo_codigo}
+
+\subsubsection{Especificação de caso de uso registo}
+
+A empresa deverá realizar o registo utilizando o número de contribuinte, email e password. Após este 
+registo, a Motorline validará o registo e de seguida um email é enviado para confirmar o registo na app.
+
+\input{tables/casos_de_uso/registo}
+
+\subsubsection{Especificação de caso de uso login}
+
+O técnico deverá realizar o login utilizando o número de contribuinte e password.
+
+\input{tables/casos_de_uso/login}
+
+\subsubsection{Especificação de caso de uso ativar conta}
+
+O técnico de forma a ativar a sua conta deverá introduzir o código de ativação de conta correto, 
+caso contrário não será possível ativar a sua conta.
+
+\input{tables/casos_de_uso/ativar_conta}
+
+\newpage
+
+\subsubsection{Especificação de caso de uso apagar comentário}
+
+Sempre que o técnico cria um comentário este tem a possibilidade de o remover a qualquer momento que 
+desejar.
+
+\input{tables/casos_de_uso/apagar_comentario}
+
+
+\subsubsection{Especificação de caso de uso responder a comentário}
+
+O técnico poderá manter uma conversa com outros técnicos através da resposta a outros comentários, 
+a qual poderá também incluir imagens.
+
+\input{tables/casos_de_uso/responder_comentario}
+
+\newpage
+
+\subsubsection{Especificação de caso de uso gostar de um comentário}
+
+Sempre que um técnico identificar um comentário como útil este poderá gostar dos comentários, dando 
+assim destaque a este.
+
+\input{tables/casos_de_uso/gostar_comentario}
+
+\subsubsection{Especificação de caso de uso ver perfil}
+
+Sempre que um técnico desejar alterar alguma informação sua, este poderá se dirigir ao seu perfil onde 
+consegue alterar o seu email e imagem de perfil.
+
+\input{tables/casos_de_uso/ver_perfil.tex}
+
+\newpage
+
+\subsubsection{Especificação de caso de uso ver notificações}
+
+Sempre que um técnico desejar ver todas as suas notificações este poderá ver esta listagem, 
+conseguindo também apagar notificações que já não deseja ver.
+
+\input{tables/casos_de_uso/ver_notificacoes.tex}
+
+\subsubsection{Especificação de caso de uso configurar notificações}
+
+As notificações da aplicação poderão ser personalizadas, sendo possível escolher entre email, push e ambos,
+para além destas configurações, é também possivel persolinzar o tipo de notificação para cada método, seja 
+relatório diário de todas as notificações ou notificações em tempo real.
+
+\input{tables/casos_de_uso/config_notificacoes.tex}
+
+\newpage
+
+\subsubsection{Especificação de caso de uso confirmar conta}
+
+Sempre que uma conta de técnico é criada, este deverá proceder à confirmação da conta, nesta confirmação
+o técnico tem de inidicar o seu nome de utilizador, poderá alterar o email de registo e terá de indicar a
+password e confirmação de password, procedendo depois à ativação da conta.
+
+\input{tables/casos_de_uso/conf_conta.tex}
+
+\subsubsection{Especificação de caso de uso registar técnico}
+
+Sempre que uma empresa deseja realizar o registo de técnicos em seu nome, esta poderá indicar o nºcontribuinte
+do mesmo e email, com isto este receberá um email para confirmar o registo de conta.
+
+\input{tables/casos_de_uso/rec_humanos.tex}
