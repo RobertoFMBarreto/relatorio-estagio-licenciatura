@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.3.3)  3 MAR 2023 16:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.3.3)  3 MAR 2023 16:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -730,12 +730,12 @@ LaTeX Info: Redefining \nameref on input line 34.
  (/usr/share/texlive/texmf-dist/tex/latex/ninecolors/ninecolors.sty
 Package: ninecolors 2021/05/24 v2021C Select colors with proper color contrast
 )
-<lesi/logos/logo_ipca.png, id=309, 707.64375pt x 356.33125pt>
+<lesi/logos/logo_ipca.png, id=301, 707.64375pt x 356.33125pt>
 File: lesi/logos/logo_ipca.png Graphic file (type png)
 <use lesi/logos/logo_ipca.png>
 Package pdftex.def Info: lesi/logos/logo_ipca.png  used on input line 38.
 (pdftex.def)             Requested size: 113.00935pt x 56.9055pt.
-<lesi/logos/logo_est.png, id=311, 2971.1pt x 1124.2pt>
+<lesi/logos/logo_est.png, id=303, 2971.1pt x 1124.2pt>
 File: lesi/logos/logo_est.png Graphic file (type png)
 <use lesi/logos/logo_est.png>
 Package pdftex.def Info: lesi/logos/logo_est.png  used on input line 38.
@@ -778,7 +778,7 @@ Cap\'{\i }tulo 1.
 ]
 Cap\'{\i }tulo 2.
 [5]
-<images/etapa1_sprint_planning.png, id=610, 1084.05pt x 1483.5425pt>
+<images/etapa1_sprint_planning.png, id=600, 1084.05pt x 1483.5425pt>
 File: images/etapa1_sprint_planning.png Graphic file (type png)
 <use images/etapa1_sprint_planning.png>
 Package pdftex.def Info: images/etapa1_sprint_planning.png  used on input line 49.
@@ -788,7 +788,7 @@ Cap\'{\i }tulo 3.
 ) (./sections/chap3/2.modelo_negocio.tex) (./sections/chap3/3.objectivos_negocio.tex) (./sections/chap3/5.dominio_applicacao_sistema.tex [7
 
 ]
-<images/diagramas/diagrama_contexto.png, id=621, 1300.86pt x 674.52pt>
+<images/diagramas/diagrama_contexto.png, id=611, 1300.86pt x 674.52pt>
 File: images/diagramas/diagrama_contexto.png Graphic file (type png)
 <use images/diagramas/diagrama_contexto.png>
 Package pdftex.def Info: images/diagramas/diagrama_contexto.png  used on input line 16.
@@ -935,46 +935,46 @@ Overfull \hbox (13.06206pt too wide) in paragraph at lines 20--20
  []
 
 )) [14] (./sections/chap3/10.esquemetizacao_conteudo_paginas.tex
-<images/Arquiteturas/diagrama_superficial_de_aplicacao.png, id=656, 1393.205pt x 1167.36125pt>
+<images/Arquiteturas/diagrama_superficial_de_aplicacao.png, id=646, 1393.205pt x 1167.36125pt>
 File: images/Arquiteturas/diagrama_superficial_de_aplicacao.png Graphic file (type png)
 <use images/Arquiteturas/diagrama_superficial_de_aplicacao.png>
 Package pdftex.def Info: images/Arquiteturas/diagrama_superficial_de_aplicacao.png  used on input line 10.
 (pdftex.def)             Requested size: 455.24411pt x 381.43636pt.
  [15 <./images/Arquiteturas/diagrama_superficial_de_aplicacao.png>]
-<images/Arquiteturas/superficial_de_app/home_auth.png, id=663, 438.63875pt x 705.63625pt>
+<images/Arquiteturas/superficial_de_app/home_auth.png, id=653, 438.63875pt x 705.63625pt>
 File: images/Arquiteturas/superficial_de_app/home_auth.png Graphic file (type png)
 <use images/Arquiteturas/superficial_de_app/home_auth.png>
 Package pdftex.def Info: images/Arquiteturas/superficial_de_app/home_auth.png  used on input line 36.
 (pdftex.def)             Requested size: 254.69176pt x 409.71692pt.
  [16 <./images/Arquiteturas/superficial_de_app/home_auth.png>]
-<images/Arquiteturas/superficial_de_app/forum.png, id=669, 219.82124pt x 275.0275pt>
+<images/Arquiteturas/superficial_de_app/forum.png, id=659, 219.82124pt x 275.0275pt>
 File: images/Arquiteturas/superficial_de_app/forum.png Graphic file (type png)
 <use images/Arquiteturas/superficial_de_app/forum.png>
 Package pdftex.def Info: images/Arquiteturas/superficial_de_app/forum.png  used on input line 52.
 (pdftex.def)             Requested size: 145.54869pt x 182.09486pt.
-<images/Arquiteturas/superficial_de_app/criar_topico.png, id=670, 178.6675pt x 193.72375pt>
+<images/Arquiteturas/superficial_de_app/criar_topico.png, id=660, 178.6675pt x 193.72375pt>
 File: images/Arquiteturas/superficial_de_app/criar_topico.png Graphic file (type png)
 <use images/Arquiteturas/superficial_de_app/criar_topico.png>
 Package pdftex.def Info: images/Arquiteturas/superficial_de_app/criar_topico.png  used on input line 66.
 (pdftex.def)             Requested size: 125.96059pt x 136.57462pt.
  [17 <./images/Arquiteturas/superficial_de_app/forum.png> <./images/Arquiteturas/superficial_de_app/criar_topico.png>]
-<images/Arquiteturas/superficial_de_app/detalhes_topico.png, id=677, 297.11pt x 387.4475pt>
+<images/Arquiteturas/superficial_de_app/detalhes_topico.png, id=667, 297.11pt x 387.4475pt>
 File: images/Arquiteturas/superficial_de_app/detalhes_topico.png Graphic file (type png)
 <use images/Arquiteturas/superficial_de_app/detalhes_topico.png>
 Package pdftex.def Info: images/Arquiteturas/superficial_de_app/detalhes_topico.png  used on input line 83.
 (pdftex.def)             Requested size: 192.00848pt x 250.38564pt.
-<images/Arquiteturas/superficial_de_app/pesquisa_forum.png, id=678, 252.945pt x 212.795pt>
+<images/Arquiteturas/superficial_de_app/pesquisa_forum.png, id=668, 252.945pt x 212.795pt>
 File: images/Arquiteturas/superficial_de_app/pesquisa_forum.png Graphic file (type png)
 <use images/Arquiteturas/superficial_de_app/pesquisa_forum.png>
 Package pdftex.def Info: images/Arquiteturas/superficial_de_app/pesquisa_forum.png  used on input line 96.
 (pdftex.def)             Requested size: 162.35126pt x 136.57462pt.
-<images/Arquiteturas/superficial_de_app/notificacoes.png, id=679, 182.6825pt x 120.45pt>
+<images/Arquiteturas/superficial_de_app/notificacoes.png, id=669, 182.6825pt x 120.45pt>
 File: images/Arquiteturas/superficial_de_app/notificacoes.png Graphic file (type png)
 <use images/Arquiteturas/superficial_de_app/notificacoes.png>
 Package pdftex.def Info: images/Arquiteturas/superficial_de_app/notificacoes.png  used on input line 107.
 (pdftex.def)             Requested size: 138.09308pt x 91.04742pt.
  [18 <./images/Arquiteturas/superficial_de_app/detalhes_topico.png> <./images/Arquiteturas/superficial_de_app/pesquisa_forum.png>]
-<images/Arquiteturas/superficial_de_app/perfil.png, id=686, 305.14pt x 422.57875pt>
+<images/Arquiteturas/superficial_de_app/perfil.png, id=676, 305.14pt x 422.57875pt>
 File: images/Arquiteturas/superficial_de_app/perfil.png Graphic file (type png)
 <use images/Arquiteturas/superficial_de_app/perfil.png>
 Package pdftex.def Info: images/Arquiteturas/superficial_de_app/perfil.png  used on input line 120.
@@ -1346,7 +1346,7 @@ Overfull \hbox (1.8883pt too wide) in paragraph at lines 48--48
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
- [30]) [31] (./tables/casos_de_uso/gostar_comentario.tex
+ [30]) (./tables/casos_de_uso/gostar_comentario.tex
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1355,7 +1355,7 @@ Overfull \hbox (1.8883pt too wide) in paragraph at lines 48--48
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
-) (./tables/casos_de_uso/config_notificacoes.tex
+) [31] (./tables/casos_de_uso/conf_conta.tex
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1364,53 +1364,30 @@ Overfull \hbox (1.8883pt too wide) in paragraph at lines 48--48
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
-) [32] (./tables/casos_de_uso/conf_conta.tex
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
-) (./tables/casos_de_uso/rec_humanos.tex
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
-
-Overfull \hbox (4.51985pt too wide) in paragraph at lines 40--41
- [][] 
- []
-
-)) [33] (./sections/chap3/13.diagramas_casos_uso.tex
-<images/diagramas/casos_de_uso/use_case_forum.png, id=757, 565.11125pt x 223.83624pt>
+)) [32] (./sections/chap3/13.diagramas_casos_uso.tex
+<images/diagramas/casos_de_uso/use_case_forum.png, id=739, 565.11125pt x 223.83624pt>
 File: images/diagramas/casos_de_uso/use_case_forum.png Graphic file (type png)
 <use images/diagramas/casos_de_uso/use_case_forum.png>
 Package pdftex.def Info: images/diagramas/casos_de_uso/use_case_forum.png  used on input line 22.
 (pdftex.def)             Requested size: 273.14923pt x 108.19499pt.
- [34 <./images/diagramas/casos_de_uso/use_case_forum.png>]
-<images/diagramas/casos_de_uso/use_case_topic_details.png, id=763, 483.8075pt x 530.98375pt>
+ [33 <./images/diagramas/casos_de_uso/use_case_forum.png>]
+<images/diagramas/casos_de_uso/use_case_topic_details.png, id=747, 483.8075pt x 530.98375pt>
 File: images/diagramas/casos_de_uso/use_case_topic_details.png Graphic file (type png)
 <use images/diagramas/casos_de_uso/use_case_topic_details.png>
 Package pdftex.def Info: images/diagramas/casos_de_uso/use_case_topic_details.png  used on input line 55.
 (pdftex.def)             Requested size: 227.62206pt x 249.82166pt.
-<images/diagramas/casos_de_uso/use_case_rec_humanos.png, id=764, 309.155pt x 206.7725pt>
+<images/diagramas/casos_de_uso/use_case_rec_humanos.png, id=748, 309.155pt x 206.7725pt>
 File: images/diagramas/casos_de_uso/use_case_rec_humanos.png Graphic file (type png)
 <use images/diagramas/casos_de_uso/use_case_rec_humanos.png>
 Package pdftex.def Info: images/diagramas/casos_de_uso/use_case_rec_humanos.png  used on input line 124.
 (pdftex.def)             Requested size: 227.62206pt x 152.24571pt.
-) [35 <./images/diagramas/casos_de_uso/use_case_topic_details.png> <./images/diagramas/casos_de_uso/use_case_rec_humanos.png>] (./sections/chap3/14.diagrama_entidade_relacao.tex
-<images/diagramas/diagrama_bd.png, id=771, 797.98125pt x 870.25125pt>
+) [34 <./images/diagramas/casos_de_uso/use_case_topic_details.png> <./images/diagramas/casos_de_uso/use_case_rec_humanos.png>] (./sections/chap3/14.diagrama_entidade_relacao.tex
+<images/diagramas/diagrama_bd.png, id=755, 797.98125pt x 870.25125pt>
 File: images/diagramas/diagrama_bd.png Graphic file (type png)
 <use images/diagramas/diagrama_bd.png>
 Package pdftex.def Info: images/diagramas/diagrama_bd.png  used on input line 9.
 (pdftex.def)             Requested size: 455.24411pt x 496.4733pt.
- [36 <./images/diagramas/diagrama_bd.png>] (./tables/tabela_base_dados.tex
+ [35 <./images/diagramas/diagrama_bd.png>] (./tables/tabela_base_dados.tex
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1419,59 +1396,59 @@ Package pdftex.def Info: images/diagramas/diagrama_bd.png  used on input line 9.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
- [37] [38] [39])) [40] (./sections/chap3/15.diagrama_classes.tex
-<images/diagramas/diagrama_classes.png, id=794, 1002.74625pt x 695.59875pt>
+ [36] [37] [38])) [39] (./sections/chap3/15.diagrama_classes.tex
+<images/diagramas/diagrama_classes.png, id=778, 1002.74625pt x 695.59875pt>
 File: images/diagramas/diagrama_classes.png Graphic file (type png)
 <use images/diagramas/diagrama_classes.png>
 Package pdftex.def Info: images/diagramas/diagrama_classes.png  used on input line 8.
 (pdftex.def)             Requested size: 455.24411pt x 315.79741pt.
-) [41 <./images/diagramas/diagrama_classes.png>] (./sections/chap3/16.mockups.tex
-<images/mockups/home_screen.png, id=800, 378.41376pt x 813.0375pt>
+) [40 <./images/diagramas/diagrama_classes.png>] (./sections/chap3/16.mockups.tex
+<images/mockups/home_screen.png, id=784, 378.41376pt x 813.0375pt>
 File: images/mockups/home_screen.png Graphic file (type png)
 <use images/mockups/home_screen.png>
 Package pdftex.def Info: images/mockups/home_screen.png  used on input line 16.
 (pdftex.def)             Requested size: 182.09486pt x 391.23364pt.
- [42 <./images/mockups/home_screen.png>]
-<images/mockups/login.png, id=806, 391.4625pt x 844.15375pt>
+ [41 <./images/mockups/home_screen.png>]
+<images/mockups/login.png, id=790, 391.4625pt x 844.15375pt>
 File: images/mockups/login.png Graphic file (type png)
 <use images/mockups/login.png>
 Package pdftex.def Info: images/mockups/login.png  used on input line 30.
 (pdftex.def)             Requested size: 182.09486pt x 392.66913pt.
-<images/mockups/register.png, id=807, 378.41376pt x 813.0375pt>
+<images/mockups/register.png, id=791, 378.41376pt x 813.0375pt>
 File: images/mockups/register.png Graphic file (type png)
 <use images/mockups/register.png>
 Package pdftex.def Info: images/mockups/register.png  used on input line 32.
 (pdftex.def)             Requested size: 182.09486pt x 391.23364pt.
- [43 <./images/mockups/login.png> <./images/mockups/register.png>]
-<images/mockups/account_confirmation.png, id=814, 378.41376pt x 813.0375pt>
+ [42 <./images/mockups/login.png> <./images/mockups/register.png>]
+<images/mockups/account_confirmation.png, id=798, 378.41376pt x 813.0375pt>
 File: images/mockups/account_confirmation.png Graphic file (type png)
 <use images/mockups/account_confirmation.png>
 Package pdftex.def Info: images/mockups/account_confirmation.png  used on input line 48.
 (pdftex.def)             Requested size: 182.09486pt x 391.23364pt.
-<images/mockups/account_verification.png, id=815, 378.41376pt x 813.0375pt>
+<images/mockups/account_verification.png, id=799, 378.41376pt x 813.0375pt>
 File: images/mockups/account_verification.png Graphic file (type png)
 <use images/mockups/account_verification.png>
 Package pdftex.def Info: images/mockups/account_verification.png  used on input line 50.
 (pdftex.def)             Requested size: 182.09486pt x 391.23364pt.
- [44 <./images/mockups/account_confirmation.png> <./images/mockups/account_verification.png>]
-<images/mockups/forum_home.png, id=822, 378.41376pt x 813.0375pt>
+ [43 <./images/mockups/account_confirmation.png> <./images/mockups/account_verification.png>]
+<images/mockups/forum_home.png, id=806, 378.41376pt x 813.0375pt>
 File: images/mockups/forum_home.png Graphic file (type png)
 <use images/mockups/forum_home.png>
 Package pdftex.def Info: images/mockups/forum_home.png  used on input line 66.
 (pdftex.def)             Requested size: 227.62206pt x 489.05446pt.
- [45 <./images/mockups/forum_home.png>]
-<images/mockups/topic_not_user.png, id=829, 378.41376pt x 816.04875pt>
+ [44 <./images/mockups/forum_home.png>]
+<images/mockups/topic_not_user.png, id=812, 378.41376pt x 816.04875pt>
 File: images/mockups/topic_not_user.png Graphic file (type png)
 <use images/mockups/topic_not_user.png>
 Package pdftex.def Info: images/mockups/topic_not_user.png  used on input line 86.
 (pdftex.def)             Requested size: 182.09486pt x 392.68265pt.
-<images/mockups/user_topic.png, id=830, 378.41376pt x 816.04875pt>
+<images/mockups/user_topic.png, id=813, 378.41376pt x 816.04875pt>
 File: images/mockups/user_topic.png Graphic file (type png)
 <use images/mockups/user_topic.png>
 Package pdftex.def Info: images/mockups/user_topic.png  used on input line 88.
 (pdftex.def)             Requested size: 182.09486pt x 392.68265pt.
- [46 <./images/mockups/topic_not_user.png> <./images/mockups/user_topic.png>]
-<images/mockups/forum_create_topic.png, id=837, 378.41376pt x 816.04875pt>
+ [45 <./images/mockups/topic_not_user.png> <./images/mockups/user_topic.png>]
+<images/mockups/forum_create_topic.png, id=821, 378.41376pt x 816.04875pt>
 File: images/mockups/forum_create_topic.png Graphic file (type png)
 <use images/mockups/forum_create_topic.png>
 Package pdftex.def Info: images/mockups/forum_create_topic.png  used on input line 104.
@@ -1479,14 +1456,14 @@ Package pdftex.def Info: images/mockups/forum_create_topic.png  used on input li
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47 <./images/mockups/forum_create_topic.png>]
-<images/mockups/notifications.png, id=843, 378.41376pt x 816.04875pt>
+ [46 <./images/mockups/forum_create_topic.png>]
+<images/mockups/notifications.png, id=827, 378.41376pt x 816.04875pt>
 File: images/mockups/notifications.png Graphic file (type png)
 <use images/mockups/notifications.png>
 Package pdftex.def Info: images/mockups/notifications.png  used on input line 117.
 (pdftex.def)             Requested size: 227.62206pt x 490.86577pt.
- [48 <./images/mockups/notifications.png>]
-<images/mockups/user_profile.png, id=849, 378.41376pt x 816.04875pt>
+ [47 <./images/mockups/notifications.png>]
+<images/mockups/user_profile.png, id=833, 378.41376pt x 816.04875pt>
 File: images/mockups/user_profile.png Graphic file (type png)
 <use images/mockups/user_profile.png>
 Package pdftex.def Info: images/mockups/user_profile.png  used on input line 134.
@@ -1494,14 +1471,14 @@ Package pdftex.def Info: images/mockups/user_profile.png  used on input line 134
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49 <./images/mockups/user_profile.png>]
-<images/mockups/human_resources.png, id=855, 378.41376pt x 816.04875pt>
+ [48 <./images/mockups/user_profile.png>]
+<images/mockups/human_resources.png, id=839, 378.41376pt x 816.04875pt>
 File: images/mockups/human_resources.png Graphic file (type png)
 <use images/mockups/human_resources.png>
 Package pdftex.def Info: images/mockups/human_resources.png  used on input line 147.
 (pdftex.def)             Requested size: 227.62206pt x 490.86577pt.
- [50 <./images/mockups/human_resources.png>]
-<images/mockups/professional_profile.png, id=861, 378.41376pt x 816.04875pt>
+ [49 <./images/mockups/human_resources.png>]
+<images/mockups/professional_profile.png, id=845, 378.41376pt x 816.04875pt>
 File: images/mockups/professional_profile.png Graphic file (type png)
 <use images/mockups/professional_profile.png>
 Package pdftex.def Info: images/mockups/professional_profile.png  used on input line 163.
@@ -1509,95 +1486,95 @@ Package pdftex.def Info: images/mockups/professional_profile.png  used on input 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51 <./images/mockups/professional_profile.png>]
-<images/mockups/account_registering.png, id=868, 378.41376pt x 816.04875pt>
+ [50 <./images/mockups/professional_profile.png>]
+<images/mockups/account_registering.png, id=851, 378.41376pt x 816.04875pt>
 File: images/mockups/account_registering.png Graphic file (type png)
 <use images/mockups/account_registering.png>
 Package pdftex.def Info: images/mockups/account_registering.png  used on input line 176.
 (pdftex.def)             Requested size: 227.62206pt x 490.86577pt.
-) [52 <./images/mockups/account_registering.png>] (./sections/chap3/17.diagrama_atividades.tex
-<images/diagramas/atividades/diagrama_atividades_forum.png, id=875, 1175.39125pt x 582.175pt>
+) [51 <./images/mockups/account_registering.png>] (./sections/chap3/17.diagrama_atividades.tex
+<images/diagramas/atividades/diagrama_atividades_forum.png, id=858, 1175.39125pt x 582.175pt>
 File: images/diagramas/atividades/diagrama_atividades_forum.png Graphic file (type png)
 <use images/diagramas/atividades/diagrama_atividades_forum.png>
 Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_forum.png  used on input line 31.
 (pdftex.def)             Requested size: 455.24411pt x 225.48389pt.
- [53 <./images/diagramas/atividades/diagrama_atividades_forum.png>]
-<images/diagramas/atividades/diagrama_atividades_criar_tópico.png, id=881, 584.1825pt x 545.03625pt>
+ [52 <./images/diagramas/atividades/diagrama_atividades_forum.png>]
+<images/diagramas/atividades/diagrama_atividades_criar_tópico.png, id=864, 584.1825pt x 545.03625pt>
 File: images/diagramas/atividades/diagrama_atividades_criar_tópico.png Graphic file (type png)
 <use images/diagramas/atividades/diagrama_atividades_criar_tópico.png>
 Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_criar_tópico.png  used on input line 51.
 (pdftex.def)             Requested size: 318.66948pt x 297.32579pt.
- [54 <./images/diagramas/atividades/diagrama_atividades_criar_tópico.png>]
-<images/diagramas/atividades/diagrama_atividades_detalhes_topico.png, id=887, 626.34pt x 691.58376pt>
+ [53 <./images/diagramas/atividades/diagrama_atividades_criar_tópico.png>]
+<images/diagramas/atividades/diagrama_atividades_detalhes_topico.png, id=871, 626.34pt x 691.58376pt>
 File: images/diagramas/atividades/diagrama_atividades_detalhes_topico.png Graphic file (type png)
 <use images/diagramas/atividades/diagrama_atividades_detalhes_topico.png>
 Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_detalhes_topico.png  used on input line 69.
 (pdftex.def)             Requested size: 409.71692pt x 452.405pt.
- [55 <./images/diagramas/atividades/diagrama_atividades_detalhes_topico.png>]
-<images/diagramas/atividades/diagrama_atividades_autenticação.png, id=893, 973.6375pt x 722.7pt>
+ [54 <./images/diagramas/atividades/diagrama_atividades_detalhes_topico.png>]
+<images/diagramas/atividades/diagrama_atividades_autenticação.png, id=877, 973.6375pt x 722.7pt>
 File: images/diagramas/atividades/diagrama_atividades_autenticação.png Graphic file (type png)
 <use images/diagramas/atividades/diagrama_atividades_autenticação.png>
 Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_autenticação.png  used on input line 87.
 (pdftex.def)             Requested size: 364.19667pt x 270.32813pt.
- [56 <./images/diagramas/atividades/diagrama_atividades_autenticação.png>]
-<images/diagramas/atividades/diagrama_atividades_perfil.png, id=899, 1128.215pt x 417.56pt>
+ [55 <./images/diagramas/atividades/diagrama_atividades_autenticação.png>]
+<images/diagramas/atividades/diagrama_atividades_perfil.png, id=883, 1128.215pt x 417.56pt>
 File: images/diagramas/atividades/diagrama_atividades_perfil.png Graphic file (type png)
 <use images/diagramas/atividades/diagrama_atividades_perfil.png>
 Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_perfil.png  used on input line 117.
 (pdftex.def)             Requested size: 455.24411pt x 168.48647pt.
-) [57 <./images/diagramas/atividades/diagrama_atividades_perfil.png>] (./sections/chap3/18.diagrama_estados.tex
-<images/diagramas/estados/criar_topico.png, id=906, 893.3375pt x 470.75874pt>
+) [56 <./images/diagramas/atividades/diagrama_atividades_perfil.png>] (./sections/chap3/18.diagrama_estados.tex
+<images/diagramas/estados/criar_topico.png, id=889, 893.3375pt x 470.75874pt>
 File: images/diagramas/estados/criar_topico.png Graphic file (type png)
 <use images/diagramas/estados/criar_topico.png>
 Package pdftex.def Info: images/diagramas/estados/criar_topico.png  used on input line 20.
 (pdftex.def)             Requested size: 409.71692pt x 215.91234pt.
- [58 <./images/diagramas/estados/criar_topico.png>]
-<images/diagramas/estados/responder_topico_tecnico.png, id=912, 592.2125pt x 416.55624pt>
+ [57 <./images/diagramas/estados/criar_topico.png>]
+<images/diagramas/estados/responder_topico_tecnico.png, id=896, 592.2125pt x 416.55624pt>
 File: images/diagramas/estados/responder_topico_tecnico.png Graphic file (type png)
 <use images/diagramas/estados/responder_topico_tecnico.png>
 Package pdftex.def Info: images/diagramas/estados/responder_topico_tecnico.png  used on input line 40.
 (pdftex.def)             Requested size: 318.66948pt x 224.15521pt.
- [59 <./images/diagramas/estados/responder_topico_tecnico.png>]
-<images/diagramas/estados/autenticacao.png, id=918, 671.50874pt x 487.8225pt>
+ [58 <./images/diagramas/estados/responder_topico_tecnico.png>]
+<images/diagramas/estados/autenticacao.png, id=902, 671.50874pt x 487.8225pt>
 File: images/diagramas/estados/autenticacao.png Graphic file (type png)
 <use images/diagramas/estados/autenticacao.png>
 Package pdftex.def Info: images/diagramas/estados/autenticacao.png  used on input line 59.
 (pdftex.def)             Requested size: 318.66948pt x 231.50223pt.
-) [60 <./images/diagramas/estados/autenticacao.png>] (./sections/chap3/19.diagrama_sequencia.tex
-<images/diagramas/sequencia/diagrama_login.png, id=925, 756.8275pt x 982.67125pt>
+) [59 <./images/diagramas/estados/autenticacao.png>] (./sections/chap3/19.diagrama_sequencia.tex
+<images/diagramas/sequencia/diagrama_login.png, id=909, 756.8275pt x 982.67125pt>
 File: images/diagramas/sequencia/diagrama_login.png Graphic file (type png)
 <use images/diagramas/sequencia/diagrama_login.png>
 Package pdftex.def Info: images/diagramas/sequencia/diagrama_login.png  used on input line 23.
 (pdftex.def)             Requested size: 305.01271pt x 396.03041pt.
- [61 <./images/diagramas/sequencia/diagrama_login.png>]
-<images/diagramas/sequencia/diagrama_registo.png, id=932, 888.31876pt x 826.08624pt>
+ [60 <./images/diagramas/sequencia/diagrama_login.png>]
+<images/diagramas/sequencia/diagrama_registo.png, id=916, 888.31876pt x 826.08624pt>
 File: images/diagramas/sequencia/diagrama_registo.png Graphic file (type png)
 <use images/diagramas/sequencia/diagrama_registo.png>
 Package pdftex.def Info: images/diagramas/sequencia/diagrama_registo.png  used on input line 42.
 (pdftex.def)             Requested size: 364.19667pt x 338.67233pt.
- [62 <./images/diagramas/sequencia/diagrama_registo.png>]
-<images/diagramas/sequencia/registo_tecnico.png, id=939, 1204.5pt x 557.08125pt>
+ [61 <./images/diagramas/sequencia/diagrama_registo.png>]
+<images/diagramas/sequencia/registo_tecnico.png, id=923, 1204.5pt x 557.08125pt>
 File: images/diagramas/sequencia/registo_tecnico.png Graphic file (type png)
 <use images/diagramas/sequencia/registo_tecnico.png>
 Package pdftex.def Info: images/diagramas/sequencia/registo_tecnico.png  used on input line 57.
 (pdftex.def)             Requested size: 364.19667pt x 168.44322pt.
-)) (./chap4.tex [63 <./images/diagramas/sequencia/registo_tecnico.png>] [64
-
-]
+)) (./chap4.tex [62 <./images/diagramas/sequencia/registo_tecnico.png>]
 Cap\'{\i }tulo 4.
-<images/Arquiteturas/arquitetura_de_solucao.png, id=951, 543.02875pt x 131.49126pt>
+<images/Arquiteturas/arquitetura_de_solucao.png, id=930, 543.02875pt x 131.49126pt>
 File: images/Arquiteturas/arquitetura_de_solucao.png Graphic file (type png)
 <use images/Arquiteturas/arquitetura_de_solucao.png>
 Package pdftex.def Info: images/Arquiteturas/arquitetura_de_solucao.png  used on input line 11.
 (pdftex.def)             Requested size: 455.24411pt x 110.23921pt.
-[65 <./images/Arquiteturas/arquitetura_de_solucao.png>]
-<images/Arquiteturas/arquitetura_funcional.png, id=958, 1614.03pt x 443.6575pt>
+[63
+
+ <./images/Arquiteturas/arquitetura_de_solucao.png>]
+<images/Arquiteturas/arquitetura_funcional.png, id=938, 1614.03pt x 443.6575pt>
 File: images/Arquiteturas/arquitetura_funcional.png Graphic file (type png)
 <use images/Arquiteturas/arquitetura_funcional.png>
 Package pdftex.def Info: images/Arquiteturas/arquitetura_funcional.png  used on input line 43.
 (pdftex.def)             Requested size: 455.24411pt x 125.13715pt.
- [66 <./images/Arquiteturas/arquitetura_funcional.png>]
-<images/Arquiteturas/arquitetura_de_componentes_final.png, id=964, 645.41125pt x 502.87875pt>
+ [64 <./images/Arquiteturas/arquitetura_funcional.png>]
+<images/Arquiteturas/arquitetura_de_componentes_final.png, id=944, 645.41125pt x 502.87875pt>
 File: images/Arquiteturas/arquitetura_de_componentes_final.png Graphic file (type png)
 <use images/Arquiteturas/arquitetura_de_componentes_final.png>
 Package pdftex.def Info: images/Arquiteturas/arquitetura_de_componentes_final.png  used on input line 57.
@@ -1620,33 +1597,33 @@ Overfull \hbox (16.94412pt too wide) detected at line 34
  [] 
  []
 
-[67 <./images/Arquiteturas/arquitetura_de_componentes_final.png>]
+[65 <./images/Arquiteturas/arquitetura_de_componentes_final.png>]
 Overfull \hbox (16.94412pt too wide) detected at line 34
  [] 
  []
 
-) [68])
+) [66])
 No file main.bbl.
-[69] (./main.aux)
+[67] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 26E53E80BF59F6F4F008E2FD88719A8E;17153.
+(rerunfilecheck)             Checksum: 7B69FF9F0C9E95819E4A3297FA3037A1;16462.
  ) 
 Here is how much of TeX's memory you used:
- 25836 strings out of 478287
- 505806 string characters out of 5849290
- 1127944 words of memory out of 5000000
- 43267 multiletter control sequences out of 15000+600000
- 518781 words of font info for 101 fonts, out of 8000000 for 9000
+ 25811 strings out of 478287
+ 505107 string characters out of 5849290
+ 1121603 words of memory out of 5000000
+ 43254 multiletter control sequences out of 15000+600000
+ 516005 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  106i,8n,118p,1179b,1315s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb>
-Output written on main.pdf (85 pages, 2158960 bytes).
+Output written on main.pdf (83 pages, 2155248 bytes).
 PDF statistics:
- 1083 PDF objects out of 1200 (max. 8388607)
- 876 compressed objects within 9 object streams
- 228 named destinations out of 1000 (max. 500000)
- 834 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1061 PDF objects out of 1200 (max. 8388607)
+ 856 compressed objects within 9 object streams
+ 222 named destinations out of 1000 (max. 500000)
+ 818 words of extra memory for PDF output out of 10000 (max. 10000000)
 

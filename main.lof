@@ -13,34 +13,34 @@
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Esquema de organização da página de notificações\relax }}{19}{figure.caption.13}%
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Esquema de organização da página de notificações\relax }}{19}{figure.caption.14}%
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Esquema de organização da página de gestão de recursos humanos\relax }}{20}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Diagrama de casos de uso de fórum\relax }}{34}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Diagrama de casos de uso de detalhes de tópico\relax }}{35}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Diagrama de casos de uso de ativação de conta\relax }}{35}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Diagrama Entidade Relação base de dados Install\&Go\relax }}{36}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Diagrama de classes Install\&Go\relax }}{41}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Página inicial do fórum\relax }}{42}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Autenticação - Login e Registo\relax }}{43}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Autenticação - Ativação e Confirmação de conta\relax }}{44}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Página inicial do fórum\relax }}{45}{figure.caption.31}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Página de detalhes de tópico do software\relax }}{46}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Página de criação de tópico\relax }}{47}{figure.caption.33}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Página de notificações\relax }}{48}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Página de perfil de utilizador\relax }}{49}{figure.caption.35}%
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Página de gestão de recursos humanos\relax }}{50}{figure.caption.36}%
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Página de perfil de técnico registado\relax }}{51}{figure.caption.37}%
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Página de registo de novo técnico\relax }}{52}{figure.caption.38}%
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Diagrama de atividades de página inicial do fórum\relax }}{53}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Diagrama de atividades de página de criação de tópico\relax }}{54}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Diagrama de atividades de página de detalhes do tópico\relax }}{55}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Diagrama de atividades de página de validação de conta\relax }}{56}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.31}{\ignorespaces Diagrama de atividades de página de perfil\relax }}{57}{figure.caption.43}%
-\contentsline {figure}{\numberline {3.32}{\ignorespaces Diagrama de estados de criar tópico\relax }}{58}{figure.caption.44}%
-\contentsline {figure}{\numberline {3.33}{\ignorespaces Diagrama de estados de criar tópico\relax }}{59}{figure.caption.45}%
-\contentsline {figure}{\numberline {3.34}{\ignorespaces Diagrama de estados de autenticação e validação de conta\relax }}{60}{figure.caption.46}%
-\contentsline {figure}{\numberline {3.35}{\ignorespaces Diagrama de sequência de login e ativação de conta\relax }}{61}{figure.caption.47}%
-\contentsline {figure}{\numberline {3.36}{\ignorespaces Diagrama de sequência de registo e validação de conta\relax }}{62}{figure.caption.48}%
-\contentsline {figure}{\numberline {3.37}{\ignorespaces Diagrama de sequência de registo de técnicos\relax }}{63}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Diagrama de casos de uso de fórum\relax }}{33}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Diagrama de casos de uso de detalhes de tópico\relax }}{34}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Diagrama de casos de uso de ativação de conta\relax }}{34}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Diagrama Entidade Relação base de dados Install\&Go\relax }}{35}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Diagrama de classes Install\&Go\relax }}{40}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Página inicial do fórum\relax }}{41}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Autenticação - Login e Registo\relax }}{42}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Autenticação - Ativação e Confirmação de conta\relax }}{43}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Página inicial do fórum\relax }}{44}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Página de detalhes de tópico do software\relax }}{45}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Página de criação de tópico\relax }}{46}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Página de notificações\relax }}{47}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Página de perfil de utilizador\relax }}{48}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Página de gestão de recursos humanos\relax }}{49}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Página de perfil de técnico registado\relax }}{50}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Página de registo de novo técnico\relax }}{51}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Diagrama de atividades de página inicial do fórum\relax }}{52}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Diagrama de atividades de página de criação de tópico\relax }}{53}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Diagrama de atividades de página de detalhes do tópico\relax }}{54}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Diagrama de atividades de página de validação de conta\relax }}{55}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Diagrama de atividades de página de perfil\relax }}{56}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Diagrama de estados de criar tópico\relax }}{57}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Diagrama de estados de criar tópico\relax }}{58}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Diagrama de estados de autenticação e validação de conta\relax }}{59}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.35}{\ignorespaces Diagrama de sequência de login e ativação de conta\relax }}{60}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.36}{\ignorespaces Diagrama de sequência de registo e validação de conta\relax }}{61}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.37}{\ignorespaces Diagrama de sequência de registo de técnicos\relax }}{62}{figure.caption.47}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Arquitetura do sistema\relax }}{65}{figure.caption.50}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Arquitetura do funcional\relax }}{66}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Arquitetura de componentes\relax }}{67}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Arquitetura do sistema\relax }}{63}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Arquitetura do funcional\relax }}{64}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Arquitetura de componentes\relax }}{65}{figure.caption.50}%
