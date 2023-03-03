@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.27)  2 MAR 2023 12:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.3.3)  3 MAR 2023 10:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/media/roberto/coisas/vscode/Licenciatura/3 ano/2semestre/estagio/Relatório de Estágio/main"
-(/media/roberto/coisas/vscode/Licenciatura/3 ano/2semestre/estagio/Relatório de Estágio/main.tex
+**/home/berto/Desktop/relatorio-estagio-licenciatura/main
+(/home/berto/Desktop/relatorio-estagio-licenciatura/main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
@@ -82,7 +82,7 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 Package: babel 2022/01/26 3.70 The Babel package
 \babel@savecnt=\count198
 \U@D=\dimen150
-\l@unhyphenated=\language11
+\l@unhyphenated=\language87
  (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count199
@@ -687,12 +687,12 @@ LaTeX Info: Redefining \nameref on input line 34.
  (/usr/share/texlive/texmf-dist/tex/latex/ninecolors/ninecolors.sty
 Package: ninecolors 2021/05/24 v2021C Select colors with proper color contrast
 )
-<lesi/logos/logo_ipca.png, id=28, 707.64375pt x 356.33125pt>
+<lesi/logos/logo_ipca.png, id=72, 707.64375pt x 356.33125pt>
 File: lesi/logos/logo_ipca.png Graphic file (type png)
 <use lesi/logos/logo_ipca.png>
 Package pdftex.def Info: lesi/logos/logo_ipca.png  used on input line 38.
 (pdftex.def)             Requested size: 113.00935pt x 56.9055pt.
-<lesi/logos/logo_est.png, id=30, 2971.1pt x 1124.2pt>
+<lesi/logos/logo_est.png, id=74, 2971.1pt x 1124.2pt>
 File: lesi/logos/logo_est.png Graphic file (type png)
 <use lesi/logos/logo_est.png>
 Package pdftex.def Info: lesi/logos/logo_est.png  used on input line 38.
@@ -735,58 +735,1014 @@ Cap\'{\i }tulo 1.
 ]
 Cap\'{\i }tulo 2.
 [5]
-
-LaTeX Warning: Reference `fig:1' on page 6 undefined on input line 45.
-
-<images/etapa1_sprint_planning.png, id=149, 1084.05pt x 1483.5425pt>
+<images/etapa1_sprint_planning.png, id=212, 1084.05pt x 1483.5425pt>
 File: images/etapa1_sprint_planning.png Graphic file (type png)
 <use images/etapa1_sprint_planning.png>
 Package pdftex.def Info: images/etapa1_sprint_planning.png  used on input line 49.
 (pdftex.def)             Requested size: 364.19667pt x 498.39897pt.
-) (./chap3.tex (./sections/chap3/19.diagrama_sequencia.tex [6 <./images/etapa1_sprint_planning.png>]
+) (./chap3.tex (./sections/chap3/1.proposta_sistema.tex [6 <./images/etapa1_sprint_planning.png>]
+Cap\'{\i }tulo 3.
+) (./sections/chap3/2.modelo_negocio.tex) (./sections/chap3/3.objectivos_negocio.tex) (./sections/chap3/5.dominio_applicacao_sistema.tex [7
 
-LaTeX Warning: Reference `fig:30' on page 7 undefined on input line 10.
+]
+<images/diagramas/diagrama_contexto.png, id=223, 1300.86pt x 674.52pt>
+File: images/diagramas/diagrama_contexto.png Graphic file (type png)
+<use images/diagramas/diagrama_contexto.png>
+Package pdftex.def Info: images/diagramas/diagrama_contexto.png  used on input line 16.
+(pdftex.def)             Requested size: 455.24411pt x 236.05466pt.
+) [8 <./images/diagramas/diagrama_contexto.png>] (./sections/chap3/6.operacoes_realizar_sistema.tex
 
-<images/diagramas/sequencia/diagrama_login.png, id=157, 756.8275pt x 982.67125pt>
+LaTeX Warning: Reference `tab:1' on page 9 undefined on input line 3.
+
+(./tables/requisitos/requisitos_funcionais.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+ [9] [10] [11])) (./sections/chap3/7.descricao_intervenientes.tex) (./sections/chap3/8.partes_interessadas.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12] [13] (./sections/chap3/9.condicoes_especificas.tex
+
+LaTeX Warning: Reference `tab:2' on page 14 undefined on input line 5.
+
+(./tables/requisitos/requisitos_nao_funcionais.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Overfull \hbox (2.6533pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 RNF01[]  
+ []
+
+
+Overfull \hbox (2.6533pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 RNF01[]  
+ []
+
+
+Overfull \hbox (2.6533pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 RNF02[]  
+ []
+
+
+Overfull \hbox (2.6533pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 RNF02[]  
+ []
+
+
+Overfull \hbox (2.6533pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 RNF03[]  
+ []
+
+
+Overfull \hbox (2.6533pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 RNF03[]  
+ []
+
+
+Overfull \hbox (2.6533pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 RNF04[]  
+ []
+
+
+Overfull \hbox (2.6533pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 RNF04[]  
+ []
+
+
+Overfull \hbox (2.6533pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 RNF05[]  
+ []
+
+
+Overfull \hbox (2.6533pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 RNF05[]  
+ []
+
+
+Overfull \hbox (13.06206pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 Desenvolvimento[]  
+ []
+
+
+Overfull \hbox (13.06206pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 Desenvolvimento[]  
+ []
+
+> Step: build the whole table.
+
+Overfull \hbox (2.6533pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 RNF01[]  
+ []
+
+
+Overfull \hbox (2.6533pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 RNF01[]  
+ []
+
+
+Overfull \hbox (2.6533pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 RNF02[]  
+ []
+
+
+Overfull \hbox (2.6533pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 RNF02[]  
+ []
+
+
+Overfull \hbox (2.6533pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 RNF03[]  
+ []
+
+
+Overfull \hbox (2.6533pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 RNF03[]  
+ []
+
+
+Overfull \hbox (2.6533pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 RNF04[]  
+ []
+
+
+Overfull \hbox (2.6533pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 RNF04[]  
+ []
+
+
+Overfull \hbox (2.6533pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 RNF05[]  
+ []
+
+
+Overfull \hbox (2.6533pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 RNF05[]  
+ []
+
+
+Overfull \hbox (13.06206pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 Desenvolvimento[]  
+ []
+
+
+Overfull \hbox (13.06206pt too wide) in paragraph at lines 20--20
+[][]\T1/cmr/m/n/12 Desenvolvimento[]  
+ []
+
+)) [14] (./sections/chap3/10.esquemetizacao_conteudo_paginas.tex
+<images/Arquiteturas/diagrama_superficial_de_aplicacao.png, id=258, 1393.205pt x 1167.36125pt>
+File: images/Arquiteturas/diagrama_superficial_de_aplicacao.png Graphic file (type png)
+<use images/Arquiteturas/diagrama_superficial_de_aplicacao.png>
+Package pdftex.def Info: images/Arquiteturas/diagrama_superficial_de_aplicacao.png  used on input line 10.
+(pdftex.def)             Requested size: 455.24411pt x 381.43636pt.
+ [15 <./images/Arquiteturas/diagrama_superficial_de_aplicacao.png>]
+<images/Arquiteturas/superficial_de_app/home_auth.png, id=265, 438.63875pt x 705.63625pt>
+File: images/Arquiteturas/superficial_de_app/home_auth.png Graphic file (type png)
+<use images/Arquiteturas/superficial_de_app/home_auth.png>
+Package pdftex.def Info: images/Arquiteturas/superficial_de_app/home_auth.png  used on input line 36.
+(pdftex.def)             Requested size: 254.69176pt x 409.71692pt.
+ [16 <./images/Arquiteturas/superficial_de_app/home_auth.png>]
+<images/Arquiteturas/superficial_de_app/forum.png, id=272, 219.82124pt x 275.0275pt>
+File: images/Arquiteturas/superficial_de_app/forum.png Graphic file (type png)
+<use images/Arquiteturas/superficial_de_app/forum.png>
+Package pdftex.def Info: images/Arquiteturas/superficial_de_app/forum.png  used on input line 52.
+(pdftex.def)             Requested size: 145.54869pt x 182.09486pt.
+<images/Arquiteturas/superficial_de_app/criar_topico.png, id=273, 178.6675pt x 193.72375pt>
+File: images/Arquiteturas/superficial_de_app/criar_topico.png Graphic file (type png)
+<use images/Arquiteturas/superficial_de_app/criar_topico.png>
+Package pdftex.def Info: images/Arquiteturas/superficial_de_app/criar_topico.png  used on input line 66.
+(pdftex.def)             Requested size: 125.96059pt x 136.57462pt.
+ [17 <./images/Arquiteturas/superficial_de_app/forum.png> <./images/Arquiteturas/superficial_de_app/criar_topico.png>]
+<images/Arquiteturas/superficial_de_app/detalhes_topico.png, id=283, 297.11pt x 387.4475pt>
+File: images/Arquiteturas/superficial_de_app/detalhes_topico.png Graphic file (type png)
+<use images/Arquiteturas/superficial_de_app/detalhes_topico.png>
+Package pdftex.def Info: images/Arquiteturas/superficial_de_app/detalhes_topico.png  used on input line 83.
+(pdftex.def)             Requested size: 192.00848pt x 250.38564pt.
+<images/Arquiteturas/superficial_de_app/pesquisa_forum.png, id=284, 252.945pt x 212.795pt>
+File: images/Arquiteturas/superficial_de_app/pesquisa_forum.png Graphic file (type png)
+<use images/Arquiteturas/superficial_de_app/pesquisa_forum.png>
+Package pdftex.def Info: images/Arquiteturas/superficial_de_app/pesquisa_forum.png  used on input line 96.
+(pdftex.def)             Requested size: 162.35126pt x 136.57462pt.
+<images/Arquiteturas/superficial_de_app/notificacoes.png, id=285, 182.6825pt x 120.45pt>
+File: images/Arquiteturas/superficial_de_app/notificacoes.png Graphic file (type png)
+<use images/Arquiteturas/superficial_de_app/notificacoes.png>
+Package pdftex.def Info: images/Arquiteturas/superficial_de_app/notificacoes.png  used on input line 107.
+(pdftex.def)             Requested size: 138.09308pt x 91.04742pt.
+ [18 <./images/Arquiteturas/superficial_de_app/detalhes_topico.png> <./images/Arquiteturas/superficial_de_app/pesquisa_forum.png>]
+<images/Arquiteturas/superficial_de_app/perfil.png, id=298, 305.14pt x 422.57875pt>
+File: images/Arquiteturas/superficial_de_app/perfil.png Graphic file (type png)
+<use images/Arquiteturas/superficial_de_app/perfil.png>
+Package pdftex.def Info: images/Arquiteturas/superficial_de_app/perfil.png  used on input line 120.
+(pdftex.def)             Requested size: 115.06042pt x 159.33821pt.
+ [19 <./images/Arquiteturas/superficial_de_app/notificacoes.png> <./images/Arquiteturas/superficial_de_app/perfil.png>]
+File: images/Arquiteturas/superficial_de_app/perfil.png Graphic file (type png)
+<use images/Arquiteturas/superficial_de_app/perfil.png>
+Package pdftex.def Info: images/Arquiteturas/superficial_de_app/perfil.png  used on input line 135.
+(pdftex.def)             Requested size: 115.06042pt x 159.33821pt.
+) (./sections/chap3/11.historias_utilizador.tex (./tables/user_stories.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+
+Overfull \hbox (10.97488pt too wide) detected at line 123
+ [] 
+ []
+
+[20]
+Overfull \hbox (10.97488pt too wide) detected at line 123
+ [] 
+ []
+
+[21]
+Overfull \hbox (10.97488pt too wide) detected at line 123
+ [] 
+ []
+
+[22]
+Overfull \hbox (10.97488pt too wide) detected at line 123
+ [] 
+ []
+
+)) [23] (./sections/chap3/12.especificacao_casos_uso.tex (./tables/casos_de_uso/tabela_casos_uso.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+> Step: build the whole table.
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+
+Overfull \hbox (1.4992pt too wide) in paragraph at lines 72--72
+ [][]\T1/cmr/m/n/12 Utilizador[] 
+ []
+
+[24]) [25] (./tables/casos_de_uso/criar_topico.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+ [26]) (./tables/casos_de_uso/pesquisa_escrita_forum.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) [27] (./tables/casos_de_uso/pesquisa_qr_forum.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Overfull \hbox (4.46866pt too wide) in paragraph at lines 46--46
+\T1/cmr/m/n/12 Alternativo(A1)[]  
+ []
+
+
+Overfull \hbox (4.46866pt too wide) in paragraph at lines 46--46
+\T1/cmr/m/n/12 Alternativo(A1)[]  
+ []
+
+
+Overfull \hbox (4.46866pt too wide) in paragraph at lines 46--46
+\T1/cmr/m/n/12 Alternativo(A1)[]  
+ []
+
+
+Overfull \hbox (4.46866pt too wide) in paragraph at lines 46--46
+\T1/cmr/m/n/12 Alternativo(A1)[]  
+ []
+
+> Step: build the whole table.
+
+Overfull \hbox (4.46866pt too wide) in paragraph at lines 46--46
+\T1/cmr/m/n/12 Alternativo(A1)[]  
+ []
+
+
+Overfull \hbox (4.46866pt too wide) in paragraph at lines 46--46
+\T1/cmr/m/n/12 Alternativo(A1)[]  
+ []
+
+) [28] (./tables/casos_de_uso/listagem_topicos_cliente.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) (./tables/casos_de_uso/listagem_topicos_tecnico.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+ [29]) (./tables/casos_de_uso/finalizar_topico.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) [30] (./tables/casos_de_uso/selecionar_melhor_resposta.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Overfull \hbox (1.8883pt too wide) in paragraph at lines 48--48
+\T1/cmr/m/n/12 Alternativo(A1)[]  
+ []
+
+
+Overfull \hbox (1.8883pt too wide) in paragraph at lines 48--48
+\T1/cmr/m/n/12 Alternativo(A1)[]  
+ []
+
+
+Overfull \hbox (1.8883pt too wide) in paragraph at lines 48--48
+\T1/cmr/m/n/12 Alternativo(A2)[]  
+ []
+
+
+Overfull \hbox (1.8883pt too wide) in paragraph at lines 48--48
+\T1/cmr/m/n/12 Alternativo(A2)[]  
+ []
+
+
+Overfull \hbox (1.8883pt too wide) in paragraph at lines 48--48
+\T1/cmr/m/n/12 Alternativo(A1)[]  
+ []
+
+
+Overfull \hbox (1.8883pt too wide) in paragraph at lines 48--48
+\T1/cmr/m/n/12 Alternativo(A1)[]  
+ []
+
+
+Overfull \hbox (1.8883pt too wide) in paragraph at lines 48--48
+\T1/cmr/m/n/12 Alternativo(A2)[]  
+ []
+
+
+Overfull \hbox (1.8883pt too wide) in paragraph at lines 48--48
+\T1/cmr/m/n/12 Alternativo(A2)[]  
+ []
+
+> Step: build the whole table.
+
+Overfull \hbox (1.8883pt too wide) in paragraph at lines 48--48
+\T1/cmr/m/n/12 Alternativo(A1)[]  
+ []
+
+
+Overfull \hbox (1.8883pt too wide) in paragraph at lines 48--48
+\T1/cmr/m/n/12 Alternativo(A1)[]  
+ []
+
+
+Overfull \hbox (1.8883pt too wide) in paragraph at lines 48--48
+\T1/cmr/m/n/12 Alternativo(A2)[]  
+ []
+
+
+Overfull \hbox (1.8883pt too wide) in paragraph at lines 48--48
+\T1/cmr/m/n/12 Alternativo(A2)[]  
+ []
+
+) [31] (./tables/casos_de_uso/eliminar_topico.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) (./tables/casos_de_uso/alterar_visibilidade_topico.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) [32] (./tables/casos_de_uso/comentar_topico.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) [33] (./tables/casos_de_uso/gostar_topico.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) (./tables/casos_de_uso/pedir_novo_codigo.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) [34] (./tables/casos_de_uso/registo.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) (./tables/casos_de_uso/login.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+ [35]) (./tables/casos_de_uso/ativar_conta.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) [36] (./tables/casos_de_uso/apagar_comentario.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) (./tables/casos_de_uso/responder_comentario.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) [37] (./tables/casos_de_uso/gostar_comentario.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) (./tables/casos_de_uso/ver_perfil.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) [38] (./tables/casos_de_uso/ver_notificacoes.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) (./tables/casos_de_uso/config_notificacoes.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) [39] (./tables/casos_de_uso/conf_conta.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) (./tables/casos_de_uso/rec_humanos.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+
+Overfull \hbox (4.51985pt too wide) in paragraph at lines 40--41
+ [][] 
+ []
+
+)) [40] (./sections/chap3/13.diagramas_casos_uso.tex
+
+LaTeX Warning: Reference `fig:9' on page 41 undefined on input line 9.
+
+<images/diagramas/casos_de_uso/use_case_forum.png, id=448, 565.11125pt x 223.83624pt>
+File: images/diagramas/casos_de_uso/use_case_forum.png Graphic file (type png)
+<use images/diagramas/casos_de_uso/use_case_forum.png>
+Package pdftex.def Info: images/diagramas/casos_de_uso/use_case_forum.png  used on input line 22.
+(pdftex.def)             Requested size: 273.14923pt x 108.19499pt.
+<images/diagramas/casos_de_uso/use_case_forum_search.png, id=449, 469.755pt x 199.74625pt>
+File: images/diagramas/casos_de_uso/use_case_forum_search.png Graphic file (type png)
+<use images/diagramas/casos_de_uso/use_case_forum_search.png>
+Package pdftex.def Info: images/diagramas/casos_de_uso/use_case_forum_search.png  used on input line 37.
+(pdftex.def)             Requested size: 273.14923pt x 116.1455pt.
+[41 <./images/diagramas/casos_de_uso/use_case_forum.png> <./images/diagramas/casos_de_uso/use_case_forum_search.png>]
+<images/diagramas/casos_de_uso/use_case_topic_details.png, id=463, 483.8075pt x 530.98375pt>
+File: images/diagramas/casos_de_uso/use_case_topic_details.png Graphic file (type png)
+<use images/diagramas/casos_de_uso/use_case_topic_details.png>
+Package pdftex.def Info: images/diagramas/casos_de_uso/use_case_topic_details.png  used on input line 53.
+(pdftex.def)             Requested size: 227.62206pt x 249.82166pt.
+<images/diagramas/casos_de_uso/use_case_topic_comments.png, id=464, 389.455pt x 268.00125pt>
+File: images/diagramas/casos_de_uso/use_case_topic_comments.png Graphic file (type png)
+<use images/diagramas/casos_de_uso/use_case_topic_comments.png>
+Package pdftex.def Info: images/diagramas/casos_de_uso/use_case_topic_comments.png  used on input line 67.
+(pdftex.def)             Requested size: 227.62206pt x 156.63492pt.
+ [42 <./images/diagramas/casos_de_uso/use_case_topic_details.png> <./images/diagramas/casos_de_uso/use_case_topic_comments.png>]
+<images/diagramas/casos_de_uso/use_case_account_validation.png, id=475, 311.1625pt x 166.6225pt>
+File: images/diagramas/casos_de_uso/use_case_account_validation.png Graphic file (type png)
+<use images/diagramas/casos_de_uso/use_case_account_validation.png>
+Package pdftex.def Info: images/diagramas/casos_de_uso/use_case_account_validation.png  used on input line 81.
+(pdftex.def)             Requested size: 227.62206pt x 121.88765pt.
+<images/diagramas/casos_de_uso/use_case_perfil.png, id=476, 421.575pt x 247.92625pt>
+File: images/diagramas/casos_de_uso/use_case_perfil.png Graphic file (type png)
+<use images/diagramas/casos_de_uso/use_case_perfil.png>
+Package pdftex.def Info: images/diagramas/casos_de_uso/use_case_perfil.png  used on input line 94.
+(pdftex.def)             Requested size: 227.62206pt x 133.86682pt.
+ [43 <./images/diagramas/casos_de_uso/use_case_account_validation.png> <./images/diagramas/casos_de_uso/use_case_perfil.png>]
+<images/diagramas/casos_de_uso/use_case_notificacoes.png, id=486, 349.305pt x 204.765pt>
+File: images/diagramas/casos_de_uso/use_case_notificacoes.png Graphic file (type png)
+<use images/diagramas/casos_de_uso/use_case_notificacoes.png>
+Package pdftex.def Info: images/diagramas/casos_de_uso/use_case_notificacoes.png  used on input line 110.
+(pdftex.def)             Requested size: 227.62206pt x 133.43622pt.
+<images/diagramas/casos_de_uso/use_case_rec_humanos.png, id=487, 309.155pt x 206.7725pt>
+File: images/diagramas/casos_de_uso/use_case_rec_humanos.png Graphic file (type png)
+<use images/diagramas/casos_de_uso/use_case_rec_humanos.png>
+Package pdftex.def Info: images/diagramas/casos_de_uso/use_case_rec_humanos.png  used on input line 122.
+(pdftex.def)             Requested size: 227.62206pt x 152.24571pt.
+) [44 <./images/diagramas/casos_de_uso/use_case_notificacoes.png> <./images/diagramas/casos_de_uso/use_case_rec_humanos.png>] (./sections/chap3/14.diagrama_entidade_relacao.tex
+<images/diagramas/diagrama_bd.png, id=498, 797.98125pt x 870.25125pt>
+File: images/diagramas/diagrama_bd.png Graphic file (type png)
+<use images/diagramas/diagrama_bd.png>
+Package pdftex.def Info: images/diagramas/diagrama_bd.png  used on input line 9.
+(pdftex.def)             Requested size: 455.24411pt x 496.4733pt.
+ [45 <./images/diagramas/diagrama_bd.png>] (./tables/tabela_base_dados.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+ [46] [47] [48])) [49] (./sections/chap3/15.diagrama_classes.tex
+<images/diagramas/diagrama_classes.png, id=525, 1002.74625pt x 695.59875pt>
+File: images/diagramas/diagrama_classes.png Graphic file (type png)
+<use images/diagramas/diagrama_classes.png>
+Package pdftex.def Info: images/diagramas/diagrama_classes.png  used on input line 8.
+(pdftex.def)             Requested size: 455.24411pt x 315.79741pt.
+) [50 <./images/diagramas/diagrama_classes.png>] (./sections/chap3/16.mockups.tex
+<images/mockups/home_screen.png, id=533, 378.41376pt x 813.0375pt>
+File: images/mockups/home_screen.png Graphic file (type png)
+<use images/mockups/home_screen.png>
+Package pdftex.def Info: images/mockups/home_screen.png  used on input line 16.
+(pdftex.def)             Requested size: 182.09486pt x 391.23364pt.
+ [51 <./images/mockups/home_screen.png>]
+<images/mockups/login.png, id=542, 391.4625pt x 844.15375pt>
+File: images/mockups/login.png Graphic file (type png)
+<use images/mockups/login.png>
+Package pdftex.def Info: images/mockups/login.png  used on input line 30.
+(pdftex.def)             Requested size: 182.09486pt x 392.66913pt.
+<images/mockups/register.png, id=543, 378.41376pt x 813.0375pt>
+File: images/mockups/register.png Graphic file (type png)
+<use images/mockups/register.png>
+Package pdftex.def Info: images/mockups/register.png  used on input line 32.
+(pdftex.def)             Requested size: 182.09486pt x 391.23364pt.
+ [52 <./images/mockups/login.png> <./images/mockups/register.png>]
+<images/mockups/account_confirmation.png, id=552, 378.41376pt x 813.0375pt>
+File: images/mockups/account_confirmation.png Graphic file (type png)
+<use images/mockups/account_confirmation.png>
+Package pdftex.def Info: images/mockups/account_confirmation.png  used on input line 48.
+(pdftex.def)             Requested size: 182.09486pt x 391.23364pt.
+<images/mockups/account_verification.png, id=553, 378.41376pt x 813.0375pt>
+File: images/mockups/account_verification.png Graphic file (type png)
+<use images/mockups/account_verification.png>
+Package pdftex.def Info: images/mockups/account_verification.png  used on input line 50.
+(pdftex.def)             Requested size: 182.09486pt x 391.23364pt.
+ [53 <./images/mockups/account_confirmation.png> <./images/mockups/account_verification.png>]
+<images/mockups/forum_home.png, id=563, 378.41376pt x 813.0375pt>
+File: images/mockups/forum_home.png Graphic file (type png)
+<use images/mockups/forum_home.png>
+Package pdftex.def Info: images/mockups/forum_home.png  used on input line 66.
+(pdftex.def)             Requested size: 227.62206pt x 489.05446pt.
+ [54 <./images/mockups/forum_home.png>]
+<images/mockups/topic_not_user.png, id=571, 378.41376pt x 816.04875pt>
+File: images/mockups/topic_not_user.png Graphic file (type png)
+<use images/mockups/topic_not_user.png>
+Package pdftex.def Info: images/mockups/topic_not_user.png  used on input line 86.
+(pdftex.def)             Requested size: 182.09486pt x 392.68265pt.
+<images/mockups/user_topic.png, id=572, 378.41376pt x 816.04875pt>
+File: images/mockups/user_topic.png Graphic file (type png)
+<use images/mockups/user_topic.png>
+Package pdftex.def Info: images/mockups/user_topic.png  used on input line 88.
+(pdftex.def)             Requested size: 182.09486pt x 392.68265pt.
+ [55 <./images/mockups/topic_not_user.png> <./images/mockups/user_topic.png>]
+<images/mockups/forum_create_topic.png, id=582, 378.41376pt x 816.04875pt>
+File: images/mockups/forum_create_topic.png Graphic file (type png)
+<use images/mockups/forum_create_topic.png>
+Package pdftex.def Info: images/mockups/forum_create_topic.png  used on input line 104.
+(pdftex.def)             Requested size: 227.62206pt x 490.86577pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56 <./images/mockups/forum_create_topic.png>]
+<images/mockups/notifications.png, id=591, 378.41376pt x 816.04875pt>
+File: images/mockups/notifications.png Graphic file (type png)
+<use images/mockups/notifications.png>
+Package pdftex.def Info: images/mockups/notifications.png  used on input line 117.
+(pdftex.def)             Requested size: 227.62206pt x 490.86577pt.
+ [57 <./images/mockups/notifications.png>]
+<images/mockups/user_profile.png, id=598, 378.41376pt x 816.04875pt>
+File: images/mockups/user_profile.png Graphic file (type png)
+<use images/mockups/user_profile.png>
+Package pdftex.def Info: images/mockups/user_profile.png  used on input line 134.
+(pdftex.def)             Requested size: 227.62206pt x 490.86577pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58 <./images/mockups/user_profile.png>]
+<images/mockups/human_resources.png, id=607, 378.41376pt x 816.04875pt>
+File: images/mockups/human_resources.png Graphic file (type png)
+<use images/mockups/human_resources.png>
+Package pdftex.def Info: images/mockups/human_resources.png  used on input line 147.
+(pdftex.def)             Requested size: 227.62206pt x 490.86577pt.
+ [59 <./images/mockups/human_resources.png>]
+<images/mockups/professional_profile.png, id=615, 378.41376pt x 816.04875pt>
+File: images/mockups/professional_profile.png Graphic file (type png)
+<use images/mockups/professional_profile.png>
+Package pdftex.def Info: images/mockups/professional_profile.png  used on input line 163.
+(pdftex.def)             Requested size: 227.62206pt x 490.86577pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60 <./images/mockups/professional_profile.png>]
+<images/mockups/account_registering.png, id=624, 378.41376pt x 816.04875pt>
+File: images/mockups/account_registering.png Graphic file (type png)
+<use images/mockups/account_registering.png>
+Package pdftex.def Info: images/mockups/account_registering.png  used on input line 176.
+(pdftex.def)             Requested size: 227.62206pt x 490.86577pt.
+) (./sections/chap3/17.diagrama_atividades.tex
+<images/diagramas/atividades/diagrama_atividades_home.png, id=625, 452.69125pt x 257.96375pt>
+File: images/diagramas/atividades/diagrama_atividades_home.png Graphic file (type png)
+<use images/diagramas/atividades/diagrama_atividades_home.png>
+Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_home.png  used on input line 12.
+(pdftex.def)             Requested size: 273.14923pt x 155.65326pt.
+ [61 <./images/mockups/account_registering.png>] [62 <./images/diagramas/atividades/diagrama_atividades_home.png>]
+<images/diagramas/atividades/diagrama_atividades_forum.png, id=640, 1175.39125pt x 582.175pt>
+File: images/diagramas/atividades/diagrama_atividades_forum.png Graphic file (type png)
+<use images/diagramas/atividades/diagrama_atividades_forum.png>
+Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_forum.png  used on input line 31.
+(pdftex.def)             Requested size: 455.24411pt x 225.48389pt.
+ [63 <./images/diagramas/atividades/diagrama_atividades_forum.png>]
+<images/diagramas/atividades/diagrama_atividades_criar_tópico.png, id=648, 584.1825pt x 545.03625pt>
+File: images/diagramas/atividades/diagrama_atividades_criar_tópico.png Graphic file (type png)
+<use images/diagramas/atividades/diagrama_atividades_criar_tópico.png>
+Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_criar_tópico.png  used on input line 51.
+(pdftex.def)             Requested size: 318.66948pt x 297.32579pt.
+ [64 <./images/diagramas/atividades/diagrama_atividades_criar_tópico.png>]
+<images/diagramas/atividades/diagrama_atividades_detalhes_topico.png, id=656, 626.34pt x 691.58376pt>
+File: images/diagramas/atividades/diagrama_atividades_detalhes_topico.png Graphic file (type png)
+<use images/diagramas/atividades/diagrama_atividades_detalhes_topico.png>
+Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_detalhes_topico.png  used on input line 69.
+(pdftex.def)             Requested size: 409.71692pt x 452.405pt.
+ [65 <./images/diagramas/atividades/diagrama_atividades_detalhes_topico.png>]
+<images/diagramas/atividades/diagrama_atividades_autenticação.png, id=665, 973.6375pt x 722.7pt>
+File: images/diagramas/atividades/diagrama_atividades_autenticação.png Graphic file (type png)
+<use images/diagramas/atividades/diagrama_atividades_autenticação.png>
+Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_autenticação.png  used on input line 87.
+(pdftex.def)             Requested size: 364.19667pt x 270.32813pt.
+ [66 <./images/diagramas/atividades/diagrama_atividades_autenticação.png>]
+<images/diagramas/atividades/diagrama_atividades_noti.png, id=673, 334.24875pt x 277.035pt>
+File: images/diagramas/atividades/diagrama_atividades_noti.png Graphic file (type png)
+<use images/diagramas/atividades/diagrama_atividades_noti.png>
+Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_noti.png  used on input line 102.
+(pdftex.def)             Requested size: 227.62206pt x 188.66452pt.
+<images/diagramas/atividades/diagrama_atividades_perfil.png, id=674, 1128.215pt x 417.56pt>
+File: images/diagramas/atividades/diagrama_atividades_perfil.png Graphic file (type png)
+<use images/diagramas/atividades/diagrama_atividades_perfil.png>
+Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_perfil.png  used on input line 117.
+(pdftex.def)             Requested size: 455.24411pt x 168.48647pt.
+ [67 <./images/diagramas/atividades/diagrama_atividades_noti.png> <./images/diagramas/atividades/diagrama_atividades_perfil.png>]
+<images/diagramas/atividades/diagrama_atividades_human_resources.png, id=685, 672.5125pt x 237.88875pt>
+File: images/diagramas/atividades/diagrama_atividades_human_resources.png Graphic file (type png)
+<use images/diagramas/atividades/diagrama_atividades_human_resources.png>
+Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_human_resources.png  used on input line 133.
+(pdftex.def)             Requested size: 455.24411pt x 161.03622pt.
+<images/diagramas/atividades/diagrama_atividades_prof_profile.png, id=686, 341.275pt x 238.8925pt>
+File: images/diagramas/atividades/diagrama_atividades_prof_profile.png Graphic file (type png)
+<use images/diagramas/atividades/diagrama_atividades_prof_profile.png>
+Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_prof_profile.png  used on input line 146.
+(pdftex.def)             Requested size: 227.62206pt x 159.33904pt.
+ [68 <./images/diagramas/atividades/diagrama_atividades_human_resources.png> <./images/diagramas/atividades/diagrama_atividades_prof_profile.png>]
+<images/diagramas/atividades/diagrama_atividades_add_professional.png, id=697, 598.235pt x 292.09125pt>
+File: images/diagramas/atividades/diagrama_atividades_add_professional.png Graphic file (type png)
+<use images/diagramas/atividades/diagrama_atividades_add_professional.png>
+Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_add_professional.png  used on input line 161.
+(pdftex.def)             Requested size: 364.19667pt x 177.82329pt.
+<images/diagramas/atividades/diagrama_atividades_prof_register.png, id=698, 570.13pt x 327.2225pt>
+File: images/diagramas/atividades/diagrama_atividades_prof_register.png Graphic file (type png)
+<use images/diagramas/atividades/diagrama_atividades_prof_register.png>
+Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_prof_register.png  used on input line 175.
+(pdftex.def)             Requested size: 364.19667pt x 209.02724pt.
+) (./sections/chap3/18.diagrama_estados.tex [69 <./images/diagramas/atividades/diagrama_atividades_add_professional.png> <./images/diagramas/atividades/diagrama_atividades_prof_register.png>]
+<images/diagramas/estados/criar_topico.png, id=710, 893.3375pt x 470.75874pt>
+File: images/diagramas/estados/criar_topico.png Graphic file (type png)
+<use images/diagramas/estados/criar_topico.png>
+Package pdftex.def Info: images/diagramas/estados/criar_topico.png  used on input line 20.
+(pdftex.def)             Requested size: 409.71692pt x 215.91234pt.
+ [70 <./images/diagramas/estados/criar_topico.png>]
+<images/diagramas/estados/responder_topico_tecnico.png, id=718, 592.2125pt x 416.55624pt>
+File: images/diagramas/estados/responder_topico_tecnico.png Graphic file (type png)
+<use images/diagramas/estados/responder_topico_tecnico.png>
+Package pdftex.def Info: images/diagramas/estados/responder_topico_tecnico.png  used on input line 40.
+(pdftex.def)             Requested size: 318.66948pt x 224.15521pt.
+ [71 <./images/diagramas/estados/responder_topico_tecnico.png>]
+<images/diagramas/estados/autenticacao.png, id=727, 671.50874pt x 487.8225pt>
+File: images/diagramas/estados/autenticacao.png Graphic file (type png)
+<use images/diagramas/estados/autenticacao.png>
+Package pdftex.def Info: images/diagramas/estados/autenticacao.png  used on input line 59.
+(pdftex.def)             Requested size: 318.66948pt x 231.50223pt.
+) [72 <./images/diagramas/estados/autenticacao.png>] (./sections/chap3/19.diagrama_sequencia.tex
+<images/diagramas/sequencia/diagrama_login.png, id=736, 756.8275pt x 982.67125pt>
 File: images/diagramas/sequencia/diagrama_login.png Graphic file (type png)
 <use images/diagramas/sequencia/diagrama_login.png>
 Package pdftex.def Info: images/diagramas/sequencia/diagrama_login.png  used on input line 23.
 (pdftex.def)             Requested size: 305.01271pt x 396.03041pt.
-[7 <./images/diagramas/sequencia/diagrama_login.png>]
-
-LaTeX Warning: Reference `fig:31' on page 8 undefined on input line 32.
-
-<images/diagramas/sequencia/diagrama_registo.png, id=165, 888.31876pt x 826.08624pt>
+ [73 <./images/diagramas/sequencia/diagrama_login.png>]
+<images/diagramas/sequencia/diagrama_registo.png, id=747, 888.31876pt x 826.08624pt>
 File: images/diagramas/sequencia/diagrama_registo.png Graphic file (type png)
 <use images/diagramas/sequencia/diagrama_registo.png>
 Package pdftex.def Info: images/diagramas/sequencia/diagrama_registo.png  used on input line 42.
 (pdftex.def)             Requested size: 364.19667pt x 338.67233pt.
-[8 <./images/diagramas/sequencia/diagrama_registo.png>]
-
-LaTeX Warning: Reference `fig:32' on page 9 undefined on input line 51.
-
-<images/diagramas/sequencia/registo_tecnico.png, id=172, 1204.5pt x 557.08125pt>
+ [74 <./images/diagramas/sequencia/diagrama_registo.png>]
+<images/diagramas/sequencia/registo_tecnico.png, id=756, 1204.5pt x 557.08125pt>
 File: images/diagramas/sequencia/registo_tecnico.png Graphic file (type png)
 <use images/diagramas/sequencia/registo_tecnico.png>
 Package pdftex.def Info: images/diagramas/sequencia/registo_tecnico.png  used on input line 57.
 (pdftex.def)             Requested size: 364.19667pt x 168.44322pt.
-)) (./chap4.tex [9 <./images/diagramas/sequencia/registo_tecnico.png>] [10
+)) (./chap4.tex [75 <./images/diagramas/sequencia/registo_tecnico.png>] [76
 
 ]
-Cap\'{\i }tulo 3.
-<images/Arquiteturas/arquitetura_de_solucao.png, id=185, 543.02875pt x 131.49126pt>
+Cap\'{\i }tulo 4.
+<images/Arquiteturas/arquitetura_de_solucao.png, id=769, 543.02875pt x 131.49126pt>
 File: images/Arquiteturas/arquitetura_de_solucao.png Graphic file (type png)
 <use images/Arquiteturas/arquitetura_de_solucao.png>
 Package pdftex.def Info: images/Arquiteturas/arquitetura_de_solucao.png  used on input line 11.
 (pdftex.def)             Requested size: 455.24411pt x 110.23921pt.
-[11 <./images/Arquiteturas/arquitetura_de_solucao.png>]
-<images/Arquiteturas/arquitetura_funcional.png, id=195, 1614.03pt x 443.6575pt>
+[77 <./images/Arquiteturas/arquitetura_de_solucao.png>]
+<images/Arquiteturas/arquitetura_funcional.png, id=779, 1614.03pt x 443.6575pt>
 File: images/Arquiteturas/arquitetura_funcional.png Graphic file (type png)
 <use images/Arquiteturas/arquitetura_funcional.png>
 Package pdftex.def Info: images/Arquiteturas/arquitetura_funcional.png  used on input line 43.
 (pdftex.def)             Requested size: 455.24411pt x 125.13715pt.
- [12 <./images/Arquiteturas/arquitetura_funcional.png>]
-<images/Arquiteturas/arquitetura_de_componentes_final.png, id=203, 645.41125pt x 502.87875pt>
+ [78 <./images/Arquiteturas/arquitetura_funcional.png>]
+<images/Arquiteturas/arquitetura_de_componentes_final.png, id=787, 645.41125pt x 502.87875pt>
 File: images/Arquiteturas/arquitetura_de_componentes_final.png Graphic file (type png)
 <use images/Arquiteturas/arquitetura_de_componentes_final.png>
 Package pdftex.def Info: images/Arquiteturas/arquitetura_de_componentes_final.png  used on input line 57.
@@ -809,14 +1765,14 @@ Overfull \hbox (16.94412pt too wide) detected at line 34
  [] 
  []
 
-[13 <./images/Arquiteturas/arquitetura_de_componentes_final.png>]
+[79 <./images/Arquiteturas/arquitetura_de_componentes_final.png>]
 Overfull \hbox (16.94412pt too wide) detected at line 34
  [] 
  []
 
-) [14])
+) [80])
 No file main.bbl.
-[15] (./main.aux)
+[81] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -829,28 +1785,32 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: B5C19CAA9D2A624B1CD962F265632540;1063
-(rerunfilecheck)             After:  A6AE07F235C549882BA0DA6620964A2C;3233.
+(rerunfilecheck)             Before: A6AE07F235C549882BA0DA6620964A2C;3233
+(rerunfilecheck)             After:  3FC1C5DFA228C3860195EDFD1686982C;24310.
  ) 
 Here is how much of TeX's memory you used:
- 23656 strings out of 480139
- 428735 string characters out of 5892167
- 851832 words of memory out of 5000000
- 41194 multiletter control sequences out of 15000+600000
- 484071 words of font info for 56 fonts, out of 8000000 for 9000
- 38 hyphenation exceptions out of 8191
- 106i,7n,115p,1219b,1049s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{table.1.1} has been referenced but does not exist, replaced by a fixed one
+ 26041 strings out of 478287
+ 514462 string characters out of 5849290
+ 1172854 words of memory out of 5000000
+ 43361 multiletter control sequences out of 15000+600000
+ 537943 words of font info for 140 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 106i,8n,118p,1179b,1315s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{figure.caption.6} has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{section.1.5} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{subsection.2.3.3} has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{section.1.4} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{subsection.2.3.2} has been referenced but does not exist, replaced by a fixed one
 
- </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsl1200.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/roberto/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk>
-Output written on main.pdf (29 pages, 762749 bytes).
+pdfTeX warning (dest): name{subsection.2.3.1} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.3} has been referenced but does not exist, replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb>
+Output written on main.pdf (95 pages, 2289385 bytes).
 PDF statistics:
- 581 PDF objects out of 1000 (max. 8388607)
- 229 compressed objects within 3 object streams
- 67 named destinations out of 1000 (max. 500000)
- 94 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 923 PDF objects out of 1000 (max. 8388607)
+ 686 compressed objects within 7 object streams
+ 290 named destinations out of 1000 (max. 500000)
+ 417 words of extra memory for PDF output out of 10000 (max. 10000000)
 
