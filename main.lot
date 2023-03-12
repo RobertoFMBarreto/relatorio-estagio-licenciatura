@@ -1,5 +1,24 @@
 \babel@toc {portuges}{}\relax 
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{Tabela de endpoints}}{13}{table.3.1}%
+\contentsline {table}{\numberline {1.1}{Tabela de requisitos funcionais}}{3}{table.1.1}%
+\contentsline {table}{\numberline {1.2}{\ignorespaces Tabela de requisitos não funcionais\relax }}{7}{table.caption.5}%
+\contentsline {table}{\numberline {1.3}{Tabela de histórias de utilizador}}{14}{table.1.3}%
+\contentsline {table}{\numberline {1.4}{Tabela de casos de uso}}{17}{table.1.4}%
+\contentsline {table}{\numberline {1.5}{Tabela de especificação de caso de uso login}}{19}{table.1.5}%
+\contentsline {table}{\numberline {1.6}{Tabela de especificação de caso de uso de pesquisa por escrito}}{20}{table.1.6}%
+\contentsline {table}{\numberline {1.7}{Tabela de especificação de caso de uso de pesquisa por código QR}}{21}{table.1.7}%
+\contentsline {table}{\numberline {1.8}{Tabela de especificação de caso de uso de listagem de tópicos do utilizador}}{22}{table.1.8}%
+\contentsline {table}{\numberline {1.9}{Tabela de especificação de caso de uso de listagem de tópicos do técnico}}{22}{table.1.9}%
+\contentsline {table}{\numberline {1.10}{\ignorespaces Tabela de especificação de caso de uso de finalizar tópico\relax }}{23}{table.caption.15}%
+\contentsline {table}{\numberline {1.11}{\ignorespaces Tabela de especificação de caso de uso de selecionar melhor resposta\relax }}{24}{table.caption.16}%
+\contentsline {table}{\numberline {1.12}{\ignorespaces Tabela de especificação do caso de uso de eliminar tópico\relax }}{25}{table.caption.17}%
+\contentsline {table}{\numberline {1.13}{\ignorespaces Tabela de especificação de caso de uso de alteração de visibilidade de um tópico\relax }}{25}{table.caption.18}%
+\contentsline {table}{\numberline {1.14}{\ignorespaces Tabela de especificação de caso de uso de comentar um tópico\relax }}{26}{table.caption.19}%
+\contentsline {table}{\numberline {1.15}{\ignorespaces Tabela de especificação de caso de uso de gostar de um tópico\relax }}{27}{table.caption.20}%
+\contentsline {table}{\numberline {1.16}{\ignorespaces Tabela de especificação de caso de uso de registo\relax }}{28}{table.caption.22}%
+\contentsline {table}{\numberline {1.17}{Tabela de especificação de caso de uso criação de novo tópico}}{28}{table.1.17}%
+\contentsline {table}{\numberline {1.18}{Tabela de especificação de caso de uso ativação de conta}}{29}{table.1.18}%
+\contentsline {table}{\numberline {1.19}{\ignorespaces Tabela de especificação de caso de uso de apagar comentário\relax }}{30}{table.caption.23}%
+\contentsline {table}{\numberline {1.20}{\ignorespaces Tabela de especificação de caso de uso de responder a comentário\relax }}{30}{table.caption.24}%
+\contentsline {table}{\numberline {1.21}{\ignorespaces Tabela de especificação de caso de uso de gostar de comentário\relax }}{31}{table.caption.25}%
+\contentsline {table}{\numberline {1.22}{Dicionário de termos da base de dados}}{39}{table.1.22}%
