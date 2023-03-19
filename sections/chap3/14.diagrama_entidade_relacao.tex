@@ -8,7 +8,29 @@ sendo esta esquematizada tendo por base as necessidades do projeto.
     
     \includegraphics[width=\textwidth]{images/diagramas/diagrama_bd.png}
     \caption{Diagrama Entidade Relação base de dados Install\&Go}
-    \label{fig:14}
+    \label{fig:20}
+\end{figure}
+
+\newpage
+
+\subsection{Escolha de diagrama de entidade relação}
+Durante o desenvolvimento do diagrama de entidade relação surgiu 
+a opção de se separar as empresas dos seus técnicos em duas tabelas como 
+exemplificado na Figura~\ref{fig:100}.O diagrama anteriormente 
+mostrado foi escolhido devido à sua simplicidade, 
+visto que no diagrama representado na Figura~\ref{fig:100} sempre que se
+deseja, por exemplo, obter o utilizador que criou um tópico teria de se
+verificar se o uid contido é de uma empresa ou de um técnico e apenas 
+de seguida se obter o utilizador que criou o tópico, sendo este um exemplo
+entre os demais do mesmo tipo. Tendo em conta este problema foi decido optar
+pelo diagrama anteriormente demonstrado.
+
+\begin{figure}[htb]
+    \centering
+    
+    \includegraphics[width=\textwidth]{images/diagramas/diagrama_bd_alt.png}
+    \caption{Diagrama Entidade Relação alternativo}
+    \label{fig:21}
 \end{figure}
 
 \newpage
@@ -17,5 +39,6 @@ sendo esta esquematizada tendo por base as necessidades do projeto.
 
 De forma a ser possível entender o propósito de cada tabela e atributo 
 foi então criado um dicionário de termos para a base de dados(Tabela X).
+
 
 \input{tables/tabela_base_dados}
