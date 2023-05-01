@@ -1,0 +1,36 @@
+\subsection{Controllers}
+Assim que um pedido consegue passar por todos os middlewares sem ser impedido, este é então redirecionado para um controller.
+Um controller é %Todo: explicar o que é um controller
+
+\subsubsection{Estruturação dos controllers}
+De forma a evitar que o código destes controllers varie em termos de estrutura, foi então decidido desenhar uma estrutura de controller e 
+aplicar esta perante o demais código. A estrutura deste segue as seguintes etapas:
+\begin{enumerate}
+ \item Obter dados do pedido
+ \item Validar se os dados obrigatórios são obtidos
+ \item Validar o pedido perante o modelo de negócio
+ \item Executar a lógica do pedido
+ \item Formular a resposta e enviar
+ \item Em caso de erro este deverá ser capturado e processado de forma a enviar um erro para o utilizador
+\end{enumerate}
+
+Para garantir que esta estrutura sempre será aplicada foram utilizados snippets de código que permitem criar um modelo de estrutura de código sendo apenas necessário escrever a palavra chave e toda a estrutura é escrita, necessitando de seguida de efetuar as alterações necessárias perante 
+o contexto.
+
+\newpage
+
+\subsubsection{Execução da lógica de negócio}
+A execução da lógica de negócio passa por direcionar os dados para a ação correta, sendo que esta ação geralmente resulta em uma operação de base de dados. Inicialmente foi desenvolvida toda a validação de código e todas as operações de base de dados diretamente na execução da lógica de negócio, após uma revisão desta organização de código com o professor orientador, foi decidido separar esta funcionalidades, surgindo assim a componente de validação de dados, a componete de operações de base de dados e por fim a componente de lógica de negócio que implementa a componente de operações de base de dados. Sendo assim de forma a evitar que estas operações sobre a base de dados estejam em conjunto com o direcionamento dos dados, foram então criados modelos para cada tabela. Cada modelo contém um conjunto de operações sobre a sua tabela correspondente, estas operações estão contidas sobre métodos que podem receber dados para executar na operação e devolver a resposta da mesma.
+
+\subsubsection{Validação dos dados}
+A validação dos dados é necessária de forma a evitar erros a nivel de servidor com dados em falta e também para aplicar as regras de negócio, garantindo assim que estas são cumpridas. Para realizar estas validações é primeiramente verificado que todos os dados são recebidos, de seguida estes são enviados para um validador. O validador executa todas as verificações necessárias a nivel de regras de negócio e em caso de alguma regra não ser cumprida, é então atirado um erro.
+
+\subsubsection{Formulação da resposta}
+Assim como mencionado anteriormente o bem mais importante numa boa comunicação é a utilização da mesma linguagem, sendo assim a resposta do servidor deverá  utilizar a linguagem indicada pelo utilizador. De forma a realizar esta tradução foi utilizado o mesmo conceito que é utilizado para a tradução de aplicações android onde nestas é criado um ficheiro que contém um conjunto de chaves e a cada chave corresponde um texto, para cada tradução estas chaves têm de existir de forma a ser possível obter o texto correto para cada chave. Sendo assim foi utilizado um ficheiro json contento as chaves das linguagens suportadas, a cada linguagem corresponde um conjunto de outras chaves que contém todas as traduções necessárias, utilizando neste caso numeração, em vez de palavras. Esta abordagem permite que de forma fácil futuramente seja possível adicionar outras linguagens ao servidor.
+
+% todo mostrar exemplo
+
+Para dar suporte a este ficheiro foi criada uma operação que recebe a chave desejada e a linguagem desejada, devolvendo o texto correspondente, sendo assim na Formulação da resposta esta operação é executada indicando a chave da resposta a enviar e a linguagem desejada obtendo o texto traduzido, sendo então este devolvido para o utilizador.
+
+\subsubsection{Processamento de erros}
+Visto que não é de interesse enviar para o utilizador erros do próprio servidor, foi então decidido controlar estes, para isso foi criado um erro customizado, tendo este por base o erro da própria linguagem. Este erro recebe por parâmetro o código da tradução da mensagem de erro. Esta abordagem permite também evitar que sempre que um erro é lançado o sistema pare. Mesmo com esta abordagem acontece que sempre que um erro é lançado por base de dados, erro de código ou de biblioteca, o erro original é chamado, pelo que foi decidido que sempre que é detetado um erro que não é do tipo do erro customizado, então será devolvido um erro com mensagem de erro de servidor evitando que dados sensíveis e desnecessários para o utilizador sejam devolvidos.
