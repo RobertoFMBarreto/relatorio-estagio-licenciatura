@@ -28,7 +28,7 @@ A validação dos dados é necessária de forma a evitar erros a nivel de servid
 \subsubsection{Formulação da resposta}
 Assim como mencionado anteriormente o bem mais importante numa boa comunicação é a utilização da mesma linguagem, sendo assim a resposta do servidor deverá  utilizar a linguagem indicada pelo utilizador. De forma a realizar esta tradução foi utilizado o mesmo conceito que é utilizado para a tradução de aplicações android onde nestas é criado um ficheiro que contém um conjunto de chaves e a cada chave corresponde um texto, para cada tradução estas chaves têm de existir de forma a ser possível obter o texto correto para cada chave. Sendo assim foi utilizado um ficheiro json contento as chaves das linguagens suportadas, a cada linguagem corresponde um conjunto de outras chaves que contém todas as traduções necessárias, utilizando neste caso numeração, em vez de palavras. Esta abordagem permite que de forma fácil futuramente seja possível adicionar outras linguagens ao servidor.
 
-% todo mostrar exemplo
+% //TODO mostrar exemplo
 
 Para dar suporte a este ficheiro foi criada uma operação que recebe a chave desejada e a linguagem desejada, devolvendo o texto correspondente, sendo assim na Formulação da resposta esta operação é executada indicando a chave da resposta a enviar e a linguagem desejada obtendo o texto traduzido, sendo então este devolvido para o utilizador.
 
