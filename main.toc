@@ -106,7 +106,7 @@
 \contentsline {subsection}{\numberline {3.18.1}Arquitetura de funcional}{75}{subsection.3.18.1}%
 \contentsline {subsection}{\numberline {3.18.2}Arquitetura de componentes}{76}{subsection.3.18.2}%
 \contentsline {subsection}{\numberline {3.18.3}Tabela de endpoints}{77}{subsection.3.18.3}%
-\contentsline {chapter}{\numberline {4}Implementação}{79}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Trabalho desenvolvido}{79}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Web scraper}{79}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Implemenção web scraper}{80}{subsection.4.1.1}%
 \contentsline {subsubsection}{\numberline {4.1.1.1}Implemenção no website}{85}{subsubsection.4.1.1.1}%
