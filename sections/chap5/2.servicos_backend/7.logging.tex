@@ -1,0 +1,9 @@
+\subsubsection{Logging de erros}
+
+A identificação dos erros no servidor é difícil, pois uma vez que os erros são tratados, os dados referentes aos mesmos não são guardados ou utilizados, para resolver este problema foi então decidido que sempre que um erro que não é customizado é detetado, é registado um log, este contém informações sobre o pedido como data e hora, dados recebidos e assim como também a descrição original do erro e serviço referente.
+
+Para implementar esta solução foi então primeiramente criado um middleware que sempre que deteta erros dentro do serviço executa um método. Este método por sua vez obtém os dados referentes ao pedido realizado, sendo estes a data e hora, os dados recebidos e o serviço pedido. Após se obter os dados do pedido é obtida a mensagem do erro, sendo então estes dados acrescentados em uma nova linha no ficheiro de erros do servidor.
+
+\subsubsection{Logging de pedidos com morgan}
+
+Para realizar o logging de pedidos a serviços foi então utilizado o morgan, esta ferramenta apenas precisa que seja indicado o ficheiro onde escrever os logs, sendo utilizado um ficheiro chamado log, este também precisa de saber qual o tipo de log a realizar, sendo estes tipos indicados pela ferramenta, o tipo utilizado foi o combinado, este é o tipo de log mais completo da ferramenta, visto que é o que obtém mais dados, sendo estes, a data e hora do pedido, o tipo de pedido, o serviço pedido, os dados recebidos, a resposta devolvida e também a descrição do sistema utilizado.

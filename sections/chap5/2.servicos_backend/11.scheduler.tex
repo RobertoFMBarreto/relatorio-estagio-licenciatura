@@ -1,8 +1,0 @@
-\subsection{Agendador de emails}
-
-Um requisito para este projeto é o envio de emails com relatório diário de notificação todos os dias ao final do dia. Para realizar este primeiramente foi pesquisado que ferramentas existem para realizar este tipo de ações, pelo que foram encontradas o cronetab e o node-cron. A grande diferença este estas duas ferramentas é, o cronetab funciona a nivel de servidor sendo que sempre que se encontra na hora programada, este executa um comando indicado, este comando poderá por exemplo executar um código para enviar emails.Já o node-cron trata-se de um biblioteca de NodeJs que trabalha com base no crontab, este permite o fácil agendamento de tarefas de forma programática assim como também a indicação do código a ser executado 
-sem necessidade de criar comandos de execução de código.
-
-Visto que este a hora de execução do código de envio de emails poderá variar e necessitar de reprogramação foi então optado pela utilização do node-cron devido á sua facilidade de utilização, agilizando assim o processo de reprogramação de horas de envio de relatório.
-
-Sendo assim foi inicialmente programado para este enviar o relatório de notificações todos os dias às 22 horas, para realizar esta configuração e necessário indicar primeiramente a programação de horário de envio, para isso é utilizada a estrutura segundo, minuto, hora, dia do mês, mês, dia da semana. Visto que o objetivo é as 22 horas os segundos e minutos foram indicados como 0 e as horas foram indicadas como 22, já o restante foi indicado com o símbolo * que indica que o processo deverá occorrer em todas as instâncias dos restantes valores, significando assim todos os dias.

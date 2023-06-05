@@ -1,8 +1,0 @@
-\subsection{Envio de emails}
-Para o envio de emails para os utilizadores, foi utilizada a ferramenta nodemailer, EXPLICAR O QUE é nodemailer..... Esta ferramenta foi escolhida devido a ser uma das mais utilizadas para esta tipo de necessidade, o que permite que exista mais informação sobre a mesma facilitando a resolução e identificação de erros.
-
-Para além de uma ferramenta para enviar emails é preciso também de ter acesso a um servidor de emails, sendo assim para vias de teste foi utilizado um servidor gratuito de email sendo este hospedado por DIZER QUEM HOSPEDAVA, após a fase de testes foi então alterado para o servidor de email da empresa permitindo assim que este email seja identificado como empresa Motorline. A configuração deste servidor foi então colocada em um ficheiro de configuração que devolve o objeto do servidor, os dados de acesso ao servidor foram guardados em um ficheiro .env sendo este futuramente encriptado.
-
-Para desenvolver o conteúdo dos emails foi utilizada a ferramenta Tabular Email, esta ferramenta permite realizar o design do conteúdo de um email, sendo possível de seguida exportar o mesmo para html, a dificuldade desta ferramenta é que não permite a utilização de acentuação e visto que o html é gerado por uma máquina este torna-se complicado de navegar e traduzir. Após a resolução dos erros mencionados, este email é colocado em uma função que recebe por parâmetro os dados necessários a enviar e escreve no email sendo assim este devolvido na criação. Este processo foi então repetido apra cada tipo de email que é necessário enviar.
-
-Após obter o servidor a utilizar e o conteúdo a enviar, é então utilizado o objeto do servidor de email e no envio do email é definido o destinatário, o assunto e o conteúdo do email.
