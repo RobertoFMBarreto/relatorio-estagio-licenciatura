@@ -32,5 +32,7 @@ Assim como mencionado anteriormente o bem mais importante numa boa comunicação
 
 Para dar suporte a este ficheiro foi criada uma operação que recebe a chave desejada e a linguagem desejada, devolvendo o texto correspondente, sendo assim na Formulação da resposta esta operação é executada indicando a chave da resposta a enviar e a linguagem desejada obtendo o texto traduzido, sendo então este devolvido para o utilizador.
 
+\newpage
+
 \subsubsection{Processamento de erros}
 Visto que não é de interesse enviar para o utilizador erros do próprio servidor, foi então decidido controlar estes, para isso foi criado um erro customizado, tendo este por base o erro da própria linguagem. Este erro recebe por parâmetro o código da tradução da mensagem de erro. Esta abordagem permite também evitar que sempre que um erro é lançado o sistema pare. Mesmo com esta abordagem acontece que sempre que um erro é lançado por base de dados, erro de código ou de biblioteca, o erro original é chamado, pelo que foi decidido que sempre que é detetado um erro que não é do tipo do erro customizado, então será devolvido um erro com mensagem de erro de servidor evitando que dados sensíveis e desnecessários para o utilizador sejam devolvidos.
