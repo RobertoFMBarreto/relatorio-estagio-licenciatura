@@ -7,9 +7,12 @@
 \contentsline {subsection}{\numberline {1.1.4}Providers}{3}{subsection.1.1.4}%
 \contentsline {subsection}{\numberline {1.1.5}Helpers}{3}{subsection.1.1.5}%
 \contentsline {subsection}{\numberline {1.1.6}Gestão de utilizadores}{4}{subsection.1.1.6}%
-\contentsline {subsection}{\numberline {1.1.7}Forum}{5}{subsection.1.1.7}%
-\contentsline {subsection}{\numberline {1.1.8}Firestorage}{5}{subsection.1.1.8}%
-\contentsline {subsection}{\numberline {1.1.9}Imagens}{5}{subsection.1.1.9}%
-\contentsline {subsection}{\numberline {1.1.10}Videos}{5}{subsection.1.1.10}%
-\contentsline {subsection}{\numberline {1.1.11}Links}{5}{subsection.1.1.11}%
-\contentsline {subsection}{\numberline {1.1.12}Ios}{5}{subsection.1.1.12}%
+\contentsline {subsection}{\numberline {1.1.7}Fórum}{5}{subsection.1.1.7}%
+\contentsline {subsubsection}{\numberline {1.1.7.1}Filtragem de tópicos}{6}{subsubsection.1.1.7.1}%
+\contentsline {subsubsection}{\numberline {1.1.7.2}Carregamento de tópicos}{7}{subsubsection.1.1.7.2}%
+\contentsline {subsubsection}{\numberline {1.1.7.3}Detalhes de tópico}{8}{subsubsection.1.1.7.3}%
+\contentsline {subsection}{\numberline {1.1.8}Firestorage}{9}{subsection.1.1.8}%
+\contentsline {subsection}{\numberline {1.1.9}Imagens}{9}{subsection.1.1.9}%
+\contentsline {subsection}{\numberline {1.1.10}Videos}{9}{subsection.1.1.10}%
+\contentsline {subsection}{\numberline {1.1.11}Links}{9}{subsection.1.1.11}%
+\contentsline {subsection}{\numberline {1.1.12}Ios}{9}{subsection.1.1.12}%
