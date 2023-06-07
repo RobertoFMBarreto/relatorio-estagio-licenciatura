@@ -1,0 +1,19 @@
+\subsection{Notificações}
+
+A implementação de notificações revelou-se ser a implementação de maior dificuldade devido a diversos imprevistos na implementação da mesma. Para implementação de notificações foi utilizado o serviço de notificações do firebase, esta implementação surge assim como os links em 2 secções, primeiramente backend e de seguida frontend.
+
+A nivel de backend foi necessário utilizar axios para realizar um pedido ao serviço de notificações do firebase, mas assim como na criação dos links o serviço não indica qualquer informações sobre erro, apenas o dispositivo poderá ou não receber a notificação. 
+
+Primeiramente foi utilizado o conteúdo a enviar indicado pela documentação do serviço, mas o serviço apenas retornava uma mensagem de erro, se seguida foi pesquisado outras implementações de outros utilizadores e testado, mas novamente surgia um erro, pelo que foi decidido utilizado o conteúdo indicado pelo professor de programação de dispositivos móveis, tendo este conteúdo funcionado sem qualquer indicação de erro. 
+
+No conteúdo da notificação é enviado em formato json a mensagem a mostrar na notificação e como as notificações serão sempre referentes a tópicos ou comentários, então é indicado o id do tópico, do comentário e em caso de necessidade o id do comentário pai.
+
+Este processo de notificação foi também aproveitado para direcionar os mesmos dados para notificação de email em caso do utilizador possuir ativo as notificações por email, sendo gerado um link dinâmico com os dados na notificação e colocado no email.
+
+A nível de frontend foi então importada a biblioteca do serviço de notificações do firebase, sendo então esta implementada de acordo com a documentação do mesmo. Sendo que é necessário detetar notificações no iniciar da aplicação, durante a utilização e quando esta se encontra em segundo plano. Sendo assim aproveitado estas deteções para implementar o direcionamento do utilizador para as páginas referentes às notificações, utilizando os dados enviados na notificação.
+
+O grande problema encontrado com as notificações é que o icon de notificação não era mostrado corretamente sendo que ou era mostrado um quadrado escuro ou nenhum icon. A biblioteca de notificações do firebase não permite a customicação do icon da mesma, pelo que foi decidido utilizar a biblioteca flutter\_local\_notifications, esta permite a total customização das notificações sendo então enviado como icon o icon desenhado para a aplicação, mas mesmo assim as notificações continuavam com o mesmo erro, pelo que foi decidido realizar uma pesquisa sobre o mesmo e foi percebido que android possui um novo sistema para os icons das notificações pelo que é necessário transformar estes icons em preto ou branco com fundo transparente, sendo então de seguida tratados pelo próprio android.
+
+Sendo assim foi realizada a transformação e novamente alterados os icons das notificações, após uma nova testagem foi percebido que mesmo assim apenas o icon da notificação expandida teria sido alterado, após uma nova pesquisa foi percebido que android necessita de 2 icons de notificação para aplicar a ambas as situações de notificação, tendo sido assim resolvido o problema em questão.
+
+Nesta implementação apenas um problema continuou sem resolução, o problema em questão é a abertura de notificações quando a aplicação se encontra terminada, foram testadas várias soluções, mas após a leitura de documentação e de soluções de outros utilizadores, o flutter não permite a reconfiguração do comportamento de notificações quando a aplicação se encontra terminada, pelo que este problema não contém solução de momento. O flutter possui como futura implementação a permissão de reconfiguração do comportamento do click neste tipo de notificação, mas de momento não dispõe de solução.

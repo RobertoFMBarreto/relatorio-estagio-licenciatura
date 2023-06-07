@@ -15,6 +15,8 @@ Para a implementação da apresentação das miniaturas de imagens, foi utilizad
   \label{fig:76}%
 \end{figure}
 
+\newpage
+
 \subsection{Apresentação de Imagens em carrosel}
 
 A apresentação de imagens deverá permitir que o utilizador as visualize em ponto grande conseguindo também realizar diversas ações sobre estas, para isso foram experimentadas diversas bibliotecas, mas nunca se conseguia o comportamento desejado, sendo assim foi decidido criar o próprio carrosel de imagens, sendo que o próprio flutter já disponibiliza um widget para tal.
@@ -22,8 +24,6 @@ A apresentação de imagens deverá permitir que o utilizador as visualize em po
 O ponto de maior dificuldade para este processo foi a implementação de zoom, visto que o flutter não dispõe de widgets para tal, sendo assim foi necessário primeiramente detetar gestos com o detetor de gestos da ferramenta e aplicado um zoom sobre o centro do gesto, os gestos aceites foram o de pinça e o gesto de duplo clique.
 
 O grande problema com esta solução é que visto que é permitido um scroll horizontal de imagens os gestos por vezes poderão não funcionar corretamente, principalmente o gesto de pinça que se efetuado na horizontal poderá resultar em scroll horizontal. Para resolver tal problema foi decidido que quando dois dedos são detetados no ecrã a navegação horizontal fica bloqueada e assim que estes são levantados, a navegação horizontal é ativada novamente.
-
-\newpage
 
 \subsection{Carregamento de Imagens}
 
