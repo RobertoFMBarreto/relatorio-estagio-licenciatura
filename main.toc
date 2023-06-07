@@ -44,4 +44,4 @@
 \contentsline {subsection}{\numberline {1.2.13}Links}{31}{subsection.1.2.13}%
 \contentsline {subsection}{\numberline {1.2.14}Notificações}{32}{subsection.1.2.14}%
 \contentsline {subsection}{\numberline {1.2.15}Permissões}{33}{subsection.1.2.15}%
-\contentsline {subsection}{\numberline {1.2.16}Ios}{33}{subsection.1.2.16}%
+\contentsline {subsection}{\numberline {1.2.16}Ios}{34}{subsection.1.2.16}%
