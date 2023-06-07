@@ -1,1 +1,9 @@
 \subsection{Videos}
+
+A grande dificuldade encontrada com os vídeos foi o facto de ser necessário um comportamento diferente nestes quando se encontram no ecrã de visualização de imagens e vídeos, pois ao contrário de imagens, os vídeos necessitam de um player, sendo sempre necessário verificar qual o tipo de ficheiro antes de carregar o widget do mesmo.
+
+Para resolver o problema de utilizar um player foi primeiramente testada uma biblioteca que permite a utilização do player nativo do dispositivo, ou seja, android utilizaria o player do android e ios utilizaria o player de ios. O grande problema com esta solução é que o player de android tem o botões completamente brancos, sem nenhum tipo de fundo para os destacar significando isto que se um video branco fosse visualizado, o utilizador não conseguiria visualizar os botões do player.
+
+Após o problema anterior foi decidido desenvolver o player próprio, após a implementação de funções como, pausar, resumir video, avançar 5 segundos e voltar 5 segundos, assim como também esconder e mostrar os botões, existiam 2 grandes problemas, sendo estes mostrar o video em ponto grande e retornar para o mesmo tempo de video em ponto pequeno e também o comportamento do player não era completamente fluido.
+
+Após alguma pesquisa foi percebido que o player de ios resolvia os problemas do player de android através da colocação de um fundo nos botões do player. Através da biblioteca appinio, é possível utilizar o player nativo de ios em android, sendo também possível configurar este. Sendo assim foi decidido utilizar o player de ios em ambos os sistemas operativos resolvendo assim todo o problema. Este player também permitiu a resolução de um problema menor que era a visualização de vídeos em ponto grande sendo que dependendo a orientação do vídeo o player alterava a orientação da aplicação voltando à orientação vertical uma vez que se termina a visualização do vídeo em ponto grande.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.4.28)  7 JUN 2023 11:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.4.28)  7 JUN 2023 11:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -685,12 +685,12 @@ Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
  (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2022-12-17 L3 Experimental document command parser
 ))
-<lesi/logos/logo_ipca.png, id=80, 707.64375pt x 356.33125pt>
+<lesi/logos/logo_ipca.png, id=84, 707.64375pt x 356.33125pt>
 File: lesi/logos/logo_ipca.png Graphic file (type png)
 <use lesi/logos/logo_ipca.png>
 Package pdftex.def Info: lesi/logos/logo_ipca.png  used on input line 37.
 (pdftex.def)             Requested size: 113.00935pt x 56.9055pt.
-<lesi/logos/logo_est.png, id=82, 2971.1pt x 1124.2pt>
+<lesi/logos/logo_est.png, id=86, 2971.1pt x 1124.2pt>
 File: lesi/logos/logo_est.png Graphic file (type png)
 <use lesi/logos/logo_est.png>
 Package pdftex.def Info: lesi/logos/logo_est.png  used on input line 37.
@@ -717,52 +717,52 @@ Cap\'{\i }tulo 1.
 [1
 
 ] (./sections/chap4/3.frontend/0.frontend.tex (./sections/chap4/3.frontend/1.organizacao.tex
-<images/implementacao/frontend/organizacao_projeto.png, id=161, 169.63374pt x 151.56625pt>
+<images/implementacao/frontend/organizacao_projeto.png, id=166, 169.63374pt x 151.56625pt>
 File: images/implementacao/frontend/organizacao_projeto.png Graphic file (type png)
 <use images/implementacao/frontend/organizacao_projeto.png>
 Package pdftex.def Info: images/implementacao/frontend/organizacao_projeto.png  used on input line 7.
 (pdftex.def)             Requested size: 159.33821pt x 142.37283pt.
 ) (./sections/chap4/3.frontend/2.models.tex [2 <./images/implementacao/frontend/organizacao_projeto.png>]) [3] (./sections/chap4/3.frontend/3.gestao_users.tex
-<images/implementacao/frontend/gestao_users/1686054310970.jpg, id=176, 1084.05pt x 779.91376pt>
+<images/implementacao/frontend/gestao_users/1686054310970.jpg, id=181, 1084.05pt x 779.91376pt>
 File: images/implementacao/frontend/gestao_users/1686054310970.jpg Graphic file (type jpg)
 <use images/implementacao/frontend/gestao_users/1686054310970.jpg>
 Package pdftex.def Info: images/implementacao/frontend/gestao_users/1686054310970.jpg  used on input line 7.
 (pdftex.def)             Requested size: 182.09486pt x 131.00081pt.
-<images/implementacao/frontend/gestao_users/1686054218255.jpg, id=177, 1084.05pt x 779.91376pt>
+<images/implementacao/frontend/gestao_users/1686054218255.jpg, id=182, 1084.05pt x 779.91376pt>
 File: images/implementacao/frontend/gestao_users/1686054218255.jpg Graphic file (type jpg)
 <use images/implementacao/frontend/gestao_users/1686054218255.jpg>
 Package pdftex.def Info: images/implementacao/frontend/gestao_users/1686054218255.jpg  used on input line 9.
 (pdftex.def)             Requested size: 182.09486pt x 131.00081pt.
-<images/implementacao/frontend/gestao_users/1686054218243.jpg, id=178, 1084.05pt x 939.51pt>
+<images/implementacao/frontend/gestao_users/1686054218243.jpg, id=183, 1084.05pt x 939.51pt>
 File: images/implementacao/frontend/gestao_users/1686054218243.jpg Graphic file (type jpg)
 <use images/implementacao/frontend/gestao_users/1686054218243.jpg>
 Package pdftex.def Info: images/implementacao/frontend/gestao_users/1686054218243.jpg  used on input line 17.
 (pdftex.def)             Requested size: 182.09486pt x 157.80792pt.
 ) [4 <./images/implementacao/frontend/gestao_users/1686054310970.jpg> <./images/implementacao/frontend/gestao_users/1686054218255.jpg> <./images/implementacao/frontend/gestao_users/1686054218243.jpg>] (./sections/chap4/3.frontend/4.forum.tex
-<images/implementacao/frontend/forum/1686055611203.jpg, id=185, 1084.05pt x 2284.535pt>
+<images/implementacao/frontend/forum/1686055611203.jpg, id=190, 1084.05pt x 2284.535pt>
 File: images/implementacao/frontend/forum/1686055611203.jpg Graphic file (type jpg)
 <use images/implementacao/frontend/forum/1686055611203.jpg>
 Package pdftex.def Info: images/implementacao/frontend/forum/1686055611203.jpg  used on input line 8.
 (pdftex.def)             Requested size: 136.57462pt x 287.79716pt.
-<images/implementacao/frontend/forum/1686055611213.jpg, id=186, 1084.05pt x 2288.55pt>
+<images/implementacao/frontend/forum/1686055611213.jpg, id=191, 1084.05pt x 2288.55pt>
 File: images/implementacao/frontend/forum/1686055611213.jpg Graphic file (type jpg)
 <use images/implementacao/frontend/forum/1686055611213.jpg>
 Package pdftex.def Info: images/implementacao/frontend/forum/1686055611213.jpg  used on input line 10.
 (pdftex.def)             Requested size: 136.57462pt x 288.30295pt.
  [5 <./images/implementacao/frontend/forum/1686055611203.jpg> <./images/implementacao/frontend/forum/1686055611213.jpg>]
-<images/implementacao/frontend/forum/filtros/filtros.png, id=192, 201.75375pt x 328.22626pt>
+<images/implementacao/frontend/forum/filtros/filtros.png, id=197, 201.75375pt x 328.22626pt>
 File: images/implementacao/frontend/forum/filtros/filtros.png Graphic file (type png)
 <use images/implementacao/frontend/forum/filtros/filtros.png>
 Package pdftex.def Info: images/implementacao/frontend/forum/filtros/filtros.png  used on input line 28.
 (pdftex.def)             Requested size: 113.81102pt x 185.15768pt.
  [6 <./images/implementacao/frontend/forum/filtros/filtros.png>]
-<images/implementacao/frontend/forum/loading_topics/topics_loading.png, id=199, 362.35374pt x 286.06876pt>
+<images/implementacao/frontend/forum/loading_topics/topics_loading.png, id=204, 362.35374pt x 286.06876pt>
 File: images/implementacao/frontend/forum/loading_topics/topics_loading.png Graphic file (type png)
 <use images/implementacao/frontend/forum/loading_topics/topics_loading.png>
 Package pdftex.def Info: images/implementacao/frontend/forum/loading_topics/topics_loading.png  used on input line 46.
 (pdftex.def)             Requested size: 227.62206pt x 179.70482pt.
  [7 <./images/implementacao/frontend/forum/loading_topics/topics_loading.png>]
-<images/implementacao/frontend/forum/loading_topics/1686062701127.jpg, id=206, 1084.05pt x 2286.5425pt>
+<images/implementacao/frontend/forum/loading_topics/1686062701127.jpg, id=211, 1084.05pt x 2286.5425pt>
 File: images/implementacao/frontend/forum/loading_topics/1686062701127.jpg Graphic file (type jpg)
 <use images/implementacao/frontend/forum/loading_topics/1686062701127.jpg>
 Package pdftex.def Info: images/implementacao/frontend/forum/loading_topics/1686062701127.jpg  used on input line 69.
@@ -771,12 +771,12 @@ Package pdftex.def Info: images/implementacao/frontend/forum/loading_topics/1686
 Underfull \vbox (badness 3713) has occurred while \output is active []
 
  [8 <./images/implementacao/frontend/forum/loading_topics/1686062701127.jpg>]
-<images/implementacao/frontend/firestorage/all.png, id=212, 763.85374pt x 405.515pt>
+<images/implementacao/frontend/firestorage/all.png, id=217, 763.85374pt x 405.515pt>
 File: images/implementacao/frontend/firestorage/all.png Graphic file (type png)
 <use images/implementacao/frontend/firestorage/all.png>
 Package pdftex.def Info: images/implementacao/frontend/firestorage/all.png  used on input line 13.
 (pdftex.def)             Requested size: 318.66948pt x 169.1766pt.
-<images/implementacao/frontend/firestorage/topics.png, id=213, 763.85374pt x 405.515pt>
+<images/implementacao/frontend/firestorage/topics.png, id=218, 763.85374pt x 405.515pt>
 File: images/implementacao/frontend/firestorage/topics.png Graphic file (type png)
 <use images/implementacao/frontend/firestorage/topics.png>
 Package pdftex.def Info: images/implementacao/frontend/firestorage/topics.png  used on input line 15.
@@ -785,46 +785,43 @@ Package pdftex.def Info: images/implementacao/frontend/firestorage/topics.png  u
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9 <./images/implementacao/frontend/firestorage/all.png> <./images/implementacao/frontend/firestorage/topics.png>]
-<images/implementacao/frontend/apresentacao_imagens/1686068843028.jpg, id=222, 1084.05pt x 2288.55pt>
+<images/implementacao/frontend/apresentacao_imagens/1686068843028.jpg, id=227, 1084.05pt x 2288.55pt>
 File: images/implementacao/frontend/apresentacao_imagens/1686068843028.jpg Graphic file (type jpg)
 <use images/implementacao/frontend/apresentacao_imagens/1686068843028.jpg>
 Package pdftex.def Info: images/implementacao/frontend/apresentacao_imagens/1686068843028.jpg  used on input line 10.
 (pdftex.def)             Requested size: 91.04742pt x 192.20197pt.
-<images/implementacao/frontend/apresentacao_imagens/1686068843039.jpg, id=223, 1084.05pt x 2291.56125pt>
+<images/implementacao/frontend/apresentacao_imagens/1686068843039.jpg, id=228, 1084.05pt x 2291.56125pt>
 File: images/implementacao/frontend/apresentacao_imagens/1686068843039.jpg Graphic file (type jpg)
 <use images/implementacao/frontend/apresentacao_imagens/1686068843039.jpg>
 Package pdftex.def Info: images/implementacao/frontend/apresentacao_imagens/1686068843039.jpg  used on input line 12.
 (pdftex.def)             Requested size: 91.04742pt x 192.45486pt.
-<images/implementacao/frontend/apresentacao_imagens/1686068843051.jpg, id=224, 1084.05pt x 2294.5725pt>
+<images/implementacao/frontend/apresentacao_imagens/1686068843051.jpg, id=229, 1084.05pt x 2294.5725pt>
 File: images/implementacao/frontend/apresentacao_imagens/1686068843051.jpg Graphic file (type jpg)
 <use images/implementacao/frontend/apresentacao_imagens/1686068843051.jpg>
 Package pdftex.def Info: images/implementacao/frontend/apresentacao_imagens/1686068843051.jpg  used on input line 14.
 (pdftex.def)             Requested size: 91.04742pt x 192.70776pt.
- [10 <./images/implementacao/frontend/apresentacao_imagens/1686068843028.jpg> <./images/implementacao/frontend/apresentacao_imagens/1686068843039.jpg> <./images/implementacao/frontend/apresentacao_imagens/1686068843051.jpg>] [11]) (./sections/chap4/3.frontend/7.videos.tex) (./sections/chap4/3.frontend/8.links.tex) (./sections/chap4/3.frontend/8.links.tex) (./sections/chap4/3.frontend/9.ios.tex))) (./main.bbl [12]) [13
+ [10 <./images/implementacao/frontend/apresentacao_imagens/1686068843028.jpg> <./images/implementacao/frontend/apresentacao_imagens/1686068843039.jpg> <./images/implementacao/frontend/apresentacao_imagens/1686068843051.jpg>] [11]) (./sections/chap4/3.frontend/7.videos.tex) (./sections/chap4/3.frontend/8.links.tex) (./sections/chap4/3.frontend/8.links.tex) (./sections/chap4/3.frontend/9.ios.tex))) (./main.bbl
+Underfull \vbox (badness 1688) has occurred while \output is active []
 
-] (./main.aux)
+ [12] [13] [14
 
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 337C666F20623A47F3EB12CC287A1B24;2496
-(rerunfilecheck)             After:  98CD1F9286D642EC5DE3EB2B5FF0963B;2752.
+]) [15] (./main.aux)
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 98CD1F9286D642EC5DE3EB2B5FF0963B;2752.
  ) 
 Here is how much of TeX's memory you used:
- 23689 strings out of 476182
- 425928 string characters out of 5796604
- 1857793 words of memory out of 6000000
- 43557 multiletter control sequences out of 15000+600000
+ 23692 strings out of 476182
+ 425961 string characters out of 5796604
+ 1859793 words of memory out of 6000000
+ 43558 multiletter control sequences out of 15000+600000
  525498 words of font info for 58 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  106i,8n,105p,2338b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (23 pages, 1549849 bytes).
+Output written on main.pdf (25 pages, 1551937 bytes).
 PDF statistics:
- 316 PDF objects out of 1000 (max. 8388607)
- 241 compressed objects within 3 object streams
- 57 named destinations out of 1000 (max. 500000)
- 233 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 329 PDF objects out of 1000 (max. 8388607)
+ 252 compressed objects within 3 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
 
