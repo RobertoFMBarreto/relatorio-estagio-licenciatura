@@ -1,4 +1,4 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{6}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{}
@@ -6,6 +6,16 @@
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
   \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
+
+\bibitem[{Chuvakin et~al.(2012)Chuvakin, Schmidt \& Philips}]{Logging}
+Chuvakin, Dr. Anton~A., Kevin~J. Schmidt \& Christopher Philips. 2012.
+\newblock Logging and log management.
+
+\bibitem[{Halili \& Ramadani(2018)}]{Halili2018}
+Halili, Festim \& Erenis Ramadani. 2018.
+\newblock Web services: A comparison of soap and rest services.
+\newblock \emph{Modern Applied Science} 12. 175.
+\newblock \doi{10.5539/mas.v12n3p175}.
 
 \bibitem[{Jin et~al.(2018)Jin, Sahni \& Shevat}]{api_design}
 Jin, Brenda, Saurabh Sahni \& Amir Shevat. 2018.
@@ -16,5 +26,14 @@ Jin, Brenda, Saurabh Sahni \& Amir Shevat. 2018.
 Masse, Mark. 2011.
 \newblock \emph{Rest api design rulebook}.
 \newblock O'Reilly Media, Inc.
+
+\bibitem[{Snell et~al.(2002)Snell, Tidwell \& Kulchenko}]{Snell2002}
+Snell, James., Doug. Tidwell \& Pavel. Kulchenko. 2002.
+\newblock \emph{Programming web services with soap}.
+\newblock O'Reilly \& Associates.
+
+\bibitem[{Vanderkam(2019)}]{typescript}
+Vanderkam, Dan. 2019.
+\newblock Effective typescript 62 specific ways to improve your typescript.
 
 \end{thebibliography}
