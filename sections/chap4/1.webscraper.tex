@@ -280,7 +280,7 @@ aos restantes mas com um dado extra com os subprodutos.
 O último problema a solucionar é a existência de serviços, iniciou-se então pela análise do serviço existente, este possui então 
 descrição e imagens como os produtos, mas possui também vídeos direcionados a plataformas diferentes, registo de atualizações do serviço
 planos de pagamento de serviços, sendo que cada plano contém diversas ofertas e por fim produtos do serviço. 
-Possuindo então a estrutura de um serviço foi adicionado à base de dados todas as tabelas de suporte a estes dados e realizadas as ligações necessárias.
+Possuindo então a estrutura de um serviço foi adicionado à base de dados as tabelas de serviço, planos do serviço e suas ofertas, videos do serviço, informações de atualizações dos serviços, imagens do serviço e a ligação à tabela produtos identificando os produtos do serviço, sendo também aqui identificado a necessidade de manter guardado os links para todas as imagens e videos na própria base de dados, sendo estas tabelas acrescentadas também aos produtos.
 Após isto foi percebido que existem dados que não são necessários na descrição pelo que o cliente indicou que seria mais indicado guardar estes dados
 como screenshots.
 \begin{figure}[htb]
@@ -289,6 +289,15 @@ como screenshots.
     \caption{Exemplo de página de serviço}
     \label{fig:62}
 \end{figure}
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=\textwidth]{images/diagramas/bd_final.png}
+    \caption{atualização da base de dados}
+    \label{fig:63}
+\end{figure}
+
+\newpage
 
 \subsubsection{Armazenamento de dados}
 
