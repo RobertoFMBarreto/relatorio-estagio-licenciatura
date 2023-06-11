@@ -1,0 +1,10 @@
+\subsection{Links de aplicações}
+
+Existem diferentes tipos de links sendo que para o a utilização em mobile é utilizado os app links, deep links e os dynamic links.
+
+Os app links são "\emph{web links that use the HTTP and HTTPS schemes}"\citep{linking}, estes possuem também um atributo extra chamado autoVerify, este atributo permite a uma aplicação "\emph{to designate itself as the default handler of a given type of link}"\citep{linking}, isto permite que "\emph{app opens immediately if it's installed}"\citep{linking}. O grande problema é que estes links não permitem o redirecionamento do utilizador para uma parte específica da aplicação e é necessário dispor de um domínio próprio.
+
+
+Os deep links são "\emph{URIs of any scheme that take users directly to a specific part of your app}"\citep{linking}, o grande problema deste tipo de links é que se os utilizadores não disporem da aplicação instalada no dispositivo, este irá falhar, nem permite a costumização de comportamento.
+
+Já os dynamic links desenvolvidos pela firebase assim como os deep links "\emph{if a user opens a Dynamic Link on iOS or Android, they can be taken directly to the linked content in your native app}"\citep{dynamic_linking}, mas para além disto, este permite também que "\emph{if a user opens the same Dynamic Link in a desktop browser, they can be taken to the equivalent content on your website}"\citep{dynamic_linking}, ou seja este permite a costumização de comportamento de links para diversas situações e em caso do utilizador não dispor da aplicação instalada, este permite que "\emph{the user can be prompted to install it; then, after installation, your app starts and can access the link}"\citep{dynamic_linking}. Visto que este é o comportamento desejado pelo cliente da aplicação, então foi decidido utilizar esta abordagem.
