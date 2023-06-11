@@ -1,27 +1,162 @@
 \babel@toc {portuges}{}\relax 
-\contentsline {chapter}{\numberline {1}Estado da arte}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Ferramentas de trabalho utilizadas}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Tecnologias utilizadas}{2}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Serviços Backend}{2}{subsection.1.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.1.1}Serviços RestFull e SOAP}{2}{subsubsection.1.2.1.1}%
-\contentsline {subsubsection}{\numberline {1.2.1.2}Typescript}{3}{subsubsection.1.2.1.2}%
-\contentsline {subsubsection}{\numberline {1.2.1.3}Logs e Logging}{3}{subsubsection.1.2.1.3}%
-\contentsline {subsubsection}{\numberline {1.2.1.4}Morgan}{3}{subsubsection.1.2.1.4}%
-\contentsline {subsubsection}{\numberline {1.2.1.5}Envio de emails}{4}{subsubsection.1.2.1.5}%
-\contentsline {subsubsection}{\numberline {1.2.1.6}Agendamento de tarefas}{4}{subsubsection.1.2.1.6}%
-\contentsline {subsubsection}{\numberline {1.2.1.7}Encriptação de passwords}{4}{subsubsection.1.2.1.7}%
-\contentsline {subsubsection}{\numberline {1.2.1.8}Cifragem de configurações do servidor}{5}{subsubsection.1.2.1.8}%
-\contentsline {subsubsection}{\numberline {1.2.1.9}Firebase}{5}{subsubsection.1.2.1.9}%
-\contentsline {section}{\numberline {1.3}Frontend}{6}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Desenvolvimento cross-platform}{6}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Flutter}{7}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Dart}{7}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4}Processo de aprendizagem}{8}{subsection.1.3.4}%
-\contentsline {subsection}{\numberline {1.3.5}Links de aplicações}{8}{subsection.1.3.5}%
-\contentsline {subsection}{\numberline {1.3.6}Qualidade de código}{9}{subsection.1.3.6}%
-\contentsline {subsubsection}{\numberline {1.3.6.1}Design patterns}{9}{subsubsection.1.3.6.1}%
-\contentsline {subsubsection}{\numberline {1.3.6.2}Documentação}{9}{subsubsection.1.3.6.2}%
-\contentsline {subsubsection}{\numberline {1.3.6.3}Typedoc}{9}{subsubsection.1.3.6.3}%
-\contentsline {subsubsection}{\numberline {1.3.6.4}Swagger}{9}{subsubsection.1.3.6.4}%
-\contentsline {subsubsection}{\numberline {1.3.6.5}Testes de código}{10}{subsubsection.1.3.6.5}%
-\contentsline {section}{\numberline {1.4}Planificação do trabalho}{11}{section.1.4}%
+\contentsline {chapter}{\numberline {1}Introdução}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Objetivos}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Contexto}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Estrutura do documento}{3}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Estado da arte}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Ferramentas de trabalho utilizadas}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Tecnologias utilizadas}{6}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Serviços Backend}{6}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Serviços RestFull e SOAP}{6}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}Typescript}{7}{subsubsection.2.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.3}Logs e Logging}{7}{subsubsection.2.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.2.1.4}Morgan}{7}{subsubsection.2.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.2.1.5}Envio de emails}{8}{subsubsection.2.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.2.1.6}Agendamento de tarefas}{8}{subsubsection.2.2.1.6}%
+\contentsline {subsubsection}{\numberline {2.2.1.7}Encriptação de passwords}{8}{subsubsection.2.2.1.7}%
+\contentsline {subsubsection}{\numberline {2.2.1.8}Cifragem de configurações do servidor}{9}{subsubsection.2.2.1.8}%
+\contentsline {subsubsection}{\numberline {2.2.1.9}Firebase}{9}{subsubsection.2.2.1.9}%
+\contentsline {section}{\numberline {2.3}Frontend}{10}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Desenvolvimento cross-platform}{10}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Flutter}{11}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Dart}{11}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Processo de aprendizagem}{12}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Links de aplicações}{12}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Qualidade de código}{13}{subsection.2.3.6}%
+\contentsline {subsubsection}{\numberline {2.3.6.1}Design patterns}{13}{subsubsection.2.3.6.1}%
+\contentsline {subsubsection}{\numberline {2.3.6.2}Documentação}{13}{subsubsection.2.3.6.2}%
+\contentsline {subsubsection}{\numberline {2.3.6.3}Typedoc}{13}{subsubsection.2.3.6.3}%
+\contentsline {subsubsection}{\numberline {2.3.6.4}Swagger}{14}{subsubsection.2.3.6.4}%
+\contentsline {subsubsection}{\numberline {2.3.6.5}Testes de código}{14}{subsubsection.2.3.6.5}%
+\contentsline {section}{\numberline {2.4}Planificação do trabalho}{15}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Analise e especificação}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Modelo de negócio}{17}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Objetivos de negócio}{17}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Estado da arte}{18}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Domínio de aplicação do sistema}{18}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Operações a realizar no sistema}{19}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Descrição dos intervenientes}{22}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Partes Interessadas}{22}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Condições Específicas}{23}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Esquematização do conteúdo das páginas}{24}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}Autenticação e página Inicial}{25}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.2}Fórum}{26}{subsection.3.9.2}%
+\contentsline {subsection}{\numberline {3.9.3}Criar novo tópico}{26}{subsection.3.9.3}%
+\contentsline {subsection}{\numberline {3.9.4}Detalhes de tópico}{27}{subsection.3.9.4}%
+\contentsline {subsection}{\numberline {3.9.5}Pesquisa de tópicos}{27}{subsection.3.9.5}%
+\contentsline {subsection}{\numberline {3.9.6}Notificações}{28}{subsection.3.9.6}%
+\contentsline {subsection}{\numberline {3.9.7}Perfil}{28}{subsection.3.9.7}%
+\contentsline {subsection}{\numberline {3.9.8}Gestão de recursos humanos}{29}{subsection.3.9.8}%
+\contentsline {section}{\numberline {3.10}Histórias de Utilizador}{30}{section.3.10}%
+\contentsline {section}{\numberline {3.11}Casos de uso}{33}{section.3.11}%
+\contentsline {subsection}{\numberline {3.11.1}Especificação de casos de uso}{35}{subsection.3.11.1}%
+\contentsline {subsubsection}{\numberline {3.11.1.1}Especificação de caso de uso de listagem de tópicos}{35}{subsubsection.3.11.1.1}%
+\contentsline {subsubsection}{\numberline {3.11.1.2}Especificação de caso de uso de criar novo tópico}{36}{subsubsection.3.11.1.2}%
+\contentsline {subsubsection}{\numberline {3.11.1.3}Especificação de caso de uso de pesquisar tópicos por escrito}{37}{subsubsection.3.11.1.3}%
+\contentsline {subsubsection}{\numberline {3.11.1.4}Especificação de caso de uso de ver finalizar tópico}{37}{subsubsection.3.11.1.4}%
+\contentsline {subsubsection}{\numberline {3.11.1.5}Especificação de caso de uso de selecionar melhor resposta}{38}{subsubsection.3.11.1.5}%
+\contentsline {subsubsection}{\numberline {3.11.1.6}Especificação de caso de uso de eliminar tópico}{39}{subsubsection.3.11.1.6}%
+\contentsline {subsubsection}{\numberline {3.11.1.7}Especificação de caso de uso de alterar visibilidade de um tópico}{39}{subsubsection.3.11.1.7}%
+\contentsline {subsubsection}{\numberline {3.11.1.8}Especificação de caso de uso gostar de um tópico}{40}{subsubsection.3.11.1.8}%
+\contentsline {subsubsection}{\numberline {3.11.1.9}Especificação de caso de uso gostar de um comentário}{40}{subsubsection.3.11.1.9}%
+\contentsline {subsubsection}{\numberline {3.11.1.10}Especificação de caso de uso de comentar tópico}{41}{subsubsection.3.11.1.10}%
+\contentsline {subsubsection}{\numberline {3.11.1.11}Especificação de caso de uso ativar conta}{42}{subsubsection.3.11.1.11}%
+\contentsline {subsubsection}{\numberline {3.11.1.12}Especificação de caso de uso configurar notificações}{43}{subsubsection.3.11.1.12}%
+\contentsline {subsubsection}{\numberline {3.11.1.13}Especificação de caso de uso registar técnico}{43}{subsubsection.3.11.1.13}%
+\contentsline {subsection}{\numberline {3.11.2}Diagramas de casos de uso}{44}{subsection.3.11.2}%
+\contentsline {subsubsection}{\numberline {3.11.2.1}Casos de uso Fórum}{44}{subsubsection.3.11.2.1}%
+\contentsline {subsubsection}{\numberline {3.11.2.2}Casos de uso de pesquisar tópicos}{44}{subsubsection.3.11.2.2}%
+\contentsline {subsubsection}{\numberline {3.11.2.3}Casos de uso ver detalhes de tópico}{45}{subsubsection.3.11.2.3}%
+\contentsline {subsubsection}{\numberline {3.11.2.4}Casos de uso ver comentários}{45}{subsubsection.3.11.2.4}%
+\contentsline {subsubsection}{\numberline {3.11.2.5}Casos de uso ativação de conta}{46}{subsubsection.3.11.2.5}%
+\contentsline {subsubsection}{\numberline {3.11.2.6}Casos de uso perfil}{46}{subsubsection.3.11.2.6}%
+\contentsline {subsubsection}{\numberline {3.11.2.7}Casos de uso notificações}{47}{subsubsection.3.11.2.7}%
+\contentsline {subsubsection}{\numberline {3.11.2.8}Casos de uso gestão de recursos humanos}{47}{subsubsection.3.11.2.8}%
+\contentsline {section}{\numberline {3.12}Diagrama Entidade Relação}{48}{section.3.12}%
+\contentsline {subsection}{\numberline {3.12.1}Escolha de diagrama de entidade relação}{49}{subsection.3.12.1}%
+\contentsline {subsection}{\numberline {3.12.2}Dicionário de termos}{50}{subsection.3.12.2}%
+\contentsline {section}{\numberline {3.13}Diagrama de Classes}{54}{section.3.13}%
+\contentsline {section}{\numberline {3.14}Mockups}{55}{section.3.14}%
+\contentsline {subsection}{\numberline {3.14.1}Página Inicial}{55}{subsection.3.14.1}%
+\contentsline {subsection}{\numberline {3.14.2}Autenticação - Login e Registo}{56}{subsection.3.14.2}%
+\contentsline {subsection}{\numberline {3.14.3}Autenticação - Ativação e Confirmação de conta}{57}{subsection.3.14.3}%
+\contentsline {subsection}{\numberline {3.14.4}Página inicial fórum}{58}{subsection.3.14.4}%
+\contentsline {subsection}{\numberline {3.14.5}Página de detalhes de um tópico}{59}{subsection.3.14.5}%
+\contentsline {subsection}{\numberline {3.14.6}Página de criação de um tópico}{60}{subsection.3.14.6}%
+\contentsline {subsection}{\numberline {3.14.7}Página de notificações}{61}{subsection.3.14.7}%
+\contentsline {subsection}{\numberline {3.14.8}Página de perfil de utilizador}{62}{subsection.3.14.8}%
+\contentsline {subsection}{\numberline {3.14.9}Página de gestão de recursos humanos}{63}{subsection.3.14.9}%
+\contentsline {subsection}{\numberline {3.14.10}Página de perfil de técnico registado}{64}{subsection.3.14.10}%
+\contentsline {subsection}{\numberline {3.14.11}Página de registo de novo técnico}{65}{subsection.3.14.11}%
+\contentsline {section}{\numberline {3.15}Diagramas de atividades}{66}{section.3.15}%
+\contentsline {subsection}{\numberline {3.15.1}Diagrama de atividades página inicial}{66}{subsection.3.15.1}%
+\contentsline {subsection}{\numberline {3.15.2}Diagrama de atividades página de perfil}{66}{subsection.3.15.2}%
+\contentsline {subsection}{\numberline {3.15.3}Diagrama de atividades página inicial do fórum}{67}{subsection.3.15.3}%
+\contentsline {subsection}{\numberline {3.15.4}Diagrama de atividades página de criação de tópico}{68}{subsection.3.15.4}%
+\contentsline {subsection}{\numberline {3.15.5}Diagrama de atividades página de detalhes do tópico}{69}{subsection.3.15.5}%
+\contentsline {subsection}{\numberline {3.15.6}Diagrama de atividades páginas de autenticação}{70}{subsection.3.15.6}%
+\contentsline {subsection}{\numberline {3.15.7}Diagrama de atividades registar técnico}{71}{subsection.3.15.7}%
+\contentsline {subsection}{\numberline {3.15.8}Diagrama de atividades confirmar conta}{71}{subsection.3.15.8}%
+\contentsline {section}{\numberline {3.16}Diagramas de estados}{72}{section.3.16}%
+\contentsline {subsection}{\numberline {3.16.1}Diagrama de estados criação de tópico}{72}{subsection.3.16.1}%
+\contentsline {subsection}{\numberline {3.16.2}Diagrama de estados responder a tópico}{73}{subsection.3.16.2}%
+\contentsline {subsection}{\numberline {3.16.3}Diagrama de estados autenticação e validação de conta}{74}{subsection.3.16.3}%
+\contentsline {section}{\numberline {3.17}Diagrama de sequência}{75}{section.3.17}%
+\contentsline {subsection}{\numberline {3.17.1}Diagrama de sequência Login e ativação de conta}{75}{subsection.3.17.1}%
+\contentsline {subsection}{\numberline {3.17.2}Diagrama de sequência Registo e ativação de conta}{76}{subsection.3.17.2}%
+\contentsline {subsection}{\numberline {3.17.3}Diagrama de sequência registo de técnicos}{77}{subsection.3.17.3}%
+\contentsline {section}{\numberline {3.18}Arquitetura de sistema}{78}{section.3.18}%
+\contentsline {subsection}{\numberline {3.18.1}Arquitetura de funcional}{79}{subsection.3.18.1}%
+\contentsline {subsection}{\numberline {3.18.2}Arquitetura de componentes}{80}{subsection.3.18.2}%
+\contentsline {subsection}{\numberline {3.18.3}Tabela de endpoints}{81}{subsection.3.18.3}%
+\contentsline {chapter}{\numberline {4}Trabalho desenvolvido}{83}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Web scraper}{83}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Implemenção web scraper}{84}{subsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.1}Implemenção no website}{89}{subsubsection.4.1.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.2}Melhoria de implementação}{90}{subsubsection.4.1.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.1.3}Armazenamento de dados}{94}{subsubsection.4.1.1.3}%
+\contentsline {section}{\numberline {4.2}Backend}{95}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Organização do projeto}{95}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Definição de rotas base}{96}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Middlewares}{96}{subsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.3.1}Linguagem}{96}{subsubsection.4.2.3.1}%
+\contentsline {subsubsection}{\numberline {4.2.3.2}Autenticação}{97}{subsubsection.4.2.3.2}%
+\contentsline {subsubsection}{\numberline {4.2.3.3}Validação de Papel}{98}{subsubsection.4.2.3.3}%
+\contentsline {subsection}{\numberline {4.2.4}Controllers}{98}{subsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.4.1}Estruturação dos controllers}{98}{subsubsection.4.2.4.1}%
+\contentsline {subsubsection}{\numberline {4.2.4.2}Execução da lógica de negócio}{99}{subsubsection.4.2.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.4.3}Validação dos dados}{99}{subsubsection.4.2.4.3}%
+\contentsline {subsubsection}{\numberline {4.2.4.4}Formulação da resposta}{99}{subsubsection.4.2.4.4}%
+\contentsline {subsubsection}{\numberline {4.2.4.5}Processamento de erros}{100}{subsubsection.4.2.4.5}%
+\contentsline {subsubsection}{\numberline {4.2.4.6}Envio de emails}{100}{subsubsection.4.2.4.6}%
+\contentsline {subsubsection}{\numberline {4.2.4.7}Logging de erros}{101}{subsubsection.4.2.4.7}%
+\contentsline {subsubsection}{\numberline {4.2.4.8}Logging de pedidos com morgan}{101}{subsubsection.4.2.4.8}%
+\contentsline {subsubsection}{\numberline {4.2.4.9}Agendamento de tarefas}{101}{subsubsection.4.2.4.9}%
+\contentsline {subsubsection}{\numberline {4.2.4.10}Cifragem de passwords}{102}{subsubsection.4.2.4.10}%
+\contentsline {subsubsection}{\numberline {4.2.4.11}Cifragem de configurações do servidor}{102}{subsubsection.4.2.4.11}%
+\contentsline {subsubsection}{\numberline {4.2.4.12}Documentação Typedoc}{102}{subsubsection.4.2.4.12}%
+\contentsline {subsubsection}{\numberline {4.2.4.13}Documentação Swagger}{103}{subsubsection.4.2.4.13}%
+\contentsline {section}{\numberline {4.3}Frontend}{104}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Organização do projeto}{104}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Extensions}{105}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Handlers}{105}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Providers}{105}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Helpers}{105}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Gestão de utilizadores}{106}{subsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.3.7}Fórum}{107}{subsection.4.3.7}%
+\contentsline {subsubsection}{\numberline {4.3.7.1}Filtragem de tópicos}{108}{subsubsection.4.3.7.1}%
+\contentsline {subsubsection}{\numberline {4.3.7.2}Carregamento de tópicos}{109}{subsubsection.4.3.7.2}%
+\contentsline {subsubsection}{\numberline {4.3.7.3}Detalhes de tópico}{110}{subsubsection.4.3.7.3}%
+\contentsline {subsection}{\numberline {4.3.8}Firestorage}{111}{subsection.4.3.8}%
+\contentsline {subsection}{\numberline {4.3.9}Apresentação de Imagens}{112}{subsection.4.3.9}%
+\contentsline {subsection}{\numberline {4.3.10}Apresentação de Imagens em carrosel}{113}{subsection.4.3.10}%
+\contentsline {subsection}{\numberline {4.3.11}Carregamento de Imagens}{113}{subsection.4.3.11}%
+\contentsline {subsection}{\numberline {4.3.12}Videos}{114}{subsection.4.3.12}%
+\contentsline {subsection}{\numberline {4.3.13}Links}{114}{subsection.4.3.13}%
+\contentsline {subsection}{\numberline {4.3.14}Notificações}{115}{subsection.4.3.14}%
+\contentsline {subsection}{\numberline {4.3.15}Permissões}{116}{subsection.4.3.15}%
+\contentsline {subsection}{\numberline {4.3.16}Ios}{117}{subsection.4.3.16}%
+\contentsline {chapter}{\numberline {5}Análise de resultados}{119}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Tarefas}{119}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Base de dados}{120}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Opinião do cliente}{121}{section.5.3}%
