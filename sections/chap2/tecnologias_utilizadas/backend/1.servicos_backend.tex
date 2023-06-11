@@ -1,25 +1,25 @@
 \subsection{Serviços Backend}
 
-De forma a realizar a integração entre a aplicação \emph{frontend} e os dados, foi necessário desenvolver uma API para dar suporte a todos os serviços necessários para a aplicação.
-API sigla para \emph{Application Programming Interface} \emph{exposes a set of data and functions to facilitate interactions between computer programs and allow them to exchange information.} ~\citep{rest_cookbook}.
-Estas ferramentas apesar de serem \emph{designed  to  work  with  other  programs,  they’re  mostly intended to be understood and used by humans writing those other programs} ~\citep{api_design}.
+Para a realização da integração entre a aplicação \emph{frontend} e os dados, foi necessário desenvolver uma API para dar suporte a todos os serviços necessários para a aplicação.
+API sigla para "\emph{Application Programming Interface} \emph{exposes a set of data and functions to facilitate interactions between computer programs and allow them to exchange information.}" ~\citep{rest_cookbook}.
+Estas ferramentas apesar de serem "\emph{designed  to  work  with  other  programs,  they’re  mostly intended to be understood and used by humans writing those other programs} ~\citep{api_design}".
 
 \subsubsection{Serviços RestFull e SOAP}
-Os seviços RestFull \emph{expose data as resources  and  use  standard  HTTP  methods  to  represent  Create,  Read,Update,  and  Delete  (CRUD)  transactions  against  these  resources}
-\citep{api_design}, sendo que a sua resposta é realizada em JSON \emph{due  to  its  simplicity  and  ease  of  use  with  JavaScript,  JSON  has become the standard for modern APIs.}\citep{api_design}.
+Os seviços RestFull "\emph{expose data as resources  and  use  standard  HTTP  methods  to  represent  Create,  Read,Update,  and  Delete  (CRUD)  transactions  against  these  resources}
+\citep{api_design}", sendo que a resposta é no formato JSON "\emph{due  to  its  simplicity  and  ease  of  use  with  JavaScript,  JSON  has become the standard for modern APIs}"\citep{api_design}.
 
-Já SOAP é \emph{nothing  more  than  a  simple  XML-based  envelope  for  the  information  being  transferred,  and  a  set  of  rules  for  translating  application and platform-specific data types into XML representations}\citep{Snell2002} sendo que a sua resposta é realizada em XML o que leva a que \emph{It relies heavily on XML  standards  like  XML  Schema  and  XML  Namespaces  for  its  definition  and  function}\citep{Snell2002}. A utilização de XML permite que \emph{two  applications,  regardless  of  operating  system,  programming  language,  or  any  other  technical  implementation  detail,  may  openly  share  information  using  nothing  more  than  a  simple  message  encoded  in  a  way  that  both  applications  understand.}\citep{Snell2002}
-
-Por fim foi decidido utilizar Rest devido a ser \emph{much lighter compared to SOAP. It does not require formats like headers to be included in the message, like it is required in SOAP architecture}. Outra maior valia é que \emph{ it parses JSON, a human readable language designed to allow data exchange and making it easier to parse and use by the computer. It is estimated to be at around one hundred times faster than XML.}\citep{Halili2018}.
+Já SOAP é "\emph{nothing  more  than  a  simple  XML-based  envelope  for  the  information  being  transferred,  and  a  set  of  rules  for  translating  application and platform-specific data types into XML representations}"\citep{Snell2002} sendo que a resposta é realizada em XML leva a que "\emph{It relies heavily on XML  standards  like  XML  Schema  and  XML  Namespaces  for  its  definition  and  function}"\citep{Snell2002}. A utilização de XML permite que "\emph{two  applications,  regardless  of  operating  system,  programming  language,  or  any  other  technical  implementation  detail,  may  openly  share  information  using  nothing  more  than  a  simple  message  encoded  in  a  way  that  both  applications  understand}"\citep{Snell2002}.
+"
+Por fim foi decidido utilizar Rest devido a ser \emph{much lighter compared to SOAP. It does not require formats like headers to be included in the message, like it is required in SOAP architecture}". Outra maior valia é que "\emph{ it parses JSON, a human readable language designed to allow data exchange and making it easier to parse and use by the computer. It is estimated to be at around one hundred times faster than XML}"\citep{Halili2018}.
 
 \newpage
 
 \subsubsection{Typescript}
-O typescript \emph{is  a  bit  unusual  as  a  language  in  that  it  neither  runs  in  an  interpreter  (asPython  and  Ruby  do)  nor  compiles  down  to  a  lower-level  language  (as  Java  and  Cdo).}\citep{typescript} isto porque este \emph{compiles  to  another  high-level  language,  JavaScript.}\citep{typescript}, isto faz com que o Typescript seja visto como \emph{a  superset  of  JavaScript  in  a  syntactic  sense}.
+O typescript "\emph{is  a  bit  unusual  as  a  language  in  that  it  neither  runs  in  an  interpreter  (asPython  and  Ruby  do)  nor  compiles  down  to  a  lower-level  language  (as  Java  and  Cdo).}"\citep{typescript} isto porque este "\emph{compiles  to  another  high-level  language,  JavaScript.}"\citep{typescript}, isto faz com que o Typescript seja visto como "\emph{a  superset  of  JavaScript  in  a  syntactic  sense}"\citep{typescript}.
 
-Todos os programas JavaScript \emph{are  TypeScript  programs,  but  the  converse  is  not  true... This  is  because  TypeScript adds additional syntax for specifying types.}. O sistema de tipagens do TypeScript tem como objetivo \emph{to  detect  code  that  will  throw  anexception  at  runtime,  without  having  to  run  your  code. ... The  type  checker  cannot always spot code that will throw exceptions, but it will try.}\citep{typescript}.
+Todos os programas JavaScript" \emph{are  TypeScript  programs,  but  the  converse  is  not  true... This  is  because  TypeScript adds additional syntax for specifying types}". O sistema de tipagens do TypeScript tem como objetivo "\emph{to  detect  code  that  will  throw  anexception  at  runtime,  without  having  to  run  your  code. ... The  type  checker  cannot always spot code that will throw exceptions, but it will try}"\citep{typescript}.
 
-Esta linguagem de programação foi escolhida para o backend devido à sua capacidade de assegurar as tipagens, o que leva a um maior nível de segurança em termos de lidar com dados recebidos, assim como também a agilização do processo de programação devido à sua capacidade de prever a maioria dos erros de código.
+Esta linguagem de programação foi escolhida para o \textit{backend} devido à capacidade de assegurar as tipagens, o que leva a um maior nível de segurança em termos de lidar com dados recebidos, assim como também a agilização do processo de programação devido à capacidade de prever a maioria dos erros de código.
 
 \input{sections/chap2/tecnologias_utilizadas/backend/2.logging.tex}
 

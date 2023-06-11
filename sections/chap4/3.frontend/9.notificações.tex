@@ -8,7 +8,7 @@ Primeiramente foi utilizado o conteúdo a enviar indicado pela documentação do
 
 No conteúdo da notificação é enviado em formato json a mensagem a mostrar na notificação e como as notificações serão sempre referentes a tópicos ou comentários, então é indicado o id do tópico, do comentário e em caso de necessidade o id do comentário pai.
 
-Este processo de notificação foi também aproveitado para direcionar os mesmos dados para notificação de email em caso do utilizador possuir ativo as notificações por email, sendo gerado um link dinâmico com os dados na notificação e colocado no email.
+Este processo de notificação foi também aproveitado para direcionar os mesmos dados para notificação de \textit{email} em caso do utilizador possuir ativo as notificações por \textit{email}, sendo gerado um link dinâmico com os dados na notificação e colocado no \textit{email}.
 
 A nível de frontend foi então importada a biblioteca do serviço de notificações do firebase, sendo então esta implementada de acordo com a documentação do mesmo. Sendo que é necessário detetar notificações no iniciar da aplicação, durante a utilização e quando esta se encontra em segundo plano. Sendo assim aproveitado estas deteções para implementar o direcionamento do utilizador para as páginas referentes às notificações, utilizando os dados enviados na notificação.
 

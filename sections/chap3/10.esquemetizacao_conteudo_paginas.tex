@@ -1,14 +1,13 @@
 \section{Esquematização do conteúdo das páginas}
 
-De forma a ser possível entender que dados serão necessários para alimentar o software, o que apresentar em 
-cada página e também como navegar entre os ecrãs da aplicação foi então desenhado um esquema 
+Para ser possibilitar a perceção dos dados necessários para alimentar o \textit{software}, o que apresentar em cada página e também como navegar entre os ecrãs da aplicação foi então desenhado um esquema 
 (Figura~\ref{fig:3}).
 
 \begin{figure}[htb]
     \centering
     
     \includegraphics[width=\textwidth]{images/Arquiteturas/diagrama_superficial_de_aplicacao.png}
-    \caption{Esquema de organização de páginas do software}
+    \caption{Esquema de organização de páginas do \textit{software}}
     \label{fig:3}
 \end{figure}
 
@@ -16,20 +15,14 @@ cada página e também como navegar entre os ecrãs da aplicação foi então de
 
 \subsection{Autenticação e página Inicial}
 
-Através deste esquema é possível perceber que através do ecrã principal o utilizador tem acesso ao 
-catálogo de produtos e ao fórum, neste o utilizador pode também realizar o login e o logout que 
-redirecionam para os respetivos ecrãs.
+Através deste esquema é possível perceber que do ecrã principal, o utilizador tem acesso ao 
+catálogo de produtos e ao fórum, neste pode também realizar o \textit{login} e o \textit{logout} que redirecionam para os respetivos ecrãs.
 
-O ecrã de login é então necessário o utilizador indicar o número de contribuinte e a password, neste ele 
-pode também pedir recuperação de password e/ou redirecionar para o registo onde necessitará de número de 
-contribuinte, password e email para o realizar.
+No ecrã de \textit{login} é necessário o utilizador indicar o número de contribuinte e a \textit{\textit{password}}, neste ele pode também pedir recuperação de \textit{\textit{password}} e/ou redirecionar para o registo onde necessitará de número de contribuinte, \textit{\textit{password}} e \textit{email} para o realizar.
 
-Em caso de o utilizador não possuir a sua conta ativa, este será encaminhado para o ecrã de validar conta 
-em que poderá indicar o código de validação, cancelar a operação voltando para o ecrã anterior e pedir o 
-reenvio do código de validação.
+Em caso de o utilizador não possuir a conta ativa, este será encaminhado para o ecrã de validação conta em que deverá indicar o código de validação, cancelar a operação e pedir o reenvio do código de validação.
 
-Em caso de se tratar de um técnico que necessita de confirmar a sua conta, este conseguirá ver as 
-informações registadas e introduzir o seu nome, alterar o seu email e password.
+Em caso de se tratar de um técnico que necessita de confirmar a sua conta, este conseguirá ver as informações registadas, introduzir o seu nome, alterar o seu \textit{email} e \textit{password}.
 
 \begin{figure}[htb]
     \centering
@@ -42,9 +35,8 @@ informações registadas e introduzir o seu nome, alterar o seu email e password
 
 \subsection{Fórum}
 
-Através do ecrã inicial o utilizador pode se direcionar para o ecrã de fórum, neste ecrã ele poderá pesquisar
- por tópicos, ou então aceder a tópicos em alta, tópicos mais recentes, tópicos sem resposta e pesquisar tópicos.
-O técnico consegue também ver os seus tópicos e criar tópicos.
+Através do ecrã inicial o utilizador pode direcionar-se para o ecrã do fórum. Neste ecrã, poderá pesquisar por publicações, ou então aceder a publicações em alta, mais recentes ou sem resposta.
+O técnico consegue também criar e ver as suas publicações.
 
 \begin{figure}[htb]
     \centering
@@ -54,42 +46,38 @@ O técnico consegue também ver os seus tópicos e criar tópicos.
     \label{fig:5}
 \end{figure}
 
-\subsection{Criar novo tópico}
+\subsection{Criar nova publicação}
 
-Quando o técnico decide criar um tópico ele tem de indicar o título e a descrição do seu tópico, de seguida 
-poderá indicar se o tópico é privado ou não, indicar o tipo de tópico, o produto referente e adicionar 
-anexos.
+Quando o técnico decide criar uma publicação, este tem de indicar o título e a descrição, de seguida poderá indicar se é privado ou não, o tipo de publicação, o produto referente e adicionar anexos.
 
 \begin{figure}[htb]
     \centering
     
     \includegraphics[height=0.3\textwidth]{images/Arquiteturas/superficial_de_app/criar_topico.png}
-    \caption{Esquema de organização da pagina de criação de tópico}
+    \caption{Esquema de organização da página de criação de publicações}
     \label{fig:6}
 \end{figure}
 
 \newpage
 
-\subsection{Detalhes de tópico}
+\subsection{Detalhes de publicações}
 
-O utilizador pode também ver os detalhes do tópico, já o técnico pode também responder a um tópico, 
-gostar do tópico, gostar de uma resposta.
-Caso este tópico seja do mesmo, este pode indicar a melhor resposta, apagar o tópico, tornar o tópico 
-público ou privado e mencionar como completo.
+O técnico pode também ver os detalhes da publicação, responder, 
+gostar e gostar de uma resposta.
+Caso esta seja do mesmo, este pode indicar a melhor resposta, apagar a publicação, tornar pública ou privada e indicar como completa.
 
 \begin{figure}[htb]
     \centering
     
     \includegraphics[height=0.55\textwidth]{images/Arquiteturas/superficial_de_app/detalhes_topico.png}
-    \caption{Esquema de organização da página de detalhes de tópico}
+    \caption{Esquema de organização da página de detalhes de publicação}
     \label{fig:7}
 \end{figure}
 
 \subsection{Pesquisa de tópicos}
 
-A página de pesquisa permite ao utilizador pesquisar por tópicos específicos tanto pesquisando por nome como 
-por código QR de um produto. Para além da pesquisa o utilizador pode também realizar a filtragem dos 
-tópicos por tipo.
+A página de pesquisa permite ao técnico procurar por tópicos específicos tanto por nome como por produto. Para além da pesquisa o utilizador pode também realizar a filtragem dos 
+tópicos por tipo e categoria.
 \begin{figure}[htb]
     \centering
     
@@ -100,7 +88,7 @@ tópicos por tipo.
 
 \subsection{Notificações}
 
-A página de notificações permite ao técnico visualizar as suas notificações, assim como também apagar estas.
+A página de notificações permite ao técnico visualizar as suas notificações, assim como também apagar.
 \begin{figure}[htb]
     \centering
     
@@ -111,9 +99,8 @@ A página de notificações permite ao técnico visualizar as suas notificaçõe
 
 \subsection{Perfil}
 
-A página de perfil de técnico permite a este visualizar as suas informações, assim como alterar 
-o seu email e configurar as notificações do mesmo. Caso se trate de uma empresa a visualizar o seu perfil,
-esta poderá ter acesso à gestão de recursos humanos, para gerir os seus técnicos.
+A página de perfil de técnico permite visualizar as suas informações, assim como alterar 
+o seu \textit{email} e configurar as notificações. Caso se trate de uma empresa a visualizar o seu perfil, esta poderá ter acesso à gestão de recursos humanos, para gerir os seus técnicos.
 \begin{figure}[htb]
     \centering
     
@@ -126,9 +113,8 @@ esta poderá ter acesso à gestão de recursos humanos, para gerir os seus técn
 
 \subsection{Gestão de recursos humanos}
 
-A página de perfil gestão de recursos humanos permite à empresa gerir todos os seus técnicos registados 
-e criar contas de técnicos. Assim que a empresa seleciona um técnico, esta verá o seu perfil, 
-com estatísticas do técnico
+A página de gestão de recursos humanos permite à empresa gerir todos os seus técnicos registados e criar contas. Assim que a empresa seleciona um técnico, esta vê o seu perfil, 
+com estatísticas.
 \begin{figure}[htb]
     \centering
     

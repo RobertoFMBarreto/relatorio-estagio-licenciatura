@@ -1,86 +1,32 @@
 
 \chapter{Introdução}
-Este projeto intitulado \textit{Install \& Go}, trata-se uma aplicação para \textit{smartphone} dedicada a todos os clientes e 
+Este projeto intitulado \textit{Install \& Go}, refere-se a uma aplicação para \textit{smartphone} direcionada a todos os clientes e 
 técnicos Motorline, com o propósito de agilizar todo o processo de resolução de problemas e de acesso 
-aos produtos. Para alcançar estes objetivos a aplicação conta com um catálogo para todos os utilizadores 
-e assim como também um fórum para os clientes e técnicos Motorline.
+aos produtos. Para alcançar estes objetivos, a aplicação conta com um catálogo para todos os utilizadores 
+e também com um fórum para os clientes e técnicos Motorline.
 
-%Visto que o projeto a desenvolver seria de grande dimensão este foi particionado em diferentes etapas 
-%sendo que a cada etapa o objetivo seria acrescentar novas funções e melhorar a etapa anterior até se 
-%alcançar o produto final desejado.
+No início de estágio foi indicado pelo supervisor da empresa a subdivisão do projeto em duas grandes componentes. Também este projeto foi desenvolvido com uma colega que ficou encarregue de desenvolver o \textit{frontend} da componente do catálogo. Já o desenvolvimento completo do \textit{backend}, aquisição do catálogo de produtos do \textit{website} da empresa e o \textit{frontend} para o fórum, gestão de utilizadores e autenticação ficaram a meu cargo.
+%//TODO: Fala com prof sobre a utilização do meu aqui
 
-Visto que este projeto é dividido com mais uma colega, esta ficou encarregue de desenvolver 
-o \textit{frontend} do catálogo de produtos. Sendo assim este projeto e as suas tarefas são partilhadas entre os dois elementos, 
-mas com uma clara divisão de encargos entre os dois.
+O fórum da aplicação é uma plataforma que permite aos clientes e técnicos criar publicações que permitem realizar questões e/ou expor problemas para a comunidade. Estas publicações podem ser comentadas, onde também é possível realizar uma comunicação.
 
-% Acrescentar mais conforme as etapas%
-
-O fórum da aplicação é uma plataforma que permite aos clientes e técnicos criar tópicos que podem conter 
-perguntas e/ou problemas para a comunidade. Estes tópicos podem então 
-ser comentados, sendo também possível realizar uma comunicação através desta secção do tópico.
-
-O suporte da aplicação foi realizado através de uma \textit{api backend}, sendo inicialmente apenas 
-necessário para fórum, mas necessitando também posteriormente de dar suporte para o catálogo de produtos.
-
-
-
- %[A introdução deve, tal como o próprio nome indica, introduzir o tema do trabalho. Não deve haver pressa em falar da empresa onde foi realizado o estágio ou o curso a que se refere o trabalho. Deve fazer-se uma introdução à área, Os Sistemas Informáticos ou as Ciências da Computação são áreas bastante grandes, pelo que não se deve supor que o leitor está a par das necessidades ou das tecnologias usadas em determinada área. No entanto, não devem ser explicados conceitos básicos, que qualquer licenciado numa engenharia de sistemas informáticos ou em ciências da computação tenham obrigação de conhecer.
-
- %Na formatação do texto tente-se que não existam demasiadas zonas em branco. Não é pelo número de páginas que se mede a qualidade de um relatório. E, uma vez que os documentos são impressos, poupar algumas folhas é económico e ecológico. 
-
- %Relembra-se que todo o conteúdo do documento deve ser original. Quaisquer citações retiradas de algum livro ou sítio da Internet devem ser devidamente formatadas, e a referência bibliográfica adicionada \citep{knuth1973}:
- 
- %\emph{By understanding a machine-oriented language, the programmer will tend to use a much more efficient method; it is much closer to reality. }
-
- %Do mesmo modo, se algum texto, embora usando palavras do autor do documento, refira alguma ideia defendida por um outro autor, num outro documento, então também deverá aparecer a respetiva referência bibliográfica (PennState University Libraries, 2017). 
- 
- 
-
- %O uso de citações é especialmente útil para defender ideias que outros autores também defendem, e que o autor do documento não tem com provar.] 
+O suporte \textit{backend} da aplicação foi realizado através de uma \textit{api backend}, sendo inicialmente apenas necessário para fórum. Contudo, foi posteriormente acrescentado suporte para o catálogo de produtos.
 
 \newpage
 
 \section{Objetivos}
-% criação de tópicos, titulo, descrição, anexos, categorias, subcategorias e produtos
-A plataforma de fórum do aplicativo deverá permitir que a comunidade partilhe os seus tópicos, para 
-isso o utilizador deverá conseguir criar tópicos indicando o problema e uma descrição do mesmo, 
-com a possibilidade de anexar imagens, assim como também referenciar 
-o produto, facilitando a identificação e resolução do problema.
+A plataforma do fórum da aplicação deverá permitir que a comunidade partilhe as suas publicações. Para isso, o utilizador necessitará conseguir criar estas com a indicação do problema e uma descrição do mesmo, com a possibilidade de anexar imagens, assim como referenciar o produto, para facilitar a identificação e resolução do problema.
 
-% tópicos, comentários,visibilidade, finalização e melhor resposta, likes
-A comunidade deverá também conseguir responder aos tópicos e comunicar na secção de comentários do tópico. 
-O dono do tópico deverá conseguir colocar o seu tópico privado caso deseje que apenas técnicos Motorline 
-respondam ao mesmo. Este deverá também conseguir indicar quando um tópico se encontra finalizado e qual a 
-melhor resposta que obteve. A comunidade também deverá conseguir gostar de tópicos e comentários para 
-destacar os mesmos perante a restante comunidade.
+A comunidade deverá também ter a possibilidade de comentar as publicações e comunicar nesta secção. O responsável pela publicação necessitará ter a possibilidade de a colocar em privado caso tenha como objetivo que apenas técnicos Motorline respondam à mesma. Este também deverá ter a seu dispor a possibilidade de indicar quando a publicação estiver finalizada e qual a melhor resposta que obteve. Os utilizadores deverão também conseguir gostar de publicações e comentários para destacar os mesmos perante a restante comunidade.
 
-% Pesquisa de tópicos
-A comunidade deverá conseguir ver os tópicos em destaque, os mais recentes, os seus tópicos, os tópicos 
-que não estão finalizados e os técnicos Motorline conseguirão também ver os tópicos privados existentes. 
-A comunidade poderá também pesquisar por tópicos com assuntos específicos ou rapidamente através de 
-um código QR, ou pesquisa por nome, poderá pesquisar por tópicos referentes a um produto. Para filtragem 
-de pesquisa a comunidade deverá também conseguir selecionar o tipo de tópico.
-
-%[Numa pequena secção da introdução liste, cuidadosamente, os objetivos do trabalho. Não confundir com os requisitos do software. Apenas o que se pretendia atingir originalmente.] 
-
-%A aplicação tem 3 atores principais o utilizador sem sessão que consegue apenas visualizar o catálogo, o cliente que pode realizar o mesmo que um utilizador sem sessão, mas tem acesso ao fórum, já os técnicos podem realizar o mesmo que os clientes, mas têm acesso aos tópicos privados.
+A comunidade deverá conseguir ver as publicações em destaque, as mais recentes, as suas publicações, as que não estão finalizadas e os técnicos Motorline necessitarão de conseguir ver as publicações privadas existentes. A comunidade deverá ter a possibilidade de pesquisar por publicações com assuntos específicos, pesquisa por nome e por produto. Para filtragem de pesquisa a comunidade deverá também conseguir selecionar o tipo de publicação.
 
 \section{Contexto}
-O projeto foi desenvolvido na empresa Motorline Eletrocelos S.A daqui em diante designada Motorline, 
-esta empresa é especializada na produção e comercialização de automatismos para portas e portões, 
-sistemas de controlo de acessos, sistemas de segurança, entre outros produtos relacionados com o setor 
-da automação.
+O projeto foi desenvolvido na empresa Motorline Eletrocelos S.A daqui em diante designada Motorline, esta empresa é especializada na produção e comercialização de automatismos para portas e portões, sistemas de controlo de acessos, sistemas de segurança, entre outros produtos relacionados com o setor da automação.
 
-Este projeto vem por este meio resolver o problema de comunicação com o cliente, que atualmente para 
-solucionar as suas questões tem de contactar a assistência técnica que por vezes pode estar sobrelotada, 
-pelo que deverão preencher um formulário para expor a sua questão.
+Este projeto vem por este meio resolver o problema de comunicação com o cliente, que atualmente para solucionar as suas questões tem de contactar a assistência técnica que por vezes pode estar sobrecarregada, pelo que deverão preencher um formulário para expor a sua questão.
 
-Com esta solução os clientes e técnicos Motorline poderão procurar ou expor os seus problemas com a 
-comunidade onde têm a possibilidade de ser respondidos, agilizando assim o processo de resolução de problemas.
-
-Esta plataforma de fórum enquadra-se numa aplicação móvel desenvolvida em conjunto com uma 
-colega que estará encarregue de desenvolver a área de catálogo da aplicação.
- %[No caso de um estágio, é nesta secção que se deverá falar da empresa em que o estágio foi realizado. Se o projeto desenvolvido faz parte de um projeto mais amplo, faz sentido que se documente os objetivos do projeto com um todo, de modo que o leitor consiga perceber onde o trabalho realizado encaixa.] 
+Com esta solução os clientes e técnicos Motorline poderão procurar ou expor os seus problemas com a comunidade onde têm a possibilidade de ser respondidos, o que torna o processo de resolução de problemas mais ágil.
 
 \newpage
 \section{Estrutura do documento}
@@ -90,17 +36,6 @@ Este documento contém a descrição de todo o processo de engenharia de \textit
     \item Estado da Arte, onde é abordado as ferramentas utilizadas, tecnologias exploradas e planificação de trabalho.
     \item Análise e especificação, onde é abordado o estado da arte, descrito o modelo de negócio e apresentada toda a engenharia de \textit{software}
     \item Trabalho desenvolvido, onde é descrito todo o processo de desenvolvimento do projeto.
-    \item Analise de resultados, onde é discutido os resultados obtidos.
+    \item Análise de resultados, onde é discutido os resultados obtidos.
     \item Conclusão e trabalho futuro, onde é abordada a conclusão sobre o projeto e também futuras implementações que poderiam ser realizadas.
 \end{enumerate}
-% [A última secção da introdução deve explicar a estrutura do documento: quais são só capítulos existentes (para além do primeiro) e o que será discutido em cada um desses capítulos. A estrutura típica de um relatório de desenvolvimento de software é: 
-
- %Introdução, com um breve resumo do que se pretende atingir, e uma descrição clara dos objetivos;
-
-%\begin{enumerate}
-%    \item Análise ao problema, que poderá incluir uma análise ao estado da arte ou ao modelo de negócio onde se pretende intervir;
-%    \item Análise e modelação do sistema, em que sejam levantados sistematicamente os requisitos, descritos diagramas de caso de uso e de atividade (que descrevam/formalizem o modelo de negócio). 
-%    \item Implementação, em que se descrevam as tecnologias escolhidas (e se justifiquem), e se refira detalhes sobre a implementação.
-%    \item Análise de resultados e testes, seja uma análise/avaliação aos resultados obtidos, sejam testes de usabilidade ou unitários ao trabalho desenvolvido. 
-%    \item Conclusão.]
-%\end{enumerate}{}
