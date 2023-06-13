@@ -1,18 +1,35 @@
+\subsection{Web Scraper}
+\textit{Web scraping} é terminologia dada à "\emph{the construction of an agent to download, parse, and organize data from the web in an automated manner}"\citep{web_scraping}. O grande problema com \textit{web scraping} é que poderá ser considerado ilegal e é facilmente detetado. Tendo em conta este problema surgiram duas grandes formas de realizar \textit{web scraping}. A forma mais comum de \textit{web scraping} é realizar um pedido para obter uma página web e ler esta, sendo assim um processo rápido e simples.
+
+A segunda forma de realizar \textit{web scraping} é através da simulação da ação humana através da abertura o navegador programáticamente, pesquisar pela página desejada, descarregar e daí ler os dados. Este torna-se um processo lento e complexo. 
+
+A grande diferença entre estas duas formas é a velocidade, visto que a segunda forma tem de esperar que o navegador inicie, de seguida terá de esperar que a página carregue e apenas após este processo se poderá ler os dados.
+
 \subsection{Serviços Backend}
 
 Para a realização da integração entre a aplicação \emph{frontend} e os dados, foi necessário desenvolver uma API para dar suporte a todos os serviços necessários para a aplicação.
 API sigla para "\emph{Application Programming Interface} \emph{exposes a set of data and functions to facilitate interactions between computer programs and allow them to exchange information.}" ~\citep{rest_cookbook}.
-Estas ferramentas apesar de serem "\emph{designed  to  work  with  other  programs,  they’re  mostly intended to be understood and used by humans writing those other programs} ~\citep{api_design}".
+Estas ferramentas apesar de serem "\emph{designed  to  work  with  other  programs,  they’re  mostly intended to be understood and used by humans writing those other programs}"\citep{api_design}".
 
 \subsubsection{Serviços RestFull e SOAP}
 Os seviços RestFull "\emph{expose data as resources  and  use  standard  HTTP  methods  to  represent  Create,  Read,Update,  and  Delete  (CRUD)  transactions  against  these  resources}
 \citep{api_design}", sendo que a resposta é no formato JSON "\emph{due  to  its  simplicity  and  ease  of  use  with  JavaScript,  JSON  has become the standard for modern APIs}"\citep{api_design}.
 
 Já SOAP é "\emph{nothing  more  than  a  simple  XML-based  envelope  for  the  information  being  transferred,  and  a  set  of  rules  for  translating  application and platform-specific data types into XML representations}"\citep{Snell2002} sendo que a resposta é realizada em XML leva a que "\emph{It relies heavily on XML  standards  like  XML  Schema  and  XML  Namespaces  for  its  definition  and  function}"\citep{Snell2002}. A utilização de XML permite que "\emph{two  applications,  regardless  of  operating  system,  programming  language,  or  any  other  technical  implementation  detail,  may  openly  share  information  using  nothing  more  than  a  simple  message  encoded  in  a  way  that  both  applications  understand}"\citep{Snell2002}.
-"
+
 Por fim foi decidido utilizar Rest devido a ser \emph{much lighter compared to SOAP. It does not require formats like headers to be included in the message, like it is required in SOAP architecture}". Outra maior valia é que "\emph{ it parses JSON, a human readable language designed to allow data exchange and making it easier to parse and use by the computer. It is estimated to be at around one hundred times faster than XML}"\citep{Halili2018}.
 
 \newpage
+
+\subsubsection{NodeJS}
+
+Para o desenvolvimento do projeto backend foi escolhido \textit{NodeJS}, este surgiu quando "\emph{the original developers took JavaScript, something you could usually only run inside the browser, and they let it run on your machine as a standalone process}"\citep{design_node} isto significa que "\emph{applications using JavaScript outside the context of the browser}"\citep{design_node} .
+
+Para correr \textit{JavaScript} a nível de servidor web e a nível de computador pessoal é utilizado o mesmo motor, "\emph{it's called the V8 JavaScript runtime engine}"\citep{design_node} , este é "\emph{it's an opensource engine that takes JavaScript code and compiles it into much faster machine code.And that's a big part of what makes Node.js so fast}"\citep{design_node} .
+
+\textit{NodeJs} permite a utilização de bibliotecas externas "\emph{by providing the Node Package Manager}"\citep{design_node} , este permite ao desenvolvedor "\emph{to easily install, manage, and even provide  your own modules for a rapidly grown and well-maintained open source repository}"\citep{design_node} .
+
+\textit{NodeJS} foi escolhido para o desenvolvimento \textit{backend}, uma vez que, permite a utilização de \textit{Typescript} para desenvolvimento e por ser vastamente utilizado, o que permite acesso a diversas fontes de informação para resolução de problemas, assim como auxílio ao desenvolvimento.
 
 \subsubsection{Typescript}
 O typescript "\emph{is  a  bit  unusual  as  a  language  in  that  it  neither  runs  in  an  interpreter  (asPython  and  Ruby  do)  nor  compiles  down  to  a  lower-level  language  (as  Java  and  Cdo).}"\citep{typescript} isto porque este "\emph{compiles  to  another  high-level  language,  JavaScript.}"\citep{typescript}, isto faz com que o Typescript seja visto como "\emph{a  superset  of  JavaScript  in  a  syntactic  sense}"\citep{typescript}.
@@ -21,10 +38,9 @@ Todos os programas JavaScript" \emph{are  TypeScript  programs,  but  the  conve
 
 Esta linguagem de programação foi escolhida para o \textit{backend} devido à capacidade de assegurar as tipagens, o que leva a um maior nível de segurança em termos de lidar com dados recebidos, assim como também a agilização do processo de programação devido à capacidade de prever a maioria dos erros de código.
 
-\input{sections/chap2/tecnologias_utilizadas/backend/2.logging.tex}
-
 \newpage
 
+\input{sections/chap2/tecnologias_utilizadas/backend/2.logging.tex}
 
 \input{sections/chap2/tecnologias_utilizadas/backend/3.envio_de_emails.tex}
 
@@ -33,3 +49,5 @@ Esta linguagem de programação foi escolhida para o \textit{backend} devido à 
 \input{sections/chap2/tecnologias_utilizadas/backend/5.segurança.tex}
 
 \input{sections/chap2/tecnologias_utilizadas/backend/6.Firebase.tex}
+
+\input{sections/chap2/tecnologias_utilizadas/backend/7.axios.tex}

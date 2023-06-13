@@ -1,38 +1,5 @@
 \babel@toc {portuges}{}\relax 
-\contentsline {section}{\numberline {0.1}Diagrama Entidade Relação}{1}{section.0.1}%
-\contentsline {subsection}{\numberline {0.1.1}Escolha de diagrama de entidade relação}{2}{subsection.0.1.1}%
-\contentsline {subsection}{\numberline {0.1.2}Dicionário de termos}{3}{subsection.0.1.2}%
-\contentsline {section}{\numberline {0.2}Diagrama de Classes}{7}{section.0.2}%
-\contentsline {section}{\numberline {0.3}Mockups}{8}{section.0.3}%
-\contentsline {subsection}{\numberline {0.3.1}Página Inicial}{8}{subsection.0.3.1}%
-\contentsline {subsection}{\numberline {0.3.2}Autenticação - Login e Registo}{9}{subsection.0.3.2}%
-\contentsline {subsection}{\numberline {0.3.3}Autenticação - Ativação e Confirmação de conta}{10}{subsection.0.3.3}%
-\contentsline {subsection}{\numberline {0.3.4}Página inicial fórum}{11}{subsection.0.3.4}%
-\contentsline {subsection}{\numberline {0.3.5}Página de detalhes de um tópico}{12}{subsection.0.3.5}%
-\contentsline {subsection}{\numberline {0.3.6}Página de criação de um tópico}{13}{subsection.0.3.6}%
-\contentsline {subsection}{\numberline {0.3.7}Página de notificações}{14}{subsection.0.3.7}%
-\contentsline {subsection}{\numberline {0.3.8}Página de perfil de utilizador}{15}{subsection.0.3.8}%
-\contentsline {subsection}{\numberline {0.3.9}Página de gestão de recursos humanos}{16}{subsection.0.3.9}%
-\contentsline {subsection}{\numberline {0.3.10}Página de perfil de técnico registado}{17}{subsection.0.3.10}%
-\contentsline {subsection}{\numberline {0.3.11}Página de registo de novo técnico}{18}{subsection.0.3.11}%
-\contentsline {section}{\numberline {0.4}Diagramas de atividades}{19}{section.0.4}%
-\contentsline {subsection}{\numberline {0.4.1}Diagrama de atividades página inicial}{19}{subsection.0.4.1}%
-\contentsline {subsection}{\numberline {0.4.2}Diagrama de atividades página de perfil}{19}{subsection.0.4.2}%
-\contentsline {subsection}{\numberline {0.4.3}Diagrama de atividades página inicial do fórum}{20}{subsection.0.4.3}%
-\contentsline {subsection}{\numberline {0.4.4}Diagrama de atividades página de criação de tópico}{21}{subsection.0.4.4}%
-\contentsline {subsection}{\numberline {0.4.5}Diagrama de atividades página de detalhes do tópico}{22}{subsection.0.4.5}%
-\contentsline {subsection}{\numberline {0.4.6}Diagrama de atividades páginas de autenticação}{23}{subsection.0.4.6}%
-\contentsline {subsection}{\numberline {0.4.7}Diagrama de atividades registar técnico}{24}{subsection.0.4.7}%
-\contentsline {subsection}{\numberline {0.4.8}Diagrama de atividades confirmar conta}{24}{subsection.0.4.8}%
-\contentsline {section}{\numberline {0.5}Diagramas de estados}{25}{section.0.5}%
-\contentsline {subsection}{\numberline {0.5.1}Diagrama de estados criação de tópico}{25}{subsection.0.5.1}%
-\contentsline {subsection}{\numberline {0.5.2}Diagrama de estados responder a tópico}{26}{subsection.0.5.2}%
-\contentsline {subsection}{\numberline {0.5.3}Diagrama de estados autenticação e validação de conta}{27}{subsection.0.5.3}%
-\contentsline {section}{\numberline {0.6}Diagrama de sequência}{28}{section.0.6}%
-\contentsline {subsection}{\numberline {0.6.1}Diagrama de sequência Login e ativação de conta}{28}{subsection.0.6.1}%
-\contentsline {subsection}{\numberline {0.6.2}Diagrama de sequência Registo e ativação de conta}{29}{subsection.0.6.2}%
-\contentsline {subsection}{\numberline {0.6.3}Diagrama de sequência registo de técnicos}{30}{subsection.0.6.3}%
-\contentsline {section}{\numberline {0.7}Arquitetura de sistema}{31}{section.0.7}%
-\contentsline {subsection}{\numberline {0.7.1}Arquitetura de funcional}{32}{subsection.0.7.1}%
-\contentsline {subsection}{\numberline {0.7.2}Arquitetura de componentes}{33}{subsection.0.7.2}%
-\contentsline {subsection}{\numberline {0.7.3}Tabela de endpoints}{34}{subsection.0.7.3}%
+\contentsline {section}{\numberline {0.1}Arquitetura de sistema}{1}{section.0.1}%
+\contentsline {subsection}{\numberline {0.1.1}Arquitetura de funcional}{1}{subsection.0.1.1}%
+\contentsline {subsection}{\numberline {0.1.2}Arquitetura de componentes}{2}{subsection.0.1.2}%
+\contentsline {subsection}{\numberline {0.1.3}Tabela de endpoints}{3}{subsection.0.1.3}%

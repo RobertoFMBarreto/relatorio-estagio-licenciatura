@@ -1,7 +1,6 @@
 \section{Diagrama Entidade Relação}
 
-O software Install\&Go é suportado por uma base de dados relacional, 
-sendo esta esquematizada tendo por base as necessidades do projeto.
+O software Install\&Go é suportado por uma base de dados relacional esquematizada de acordo com as necessidades do projeto.
 
 \begin{figure}[htb]
     \centering
@@ -14,16 +13,11 @@ sendo esta esquematizada tendo por base as necessidades do projeto.
 \newpage
 
 \subsection{Escolha de diagrama de entidade relação}
-Durante o desenvolvimento do diagrama de entidade relação surgiu 
-a opção de se separar as empresas dos seus técnicos em duas tabelas como 
-exemplificado na Figura~\ref{fig:21}.O diagrama anteriormente 
-mostrado foi escolhido devido à sua simplicidade, 
-visto que no diagrama representado na Figura~\ref{fig:21} sempre que se
-deseja, por exemplo, obter o utilizador que criou um tópico teria de se
-verificar se o uid contido é de uma empresa ou de um técnico e apenas 
-de seguida se obter o utilizador que criou o tópico, sendo este um exemplo
-entre os demais do mesmo tipo. Tendo em conta este problema foi decido optar
-pelo diagrama anteriormente demonstrado.
+Durante o desenvolvimento do diagrama de entidade relação, surgiu 
+a opção de separar as empresas dos seus técnicos em duas tabelas como 
+exemplificado na Figura~\ref{fig:21}. Neste sempre que se
+deseja, por exemplo, obter o utilizador que criou um tópico é necessário
+verificar se o \textit{uid} contido é de uma empresa ou de um técnico e apenas de seguida se obter o utilizador que criou o tópico, sendo este um exemplo entre os demais do mesmo tipo. Tendo em conta este problema foi decido optar pelo diagrama da Figura~\ref{fig:20}.
 
 \begin{figure}[htb]
     \centering
@@ -37,8 +31,7 @@ pelo diagrama anteriormente demonstrado.
 
 \subsection{Dicionário de termos}
 
-De forma a ser possível entender o propósito de cada tabela e atributo 
-foi então criado um dicionário de termos para a base de dados(Tabela X).
-
+Com intuito de alcançar o propósito de cada tabela e atributo 
+foi criado um dicionário de termos para a base de dados(Tabela~\ref{tab:18}).
 
 \input{tables/tabela_base_dados}
