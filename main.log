@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.4.28)  14 JUN 2023 16:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.4.28)  14 JUN 2023 19:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -685,12 +685,12 @@ Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
  (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2022-12-17 L3 Experimental document command parser
 ))
-<lesi/logos/logo_ipca.png, id=20, 707.64375pt x 356.33125pt>
+<lesi/logos/logo_ipca.png, id=120, 707.64375pt x 356.33125pt>
 File: lesi/logos/logo_ipca.png Graphic file (type png)
 <use lesi/logos/logo_ipca.png>
 Package pdftex.def Info: lesi/logos/logo_ipca.png  used on input line 37.
 (pdftex.def)             Requested size: 113.00935pt x 56.9055pt.
-<lesi/logos/logo_est.png, id=22, 2971.1pt x 1124.2pt>
+<lesi/logos/logo_est.png, id=122, 2971.1pt x 1124.2pt>
 File: lesi/logos/logo_est.png Graphic file (type png)
 <use lesi/logos/logo_est.png>
 Package pdftex.def Info: lesi/logos/logo_est.png  used on input line 37.
@@ -706,64 +706,72 @@ Package pdftex.def Info: lesi/logos/logo_est.png  used on input line 37.
 
 ] [7] [8
 
-] (./main.toc)
+] (./main.toc
+Underfull \vbox (badness 2932) has occurred while \output is active []
+
+ [9])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [9] [10
-
-] (./chap5.tex
+ [10] (./chap2.tex
 Cap\'{\i }tulo 1.
-
-LaTeX Warning: Reference `sec:planificacao trabalho' on page 1 undefined on input line 6.
-
-<images/analise_resultados/planeamento_final.png, id=83, 1541.76pt x 388.45125pt>
-File: images/analise_resultados/planeamento_final.png Graphic file (type png)
-<use images/analise_resultados/planeamento_final.png>
-Package pdftex.def Info: images/analise_resultados/planeamento_final.png  used on input line 14.
-(pdftex.def)             Requested size: 455.24411pt x 114.6988pt.
 [1
 
- <./images/analise_resultados/planeamento_final.png>]
-<images/diagramas/diagrama_bd.png, id=90, 1065.9825pt x 822.07124pt>
-File: images/diagramas/diagrama_bd.png Graphic file (type png)
-<use images/diagramas/diagrama_bd.png>
-Package pdftex.def Info: images/diagramas/diagrama_bd.png  used on input line 27.
-(pdftex.def)             Requested size: 318.66948pt x 245.74521pt.
-<images/diagramas/bd_final.png, id=91, 1057.9525pt x 722.7pt>
-File: images/diagramas/bd_final.png Graphic file (type png)
-<use images/diagramas/bd_final.png>
-Package pdftex.def Info: images/diagramas/bd_final.png  used on input line 34.
-(pdftex.def)             Requested size: 318.66948pt x 217.68283pt.
 
-Underfull \vbox (badness 5637) has occurred while \output is active []
+] (./sections/chap2/tecnologias_utilizadas/backend/1.servicos_backend.tex [2] [3] [4] (./sections/chap2/tecnologias_utilizadas/backend/2.logging.tex
+Overfull \hbox (7.9419pt too wide) in paragraph at lines 2--3
+\T1/cmr/m/it/12 ap-pli-ca-tion ma-na-ge-ment (lo-gin and lo-gout, ap-pli-ca-tion ac-cess, etc.), and se-cu-rity\T1/cmr/m/n/12 "([][]Chuvakin
+ []
 
- [2 <./images/diagramas/diagrama_bd.png> <./images/diagramas/bd_final.png>]) (./main.bbl [3] [4
+) (./sections/chap2/tecnologias_utilizadas/backend/3.envio_de_emails.tex) (./sections/chap2/tecnologias_utilizadas/backend/4.scheduler.tex [5]) (./sections/chap2/tecnologias_utilizadas/backend/5.seguran√ßa.tex) [6] (./sections/chap2/tecnologias_utilizadas/backend/6.Firebase.tex) (./sections/chap2/tecnologias_utilizadas/backend/7.axios.tex)) [7] (./sections/chap2/tecnologias_utilizadas/frontend/1.frontend.tex (./sections/chap2/tecnologias_utilizadas/frontend/2.cross_platform.tex
+Overfull \hbox (14.50513pt too wide) in paragraph at lines 6--8
+\T1/cmr/m/n/12 Gi-or-dano[][], [][]2019[][]), mas o grande pro-blema desta abor-da-gem È a "\T1/cmr/m/it/12 lack in per-for-mance\T1/cmr/m/n/12 "([][]Mainkar
+ []
+
+) [8] (./sections/chap2/tecnologias_utilizadas/frontend/3.flutter.tex) (./sections/chap2/tecnologias_utilizadas/frontend/4.dart.tex) [9] (./sections/chap2/tecnologias_utilizadas/frontend/5.processo_aprendizagem.tex) (./sections/chap2/tecnologias_utilizadas/frontend/6.links.tex
+Overfull \hbox (18.7304pt too wide) in paragraph at lines 5--6
+\T1/cmr/m/it/12 link\T1/cmr/m/n/12 "([][]Developers[][], [][]2023[][]), isto per-mite que "\T1/cmr/m/it/12 app opens im-me-di-a-tely if it's ins-tal-led\T1/cmr/m/n/12 "([][]Developers[][],
+ []
+
+)) [10] (./sections/chap2/tecnologias_utilizadas/qualidade_codigo/1.qualidade_codigo.tex (./sections/chap2/tecnologias_utilizadas/qualidade_codigo/2.design_patterns.tex) (./sections/chap2/tecnologias_utilizadas/qualidade_codigo/3.documentacao.tex [11])
+Overfull \hbox (0.59897pt too wide) in paragraph at lines 12--7
+[]\T1/cmr/m/it/12 Swagger \T1/cmr/m/n/12 È uma fer-ra-menta "\T1/cmr/m/it/12 built around the Ope-nAPI Spe-ci-fi-ca-tion\T1/cmr/m/n/12 "([][]SmartBear[][], [][]2023[][])
+ []
+
+(./sections/chap2/tecnologias_utilizadas/qualidade_codigo/4.testes.tex)) [12]
+<images/etapa1_sprint_planning.png, id=478, 1084.05pt x 1483.5425pt>
+File: images/etapa1_sprint_planning.png Graphic file (type png)
+<use images/etapa1_sprint_planning.png>
+Package pdftex.def Info: images/etapa1_sprint_planning.png  used on input line 40.
+(pdftex.def)             Requested size: 341.43307pt x 467.25046pt.
+) (./main.bbl [13 <./images/etapa1_sprint_planning.png>] [14
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 28.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 13.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)) [5] (./main.aux)
+)
+Underfull \hbox (badness 1331) in paragraph at lines 56--60
+[]\T1/cmr/m/n/12 Hale, Coda. 2023.  How to sa-fely store a pas-sword.  [][]$\T1/cmtt/m/n/12 https : / / codahale . com /
+ []
 
-LaTeX Warning: There were undefined references.
-
+[15]) [16] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 301A19A6859E7D7EF97346697C8B12C3;524.
+(rerunfilecheck)             Checksum: D6AEBC30A232F712A75AB179DA6F2C82;4320.
  ) 
 Here is how much of TeX's memory you used:
- 23554 strings out of 476182
- 419254 string characters out of 5796604
- 1858793 words of memory out of 6000000
- 43487 multiletter control sequences out of 15000+600000
- 525474 words of font info for 58 fonts, out of 8000000 for 9000
+ 23744 strings out of 476182
+ 425666 string characters out of 5796604
+ 1861793 words of memory out of 6000000
+ 43575 multiletter control sequences out of 15000+600000
+ 526173 words of font info for 59 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 106i,6n,105p,2338b,469s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (15 pages, 640984 bytes).
+ 106i,6n,105p,2338b,604s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on main.pdf (26 pages, 727233 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 596 PDF objects out of 1000 (max. 8388607)
+ 530 compressed objects within 6 object streams
+ 86 named destinations out of 1000 (max. 500000)
+ 248 words of extra memory for PDF output out of 10000 (max. 10000000)
 

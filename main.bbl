@@ -1,4 +1,4 @@
-\begin{thebibliography}{14}
+\begin{thebibliography}{22}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{}
@@ -6,6 +6,12 @@
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
   \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
+
+\bibitem[{Axios(2023)}]{axios}
+Axios. 2023.
+\newblock Getting started | axios docs.
+\newblock \url{https://axios-http.com/docs/intro}.
+\newblock [Abril-2023].
 
 \bibitem[{Bracha(2015)}]{dart_pg_lang}
 Bracha, Gilad. 2015.
@@ -34,11 +40,23 @@ Firebase. 2023.
 \newblock \url{https://firebase.google.com/docs/dynamic-links}.
 \newblock [Abril-2023].
 
+\bibitem[{Foundation(2023)}]{mocha}
+Foundation, OpenJS. 2023.
+\newblock Mocha - the fun, simple, flexible javascript test framework.
+\newblock \url{https://mochajs.org/}.
+\newblock [Abril-2023].
+
 \bibitem[{Gamma et~al.(2009)Gamma, Helm, Johnson \& Vlissides}]{dart}
 Gamma, Erich, Richard Helm, Ralph Johnson \& John Vlissides. 2009.
 \newblock \emph{Design patterns: Elements of reusable object-oriented
   software}.
 \newblock Addison-Wesley.
+
+\bibitem[{Hale(2023)}]{bcrypt}
+Hale, Coda. 2023.
+\newblock How to safely store a password.
+\newblock \url{https://codahale.com/how-to-safely-store-a-password/}.
+\newblock [Abril-2023].
 
 \bibitem[{Halili \& Ramadani(2018)}]{Halili2018}
 Halili, Festim \& Erenis Ramadani. 2018.
@@ -50,6 +68,18 @@ Halili, Festim \& Erenis Ramadani. 2018.
 Jin, Brenda, Saurabh Sahni \& Amir Shevat. 2018.
 \newblock \emph{Designing web apis}.
 \newblock O'Reilly Media, Inc.
+
+\bibitem[{Library(2023)}]{chai}
+Library, Chai~Assertion. 2023.
+\newblock Chai.
+\newblock \url{https://www.chaijs.com/}.
+\newblock [Abril-2023].
+
+\bibitem[{Linux(2023)}]{crontab}
+Linux. 2023.
+\newblock crontab(5) - linux manual page.
+\newblock \url{https://man7.org/linux/man-pages/man5/crontab.5.html}.
+\newblock [Abril-2023].
 
 \bibitem[{Mainkar \& Giordano(2019)}]{flutter}
 Mainkar, Prajyot \& Salvatore Giordano. 2019.
@@ -68,16 +98,34 @@ Mead, Andrew. 2018.
   node.js, and deploy and test node.js applications on the web}.
 \newblock Packt Publishing Ltd.
 
+\bibitem[{merencia(2023)}]{node_cron}
+merencia. 2023.
+\newblock node-cron - npm.
+\newblock \url{https://www.npmjs.com/package/node-cron}.
+\newblock [Abril-2023].
+
 \bibitem[{Moroney(2017)}]{Moroney2017}
 Moroney, Laurence. 2017.
 \newblock \emph{The definitive guide to firebase}.
 \newblock Apress.
 \newblock \doi{10.1007/978-1-4842-2943-9}.
 
+\bibitem[{SmartBear(2023)}]{swagger}
+SmartBear. 2023.
+\newblock About swagger specification | documentation | swagger.
+\newblock \url{https://swagger.io/docs/specification/about/}.
+\newblock [Abril-2023].
+
 \bibitem[{Snell et~al.(2002)Snell, Tidwell \& Kulchenko}]{Snell2002}
 Snell, James., Doug. Tidwell \& Pavel. Kulchenko. 2002.
 \newblock \emph{Programming web services with soap}.
 \newblock O'Reilly \& Associates.
+
+\bibitem[{TypeDoc(2023)}]{typedoc}
+TypeDoc. 2023.
+\newblock Overview | typedoc.
+\newblock \url{https://typedoc.org/guides/overview/}.
+\newblock [Abril-2023].
 
 \bibitem[{Vanderkam(2019)}]{typescript}
 Vanderkam, Dan. 2019.
