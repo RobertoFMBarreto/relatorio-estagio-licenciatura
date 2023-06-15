@@ -14,8 +14,6 @@ Para evitar variação de código destes \textit{controllers} em termos de estru
 
  Esta estrutura será sempre aplicada pois foram utilizados \textit{snippets} de código que permitem criar um modelo de estrutura sendo apenas necessário escrever a palavra-chave e toda a estrutura é aplicar, pelo que é necessário de seguida efetuar as alterações perante o contexto.
 
-\newpage
-
 \subsubsection{Execução da lógica de negócio}
 A execução da lógica de negócio passa por direcionar os dados para a ação correta, esta ação geralmente resulta numa operação de base de dados. Inicialmente foi desenvolvida toda a validação de código e todas as operações de base de dados diretamente na execução da lógica de negócio. Após uma revisão desta organização de código com o professor orientador, foi decidido separar estas funcionalidades, de onde surgiu a componente de validação de dados, a de operações de base de dados e a de lógica de negócio que implementa a componente de operações de base de dados. Sendo assim para evitar que estas operações sobre a base de dados estejam em conjunto com o direcionamento dos dados, foram criados modelos para cada tabela. Cada modelo contém um conjunto de operações sobre a tabela correspondente. Estas operações estão contidas sobre métodos que podem receber dados para executar na operação e devolver a resposta da mesma.
 
@@ -35,8 +33,6 @@ Assim como mencionado anteriormente o bem mais importante numa boa comunicação
 \end{figure}
 
 O suporte a este ficheiro foi elaborado com uma operação que recebe a chave e a linguagem desejada. Este devolve o texto correspondente traduzido, pelo que na formulação da resposta a operação é executada com a indicação da chave do texto a enviar e a linguagem desejada, sendo então este devolvido para o utilizador.
-
-\newpage
 
 \subsubsection{Processamento de erros}
 Como não é de interesse enviar erros do próprio servidor para o utilizador, foi decidido controlar estes. Para isso foi criado um erro customizado com base o erro da própria linguagem. Este recebe por parâmetro o código da tradução da mensagem. Esta abordagem permite também evitar que sempre que um erro é lançado o sistema pare. Sempre que um erro é lançado por base de dados, erro de código ou de biblioteca, o erro original é chamado, pelo que foi decidido que sempre que é detetado, então será devolvida uma mensagem de "erro de servidor" o que evita que dados sensíveis e desnecessários para o utilizador sejam devolvidos.
