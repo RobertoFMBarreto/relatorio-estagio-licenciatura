@@ -1,6 +1,13 @@
 \subsection{Middlewares} 
 Um \textit{middleware} comporta-se como uma ligação entre duas partes e permite também executar código.
 
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=\textwidth]{images/implementacao/api/middlewares.png}
+  \caption{Comportamento de middlewares}
+  \label{middlewares_png}
+\end{figure}
+
 \subsubsection{Linguagem}
 O bem essencial para uma boa comunicação entre duas partes é a utilização da mesma linguagem, pelo que, foi necessário perceber qual a linguagem a utilizar quando se responde a um pedido. Para este fim foi desenvolvido um \textit{middleware}, o objetivo deste é verificar se existe a chave \textit{language} no cabeçalho do pedido, caso esta exista é então obtida a linguagem e guardada nas variáveis locais do pedido. Na eventualidade desta não existir, foi decidido que a aplicação responderá em português por omissão, este valor poderá ser futuramente alterado de forma simples.
 
@@ -29,6 +36,3 @@ Sempre que um utilizador realiza um pedido,o seu \textit{token} de sessão dever
 \subsubsection{Validação de Papel}
 
 Com finalidade de garantir que apenas utilizadores com cargos suficientes conseguem realizar as ações regradas, foi criado um \textit{middleware} que valida se o utilizador que realizou o pedido tem permissões para o mesmo. Este \textit{middleware} interliga-se com o \textit{middleware} anterior pois, como mencionado, o cargo do utilizador em questão é enviado no \textit{token}, pelo que é obtido este é obtido realizada uma comparação, com o cargo desejado. Para isto foram criados 2 \textit{middlewares} diferentes, um valida o cargo de empresas e o outro o cargo de técnicos. Visto que as empresas podem realizar operações de técnicos então no middleware de técnicos é verificado se o \textit{token} corresponde a um utilizador empresa ou a um utilizador técnico, já no \textit{middleware} de validação de empresa é verificado se o utilizador tem cargo de empresa.
-
-
-% //TODO : Adicionar esquema a mostrar como estes middlewares funcionam
