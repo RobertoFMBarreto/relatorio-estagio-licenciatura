@@ -25,7 +25,14 @@ A validação dos dados é necessária para evitar erros a nível de servidor co
 \subsubsection{Formulação da resposta}
 Assim como mencionado anteriormente o bem mais importante numa boa comunicação é a utilização da mesma linguagem, pelo que a resposta do servidor deverá  utilizar a linguagem indicada pelo utilizador. Para realizar esta tradução foi utilizado o mesmo conceito que se usa em \textit{android}. Neste é criado um ficheiro que contém um conjunto de chaves e a cada corresponde um texto. Cada tradução tem de conter estas chaves para ser possível obter o texto correto para cada chave. Sendo assim foi utilizado um ficheiro \textit{json} que contem as chaves das linguagens suportadas, a cada uma corresponde a um conjunto de outras chaves que contém todas as traduções necessárias, neste caso foi utilizado numeração, em vez de palavras. Esta abordagem permite que de forma fácil futuramente seja possível adicionar outras linguagens ao servidor.
 
-% //TODO mostrar exemplo
+\begin{figure}[htb]%
+  \centering
+  \subfloat[\centering Página de login]{{\includegraphics[width=0.45\textwidth]{images/implementacao/api/trad_pt.png} }}%
+  \qquad
+  \subfloat[\centering Página de registo]{{\includegraphics[width=0.45\textwidth]{images/implementacao/api/trad_en.png} }}%
+  \caption{Autenticação - Login e Registo}%
+  \label{fig:24}
+\end{figure}
 
 O suporte a este ficheiro foi elaborado com uma operação que recebe a chave e a linguagem desejada. Este devolve o texto correspondente traduzido, pelo que na formulação da resposta a operação é executada com a indicação da chave do texto a enviar e a linguagem desejada, sendo então este devolvido para o utilizador.
 
