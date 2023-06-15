@@ -2,31 +2,31 @@
 
 \section{Web scraper}
 
-Após uma reunião com o cliente foi percebido que o catálogo de produtos Motorline não se encontra em um servidor. Estes dados encontram-se apenas diretamente no \textit{website} da empresa, sendo assim viu-se a necessidade de criar um \textit{web scraper}.
+Após uma reunião com o cliente foi compreendido que o catálogo de produtos Motorline não se encontra num servidor. Estes dados apenas estão diretamente no \textit{website} da empresa, sendo assim, foi determinado a necessidade de criar um \textit{web scraper}.
 
-Nesta foi decidido que o \textit{web scraper} iria apenas correr 1 vez por mês para evitar a sobrelotação do servidor. Para agilizar a realização do \textit{web scraper} foi disponibilizado pela empresa a estrutura do \textit{website} a seguir para obter as informações.
+Durante a reunião concluiu-se que o \textit{web scraper} iria apenas correr uma vez por mês para ser evitada a sobrelotação do servidor. Para agilizar a realização do \textit{web scraper} foi entregue pela empresa a estrutura do \textit{website} a seguir para serem obtidas as informações.
 
 \newpage
 
 \subsection{Implemenção web scraper}
-A implementação e testagem do \textit{web scraper} sem sobrelotação o servidor, foi alcançada pois foi préviamente descarregado todo o \textit{wesite} localmente, o que permite assim simular o catálogo.
+A implementação e testagem do \textit{web scraper}, sem sobrelotação do servidor, foi alcançada, uma vez que, préviamente foi descarregado todo o \textit{wesite} localmente, o que permitiu simular o catálogo.
 
-Para implementar o \textit{web scraper} foi optado pela abordagem mais simples, realizar um pedido para obter a página \textit{web}, ler a página e guardar os dados.
+Para a implementação do \textit{web scraper} optou-se por uma abordagem mais simples. Esta abordagem, consiste na realização de um pedido para ser obtida a página \textit{web}, ler e guardar os dados.
 
-A linguagem utilizada foi python devido à facilidade de lidar com abundantes quantidades de dados. O tratamento dos dados das páginas \textit{web} foi realizado com o auxílio da biblioteca bs4, também conhecida como \textit{beautiful soup}, esta permite alimentar com uma página \textit{web} e de seguida realizar pesquisas sobre esta com base em \textit{tags} e atributos dos elementos.
+A linguagem utilizada foi \textit{python} devido à facilidade de lidar com abundantes quantidades de dados. O tratamento dos dados das páginas \textit{web} foi realizado com o auxílio da biblioteca \textit{bs4}, também conhecida como \textit{beautiful soup}, esta permite alimentar com uma página \textit{web} e de seguida realizar pesquisas sobre esta com base em \textit{tags} e atributos dos elementos.
 
-Após um estudo do catálogo foi percebido que dados seriam necessários, sendo estes então:
+Após um estudo do catálogo foi compreendido que dados seriam necessários, sendo estes:
 \begin{enumerate}
     \item Categorias e subcategorias de produtos;
     \item Produtos de cada categoria e subcategoria;
     \item Documentação dos produtos;
-    \item Imagens e videos dos produtos;
+    \item Imagens e vídeos dos produtos;
 \end{enumerate}
 
 \newpage
 
-Para guardar estes dados foi utilizado um dicionário que contém primeiramente como chaves as categorias de produtos. Para cada categoria contém mais um dicionário com as subcategorias de produtos. Cada categoria possui uma lista de produtos com é obtida a lista de todos os produtos, sendo cada produto representado também por um dicionário, que contém como chaves os atributos do mesmo.
-A utilização dicionários e listas para guardar estes dados deve-se a que o objetivo será guardar estes dados em \textit{json} e a transformação é simplificada com a utilização destas estruturas devido à sua proximidade com a estrutura \textit{json}.
+Para guardar estes dados foi utilizado um dicionário, que contém como chaves as categorias de produtos. Para cada categoria contém mais um dicionário com as subcategorias de produtos. Cada categoria possui uma lista de produtos, sendo cada produto representado por um dicionário, que abarca como chaves os seus atributos.
+A utilização de dicionários e listas para guardar estes dados deve-se a que o objetivo será guardar estes em \textit{json} e a transformação é simplificada com a utilização destas estruturas devido à proximidade com a estrutura \textit{json}.
 
 \begin{figure}[htb]
     \centering
@@ -38,9 +38,9 @@ A utilização dicionários e listas para guardar estes dados deve-se a que o ob
 
 \newpage
 
-Após uma análise da estrutura do \textit{website} foi percebido que a página geral de produtos possui todas as categorias, assim como também as subcategorias com \textit{urls} para as páginas que contém todos os produtos das subcategorias. 
+Após uma análise da estrutura do \textit{website} foi constatado que a página geral dos produtos possui todas as categorias, assim como, as subcategorias com \textit{urls} para as páginas que contém todos os produtos das subcategorias. 
 
-Sendo assim foi em primeiro lugar, percebido que cada conjunto(categoria, subcategorias) é uma secção, pelo que, são obtidas todas as secções de categorias. Para cada uma destas secções é obtido o título que equivale ao nome da categoria e também todos os elementos a clicáveis. Estes correspondem às subcategorias que contêm o nome e um \textit{url} que redireciona para a página de produtos da subcategoria.
+Sendo assim, em primeiro lugar percebeu-se que cada conjunto(categoria, subcategorias) é uma secção, pelo que, são obtidas todas as secções das categorias. Para cada uma destas secções, é obtido o título que equivale ao nome da categoria e também todos os elementos clicáveis. Estes, correspondem às subcategorias que contêm o nome e um \textit{url}, que redireciona para a página de produtos da subcategoria.
 
 \begin{figure}[htb]
     \centering
@@ -50,10 +50,10 @@ Sendo assim foi em primeiro lugar, percebido que cada conjunto(categoria, subcat
     \label{fig:50}
 \end{figure}
 
-Sendo assim já é possível identificar cada categoria e subcategoria, assim como também o \textit{url} da página de produtos para cada subcategoria. Mas após alguma análise dos dados foi percebido que estas não contêm acentuação devido à sua formatação no \textit{website}. Para resolver este problema foi pesquisado por ferramentas capazes de corrigir estes erros ortográficos. Pelo que foi descoberto que a biblioteca mais utilizada em \textit{python} para resolver este problema 
-é a biblioteca \textit{spellchecker}, esta ferramenta é a mais utilizada devido à sua capacidade de corrigir erros ortográficos em diversas linguagens. Sendo assim sempre que uma categoria e subcategoria é obtida, antes de ser guardada, é corrigida.
+Posto isto, já é possível identificar cada categoria e subcategoria, assim como, o \textit{url} da página de produtos para cada subcategoria. Mas, após alguma análise dos dados foi percebido que estas não contêm acentuação visto que, existe uma formatação no \textit{website}. Para resolver este problema, foram pesquisadas ferramentas capazes de corrigir erros ortográficos. Pelo que, descobriu-se que a biblioteca mais utilizada em \textit{python} para resolver este problema é a biblioteca \textit{spellchecker}. Esta ferramenta, por sua vez, é a mais utilizada dado à sua capacidade de correção dos erros ortográficos em diversas linguagens. Por fim, sempre que uma categoria e subcategoria é obtida, antes de ser guardada, é corrigida.
 
-Aquando a finalização do processo anterior, cada \textit{url} é aberto e são obtidos os \textit{urls} de produtos e imagens de amostra dos produtos. Em cada página foi obtido todos os elementos pressionáveis existentes, sendo que cada um refere-se a um produto. Para obter o nome do produto correspondente foi utilizado o nome contido no \textit{url} do elemento do produto, pois todos os produtos seguem a mesma estrutura, sendo esta, /produtos/nome-produto. Como em \textit{urls} não é permitido utilizar acentuação e espaços, então todos os nomes foram corrigidos com a mesma ferramenta de correção ortográfica mencionada anteriormente.
+
+Aquando a finalização do processo anterior, cada \textit{url} é aberto e a partir disto, são obtidos os \textit{urls} de produtos e imagens de amostra dos produtos. Em cada página, foram obtidos todos os elementos pressionáveis existentes, sendo que cada um refere-se a um produto. Para obter o nome do produto correspondente, foi utilizado o nome contido no \textit{url} do elemento, pois todos os produtos seguem a mesma estrutura, sendo esta, /produtos/nome-produto. Como em \textit{urls} não é permitido utilizar acentuação e espaços, todos os nomes foram corrigidos com a mesma ferramenta de correção ortográfica mencionada anteriormente.
 
 \begin{figure}[htb]
     \centering
@@ -64,7 +64,7 @@ Aquando a finalização do processo anterior, cada \textit{url} é aberto e são
 \end{figure}
 
 \newpage
-Neste momento após correr o código foi percebido que existem algumas páginas de produtos em que este não conseguia obter dados, pelo que um erro era atirado, para perceber exatamente que páginas de produtos este erro acontecia, sempre que um erro era detetado este \textit{url} seria adicionado a uma nova chave do dicionário mencionado anteriormente, esta chave tem o nome \textit{misses} e contém todos os \textit{urls} em que algum erro aconteceu. Foi então nesta ocasião percebido que nem todas as páginas de produtos são iguais e após uma reunião com o cliente este expôs que existem páginas de produtos e de detalhes de produtos que são muito diferentes das restantes.
+Neste momento, depois de correr o código foi deduzido que existem algumas páginas de produtos em que este não conseguia obter dados, pelo que, um erro era atirado. Para compreender exatamente em que páginas de produtos surgia este erro, sempre que um erro era detetado, este \textit{url} era adicionado a uma nova chave do dicionário mencionado anteriormente. Esta chave, tem o nome \textit{misses} e contém todos os \textit{urls} em que algum erro aconteceu. Então, nesta ocasião percebeu-se que nem todas as páginas de produtos são iguais, contudo, após uma reunião com o cliente este expôs que existem páginas de produtos e de detalhes de produtos que são muito diferentes das restantes.
 
 \begin{figure}[htb]
     \centering
@@ -74,11 +74,9 @@ Neste momento após correr o código foi percebido que existem algumas páginas 
     \label{fig:52}
 \end{figure}
 
-Com o objetivo de não atrasar o restante do projeto foi decidido em primeiro lugar obter todos os produtos que contêm páginas semelhantes. Para cada página de produto foi obtido o título que corresponde ao nome do produto, o elemento que contém o id produto-descrição, que corresponde à descrição do produto. As imagens dos produtos são disponibilizadas através de \textit{urls} na secção da galeria do produto, pelo que, são obtidos todos os seus \textit{urls}.
+Com o objetivo de não atrasar o restante projeto foi determinado primeiramente, que todos os produtos que contêm páginas semelhantes deveriam ser obtidos. Para cada página de produto, foi obtido o título que corresponde ao nome do produto e o elemento que contém o \textit{id} produto-descrição, que corresponde à sua descrição. As imagens dos produtos são disponibilizadas através de \textit{urls} na secção da galeria do produto, pelo que, são obtidos todos os seus \textit{urls}.
 
-A documentação dos produtos pode ser disponibilizada através de \textit{urls} para os manuais,
-ou com uma lista \textit{dropdown} com todos os manuais em formato de \textit{url}, o que permite que estes sejam obtidos através de todos os \textit{urls} da secção de documentação, 
-assim como os seus nomes e todas as opções de documentação do \textit{dropdown} se este existir.
+A documentação dos produtos pode ser disponibilizada através de \textit{urls} para os manuais, ou, com uma lista \textit{dropdown} com todos os manuais em formato \textit{url}, o que permite, serem obtidos através de todos os \textit{urls} da secção de documentação, assim como, os nomes e todas as opções do \textit{dropdown} se este existir.
 
 \begin{figure}[htb]
     \centering
@@ -90,6 +88,7 @@ assim como os seus nomes e todas as opções de documentação do \textit{dropdo
 
 \newpage
 
+% //TODO: Here BROOOOOO
 As imagens de desenho técnico e informação geral estão disponibilizadas na secção correspondente
 ao nome de cada uma, caso existam são obtidas as imagens e os seus \textit{urls}.
 
@@ -130,7 +129,7 @@ foi percebido que o \textit{website} bloqueia este tipo de solução como indica
 Através da resposta obtida foi então percebido que seria necessário alterar a abordagem visto que a anterior não seria possível utilizar. Opcionalmente seria possível seguir a abordagem de simular a ação humana através da abertura de um navegador programáticamente e pesquisar pelo \textit{url} desejado. 
 
 Após uma investigação foi descoberto que existem ferramentas que permitem controlar o dispositivo onde correm, mas estas impedem a utilização enquanto se encontram a correr. Também foram descobertas ferramentas que apenas recebem o navegador a utilizar e abrem uma nova janela deste para realizar a pesquisa.
-O processo de obter os produtos é demorado, pelo que, foi optado pela segunda opção, visto que seria possível continuar com trabalho em paralelo com o processo de obter dados. Sendo assim a ferramenta mais recomendada para realizar esta operação é a biblioteca \textit{selenium}, esta  permite realizar exatamente o processo referido anteriormente com a possibilidade de escalar com \textit{multi threading}, o que permite abrir diversas janelas do navegador simultaneamente e obter dados destas o que diminui drasticamente o tempo de execução, esta funcionalidade não foi explorada devido a limitações de \textit{hardware}, mas seria uma importante implementação futura.
+O processo de obter os produtos é demorado, pelo que, foi optado pela segunda opção, visto que seria possível continuar com trabalho em paralelo com o processo de obter dados. Sendo assim a ferramenta mais recomendada para realizar esta operação é a biblioteca \textit{selenium}, esta  permite realizar exatamente o processo referido anteriormente.
 
 Com a utilização a biblioteca \textit{selenium} foi indicado qual o navegador a utilizar, neste caso foi escolhido o \textit{chrome} devido a este já se encontrar instalado no dispositivo. Após se indicar qual o navegador a utilizar, é necessário para cada página indicar qual elemento esperar que carregue, pois por vezes existem elementos que demoram mais tempo a carregar do que a página. Visto que a página carregada poderá não conter o elemento a obter, foi então implementado um tempo de espera máximo de 5 segundos, assim que este tempo expira a operação é abortada e o \textit{url} é adicionado à lista de \textit{urls} com erros.
 

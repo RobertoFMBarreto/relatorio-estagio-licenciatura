@@ -1,9 +1,9 @@
-\subsection{Logging de erros}
+\subsubsection{Logging de erros}
 
 A identificação dos erros no servidor é difícil, pois, uma vez que os erros são tratados, os dados referentes aos não são guardados ou utilizados. Para resolver este problema foi decidido que sempre que um erro que não é customizado é detetado, é registado um \textit{log}, este contém informações sobre o pedido como data e hora, dados recebidos, a descrição original do erro e serviço referente.
 
 Para implementar esta solução foi em primeiro lugar criado um \textit{middleware} que sempre que deteta erros dentro do serviço executa um método. Este método, por sua vez, obtém os dados referentes ao pedido realizado, sendo estes a data e hora, os dados recebidos e o serviço pedido. Após se obter os dados do pedido é obtida a mensagem do erro e estes dados acrescentados numa nova linha no ficheiro de erros do servidor.
 
-\subsection{Logging de pedidos com morgan}
+\subsubsection{Logging de pedidos com morgan}
 
 Para realizar o \textit{logging} de pedidos a serviços foi utilizado o \textit{morgan}, esta ferramenta apenas precisa a indicação do ficheiro onde escrever os \textit{logs}, o que leva à utilização de um ficheiro chamado \textit{log}. O \textit{morgan} também precisa da indicação do tipo de \textit{log} a realizar, estes tipos são indicados pela ferramenta, o utilizado foi o combinado, este é o tipo de \textit{log} mais completo, visto que, é o que obtém mais dados, sendo estes, a data e hora do pedido, o tipo de pedido, o serviço pedido, os dados recebidos, a resposta devolvida e também a descrição do sistema utilizado.
