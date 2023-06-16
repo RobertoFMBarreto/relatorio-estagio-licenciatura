@@ -88,9 +88,7 @@ A documentação dos produtos pode ser disponibilizada através de \textit{urls}
 
 \newpage
 
-% //TODO: Here BROOOOOO
-As imagens de desenho técnico e informação geral estão disponibilizadas na secção correspondente
-ao nome de cada uma, caso existam são obtidas as imagens e os seus \textit{urls}.
+As imagens de desenho técnico e informação geral encontram-se disponíveis na secção correspondente ao nome de cada uma, caso existam, são obtidas as imagens e os seus \textit{urls}.
 
 \begin{figure}[htb]
     \centering
@@ -100,9 +98,7 @@ ao nome de cada uma, caso existam são obtidas as imagens e os seus \textit{urls
     \label{fig:54}
 \end{figure}
 
-Os vídeos de produtos estão disponíveis na secção de vídeos, sendo que cada uma contém o nome e o vídeo.
-Estes são demonstrados através da utilização de um elemento \textit{iframe}, este contém um \textit{url} para o video, mas após tentar visualizar este \textit{url}, foi percebido que não é possível obter o vídeo a partir deste. Sendo assim foi investigada a plataforma \textit{vimeo}, esta contém todos os videos de produtos, pelo que para cada um é gerado um \textit{id} único e este poderá ser acedido através do \textit{url} geral da plataforma seguido 
-do \textit{id}. O \textit{id} está também colocado no elemento \textit{iframe}, pelo que é obtido e acrescentado ao \textit{url} da plataforma o que permite assim guardar todos os vídeos de produtos.
+Os vídeos de produtos estão disponíveis na secção de vídeos, sendo que, cada uma contém o nome e o vídeo. Estes são demonstrados através da utilização de um elemento \textit{iframe}, este contém um \textit{url} para o vídeo, mas após a tentativa de visualização deste \textit{url}, constatou-se que não é possível obter o vídeo a partir deste. Sendo assim, foi investigada a plataforma \textit{vimeo}. Esta, contém todos os vídeos de produtos, pelo que, para cada um é gerado um \textit{id} único. Este vídeo poderá ser acedido através do \textit{url} geral da plataforma seguido do \textit{id}. O \textit{id}, está colocado no elemento \textit{iframe}, pelo que, é obtido e acrescentado ao \textit{url} da plataforma, o que permite guardar todos os vídeos de produtos.
 
 \begin{figure}[htb]
     \centering
@@ -116,8 +112,7 @@ do \textit{id}. O \textit{id} está também colocado no elemento \textit{iframe}
 
 \subsubsection{Implemenção no website}
 
-Após se verificar que eram obtidos pelo menos 80\% dos produtos totais foi então decidido testar no \textit{website}. Para isto foi utilizada a biblioteca \textit{requests}, com a qual é realizado um pedido \textit{GET} a cada \textit{url} necessário para se obter a página \textit{web}. Assim que o código foi corrido e a resposta analisada
-foi percebido que o \textit{website} bloqueia este tipo de solução como indicado pela figura~\ref{fig:56}
+Logo que se verificou que pelo menos 80\% dos produtos totais eram obtidos foi decidido testar no \textit{website}. Para isto, foi utilizada a biblioteca \textit{requests}, com a qual é realizado um pedido \textit{GET} a cada \textit{url} necessário para se obter a página \textit{web}. Assim que o código foi corrido e a resposta analisada compreendeu-se que o \textit{website} bloqueia este tipo de solução como é indicado na figura~\ref{fig:56}
 
 \begin{figure}[htb]
     \centering
@@ -220,9 +215,9 @@ De seguida foi percebido que existem dados que não são necessários na descri�
 
 \begin{figure}[htb]
     \centering
-    \includegraphics[width=\textwidth]{images/diagramas/bd_final.png}
+    \includegraphics[width=0.9\textwidth]{images/diagramas/bd_final.png}
     \caption{atualização da base de dados}
-    \label{fig:63}
+    \label{webscraper_bd}
 \end{figure}
 
 \newpage
