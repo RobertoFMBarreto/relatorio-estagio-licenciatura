@@ -112,7 +112,7 @@ Os vídeos de produtos estão disponíveis na secção de vídeos, sendo que, ca
 
 \subsubsection{Implemenção no website}
 
-Logo que se verificou que pelo menos 80\% dos produtos totais eram obtidos foi decidido testar no \textit{website}. Para isto, foi utilizada a biblioteca \textit{requests}, com a qual é realizado um pedido \textit{GET} a cada \textit{url} necessário para se obter a página \textit{web}. Assim que o código foi corrido e a resposta analisada compreendeu-se que o \textit{website} bloqueia este tipo de solução como é indicado na figura~\ref{fig:56}
+Logo que se verificou que pelo menos 80\% dos produtos totais eram obtidos, decidiu-se testar no \textit{website}. Para isto, foi utilizada a biblioteca \textit{requests}, com a qual é realizado um pedido \textit{GET} a cada \textit{url} necessário para obter a página \textit{web}. Assim que o código foi corrido e a resposta analisada compreendeu-se que o \textit{website} bloqueia este tipo de solução como é indicado na figura~\ref{fig:56}
 
 \begin{figure}[htb]
     \centering
@@ -121,20 +121,19 @@ Logo que se verificou que pelo menos 80\% dos produtos totais eram obtidos foi d
     \label{fig:56}
 \end{figure}
 
-Através da resposta obtida foi então percebido que seria necessário alterar a abordagem visto que a anterior não seria possível utilizar. Opcionalmente seria possível seguir a abordagem de simular a ação humana através da abertura de um navegador programáticamente e pesquisar pelo \textit{url} desejado. 
+Através da resposta obtida, foi compreendida a necessidade de alteração da abordagem, visto que, a anterior não poderia ser utilizada. Opcionalmente seria possível seguir a abordagem de simular a ação humana através da abertura de um navegador programáticamente e pesquisar pelo \textit{url} desejado. 
 
-Após uma investigação foi descoberto que existem ferramentas que permitem controlar o dispositivo onde correm, mas estas impedem a utilização enquanto se encontram a correr. Também foram descobertas ferramentas que apenas recebem o navegador a utilizar e abrem uma nova janela deste para realizar a pesquisa.
-O processo de obter os produtos é demorado, pelo que, foi optado pela segunda opção, visto que seria possível continuar com trabalho em paralelo com o processo de obter dados. Sendo assim a ferramenta mais recomendada para realizar esta operação é a biblioteca \textit{selenium}, esta  permite realizar exatamente o processo referido anteriormente.
+Após uma investigação descobriu-se que existem ferramentas que permitem controlar o dispositivo onde correm, mas estas impedem a utilização enquanto se encontram a correr. Também, foram descobertas ferramentas que apenas recebem o navegador a utilizar e abrem uma nova janela deste para realizar a pesquisa.
+O processo de obter os produtos é demorado, pelo que, optou-se pela segunda opção, uma vez que, seria possível continuar com o trabalho em paralelo com o processo de obter dados. Sendo assim, a ferramenta mais recomendada para realizar esta operação é a biblioteca \textit{selenium}.
 
-Com a utilização a biblioteca \textit{selenium} foi indicado qual o navegador a utilizar, neste caso foi escolhido o \textit{chrome} devido a este já se encontrar instalado no dispositivo. Após se indicar qual o navegador a utilizar, é necessário para cada página indicar qual elemento esperar que carregue, pois por vezes existem elementos que demoram mais tempo a carregar do que a página. Visto que a página carregada poderá não conter o elemento a obter, foi então implementado um tempo de espera máximo de 5 segundos, assim que este tempo expira a operação é abortada e o \textit{url} é adicionado à lista de \textit{urls} com erros.
+Com a utilização da biblioteca \textit{selenium} indicou-se qual o navegador a utilizar. Neste caso foi escolhido o \textit{chrome}, dado que, encontrava-se instalado no dispositivo. Após ser indicado qual o navegador a utilizar, é necessário para cada página referir qual o elemento a esperar que carregue, pois, por vezes existem elementos que demoram mais tempo a carregar do que a página. A página carregada poderá não conter o elemento a obter, pelo que foi implementado um tempo de espera máximo de 5 segundos, assim que este tempo expira, a operação é cancelada e o \textit{url} é adicionado à lista de \textit{urls} com erros.
 
 \newpage
 
 
 \subsubsection{Melhoria de implementação}
 
-Após se completar o processo foi decidido melhorar a implementação com a resolução dos erros encontrados em \textit{urls} específicos. Para perceber exatamente quais os \textit{urls}
-que possuem erros foi então direcionado os dados obtidos para um ficheiro \textit{json}. Sendo assim os \textit{urls} com erros eram os indicados na figura~\ref{fig:57}.
+Depois de completo o processo, foi decidido melhorar a implementação com a resolução dos erros encontrados em \textit{urls} específicos. Para perceber exatamente quais os \textit{urls} que possuem erros, foram direcionados os dados obtidos para um ficheiro \textit{json}. Sendo assim, os \textit{urls} com erros eram os indicados na figura~\ref{fig:57}.
 
 \begin{figure}[htb]
     \centering
@@ -144,21 +143,21 @@ que possuem erros foi então direcionado os dados obtidos para um ficheiro \text
     \label{fig:57}
 \end{figure}
 
-Após uma primeira análise foi possível perceber que grande maioria dos erros provém de \textit{urls} de acessórios de produtos, isto deve-se ao facto destes encontrarem-se na página de produtos de subcategoria e serem tratados como um produto, sendo assim sempre que se trata de um url de acessórios seria necessário correr código para obter dados de acessórios ao invés de detalhes de produtos. Foi percebido que nos \textit{urls} a palavra accessórios está sempre contida, o que permite que sempre que esta é detetada em um \textit{url}, seja corrido o código referente à obtenção de acessórios. Para desenvolver este código foi primeiramente analisada a página de acessórios de produtos(Figura~\ref*{fig:58}), esta contém para cada acessório um elemento do tipo artigo o qual contém uma imagem, titulo e descrição, esta descrição por vezes contém urls para os produtos aos quais este acessório se refere. Sempre que estes \textit{urls} são detetados, os nomes dos produtos são guardados para futuramente realizar a ligação entre os acessórios e os produtos, dado que não existem produtos com nomes iguais. 
+Posteriormente a uma primeira análise percebeu-se que grande maioria os erros provêm de \textit{urls} de acessórios de produtos, isto deve-se ao facto destes encontrarem-se na página de produtos de subcategoria e serem tratados como um produto, sendo assim, sempre que se trata de um url de acessórios seria necessário correr código para obter dados de acessórios ao invés de detalhes de produtos. Deste modo, compreendeu-se que nos \textit{urls} a palavra accessórios está sempre contida, o que permite que sempre que esta é detetada num \textit{url}, seja corrido o código referente a obter de acessórios. Para desenvolver este código foi primeiramente analisada a página de acessórios de produtos(Figura~\ref*{fig:58}), esta contém para cada acessório um elemento do tipo artigo o qual detém uma imagem, titulo e descrição. Esta descrição por vezes possui \textit{urls} para os produtos aos quais este acessório se refere. Sempre que estes \textit{urls} são detetados, os nomes dos produtos são guardados para futuramente realizar a ligação entre os acessórios e os produtos, dado que, não existem produtos com nomes iguais. 
 
 \begin{figure}[htb]
     \centering
     
-    \includegraphics[width=0.5\textwidth]{images/implementacao/scraper/pagina_acessorios.png}
+    \includegraphics[width=0.45\textwidth]{images/implementacao/scraper/pagina_acessorios.png}
     \caption{Exemplo de página de acessórios}
     \label{fig:58}
 \end{figure}
 
 \newpage
 
-Na iteração seguinte foi percebido que a quantidade de urls com erros diminuiu, mas existiam produtos com erro, pelo que estes foram analisados e foi percebido que o erro ocorria devido a por vezes as páginas não conterem vídeos ou imagens de documentação. Para resolver este problema o código foi alterado para apenas obter estes dados se os elementos existirem na página. 
+Na iteração seguinte determinou-se que a quantidade de \textit{urls} com erros diminuiu, mas mesmo assim existiam produtos com erro, pelo que, estes foram analisados e percebeu-se que o erro ocorria, visto que, por vezes as páginas não continham os vídeos ou imagens de documentação. Para resolver este problema, o código foi alterado para somente obter estes dados se os elementos existirem na página. 
 
-Após correr novamente o código foi percebido que a quantidade de falhas obtidas diminuiu drasticamente (Figura~\ref{fig:59}). Mas mesmo assim ainda existiam 3 falhas a ocorrer e após uma análise foi percebido que estas falhas ocorriam devido a:
+Após correr novamente o código foi compreendido que a quantidade de falhas obtidas diminuiu drasticamente (Figura~\ref{fig:59}), mas mesmo assim, ainda existiam quatro falhas a ocorrer e após uma análise foi determinado que estas ocorriam devido a:
 
 \begin{enumerate}
     \item Uma página de subcategoria de produtos conter um serviço;
@@ -177,12 +176,11 @@ Após correr novamente o código foi percebido que a quantidade de falhas obtida
 
 
 
-A página de adaptadores de produtos segue uma estrutura similar à estrutura dos acessórios pelo que foi a primeira a ser abordada e resolvida através do código de obter detalhes de acessórios. Pelo que este foi alterado para executar sempreque a palavra acessórios ou adaptadores encontra-se no \textit{url}.
+A página de adaptadores de produtos segue uma estrutura similar à dos acessórios, pelo que foi a primeira a ser abordada e resolvida através do código de obter detalhes de acessórios. Neste sentido este foi alterado para executar sempre que a palavra acessórios ou adaptadores encontra-se no \textit{url}.
 
 A resolução do problema de existirem serviços e subprodutos implica uma alteração no diagrama de entidade relação, pelo que, o problema do produto que contém uma página de detalhes diferente das demais foi resolvido primeiro. 
 
-Este produto para além da dificuldade de ser uma página completamente diferente, as informações encontram-se espalhadas (Figura~\ref*{fig:60}), o que leva a que estas sejam ser combinadas para construir os detalhes do produto.
-Após se obter estes dados foi percebido que as imagens do produto têm dados escritos que não se encontram na imagem original, em solução a este problema o cliente recomendou obter estas com \textit{screenshots} e guardar num servidor de imagens.
+Este produto para além da dificuldade de ser uma página completamente diferente, as informações encontram-se espalhadas (Figura~\ref*{fig:60}), o que leva a que estas tenham de ser combinadas para construir os detalhes do produto. Após obter-se estes dados foi determinado que as imagens do produto têm dados escritos que não se encontram na imagem original. Para a solução deste problema o cliente recomendou obter com \textit{screenshots} e guardar num servidor de imagens.
 
 \begin{figure}[htb]
     \centering
@@ -192,7 +190,7 @@ Após se obter estes dados foi percebido que as imagens do produto têm dados es
 \end{figure}
 
 
-O problema de existirem produtos com subprodutos, foi resolvido através da alteração da base de dados, à qual foi adicionada uma nova ligação sobre si mesma na tabela produtos, o que permite que um subproduto possua uma ligação com produto principal. Após a alteração na base de dados, foi alterado o código para obter os dados do catálogo. Em primeiro lugar foram obtidos todos os dados do produto principal e de seguida os dados específicos a cada subproduto, o que leva a que a organização do produto principal seja igual aos restantes, mas com um dado extra com os subprodutos. 
+O problema de existirem produtos com subprodutos foi resolvido através da alteração da base de dados, à qual foi adicionada uma nova ligação sobre si mesma na tabela produtos, o que permite que um subproduto possua uma ligação com produto principal. Após ser feita esta alteração, o código para obter os dados do catálogo foi alterado. Em primeiro lugar, foram obtidos todos os dados do produto principal e de seguida os dados específicos a cada subproduto, o que leva a que a organização do produto principal seja igual aos restantes, mas, com um dado extra com os subprodutos. 
 
 \begin{figure}[htb]
     \centering
@@ -203,9 +201,8 @@ O problema de existirem produtos com subprodutos, foi resolvido através da alte
 
 \newpage
 
-O último problema a solucionar é a existência de serviços, iniciou-se então pela análise deste tipo de produto. Este possui descrição e imagens como os produtos, mas também vídeos direcionados a plataformas diferentes, produtos do serviço, registo de atualizações do serviço, planos de pagamento e cada plano contém diversas ofertas. 
-Através da estrutura de um serviço foi adicionado à base de dados as tabelas de serviço, planos do serviço e suas ofertas, vídeos do serviço, informações de atualizações dos serviços, imagens do serviço e a ligação à tabela produtos o que permite a identificação dos produtos do serviço. Aqui  foi identificada a necessidade de manter guardado os links para todas as imagens e vídeos na própria base de dados, visto que existem imagens que não sabem ainda qual é o id do produto referente pelo que não seria possível no futuro as obter sem alteração manual, o que levou a que estas tabelas também existam para os produtos.
-De seguida foi percebido que existem dados que não são necessários na descrição. O cliente recomendou guardar estes dados como \textit{screenshots}.
+O último problema a solucionar é a existência de serviços, pelo que, iniciou-se pela análise deste tipo de produto. Este possui descrição e imagens como os produtos, mas também vídeos direcionados a plataformas diferentes, produtos do serviço, registo de atualizações do serviço, planos de pagamento e cada plano contém diversas ofertas. 
+Através da estrutura de um serviço foi adicionado à base de dados as tabelas de serviço, planos do serviço, ofertas dos planos, vídeos do serviço, informações de atualizações dos serviços, imagens do serviço e a ligação à tabela produtos, o que permite a identificação dos produtos do serviço. Aqui, foi identificada a necessidade de manter guardado os \textit{links} para todas as imagens e vídeos na própria base de dados, visto que, existem imagens que não sabem ainda qual é o \textit{id} do produto referente, pelo que não seria possível no futuro obte-las sem alteração manual, o que levou a que estas tabelas também existam para os produtos. De seguida compreendeu-se que existem dados que não são necessários na descrição, o cliente recomendou guardar estes dados como \textit{screenshots}.
 \begin{figure}[htb]
     \centering
     \includegraphics[width=0.6\textwidth]{images/implementacao/scraper/mconnect.png}
@@ -224,7 +221,6 @@ De seguida foi percebido que existem dados que não são necessários na descri�
 
 \subsubsection{Armazenamento de dados}
 
-Após se obter os dados dos produtos, é necessário guardar na base de dados para disponibilizar para a utilização para \textit{backend}. Para realizar esta operação existiam duas opções, criar um serviço para inserir produtos e realizar um pedido a este serviço, ou então conectar diretamente o \textit{web scraper} à base de dados. Visto que não seria de grande interesse conectar diretamente à base de dados, foi decidido criar um serviço que recebe um produto e o 
-insere. O grande problema que surgiu com esta solução é que os pedidos ocorrem de forma sequencial, mas com pouco tempo de espera entre estes, o que levou a que o limite máximo de conexões com a base de dados fosse extrapolado. Isto acontece porque para cada serviço chamado é criada uma nova conexão à base de dados, todas as operações são realizadas e por fim a conexão é terminada, mas enquanto estas operações estão a decorrer, o servidor poderá receber mais pedidos, o que leva a que mais conexões sejam criadas, o que atinge assim rápidamente o limite de conexões da base de dados. Como solução para este problema foi acrescentado uma espera de 0.5 segundos a cada pedido. A inserção de serviços decorreu com o mesmo processo.
+Após obter-se os dados dos produtos, é necessário guardar na base de dados para serem disponibilizados ao \textit{backend}. Para realizar esta operação existiam duas opções, criar um serviço para inserir produtos e realizar um pedido a este serviço, ou então, conectar diretamente o \textit{web scraper} à base de dados. Não seria de grande interesse conectar diretamente à base de dados, pelo que, foi decidido criar um serviço que recebe um produto e o insere. O grande problema que surgiu com esta solução é que os pedidos ocorrem de forma sequencial, mas com pouco tempo de espera, o que levou a que o limite máximo de conexões com a base de dados fosse extrapolada. Isto acontece porque para cada serviço que recebe uma chamada é desenvolvida uma nova conexão à base de dados, todas as operações são realizadas e por fim a conexão é terminada, mas enquanto estas operações estão a decorrer, o servidor poderá receber mais pedidos, o que leva a que mais conexões sejam criadas, o que atinge assim rápidamente o limite de conexões da base de dados. Como solução para este problema foi acrescentado uma espera de 0.5 segundos a cada pedido. A inserção de serviços decorreu com o mesmo processo.
 
-A inserção de categorias decorre através do envio das categorias a inserir em um \textit{array}, o que leva a que estas sejam inseridas todas num pedido. As subcategorias, visto que não se sabe o \textit{id} da categoria referente, foi utilizado o nome da categoria, pois este é único, sendo assim é enviado o nome da categoria e as subcategorias referentes e todas são inseridas com a referência para a sua categoria.
+A inserção de categorias decorre através do envio das categorias a inserir num \textit{array}, o que leva a que estas sejam inseridas todas num pedido. As subcategorias, visto que, não se sabe o \textit{id} da categoria referente, foi utilizado o nome da categoria, pois este é único, sendo assim, é enviado o nome da categoria e as subcategorias referentes. Todas são inseridas com a referência para a sua categoria.
