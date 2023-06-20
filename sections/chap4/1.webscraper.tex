@@ -6,8 +6,6 @@ Após uma reunião com o cliente foi compreendido que o catálogo de produtos Mo
 
 Durante a reunião concluiu-se que o \textit{web scraper} iria apenas correr uma vez por mês para ser evitada a sobrelotação do servidor. Para agilizar a realização do \textit{web scraper} foi entregue pela empresa a estrutura do \textit{website} a seguir para serem obtidas as informações.
 
-\newpage
-
 \subsection{Implemenção web scraper}
 A implementação e testagem do \textit{web scraper}, sem sobrelotação do servidor, foi alcançada, uma vez que, préviamente foi descarregado todo o \textit{wesite} localmente, o que permitiu simular o catálogo.
 
@@ -155,22 +153,20 @@ Posteriormente a uma primeira análise percebeu-se que grande maioria os erros p
 
 \newpage
 
-Na iteração seguinte determinou-se que a quantidade de \textit{urls} com erros diminuiu, mas mesmo assim existiam produtos com erro, pelo que, estes foram analisados e percebeu-se que o erro ocorria, visto que, por vezes as páginas não continham os vídeos ou imagens de documentação. Para resolver este problema, o código foi alterado para somente obter estes dados se os elementos existirem na página. 
+Na iteração seguinte determinou-se que a quantidade de \textit{urls} com erros diminuiu, mas mesmo assim existiam produtos com erro, pelo que, estes foram analisados e percebeu-se que o erro ocorria, visto que, por vezes as páginas não continham os vídeos ou imagens de documentação. Para resolver este problema, o código foi alterado para somente obter estes dados se os elementos existirem na página. Após correr novamente o código foi compreendido que a quantidade de falhas obtidas diminuiu drasticamente (Figura~\ref{fig:59}), mas mesmo assim, ainda existiam quatro falhas a ocorrer e após uma análise foi determinado que estas ocorriam devido a uma página de subcategoria de produtos conter um serviço, um produto conter uma página de detalhes de produto com sub produtos, existir uma página de adaptadores de produtos e um produto conter uma página de detalhes diferente das demais.
 
-Após correr novamente o código foi compreendido que a quantidade de falhas obtidas diminuiu drasticamente (Figura~\ref{fig:59}), mas mesmo assim, ainda existiam quatro falhas a ocorrer e após uma análise foi determinado que estas ocorriam devido a:
-
-\begin{enumerate}
-    \item Uma página de subcategoria de produtos conter um serviço;
-    \item Um produto conter uma página de detalhes de produto com sub produtos;
-    \item Existir uma página de adaptadores de produtos;
-    \item Um produto conter uma página de detalhes diferente das demais;
-\end{enumerate}
+% \begin{enumerate}
+%     \item Uma página de subcategoria de produtos conter um serviço;
+%     \item Um produto conter uma página de detalhes de produto com sub produtos;
+%     \item Existir uma página de adaptadores de produtos;
+%     \item Um produto conter uma página de detalhes diferente das demais;
+% \end{enumerate}
 
 \begin{figure}[htb]
     \centering
     
-    \includegraphics[width=0.65\textwidth]{images/implementacao/scraper/melhor_corrida.png}
-    \caption{Exemplo de página de acessórios}
+    \includegraphics[width=0.7\textwidth]{images/implementacao/scraper/melhor_corrida.png}
+    \caption{Indicação das páginas com falha}
     \label{fig:59}
 \end{figure}
 
@@ -178,9 +174,7 @@ Após correr novamente o código foi compreendido que a quantidade de falhas obt
 
 A página de adaptadores de produtos segue uma estrutura similar à dos acessórios, pelo que foi a primeira a ser abordada e resolvida através do código de obter detalhes de acessórios. Neste sentido este foi alterado para executar sempre que a palavra acessórios ou adaptadores encontra-se no \textit{url}.
 
-A resolução do problema de existirem serviços e subprodutos implica uma alteração no diagrama de entidade relação, pelo que, o problema do produto que contém uma página de detalhes diferente das demais foi resolvido primeiro. 
-
-Este produto para além da dificuldade de ser uma página completamente diferente, as informações encontram-se espalhadas (Figura~\ref*{fig:60}), o que leva a que estas tenham de ser combinadas para construir os detalhes do produto. Após obter-se estes dados foi determinado que as imagens do produto têm dados escritos que não se encontram na imagem original. Para a solução deste problema o cliente recomendou obter com \textit{screenshots} e guardar num servidor de imagens.
+A resolução do problema de existirem serviços e subprodutos implica uma alteração no diagrama de entidade relação, pelo que, o problema do produto que contém uma página de detalhes diferente das demais foi resolvido primeiro. Este produto para além da dificuldade de ser uma página completamente diferente, as informações encontram-se espalhadas (Figura~\ref*{fig:60}), o que leva a que estas tenham de ser combinadas para construir os detalhes do produto. Após obter-se estes dados foi determinado que as imagens do produto têm dados escritos que não se encontram na imagem original. Para a solução deste problema o cliente recomendou obter com \textit{screenshots} e guardar num servidor de imagens.
 
 \begin{figure}[htb]
     \centering
@@ -189,6 +183,7 @@ Este produto para além da dificuldade de ser uma página completamente diferent
     \label{fig:60}
 \end{figure}
 
+\newpage
 
 O problema de existirem produtos com subprodutos foi resolvido através da alteração da base de dados, à qual foi adicionada uma nova ligação sobre si mesma na tabela produtos, o que permite que um subproduto possua uma ligação com produto principal. Após ser feita esta alteração, o código para obter os dados do catálogo foi alterado. Em primeiro lugar, foram obtidos todos os dados do produto principal e de seguida os dados específicos a cada subproduto, o que leva a que a organização do produto principal seja igual aos restantes, mas, com um dado extra com os subprodutos. 
 
@@ -199,16 +194,19 @@ O problema de existirem produtos com subprodutos foi resolvido através da alter
     \label{fig:61}
 \end{figure}
 
-\newpage
-
 O último problema a solucionar é a existência de serviços, pelo que, iniciou-se pela análise deste tipo de produto. Este possui descrição e imagens como os produtos, mas também vídeos direcionados a plataformas diferentes, produtos do serviço, registo de atualizações do serviço, planos de pagamento e cada plano contém diversas ofertas. 
-Através da estrutura de um serviço foi adicionado à base de dados as tabelas de serviço, planos do serviço, ofertas dos planos, vídeos do serviço, informações de atualizações dos serviços, imagens do serviço e a ligação à tabela produtos, o que permite a identificação dos produtos do serviço. Aqui, foi identificada a necessidade de manter guardado os \textit{links} para todas as imagens e vídeos na própria base de dados, visto que, existem imagens que não sabem ainda qual é o \textit{id} do produto referente, pelo que não seria possível no futuro obte-las sem alteração manual, o que levou a que estas tabelas também existam para os produtos. De seguida compreendeu-se que existem dados que não são necessários na descrição, o cliente recomendou guardar estes dados como \textit{screenshots}.
+Através da estrutura de um serviço foi adicionado à base de dados as tabelas de serviço, planos do serviço, ofertas dos planos, vídeos do serviço, informações de atualizações dos serviços, imagens do serviço e a ligação à tabela produtos, o que permite a identificação dos produtos do serviço. Aqui, foi identificada a necessidade de manter guardado os \textit{links} para todas as imagens e vídeos na própria base de dados, visto que, existem imagens que não sabem ainda qual é o \textit{id} do produto referente, pelo que não seria possível no futuro obtê-las sem alteração manual, o que levou a que estas tabelas também existam para os produtos. De seguida compreendeu-se que existem dados que não são necessários na descrição, o cliente recomendou guardar estes dados como \textit{screenshots}.
 \begin{figure}[htb]
     \centering
     \includegraphics[width=0.6\textwidth]{images/implementacao/scraper/mconnect.png}
     \caption{Exemplo de página de serviço}
     \label{fig:62}
 \end{figure}
+
+
+\subsubsection{Diagrama de base de dados final}
+
+Após as alterações mencionadas à base de dados, o seu diagrama final encontra-se na Figura~\ref{webscraper_bd}
 
 \begin{figure}[htb]
     \centering
@@ -217,7 +215,6 @@ Através da estrutura de um serviço foi adicionado à base de dados as tabelas 
     \label{webscraper_bd}
 \end{figure}
 
-\newpage
 
 \subsubsection{Armazenamento de dados}
 

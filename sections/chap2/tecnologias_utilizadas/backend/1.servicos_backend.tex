@@ -31,12 +31,12 @@ O typescript "\emph{is  a  bit  unusual  as  a  language  in  that  it  neither 
 
 Todos os programas JavaScript" \emph{are  TypeScript  programs,  but  the  converse  is  not  true... This  is  because  TypeScript adds additional syntax for specifying types}". O sistema de tipagens do TypeScript tem como objetivo "\emph{to  detect  code  that  will  throw  anexception  at  runtime,  without  having  to  run  your  code. ... The  type  checker  cannot always spot code that will throw exceptions, but it will try}"\citep{typescript}.
 
-Esta linguagem de programação foi escolhida para o \textit{backend} devido à capacidade de assegurar as tipagens, o que leva a um maior nível de segurança em termos de lidar com dados recebidos, assim como também a agilização do processo de programação devido à capacidade de prever a maioria dos erros de código.
+Esta linguagem foi escolhida para o \textit{backend} devido à capacidade de assegurar as tipagens, o que proporciona um maior nível de segurança quando se lida com dados recebidos, assim como a agilização do processo de programação devido à capacidade de prever a maioria dos erros de código.
 
 \subsection{PostgreSQL}
-\emph{PostgreSQL} "is an open source object relational database management system"\citep{Juba2015}. Esta "emphasizes extensibility"\citep{Juba2015} o que permite a utilização de extensões desenvolvidas pela comunidade para novas funcionalidades, mas "Also, there are several extensions to access, manage, and monitor PostgreSQL clusters, such as pgAdmin III"\citep{Juba2015}. Esta ferramenta é de aprendizagem simples devido ao facto de "it complies with ANSI SQL standards"\citep{Juba2015}, o que leva a que, qualquer individuo com conhecimentos prévios em \emph{SQL} consiga facilmente aprender esta tecnologia.
+\emph{PostgreSQL} "is an open source object relational database management system"\citep{Juba2015}. Esta "emphasizes extensibility"\citep{Juba2015} o que permite a utilização de extensões desenvolvidas pela comunidade, mas "Also, there are several extensions to access, manage, and monitor PostgreSQL clusters, such as pgAdmin III"\citep{Juba2015}. Esta ferramenta é de aprendizagem simples devido ao facto de "it complies with ANSI SQL standards"\citep{Juba2015}, o que leva a que, qualquer individuo com conhecimentos prévios em \emph{SQL} consiga facilmente aprender esta tecnologia.
 
-\emph{PostgreSQL} foi escolhido visto que a empresa já utiliza vastamente esta tecnologia, mas também porque que é \emph{open source} e não existirem custos associados para este tipo de utilização. A funcionalidade de extensões do mesmo foi utilizada para implementar \emph{id's} que utilizam a estrutura \emph{uuid} para assim dificultar o ataque aos dados visto que é difícil de prever os valores de \emph{id's} dos dados.
+\emph{PostgreSQL} foi escolhido visto que a empresa já utiliza vastamente esta tecnologia, mas também porque que é \emph{open source} e não existirem custos associados para este tipo de utilização. A funcionalidade de extensões foi utilizada para implementar \emph{id's} que utilizam a estrutura \emph{uuid} que dificultam o ataque aos dados, visto que, é difícil de prever os valores de \emph{id's}.
 
 \input{sections/chap2/tecnologias_utilizadas/backend/2.logging.tex}
 
@@ -44,7 +44,11 @@ Esta linguagem de programação foi escolhida para o \textit{backend} devido à 
 
 \input{sections/chap2/tecnologias_utilizadas/backend/4.scheduler.tex}
 
+\newpage
+
 \input{sections/chap2/tecnologias_utilizadas/backend/5.segurança.tex}
+
+\newpage
 
 \input{sections/chap2/tecnologias_utilizadas/backend/6.Firebase.tex}
 

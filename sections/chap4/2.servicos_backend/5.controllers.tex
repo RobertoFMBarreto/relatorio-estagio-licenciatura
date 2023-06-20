@@ -17,6 +17,8 @@ Para evitar a variação de código destes \textit{controllers} em termos de est
 \subsubsection{Execução da lógica de negócio}
 A execução da lógica de negócio passa por direcionar os dados para a ação correta. Esta ação geralmente resulta numa operação de base de dados. Inicialmente foi desenvolvida toda a validação de código e todas as operações de base de dados diretamente na execução da lógica de negócio. Após uma revisão desta organização de código com o professor orientador, foi decidido separar estas funcionalidades. Daqui surgiu a componente de validação de dados, a de operações de base de dados e a de lógica de negócio, que implementa a componente de operações de base de dados. Sendo assim, para evitar que estas operações sobre a base de dados estejam em conjunto com o direcionamento dos dados, foram criados modelos para cada tabela. Cada modelo contém um conjunto de operações sobre a tabela correspondente. Estas operações, estão contidas sobre métodos que podem receber dados para executar na operação e devolver a resposta da mesma.
 
+\newpage
+
 \subsubsection{Validação dos dados}
 A validação dos dados é necessária para evitar erros a nível de servidor com dados em falta e também para aplicar as regras de negócio. Para realizar estas validações, é necessário em primeiro lugar verificar se todos os dados são recebidos, de seguida, são enviados para um \textit{validator}. O \textit{validator} executa todas as verificações necessárias a nível de regras de negócio, na possibilidade de alguma regra não ser cumprida, é atirado um erro.
 
