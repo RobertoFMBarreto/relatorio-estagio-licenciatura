@@ -1,0 +1,84 @@
+\glsdefs@newdocentry{ftp}%
+{%
+name={\acronymfont {\glsentryshort {ftp}}},%
+sort={FTP},%
+type={acronym},%
+first={FTP},%
+firstplural={FTPs},%
+text={FTP},%
+plural={FTPs},%
+description={File Transfer Protocol (Protocolo de Transferência de Ficheiros)},%
+descriptionplural={File Transfer Protocol (Protocolo de Transferência de Ficheiros)},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={File Transfer Protocol (Protocolo de Transferência de Ficheiros)},%
+longplural={File Transfer Protocol (Protocolo de Transferência de Ficheiros) s},%
+short={FTP},%
+shortplural={FTPs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{tcp}%
+{%
+name={\acronymfont {\glsentryshort {tcp}}},%
+sort={TCP},%
+type={acronym},%
+first={TCP},%
+firstplural={TCPs},%
+text={TCP},%
+plural={TCPs},%
+description={Transmission Control Protocol},%
+descriptionplural={Transmission Control Protocol},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Transmission Control Protocol},%
+longplural={Transmission Control Protocols},%
+short={TCP},%
+shortplural={TCPs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{http}%
+{%
+name={\acronymfont {\glsentryshort {http}}},%
+sort={HTTP},%
+type={acronym},%
+first={HTTP},%
+firstplural={HTTPs},%
+text={HTTP},%
+plural={HTTPs},%
+description={HyperText Transfer Protocol (Protocolo de Transferência de Hipertexto)},%
+descriptionplural={HyperText Transfer Protocol (Protocolo de Transferência de Hipertexto)},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={HyperText Transfer Protocol (Protocolo de Transferência de Hipertexto)},%
+longplural={HyperText Transfer Protocol (Protocolo de Transferência de Hipertexto)s},%
+short={HTTP},%
+shortplural={HTTPs},%
+counter={page},%
+parent={},%
+%
+}%
+

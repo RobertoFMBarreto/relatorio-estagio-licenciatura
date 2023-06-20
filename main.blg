@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/CVE-2023-32700 patched)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: lesi/sp_por.bst
+Database file #1: biblio.bib
+Warning--entry type for "dart_pg_lang" isn't style-file defined
+--line 56 of file biblio.bib
+Warning--entry type for "Logging" isn't style-file defined
+--line 113 of file biblio.bib
+Warning--entry type for "typescript" isn't style-file defined
+--line 192 of file biblio.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 23 entries,
+            3147 wiz_defined-function locations,
+            724 strings with 6869 characters,
+and the built_in function-call counts, 10304 in all, are:
+= -- 853
+> -- 379
+< -- 18
++ -- 138
+- -- 111
+* -- 551
+:= -- 1749
+add.period$ -- 102
+call.type$ -- 23
+change.case$ -- 162
+chr.to.int$ -- 23
+cite$ -- 23
+duplicate$ -- 835
+empty$ -- 782
+format.name$ -- 156
+if$ -- 2022
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 170
+newline$ -- 134
+num.names$ -- 92
+pop$ -- 387
+preamble$ -- 1
+purify$ -- 129
+quote$ -- 0
+skip$ -- 318
+stack$ -- 0
+substring$ -- 286
+swap$ -- 303
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 180
+warning$ -- 0
+while$ -- 70
+width$ -- 0
+write$ -- 305
+(There were 3 warnings)

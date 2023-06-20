@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{23}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{}
@@ -69,6 +69,12 @@ Jin, Brenda, Saurabh Sahni \& Amir Shevat. 2018.
 \newblock \emph{Designing web apis}.
 \newblock O'Reilly Media, Inc.
 
+\bibitem[{Juba et~al.(2015)Juba, Volkov \& Vannahme}]{Juba2015}
+Juba, Salahaldin, Andrey Volkov \& Achim Vannahme. 2015.
+\newblock \emph{Learning postgresql : create, develop, and manage relational
+  databases in real-world applications using postgresql}.
+\newblock Packt Publishing Ltd.
+
 \bibitem[{Library(2023)}]{chai}
 Library, Chai~Assertion. 2023.
 \newblock Chai.
@@ -112,8 +118,8 @@ Moroney, Laurence. 2017.
 
 \bibitem[{SmartBear(2023)}]{swagger}
 SmartBear. 2023.
-\newblock About swagger specification | documentation | swagger.
-\newblock \url{https://swagger.io/docs/specification/about/}.
+\newblock Swagger specification | documentation | swagger.
+\newblock \url{https://swagger.io/docs/specification/}.
 \newblock [Abril-2023].
 
 \bibitem[{Snell et~al.(2002)Snell, Tidwell \& Kulchenko}]{Snell2002}
