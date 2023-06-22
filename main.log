@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.4.28)  22 JUN 2023 16:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.4.28)  22 JUN 2023 17:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -756,7 +756,12 @@ Overfull \hbox (10.96724pt too wide) in paragraph at lines 5--6
 []\T1/cmr/m/n/12 Os \T1/cmr/m/it/12 app links \T1/cmr/m/n/12 são "(...)\T1/cmr/m/it/12 web links that use the HTTP and HTTPS sche-mes\T1/cmr/m/n/12 (...)"([][]Developers[][],
  []
 
-)) [11] (./sections/chap2/tecnologias_utilizadas/qualidade_codigo/1.qualidade_codigo.tex (./sections/chap2/tecnologias_utilizadas/qualidade_codigo/2.design_patterns.tex
+<images/diagramas/fdl-android-integration.png, id=470, 963.6pt x 722.7pt>
+File: images/diagramas/fdl-android-integration.png Graphic file (type png)
+<use images/diagramas/fdl-android-integration.png>
+Package pdftex.def Info: images/diagramas/fdl-android-integration.png  used on input line 14.
+(pdftex.def)             Requested size: 377.85344pt x 283.38469pt.
+)) [11 <./images/diagramas/fdl-android-integration.png (PNG copy)>] (./sections/chap2/tecnologias_utilizadas/qualidade_codigo/1.qualidade_codigo.tex (./sections/chap2/tecnologias_utilizadas/qualidade_codigo/2.design_patterns.tex
 Overfull \hbox (16.26569pt too wide) in paragraph at lines 2--3
 \T1/cmr/m/it/12 de-sign struc-ture that make it use-ful for cre-a-ting a reu-sa-ble object-oriented de-sign\T1/cmr/m/n/12 (...)"([][]Gamma
  []
@@ -778,7 +783,12 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 13
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Underfull \hbox (badness 1331) in paragraph at lines 56--60
+Underfull \hbox (badness 10000) in paragraph at lines 44--49
+\T1/cmtt/m/n/12 / / firebase . google . com / docs / dynamic-[]links / operating-[]system-[]integrations$[][]\T1/cmr/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 63--67
 []\T1/cmr/m/n/12 Hale, Coda. 2023.  How to sa-fely store a pas-sword.  [][]$\T1/cmtt/m/n/12 https : / / codahale . com /
  []
 
@@ -787,18 +797,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: FCD7982A3AC20F2D771328B6B7F7B152;4233.
  ) 
 Here is how much of TeX's memory you used:
- 23841 strings out of 476182
- 426843 string characters out of 5796604
+ 23861 strings out of 476182
+ 427409 string characters out of 5796604
  1860793 words of memory out of 6000000
- 43663 multiletter control sequences out of 15000+600000
+ 43679 multiletter control sequences out of 15000+600000
  526873 words of font info for 60 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  106i,6n,105p,2338b,602s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbi1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (30 pages, 501722 bytes).
+Output written on main.pdf (30 pages, 563768 bytes).
 PDF statistics:
- 641 PDF objects out of 1000 (max. 8388607)
- 570 compressed objects within 6 object streams
- 88 named destinations out of 1000 (max. 500000)
- 243 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 653 PDF objects out of 1000 (max. 8388607)
+ 579 compressed objects within 6 object streams
+ 90 named destinations out of 1000 (max. 500000)
+ 248 words of extra memory for PDF output out of 10000 (max. 10000000)
 

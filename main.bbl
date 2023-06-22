@@ -1,11 +1,11 @@
-\begin{thebibliography}{24}
+\begin{thebibliography}{25}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{}
 \expandafter\ifx\csname urlstyle\endcsname\relax
- \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
- \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
- \urlstyle{rm}\Url}\fi
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
 
 \bibitem[{Axios(2023)}]{axios}
 Axios. 2023.
@@ -31,13 +31,20 @@ Chuvakin, Dr. Anton~A., Kevin~J. Schmidt \& Christopher Philips. 2012.
 Developers, Android. 2023.
 \newblock Handling android app links.
 \newblock
- \url{https://developer.android.com/training/app-links#android-app-links}.
+  \url{https://developer.android.com/training/app-links#android-app-links}.
 \newblock [Abril-2023].
 
-\bibitem[{Firebase(2023)}]{dynamic_linking}
-Firebase. 2023.
+\bibitem[{Firebase(2023{\natexlab{a}})}]{dynamic_linking}
+Firebase. 2023{\natexlab{a}}.
 \newblock Firebase dynamic links | firebase documentation.
 \newblock \url{https://firebase.google.com/docs/dynamic-links}.
+\newblock [Abril-2023].
+
+\bibitem[{Firebase(2023{\natexlab{b}})}]{linking_firebase}
+Firebase. 2023{\natexlab{b}}.
+\newblock Operating system integrations | firebase dynamic links.
+\newblock
+  \url{https://firebase.google.com/docs/dynamic-links/operating-system-integrations}.
 \newblock [Abril-2023].
 
 \bibitem[{Foundation(2023)}]{mocha}
@@ -49,7 +56,7 @@ Foundation, OpenJS. 2023.
 \bibitem[{Gamma et~al.(2009)Gamma, Helm, Johnson \& Vlissides}]{dart}
 Gamma, Erich, Richard Helm, Ralph Johnson \& John Vlissides. 2009.
 \newblock \emph{Design patterns: Elements of reusable object-oriented
- software}.
+  software}.
 \newblock Addison-Wesley.
 
 \bibitem[{Hale(2023)}]{bcrypt}
@@ -72,7 +79,7 @@ Jin, Brenda, Saurabh Sahni \& Amir Shevat. 2018.
 \bibitem[{Juba et~al.(2015)Juba, Volkov \& Vannahme}]{Juba2015}
 Juba, Salahaldin, Andrey Volkov \& Achim Vannahme. 2015.
 \newblock \emph{Learning postgresql : create, develop, and manage relational
- databases in real-world applications using postgresql}.
+  databases in real-world applications using postgresql}.
 \newblock Packt Publishing Ltd.
 
 \bibitem[{Library(2023)}]{chai}
@@ -90,7 +97,7 @@ Linux. 2023.
 \bibitem[{Mainkar \& Giordano(2019)}]{flutter}
 Mainkar, Prajyot \& Salvatore Giordano. 2019.
 \newblock \emph{Google flutter mobile development quick start guide : Get up
- and running with ios and android mobile app development.}
+  and running with ios and android mobile app development.}
 \newblock Packt Publishing Ltd.
 
 \bibitem[{Masse(2011)}]{rest_cookbook}
@@ -101,7 +108,7 @@ Masse, Mark. 2011.
 \bibitem[{Mead(2018)}]{design_node}
 Mead, Andrew. 2018.
 \newblock \emph{Learning node.js development : learn the fundamentals of
- node.js, and deploy and test node.js applications on the web}.
+  node.js, and deploy and test node.js applications on the web}.
 \newblock Packt Publishing Ltd.
 
 \bibitem[{merencia(2023)}]{node_cron}
@@ -141,6 +148,6 @@ TypeDoc. 2023.
 
 \bibitem[{Vanderkam(2019)}]{typescript}
 Vanderkam, Dan. 2019.
-\newblock Effective Typescript 62 specific ways to improve your typescript.
+\newblock Effective typescript 62 specific ways to improve your typescript.
 
 \end{thebibliography}

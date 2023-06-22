@@ -8,3 +8,10 @@ Os \emph{app links} são "(...)\emph{web links that use the HTTP and HTTPS schem
 Os \textit{deep links} são "(...)\emph{URIs of any scheme that take users directly to a specific part of your app}(...)"\citep{linking}, o grande problema deste tipo de \textit{links} é que se os utilizadores não dispuserem da aplicação instalada no dispositivo, este irá falhar e não permite a customização de comportamento.
 
 Já os \textit{dynamic links}, desenvolvidos pela \textit{Firebase}, assim como os \textit{deep links} "(...)\emph{if a user opens a Dynamic Link on iOS or Android, they can be taken directly to the linked content in your native app}(...)"\citep{dynamic_linking}, mas para além disto, este permite que "(...)\emph{if a user opens the same Dynamic Link in a desktop browser, they can be taken to the equivalent content on your website}(...)"\citep{dynamic_linking}, ou seja, este permite a customização de comportamento de \textit{links} para diversas situações e em caso do utilizador não dispor da aplicação instalada, este permite que "(...)\emph{the user can be prompted to install it; then, after installation, your app starts and can access the link}(...)"\citep{dynamic_linking}. Visto que este é o comportamento desejado pelo cliente da aplicação, então foi decidido utilizar esta abordagem.
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=0.83\textwidth]{images/diagramas/fdl-android-integration.png}
+  \caption{Funcionamento dos dynamic links \citep{linking_firebase}}
+  \label{fig:23}
+\end{figure}
