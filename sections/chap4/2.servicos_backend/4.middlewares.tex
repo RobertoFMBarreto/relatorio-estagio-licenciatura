@@ -2,10 +2,10 @@
 Um \textit{middleware} comporta-se como uma ligação entre duas partes e permite executar código.
 
 \begin{figure}[htb]
-  \centering
-  \includegraphics[width=\textwidth]{images/implementacao/api/middlewares.png}
-  \caption{Comportamento de middlewares}
-  \label{middlewares_png}
+ \centering
+ \includegraphics[width=\textwidth]{images/implementacao/api/middlewares.png}
+ \caption{Comportamento de middlewares}
+ \label{middlewares_png}
 \end{figure}
 
 \subsubsection{Linguagem}
@@ -17,10 +17,10 @@ O bem essencial para uma boa comunicação entre duas partes, é a utilização 
 A autenticação dos utilizadores foi implementada através de \textit{JsonWebToken}. Este tipo de autenticação, tem por base a utilização de \textit{tokens} com tempo de expiração, o que significa que enquanto o \textit{token} estiver válido, o utilizador poderá realizar pedidos. Assim que o \textit{token} expirar, este terá de se autenticar novamente para obter um novo \textit{token}.
 A utilização de \textit{tokens} permite assegurar que os pedidos são realizados com \textit{tokens}, gerados pela \textit{api}, através de uma chave de assinatura de \textit{token}, o que impede a utilização de \textit{tokens} gerados por utilizadores.
 \begin{figure}[htb]
-  \centering
-  \includegraphics[width=0.5\textwidth]{images/implementacao/api/jwt_session.png}
-  \caption{Utilização de tokens}
-  \label{fig:64}
+ \centering
+ \includegraphics[width=0.5\textwidth]{images/implementacao/api/jwt_session.png}
+ \caption{Utilização de tokens}
+ \label{fig:64}
 \end{figure}
 
 A maior valência da utilização da técnica de autenticação mencionada anteriormente é a segurança. Isto acontece porque estes \textit{tokens} têm geralmente uma duração muito curta, como por exemplo, quinze minutos. Sempre que um \textit{token} de sessão expira o utilizador necessita realizar novamente o \textit{login}, o que poderá tornar a utilização da aplicação imprática.

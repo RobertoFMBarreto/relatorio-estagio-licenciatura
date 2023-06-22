@@ -1,13 +1,13 @@
 \subsection{Fórum}
-O desenvolvimento da página do fórum trouxe diversas dificuldades, entre elas, a gestão de filtros, pesquisas, a mostragem de publicações e atualização das mesmas.
+O desenvolvimento da página do fórum trouxe diversas dificuldades, entre elas, a gestão de filtros, pesquisas, a mostragem de tópicos e atualização das mesmas.
 
 \vspace{10mm}
 \begin{figure}[htb]%
-  \centering
-  \subfloat[\centering Página de forum]{{\includegraphics[width=0.3\textwidth]{images/implementacao/frontend/forum/1686055611203.jpg} }}%
-  \qquad
-  \subfloat[\centering Filtragem de tipo]{{\includegraphics[width=0.3\textwidth]{images/implementacao/frontend/forum/1686055611213.jpg} }}%
-  \label{fig:72}%
+ \centering
+ \subfloat[\centering Página de forum]{{\includegraphics[width=0.3\textwidth]{images/implementacao/frontend/forum/1686055611203.jpg} }}%
+ \qquad
+ \subfloat[\centering Filtragem de tipo]{{\includegraphics[width=0.3\textwidth]{images/implementacao/frontend/forum/1686055611213.jpg} }}%
+ \label{fig:72}%
 \end{figure}
 \vspace{10mm}
 
@@ -16,17 +16,17 @@ O desenvolvimento da página do fórum trouxe diversas dificuldades, entre elas,
 \subsubsection{Filtragem de tópicos}
 O grande problema com a filtragem dos tópicos é que existem 3 tipos de filtros, o de categoria de tópico, o de tipo de tópico e o de pesquisa. 
 
-Se algum filtro for alterado, os seguintes deverão ser novamente executados para garantir que todos permanecem aplicados. Inicialmente, este tipo de filtragem não era realizado, o que levava a diversos problemas, tais como, na realização de uma pesquisa, esta não era efetuada sobre as publicações filtradas, o que levava a que a pesquisa fosse efetuada por todas as publicações.
+Se algum filtro for alterado, os seguintes deverão ser novamente executados para garantir que todos permanecem aplicados. Inicialmente, este tipo de filtragem não era realizado, o que levava a diversos problemas, tais como, na realização de uma pesquisa, esta não era efetuada sobre os tópicos filtradas, o que levava a que a pesquisa fosse efetuada por todas os tópicos.
 
-Outro problema detetado foi a troca de categorias, que por vezes, os filtros adicionavam-se, o que levava a que estes não apresentassem publicações.
+Outro problema detetado foi a troca de categorias, que por vezes, os filtros adicionavam-se, o que levava a que estes não apresentassem tópicos.
 
 Sendo assim, foram criados métodos para auxílio na filtragem, tais como, uma prioridade, onde cada método invoca o método seguinte de forma encadeada. Primeiramente aplica-se o filtro de categoria, de seguida este envia o resultado para o método de filtragem por tipo e por fim, se existir algum tipo de pesquisa, os tópicos provenientes do método anterior serão filtrados.
 
 \begin{figure}[htb]
-  \centering
-  \includegraphics[width=0.25\textwidth]{images/implementacao/frontend/forum/filtros/filtros.png}
-  \caption{Filtragem do forum}
-  \label{fig:73}
+ \centering
+ \includegraphics[width=0.25\textwidth]{images/implementacao/frontend/forum/filtros/filtros.png}
+ \caption{Filtragem do forum}
+ \label{fig:73}
 \end{figure}
 
 \newpage
@@ -39,12 +39,12 @@ A resolução deste problema proveio com uma técnica de \textit{sliding window}
 Esta solução foi implementada através da utilização de três valores, quantidade de tópicos a obter, índice inicial e data do primeiro tópico. O valor de quantidade de tópicos a obter, inicialmente dez, permite limitar a quantidade de tópicos que a \textit{API} irá processar, o que reduz o tempo de resposta. O índice inicial, indica qual o índice do primeiro elemento que se deseja obter da lista. A data do primeiro tópico, mantém uma referência temporal para obter tópicos, o que garante que a lista que está ser a visualizada é sempre a mesma.
 
 \begin{figure}[htb]
-  \centering
-  \includegraphics[width=0.8\textwidth]{images/implementacao/frontend/forum/loading_topics/topics_loading.png}
-  \caption{Carregamento de tópicos}
-  \label{fig:74}
+ \centering
+ \includegraphics[width=0.8\textwidth]{images/implementacao/frontend/forum/loading_topics/topics_loading.png}
+ \caption{Carregamento de tópicos}
+ \label{fig:74}
 \end{figure}
-Também foi reduzida a quantidade de dados carregados por cada tópico, pelo que, apenas os comentários diretos à publicação são carregados e não as respostas a estes, o que contribuiu para a melhoria do desempenho.
+Também foi reduzida a quantidade de dados carregados por cada tópico, pelo que, apenas os comentários diretos à tópico são carregados e não as respostas a estes, o que contribuiu para a melhoria do desempenho.
 
 Por fim, sempre que o utilizador alcança o fim da lista de tópicos este poderá deslizar para carregar mais tópicos.
 
@@ -61,8 +61,8 @@ Outro problema que surgiu no desenvolvimento da página de detalhes de tópico f
 O destacamento das mensagens também continha um erro. Sempre que algo no ecrã é atualizado, este recarregava a animação de destaque, como solução este código foi movido para apenas ser executado no momento de inicialização do ecrã após todos os elementos se encontrarem devidamente carregados.
 
 \begin{figure}[htb]
-  \centering
-  \includegraphics[width=0.35\textwidth]{images/implementacao/frontend/forum/loading_topics/1686062701127.jpg}
-  \caption{Destaque de mensagens}
-  \label{fig:75}
+ \centering
+ \includegraphics[width=0.35\textwidth]{images/implementacao/frontend/forum/loading_topics/1686062701127.jpg}
+ \caption{Destaque de mensagens}
+ \label{fig:75}
 \end{figure}

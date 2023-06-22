@@ -1,11 +1,11 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{graphicx}       % image package
-\usepackage{subcaption}     % package to allow images side by side (used in the first page)
-% \usepackage{setspace}       % line spacing package
-\usepackage{array}          % table package
-\usepackage{indentfirst}    % package to allow to indent first paragraph after a heading
+\usepackage{graphicx}    % image package
+\usepackage{subcaption}   % package to allow images side by side (used in the first page)
+% \usepackage{setspace}    % line spacing package
+\usepackage{array}     % table package
+\usepackage{indentfirst}  % package to allow to indent first paragraph after a heading
 \usepackage[portuges]{babel}
 \usepackage[left=25mm,top=25mm,bottom=25mm,right=25mm]{geometry}
 \usepackage{ifthen}
@@ -16,22 +16,22 @@
 \usepackage{hyperref}
 
 \lstset{basicstyle=\small,
-        captionpos=b,
-        float=tp,
-        xleftmargin=1.5em,
-        xrightmargin=1.5em,
-        frameround=ttff,
-        frame=single,
-       floatplacement=tbp}
+    captionpos=b,
+    float=tp,
+    xleftmargin=1.5em,
+    xrightmargin=1.5em,
+    frameround=ttff,
+    frame=single,
+    floatplacement=tbp}
 \def\lstlistlistingname{Listagens de Código}
 \def\lstlistingname{Listagem}
 
 \usepackage{xcolor}
 \hypersetup{
-    colorlinks,
-    linkcolor={blue!20!black},
-    citecolor={blue!20!black},
-    urlcolor={blue!20!black}
+  colorlinks,
+  linkcolor={blue!20!black},
+  citecolor={blue!20!black},
+  urlcolor={blue!20!black}
 }
 
 
@@ -60,27 +60,27 @@
 
 
 \renewcommand{\maketitle}{%
-    \thispagestyle{empty}
-    \includegraphics[height=2cm]{lesi/logos/logo_ipca}
-    \hfill
-    \includegraphics[height=2cm]{lesi/logos/logo_est}
+  \thispagestyle{empty}
+  \includegraphics[height=2cm]{lesi/logos/logo_ipca}
+  \hfill
+  \includegraphics[height=2cm]{lesi/logos/logo_est}
+  \vfill
+  \vfill
+  \begin{center}
+    {\LARGE \@title}\\[7mm]
+    {\large \@author}\\[1mm]
+    {\small (nrº \nraluno, \regime)}
     \vfill
-    \vfill
-    \begin{center}
-        {\LARGE \@title}\\[7mm]
-        {\large \@author}\\[1mm]
-        {\small (nrº \nraluno, \regime)}
-        \vfill
-        Orientação de\\[2mm]
-        \orient
-    \vfill
-    \textsc{\curso}\\[2mm]
-    \textsc{Escola Superior de Tecnologia}\\[2mm]
-    \textsc{Instituto Politécnico do Cávado e do Ave}
-    \end{center}
-    \newpage
-    \backtitle
-    \newpage
+    Orientação de\\[2mm]
+    \orient
+  \vfill
+  \textsc{\curso}\\[2mm]
+  \textsc{Escola Superior de Tecnologia}\\[2mm]
+  \textsc{Instituto Politécnico do Cávado e do Ave}
+  \end{center}
+  \newpage
+  \backtitle
+  \newpage
 }
 
 \def\backtitle{
@@ -104,48 +104,48 @@ Aluno número \nraluno, \regime \newline
 \cleardoublepage\mbox{}
 \vfill
 \begin{center}
-    {\large\textbf{Resumo}}\\[7mm]
-    
-    \begin{minipage}{.8\linewidth}
-    \setlength{\parskip}{2ex}
+  {\large\textbf{Resumo}}\\[7mm]
+  
+  \begin{minipage}{.8\linewidth}
+  \setlength{\parskip}{2ex}
 }{
-    \end{minipage}
-    \end{center}
-    \vfill\newpage
+  \end{minipage}
+  \end{center}
+  \vfill\newpage
 }
 
 \newenvironment{abstract}{
 \cleardoublepage\mbox{}
 \vfill
 \begin{center}
-    {\large\textbf{Abstract}}\\[7mm]
-    
+  {\large\textbf{Abstract}}\\[7mm]
+  
 \begin{minipage}{.8\linewidth}
-    \setlength{\parskip}{2ex}
+  \setlength{\parskip}{2ex}
 }{
-    \end{minipage}
-    \end{center}
-    \vfill\newpage
+  \end{minipage}
+  \end{center}
+  \vfill\newpage
 }
 
 \newenvironment{agradecimentos}{
 \cleardoublepage\mbox{}
 \vfill
 \begin{center}
-    {\large\textbf{Agradecimentos}}\\[7mm]
-    
+  {\large\textbf{Agradecimentos}}\\[7mm]
+  
 \begin{minipage}{.8\linewidth}
-    \setlength{\parskip}{2ex}
+  \setlength{\parskip}{2ex}
 }{
-    \end{minipage}
-    \end{center}
-    \vfill\newpage
-    }
-    
+  \end{minipage}
+  \end{center}
+  \vfill\newpage
+  }
+  
 \usepackage{titlesec}
 
-\titleformat{\chapter}{\bfseries\huge}{\thechapter.}{20pt}{\huge\bfseries}    
+\titleformat{\chapter}{\bfseries\huge}{\thechapter.}{20pt}{\huge\bfseries}  
 
 \usepackage[acronym]{glossaries}
-    
+  
 \makeatother

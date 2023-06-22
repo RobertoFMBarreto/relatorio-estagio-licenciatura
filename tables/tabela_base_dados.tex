@@ -4,93 +4,93 @@
 caption={Dicionário de termos da base de dados},
 label={tab:18}
 ]{
-  width = \linewidth,
-  colspec = {Q[200]Q[238]Q[221]Q[271]},
-  row{1} = {Concrete},
-  column{1} = {c},
-  cell{2}{1} = {r=20}{},
-  cell{2}{2} = {r=20}{},
-  cell{23}{1} = {r=2}{},
-  cell{23}{2} = {r=2}{},
-  cell{25}{1} = {r=2}{},
-  cell{25}{2} = {r=2}{},
-  cell{27}{1} = {r=2}{},
-  cell{27}{2} = {r=2}{},
-  cell{29}{1} = {r=7}{},
-  cell{29}{2} = {r=7}{},
-  cell{36}{1} = {r=10}{},
-  cell{36}{2} = {r=10}{},
-  cell{46}{1} = {r=8}{},
-  cell{46}{2} = {r=8}{},
-  cell{54}{1} = {r=2}{},
-  cell{54}{2} = {r=2}{},
-  cell{56}{1} = {r=3}{},
-  cell{56}{2} = {r=3}{},
-  cell{59}{1} = {r=4}{},
-  cell{59}{2} = {r=4}{},
-  cell{63}{1} = {r=9}{},
-  cell{63}{2} = {r=9}{},
-  cell{72}{1} = {r=4}{},
-  cell{72}{2} = {r=4}{},
-  cell{76}{1} = {r=4}{},
-  cell{76}{2} = {r=4}{},
-  cell{80}{1} = {r=2}{},
-  cell{80}{2} = {r=2}{},
-  vlines,
-  hline{1-2,22-23,25,27,29,36,46,54,56,59,63,72,76,80,82} = {-}{},
-  hline{3-21,24,26,28,30-35,37-45,47-53,55,57-58,60-62,64-71,73-75,77-79,81} = {3-4}{},
+ width = \linewidth,
+ colspec = {Q[200]Q[238]Q[221]Q[271]},
+ row{1} = {Concrete},
+ column{1} = {c},
+ cell{2}{1} = {r=20}{},
+ cell{2}{2} = {r=20}{},
+ cell{23}{1} = {r=2}{},
+ cell{23}{2} = {r=2}{},
+ cell{25}{1} = {r=2}{},
+ cell{25}{2} = {r=2}{},
+ cell{27}{1} = {r=2}{},
+ cell{27}{2} = {r=2}{},
+ cell{29}{1} = {r=7}{},
+ cell{29}{2} = {r=7}{},
+ cell{36}{1} = {r=10}{},
+ cell{36}{2} = {r=10}{},
+ cell{46}{1} = {r=8}{},
+ cell{46}{2} = {r=8}{},
+ cell{54}{1} = {r=2}{},
+ cell{54}{2} = {r=2}{},
+ cell{56}{1} = {r=3}{},
+ cell{56}{2} = {r=3}{},
+ cell{59}{1} = {r=4}{},
+ cell{59}{2} = {r=4}{},
+ cell{63}{1} = {r=9}{},
+ cell{63}{2} = {r=9}{},
+ cell{72}{1} = {r=4}{},
+ cell{72}{2} = {r=4}{},
+ cell{76}{1} = {r=4}{},
+ cell{76}{2} = {r=4}{},
+ cell{80}{1} = {r=2}{},
+ cell{80}{2} = {r=2}{},
+ vlines,
+ hline{1-2,22-23,25,27,29,36,46,54,56,59,63,72,76,80,82} = {-}{},
+ hline{3-21,24,26,28,30-35,37-45,47-53,55,57-58,60-62,64-71,73-75,77-79,81} = {3-4}{},
 }
-Tabela           & Descrição                                                                            & Atributos            & Descrição                                           \\
-users            & Tabela encarregue de guardar todos os dados referentes aos utilizadores da aplicação & uid                  & \textit{id} do utilizador                                    \\
-                 &                                                                                      & company\_id          & \textit{id} da empresa referente ao técnico                  \\
-                 &                                                                                      & tax\_number          & Número de contribuinte do utilizador                \\
-                 &                                                                                      & name                 & Nome do utilizador                                  \\
-                 &                                                                                      & \textit{email}                & Email do utilizador                                 \\
-                 &                                                                                      & \textit{password}             & Password do utilizador                              \\
-                 &                                                                                      & profile\_pic         & Imagem de perfil do utilizador                      \\
-                 &                                                                                      & verif\_code          & Código de verificação do utilizador                 \\
-                 &                                                                                      & is\_confirmed        & Verificação de se o código está confirmado          \\
-                 &                                                                                      & refresh\_token       & Token de refresh                                    \\
-                 &                                                                                      & is\_professional     & Verificação se é profissional                       \\
-                 &                                                                                      & has\_access          & Verificação se tem acesso à conta                   \\
-                 &                                                                                      & has\_\textit{email}\_noti     & Verificação se ativou notificações de \textit{email}         \\
-                 &                                                                                      & has\_push\_noti      & Verificação se ativou notificações push             \\
-                 &                                                                                      & \textit{email}\_noti\_type    & Tipo de notificação de \textit{email}                        \\
-                 &                                                                                      & push\_noti\_type     & Tipo de notificação push                            \\
-                 &                                                                                      & is\_deleted          & Verificação se a conta se encontra apagada          \\
-                 &                                                                                      & is\_certified        & Verificação se é um técnico certificado             \\
-                 &                                                                                      & is\_official         & Verificação se é um técnico oficia                  \\
-                 &                                                                                      & lang\_id             & \textit{id} da linguagem preferencial do utilizador          \\
-black\_list      & Tabela que guarda os tokens a bloquear                                               & token                & Token a bloquear                                    \\
-liked\_topics    & Tabela encarregue de guardar todos os tópicos que foram gostados pelo utilizador     & uid                  & \textit{id} do utilizador                                    \\
-                 &                                                                                      & topic\_id            & \textit{id} do tópico                                        \\
-liked\_answers   & Tabela encarregue de guardar todas as respostas que receberam gosto do utilizador    & uid                  & \textit{id} do utilizador                                    \\
-                 &                                                                                      & answer\_id           & \textit{id} da resposta                                      \\
-topic\_types     & Tabela encarregue de guardar os tipos de tópico existentes                           & type\_id             & \textit{id} do tipo de tópico                                \\
-                 &                                                                                      & name                 & nome do tipo de tópico                              \\
-notifications    & Tabela encarregue de guardar todas as notificações do técnico                        & noti\_id             & \textit{id} da notificação                                   \\
-                 &                                                                                      & receiver\_id         & Recetor da notificação                              \\
-                 &                                                                                      & sender\_id           & Emissor da notificação                              \\
-                 &                                                                                      & topic\_id            & \textit{id} do tópico em caso de estar referente a um tópico \\
-                 &                                                                                      & is\_deleted          & Verificação se a notificação está apagada           \\
-                 &                                                                                      & message              & Mensagem da notificação                             \\
-                 &                                                                                      & date                 & Data de emissão da notificação                      \\
-forum\_topics    & Tabela encarregue de guardar todos os tópicos existentes na aplicação                & topic\_id            & \textit{id} do tópico                                        \\*
-                 &                                                                                      & uid                  & \textit{id} do dono do tópico                                \\*
-                 &                                                                                      & product\_id          & Produto referente ao tópico                         \\*
-                 &                                                                                      & tiype\_id            & \textit{id} do tipo referente ao tópico                      \\*
-                 &                                                                                      & creation\_date       & Data de criação do tópico                           \\*
-                 &                                                                                      & description          & Descrição do tópico                                 \\*
-                 &                                                                                      & title                & Titulo do tópico                                    \\*
-                 &                                                                                      & is\_complete         & Verificação se o tópico está finalizado             \\*
-                 &                                                                                      & is\_private          & Verificação se o tópico é privado                   \\
-                 &                                                                                      & is\_deleted          & Verificação se o tópico está apagado                \\
-topic\_answers   & Tabela encarregue de guardar todas as respostas a um tópico                          & answer\_id           & \textit{id} da resposta                                      \\
-                 &                                                                                      & topic\_id            & \textit{id} do tópico                                        \\
-                 &                                                                                      & uid                  & \textit{id} do dono da resposta                              \\
-                 &                                                                                      & creation\_date       & Data de criação da resposta                         \\
-                 &                                                                                      & description          & Descrição da resposta                               \\
-                 &                                                                                      & is\_best             & Verificação se é a melhor resposta                  \\
+Tabela      & Descrição                                      & Atributos      & Descrição                      \\
+users      & Tabela encarregue de guardar todos os dados referentes aos utilizadores da aplicação & uid         & \textit{id} do utilizador                  \\
+         &                                           & company\_id     & \textit{id} da empresa referente ao técnico         \\
+         &                                           & tax\_number     & Número de contribuinte do utilizador        \\
+         &                                           & name         & Nome do utilizador                 \\
+         &                                           & \textit{email}        & Email do utilizador                 \\
+         &                                           & \textit{password}       & Password do utilizador               \\
+         &                                           & profile\_pic     & Imagem de perfil do utilizador           \\
+         &                                           & verif\_code     & Código de verificação do utilizador         \\
+         &                                           & is\_confirmed    & Verificação de se o código está confirmado     \\
+         &                                           & refresh\_token    & Token de refresh                  \\
+         &                                           & is\_professional   & Verificação se é profissional            \\
+         &                                           & has\_access     & Verificação se tem acesso à conta          \\
+         &                                           & has\_\textit{email}\_noti   & Verificação se ativou notificações de \textit{email}     \\
+         &                                           & has\_push\_noti   & Verificação se ativou notificações push       \\
+         &                                           & \textit{email}\_noti\_type  & Tipo de notificação de \textit{email}            \\
+         &                                           & push\_noti\_type   & Tipo de notificação push              \\
+         &                                           & is\_deleted     & Verificação se a conta se encontra apagada     \\
+         &                                           & is\_certified    & Verificação se é um técnico certificado       \\
+         &                                           & is\_official     & Verificação se é um técnico oficia         \\
+         &                                           & lang\_id       & \textit{id} da linguagem preferencial do utilizador     \\
+black\_list   & Tabela que guarda os tokens a bloquear                        & token        & Token a bloquear                  \\
+liked\_topics  & Tabela encarregue de guardar todos os tópicos que foram gostados pelo utilizador   & uid         & \textit{id} do utilizador                  \\
+         &                                           & topic\_id      & \textit{id} do tópico                    \\
+liked\_answers  & Tabela encarregue de guardar todas as respostas que receberam gosto do utilizador  & uid         & \textit{id} do utilizador                  \\
+         &                                           & answer\_id      & \textit{id} da resposta                   \\
+topic\_types   & Tabela encarregue de guardar os tipos de tópico existentes              & type\_id       & \textit{id} do tipo de tópico                \\
+         &                                           & name         & nome do tipo de tópico               \\
+notifications  & Tabela encarregue de guardar todas as notificações do técnico            & noti\_id       & \textit{id} da notificação                  \\
+         &                                           & receiver\_id     & Recetor da notificação               \\
+         &                                           & sender\_id      & Emissor da notificação               \\
+         &                                           & topic\_id      & \textit{id} do tópico em caso de estar referente a um tópico \\
+         &                                           & is\_deleted     & Verificação se a notificação está apagada      \\
+         &                                           & message       & Mensagem da notificação               \\
+         &                                           & date         & Data de emissão da notificação           \\
+forum\_topics  & Tabela encarregue de guardar todos os tópicos existentes na aplicação        & topic\_id      & \textit{id} do tópico                    \\*
+         &                                           & uid         & \textit{id} do dono do tópico                \\*
+         &                                           & product\_id     & Produto referente ao tópico             \\*
+         &                                           & tiype\_id      & \textit{id} do tipo referente ao tópico           \\*
+         &                                           & creation\_date    & Data de criação do tópico              \\*
+         &                                           & description     & Descrição do tópico                 \\*
+         &                                           & title        & Titulo do tópico                  \\*
+         &                                           & is\_complete     & Verificação se o tópico está finalizado       \\*
+         &                                           & is\_private     & Verificação se o tópico é privado          \\
+         &                                           & is\_deleted     & Verificação se o tópico está apagado        \\
+topic\_answers  & Tabela encarregue de guardar todas as respostas a um tópico             & answer\_id      & \textit{id} da resposta                   \\
+         &                                           & topic\_id      & \textit{id} do tópico                    \\
+         &                                           & uid         & \textit{id} do dono da resposta               \\
+         &                                           & creation\_date    & Data de criação da resposta             \\
+         &                                           & description     & Descrição da resposta                \\
+              &                                                                                      & is\_best             & Verificação se é a melhor resposta                  \\
                  &                                                                                      & parent\_id           & \textit{id} da resposta pai                                  \\
                  &                                                                                      & is\_deleted          & Verificação se o topico se encontra apagado         \\
 categories       & Tabela encarregue de guardar todas as categorias de produtos existentes              & category\_id         & \textit{id} da categoria                                     \\

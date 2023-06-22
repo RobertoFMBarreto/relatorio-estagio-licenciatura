@@ -2,11 +2,11 @@
 A figura~\ref{fig:46} expõe a arquitetura do sistema que indica as principais componentes. Entre estas, é possível visualizar a aplicação \textit{frontend}, que realiza pedidos a uma aplicação \textit{backend} e espera respostas. O \textit{backend} é composto por uma \textit{api rest} que recebe e responde aos pedidos e por uma base de dados a qual recebe \textit{queries} e devolve dados para a \textit{api rest}.
 
 \begin{figure}[htb]
-    \centering
-    
-    \includegraphics[width=0.7\textwidth]{images/Arquiteturas/arquitetura_de_solucao.png}
-    \caption{Arquitetura do sistema}
-    \label{fig:46}
+  \centering
+  
+  \includegraphics[width=0.7\textwidth]{images/Arquiteturas/arquitetura_de_solucao.png}
+  \caption{Arquitetura do sistema}
+  \label{fig:46}
 \end{figure}
 
 \subsection{Arquitetura de funcional}
@@ -17,10 +17,10 @@ Os \textit{middlewares} têm como objetivo realizar todas as ações necessária
 O \textit{controller} extrai os dados do pedido, verifica se os dados obrigatórios existem e cumprem as regras de negócio e encaminha o pedido para o serviço. O serviço, em caso de necessidade, irá proceder à interação com a base de dados, esta realiza diversas ações como, obter, atualizar, apagar e inserir dados. Por fim, após todo o código de serviço ser executado, a resposta é formulada e devolvida para o utilizador.
 
 \begin{figure}[htb]
-    \centering
-    \includegraphics[width=\textwidth]{images/Arquiteturas/arquitetura_funcional.png}
-    \caption{Arquitetura do funcional}
-    \label{fig:47}
+  \centering
+  \includegraphics[width=\textwidth]{images/Arquiteturas/arquitetura_funcional.png}
+  \caption{Arquitetura do funcional}
+  \label{fig:47}
 \end{figure}
 
 \newpage
@@ -29,10 +29,10 @@ O \textit{controller} extrai os dados do pedido, verifica se os dados obrigatór
 A arquitetura de componentes contém todos os serviços que deverão ser implementados na \textit{api frontend}, com a identificação dos atores que poderão realizar estes pedidos. Esta foi desenvolvida após uma análise de todos os dados necessários para suporte do \textit{frontend}.
 
 \begin{figure}[htb]
-    \centering
-    \includegraphics[width=0.7\textwidth]{images/Arquiteturas/arquitetura_de_componentes_final.png}
-    \caption{Arquitetura de componentes}
-    \label{fig:48}
+  \centering
+  \includegraphics[width=0.7\textwidth]{images/Arquiteturas/arquitetura_de_componentes_final.png}
+  \caption{Arquitetura de componentes}
+  \label{fig:48}
 \end{figure}
 
 \newpage

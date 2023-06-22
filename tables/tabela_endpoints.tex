@@ -6,29 +6,29 @@
 caption={Tabela de endpoints},
 label={tab:19},
 ]{
-  row{1} = {Concrete,c},
-  hlines,
-  vlines,
+ row{1} = {Concrete,c},
+ hlines,
+ vlines,
 }
-Serviço                                    & Ator       & Rota                                                             & Método \\
-{Obter informações \\do utilizador}        & Cliente    & baseurl/client/:uid                                              & GET    \\
-Realizar login                             & Utilizador & baseurl/login                                                    & POST   \\
-Realizar registo                           & Utilizador & baseurl/register                                                 & POST   \\
-{Esquecimento de \\\textit{password}}               & Utilizador & baseurl/forgot-\textit{password}                                          & GET    \\
-Ativação de conta                          & Cliente & baseurl/client/:uid/activate                                     & POST   \\
-{Reenvio de código \\de ativação de conta} & Cliente & baseurl/client/:uid/new-code                                     & GET    \\
-{Obter tópicos em \\destaque}              & Cliente    & baseurl/client/topics/featured                                   & GET    \\
-{Obter tópicos mais \\recentes}            & Cliente    & baseurl/client/topics/latest                                     & GET    \\
-{Obter tópicos por \\responder}            & Cliente    & baseurl/client/topics/to-answer                                  & GET    \\
-{Obter tópicos do \\utilizador}            & Cliente    & baseurl/client/topics                                            & GET    \\
-{Obter tópicos \\privados}                 & Técnico    & baseurl/professional/topics/private                              & GET    \\
-{Gostar de um \\tópico}                    & Cliente    & baseurl/client/topics/:topicId/like                              & PUT    \\
-{Adicionar resposta \\a tópico}            & Cliente    & baseurl/client/topics/:topicId/answer                            & POST   \\
-{Adicionar resposta \\a outra resposta}    & Cliente    & baseurl/client/answers/:answerId/                                & POST   \\
-{Gostar de uma \\resposta}                  & Cliente    & baseurl/client/answers/:answerId/like                            & PUT    \\
-{Marcar tópico \\como completo}            & Cliente    & baseurl/client/topics/:topicId/completed                         & PUT    \\
-Remover Tópico                             & Cliente    & baseurl/client/topics/:topicId/                                  & DELETE \\
-{Alterar visibilidade \\do tópico}         & Cliente    & baseurl/client/topics/:topicId/visibility                        & PUT    \\
-{Adicionar melhor \\resposta do tópico}    & Cliente    & {baseurl/client/topics/:topicId/answers/\\:answerId/best-answer} & PUT    \\
-Adicionar novo tópico                      & Cliente    & baseurl/client/topics/                                           & POST   
+Serviço                  & Ator    & Rota                               & Método \\
+{Obter informações \\do utilizador}    & Cliente  & baseurl/client/:uid                       & GET  \\
+Realizar login               & Utilizador & baseurl/login                          & POST  \\
+Realizar registo              & Utilizador & baseurl/register                         & POST  \\
+{Esquecimento de \\\textit{password}}        & Utilizador & baseurl/forgot-\textit{password}                     & GET  \\
+Ativação de conta             & Cliente & baseurl/client/:uid/activate                   & POST  \\
+{Reenvio de código \\de ativação de conta} & Cliente & baseurl/client/:uid/new-code                   & GET  \\
+{Obter tópicos em \\destaque}       & Cliente  & baseurl/client/topics/featured                  & GET  \\
+{Obter tópicos mais \\recentes}      & Cliente  & baseurl/client/topics/latest                   & GET  \\
+{Obter tópicos por \\responder}      & Cliente  & baseurl/client/topics/to-answer                 & GET  \\
+{Obter tópicos do \\utilizador}      & Cliente  & baseurl/client/topics                      & GET  \\
+{Obter tópicos \\privados}         & Técnico  & baseurl/professional/topics/private               & GET  \\
+{Gostar de um \\tópico}          & Cliente  & baseurl/client/topics/:topicId/like               & PUT  \\
+{Adicionar resposta \\a tópico}      & Cliente  & baseurl/client/topics/:topicId/answer              & POST  \\
+{Adicionar resposta \\a outra resposta}  & Cliente  & baseurl/client/answers/:answerId/                & POST  \\
+{Gostar de uma \\resposta}         & Cliente  & baseurl/client/answers/:answerId/like              & PUT  \\
+{Marcar tópico \\como completo}      & Cliente  & baseurl/client/topics/:topicId/completed             & PUT  \\
+Remover Tópico               & Cliente  & baseurl/client/topics/:topicId/                 & DELETE \\
+{Alterar visibilidade \\do tópico}     & Cliente  & baseurl/client/topics/:topicId/visibility            & PUT  \\
+{Adicionar melhor \\resposta do tópico}  & Cliente  & {baseurl/client/topics/:topicId/answers/\\:answerId/best-answer} & PUT  \\
+Adicionar novo tópico           & Cliente  & baseurl/client/topics/                      & POST  
 \end{longtblr}

@@ -1,22 +1,22 @@
 \subsection{Apresentação de Imagens}
-A apresentação das imagens é definida em 2 níveis, o nível de pré-visualização, por exemplo, a miniatura da imagem de uma publicação no fórum e o nível do detalhe, onde é possível visualizar a imagem em ponto grande e realizar \textit{zoom}.
+A apresentação das imagens é definida em 2 níveis, o nível de pré-visualização, por exemplo, a miniatura da imagem de uma tópico no fórum e o nível do detalhe, onde é possível visualizar a imagem em ponto grande e realizar \textit{zoom}.
 
 Para a apresentação da miniatura da imagem foi decidido apresentar até quatro imagens, sendo que, acima de quatro imagens serão apenas demonstradas três, o que significa que a quarta imagem indicaria quantas mais existem para ser visualizadas. 
 
 Para a implementação da apresentação das miniaturas das imagens utilizou-se a biblioteca \textit{staggered\_grid\_view}, que permite organizar imagens em grelha. Neste contexto desejava-se estruturar as imagens em diferentes aspetos e disposições, pelo que, esta biblioteca permite indicar quantas colunas e linhas existem na grelha ao criar o agrupamento de imagens. Deste modo, decidiu-se que quando são duas imagens, estas dividem a grelha, quando são três imagens, a primeira divide metade da grelha e as outras duas dividem a outra metade, quando são quatro ou mais, as quatro separam a grelha por igual. Quando existem mais do que quatro imagens, optou-se por colocar um filtro de desfoque sobre a última imagem e por cima desta quantas mais imagens existem para apresentar.
 
 \begin{figure}[htb]%
-  \centering
-  \subfloat[\centering Publicação com 5 imagens]{{\includegraphics[width=0.25\textwidth]{images/implementacao/frontend/apresentacao_imagens/1686068843028.jpg} }}%
-  \qquad
-  \subfloat[\centering Publicação com 4 imagens]{{\includegraphics[width=0.25\textwidth]{images/implementacao/frontend/apresentacao_imagens/1686068843039.jpg} }}%
-  \qquad
-  \subfloat[\centering Publicação com 3 imagens]{{\includegraphics[width=0.25\textwidth]{images/implementacao/frontend/apresentacao_imagens/1686068843051.jpg} }}%
-  \qquad
-  \subfloat[\centering Publicação com 2 imagens]{{\includegraphics[width=0.25\textwidth]{images/implementacao/frontend/apresentacao_imagens/1686845317274.jpg} }}%
-  \qquad
-  \subfloat[\centering Publicação com 1 imagem]{{\includegraphics[width=0.25\textwidth]{images/implementacao/frontend/apresentacao_imagens/1686845317288.jpg} }}%
-  \label{fig:77}%
+ \centering
+ \subfloat[\centering Tópico com 5 imagens]{{\includegraphics[width=0.25\textwidth]{images/implementacao/frontend/apresentacao_imagens/1686068843028.jpg} }}%
+ \qquad
+ \subfloat[\centering Tópico com 4 imagens]{{\includegraphics[width=0.25\textwidth]{images/implementacao/frontend/apresentacao_imagens/1686068843039.jpg} }}%
+ \qquad
+ \subfloat[\centering Tópico com 3 imagens]{{\includegraphics[width=0.25\textwidth]{images/implementacao/frontend/apresentacao_imagens/1686068843051.jpg} }}%
+ \qquad
+ \subfloat[\centering Tópico com 2 imagens]{{\includegraphics[width=0.25\textwidth]{images/implementacao/frontend/apresentacao_imagens/1686845317274.jpg} }}%
+ \qquad
+ \subfloat[\centering Tópico com 1 imagem]{{\includegraphics[width=0.25\textwidth]{images/implementacao/frontend/apresentacao_imagens/1686845317288.jpg} }}%
+ \label{fig:77}%
 \end{figure}
 
 \newpage
