@@ -4,6 +4,8 @@ Para garantir a segurança das \textit{passwords} dos utilizadores é necessári
 \subsubsection{Cifragem de configurações do servidor}
 Com o objetivo de garantir um nível de segurança maior foram realizadas pesquisas sobre as principais falhas de segurança no \textit{NodeJs}. Nestas, foi descoberto que as principais formas de ataque são as bibliotecas de \textit{malware} e o ataque direto com o objetivo de obter dados de acesso a servidores que se encontram nos ficheiros de configuração.
 
+%//TODO:
+% pornoma, nas metodologias mais recentes de desenvolmento de software sugerem que se coloque em ficheiro env
 Por norma todas as configurações de servidores são colocadas num ficheiro \textit{env}, este ficheiro no momento de iniciar o servidor é utilizado para carregar todas as variáveis para o ambiente do mesmo. Sendo assim qualquer um com acesso ao ficheiro ou às variáveis de ambiente poderá ver todas as configurações do servidor.
 
 A solução mais indicada para este problema é a cifragem do ficheiro \textit{env} e das variáveis de ambiente. A biblioteca mais utilizada para este objetivo é a \textit{secur-env}, visto que, esta permite realizar a cifragem de um ficheiro com a indicação de uma \textit{\textit{password}}. A \textit{\textit{password}} deverá ser indicada no processo de inicialização do servidor de forma a ser possível ao mesmo decifrar o ficheiro, sendo que a gestão das variáveis cifradas passa então a estar encarregue desta biblioteca.
