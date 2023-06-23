@@ -8,7 +8,7 @@ Um \textit{middleware} comporta-se como uma ligação entre duas partes e permit
  \label{middlewares_png}
 \end{figure}
 
-\subsubsection{Idioma de Comunicação}
+\subsubsection{Idioma de Comunicação}\label{sec:idioma_comunicacao}
 O bem essencial para uma boa comunicação entre duas partes, é a utilização da mesma linguagem, pelo que, foi necessário perceber qual a linguagem a utilizar quando se responde a um pedido. Para este fim, foi desenvolvido um \textit{middleware}, cujo objetivo é verificar se existe a chave \textit{language} no cabeçalho do pedido. Caso esta exista, é obtida a linguagem e guardada nas variáveis locais do pedido. Na eventualidade desta não existir, a aplicação dará uma resposta em português por omissão. Este valor poderá ser futuramente alterado de forma simples.
 
 \newpage
