@@ -138,3 +138,59 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{rf}%
+{%
+name={\acronymfont {\glsentryshort {rf}}},%
+sort={RF},%
+type={acronym},%
+first={RF},%
+firstplural={RFs},%
+text={RF},%
+plural={RFs},%
+description={Requisitos Funcionais},%
+descriptionplural={Requisitos Funcionais},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Requisitos Funcionais},%
+longplural={Requisitos Funcionaiss},%
+short={RF},%
+shortplural={RFs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{rnf}%
+{%
+name={\acronymfont {\glsentryshort {rnf}}},%
+sort={RNF},%
+type={acronym},%
+first={RNF},%
+firstplural={RNFs},%
+text={RNF},%
+plural={RNFs},%
+description={Requisitos Não Funcionais},%
+descriptionplural={Requisitos Não Funcionais},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Requisitos Não Funcionais},%
+longplural={Requisitos Não Funcionaiss},%
+short={RNF},%
+shortplural={RNFs},%
+counter={page},%
+parent={},%
+%
+}%
+

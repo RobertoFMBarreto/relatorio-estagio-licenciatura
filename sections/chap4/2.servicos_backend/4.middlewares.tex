@@ -8,7 +8,7 @@ Um \textit{middleware} comporta-se como uma ligação entre duas partes e permit
  \label{middlewares_png}
 \end{figure}
 
-\subsubsection{Linguagem}
+\subsubsection{Idioma de Comunicação}
 O bem essencial para uma boa comunicação entre duas partes, é a utilização da mesma linguagem, pelo que, foi necessário perceber qual a linguagem a utilizar quando se responde a um pedido. Para este fim, foi desenvolvido um \textit{middleware}, cujo objetivo é verificar se existe a chave \textit{language} no cabeçalho do pedido. Caso esta exista, é obtida a linguagem e guardada nas variáveis locais do pedido. Na eventualidade desta não existir, a aplicação dará uma resposta em português por omissão. Este valor poderá ser futuramente alterado de forma simples.
 
 \newpage
@@ -33,6 +33,6 @@ Sempre que um utilizador realiza um pedido, o seu \textit{token} de sessão deve
 
  \newpage
 
-\subsubsection{Validação de Papel}
+\subsubsection{Validação de \textit{Role}}
 
 Com a finalidade de garantir que apenas utilizadores com cargos suficientes conseguem realizar as ações regradas, foi desenvolvido um \textit{middleware} que valida se o utilizador que realizou o pedido tem permissões para o mesmo. Este \textit{middleware}, interliga-se com o \textit{middleware} anterior, pois, o cargo do utilizador em questão é enviado no \textit{token}, pelo que, é obtido e realizada uma comparação com o cargo desejado. Para isto foram criados dois \textit{middlewares} diferentes, um valida o cargo das empresas e o outro o cargo dos técnicos. As empresas podem realizar operações de técnicos, dado que, no \textit{middleware} de técnicos é verificado se o \textit{token} corresponde a um utilizador empresa, ou a um utilizador técnico. Já no \textit{middleware} de validação de empresa é verificado se o utilizador tem cargo de empresa.

@@ -48,7 +48,7 @@
 \contentsline {subsection}{\numberline {3.9.3}Criar nova tópico}{27}{subsection.3.9.3}%
 \contentsline {subsection}{\numberline {3.9.4}Detalhes de tópicos}{28}{subsection.3.9.4}%
 \contentsline {subsection}{\numberline {3.9.5}Pesquisa de tópicos}{28}{subsection.3.9.5}%
-\contentsline {subsection}{\numberline {3.9.6}Notificações}{29}{subsection.3.9.6}%
+\contentsline {subsection}{\numberline {3.9.6}Notificações}{28}{subsection.3.9.6}%
 \contentsline {subsection}{\numberline {3.9.7}Perfil}{29}{subsection.3.9.7}%
 \contentsline {subsection}{\numberline {3.9.8}Gestão de recursos humanos}{30}{subsection.3.9.8}%
 \contentsline {section}{\numberline {3.10}\textit {User Stories}}{31}{section.3.10}%
