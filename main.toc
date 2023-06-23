@@ -1,50 +1,30 @@
 \babel@toc {portuges}{}\relax 
-\contentsline {chapter}{\numberline {1}Trabalho desenvolvido}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Web scraper}{1}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Implemenção web scraper}{1}{subsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1.1}Implemenção no website}{6}{subsubsection.1.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1.2}Melhoria de implementação}{7}{subsubsection.1.1.1.2}%
-\contentsline {subsubsection}{\numberline {1.1.1.3}Diagrama de base de dados final}{10}{subsubsection.1.1.1.3}%
-\contentsline {subsubsection}{\numberline {1.1.1.4}Armazenamento de dados}{10}{subsubsection.1.1.1.4}%
-\contentsline {section}{\numberline {1.2}Backend}{11}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Organização do projeto}{11}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Definição de rotas base}{12}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Middlewares}{12}{subsection.1.2.3}%
-\contentsline {subsubsection}{\numberline {1.2.3.1}Idioma de Comunicação}{12}{subsubsection.1.2.3.1}%
-\contentsline {subsubsection}{\numberline {1.2.3.2}Autenticação}{13}{subsubsection.1.2.3.2}%
-\contentsline {subsubsection}{\numberline {1.2.3.3}Validação de \textit {Role}}{14}{subsubsection.1.2.3.3}%
-\contentsline {subsubsection}{\numberline {1.2.3.4}Logging de erros}{14}{subsubsection.1.2.3.4}%
-\contentsline {subsubsection}{\numberline {1.2.3.5}Logging de pedidos com morgan}{14}{subsubsection.1.2.3.5}%
-\contentsline {subsection}{\numberline {1.2.4}Controllers}{15}{subsection.1.2.4}%
-\contentsline {subsubsection}{\numberline {1.2.4.1}Estruturação dos controllers}{15}{subsubsection.1.2.4.1}%
-\contentsline {subsubsection}{\numberline {1.2.4.2}Execução da lógica de negócio}{15}{subsubsection.1.2.4.2}%
-\contentsline {subsubsection}{\numberline {1.2.4.3}Validação dos dados}{16}{subsubsection.1.2.4.3}%
-\contentsline {subsubsection}{\numberline {1.2.4.4}Formulação da resposta}{16}{subsubsection.1.2.4.4}%
-\contentsline {subsubsection}{\numberline {1.2.4.5}Processamento de erros}{16}{subsubsection.1.2.4.5}%
-\contentsline {subsection}{\numberline {1.2.5}Envio de \textit {emails}}{17}{subsection.1.2.5}%
-\contentsline {subsection}{\numberline {1.2.6}Agendamento de tarefas}{17}{subsection.1.2.6}%
-\contentsline {subsection}{\numberline {1.2.7}Cifra de \textit {passwords}}{18}{subsection.1.2.7}%
-\contentsline {subsubsection}{\numberline {1.2.7.1}Cifra de configurações do servidor}{18}{subsubsection.1.2.7.1}%
-\contentsline {subsection}{\numberline {1.2.8}Documentação Typedoc}{19}{subsection.1.2.8}%
-\contentsline {subsection}{\numberline {1.2.9}Documentação Swagger}{20}{subsection.1.2.9}%
-\contentsline {section}{\numberline {1.3}Frontend}{21}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Organização do projeto}{21}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Processo de aprendizagem}{22}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Extensions}{22}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4}Handlers}{22}{subsection.1.3.4}%
-\contentsline {subsection}{\numberline {1.3.5}Providers}{22}{subsection.1.3.5}%
-\contentsline {subsection}{\numberline {1.3.6}Helpers}{23}{subsection.1.3.6}%
-\contentsline {subsection}{\numberline {1.3.7}Gestão de utilizadores}{24}{subsection.1.3.7}%
-\contentsline {subsection}{\numberline {1.3.8}Fórum}{25}{subsection.1.3.8}%
-\contentsline {subsubsection}{\numberline {1.3.8.1}Filtragem de tópicos}{26}{subsubsection.1.3.8.1}%
-\contentsline {subsubsection}{\numberline {1.3.8.2}Carregamento de tópicos}{27}{subsubsection.1.3.8.2}%
-\contentsline {subsubsection}{\numberline {1.3.8.3}Detalhes de tópico}{28}{subsubsection.1.3.8.3}%
-\contentsline {subsection}{\numberline {1.3.9}Firestorage}{29}{subsection.1.3.9}%
-\contentsline {subsection}{\numberline {1.3.10}Apresentação de Imagens}{30}{subsection.1.3.10}%
-\contentsline {subsection}{\numberline {1.3.11}Apresentação de Imagens em carrosel}{31}{subsection.1.3.11}%
-\contentsline {subsection}{\numberline {1.3.12}Carregamento de Imagens}{31}{subsection.1.3.12}%
-\contentsline {subsection}{\numberline {1.3.13}Vídeos}{32}{subsection.1.3.13}%
-\contentsline {subsection}{\numberline {1.3.14}Links}{32}{subsection.1.3.14}%
-\contentsline {subsection}{\numberline {1.3.15}Notificações}{33}{subsection.1.3.15}%
-\contentsline {subsection}{\numberline {1.3.16}Permissões}{34}{subsection.1.3.16}%
-\contentsline {subsection}{\numberline {1.3.17}Ios}{35}{subsection.1.3.17}%
+\contentsline {chapter}{\numberline {1}Estado da arte}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Ferramentas de trabalho utilizadas}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Plataforma Tecnológica}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Web Scraper}{2}{subsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.1.1}Selenium}{2}{subsubsection.1.2.1.1}%
+\contentsline {subsection}{\numberline {1.2.2}Serviços Backend}{3}{subsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.2.1}Serviços RestFull e SOAP}{3}{subsubsection.1.2.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2.2}NodeJS}{4}{subsubsection.1.2.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.2.3}Typescript}{4}{subsubsection.1.2.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.2.4}PostgreSQL}{5}{subsubsection.1.2.2.4}%
+\contentsline {subsubsection}{\numberline {1.2.2.5}Logs e Logging}{5}{subsubsection.1.2.2.5}%
+\contentsline {subsubsection}{\numberline {1.2.2.6}Morgan}{5}{subsubsection.1.2.2.6}%
+\contentsline {subsubsection}{\numberline {1.2.2.7}Gestão de \textit {emails}}{6}{subsubsection.1.2.2.7}%
+\contentsline {subsubsection}{\numberline {1.2.2.8}Agendamento de tarefas}{6}{subsubsection.1.2.2.8}%
+\contentsline {subsubsection}{\numberline {1.2.2.9}Encriptação de \textit {passwords}}{6}{subsubsection.1.2.2.9}%
+\contentsline {subsubsection}{\numberline {1.2.2.10}Encriptação de configurações do servidor}{7}{subsubsection.1.2.2.10}%
+\contentsline {subsubsection}{\numberline {1.2.2.11}Firebase}{8}{subsubsection.1.2.2.11}%
+\contentsline {subsubsection}{\numberline {1.2.2.12}Axios}{8}{subsubsection.1.2.2.12}%
+\contentsline {subsection}{\numberline {1.2.3}\textit {Frontend}}{9}{subsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.3.1}Desenvolvimento cross-platform}{9}{subsubsection.1.2.3.1}%
+\contentsline {subsubsection}{\numberline {1.2.3.2}Flutter}{10}{subsubsection.1.2.3.2}%
+\contentsline {subsubsection}{\numberline {1.2.3.3}Dart}{10}{subsubsection.1.2.3.3}%
+\contentsline {subsubsection}{\numberline {1.2.3.4}Links de aplicações}{11}{subsubsection.1.2.3.4}%
+\contentsline {subsection}{\numberline {1.2.4}Qualidade de código}{12}{subsection.1.2.4}%
+\contentsline {subsubsection}{\numberline {1.2.4.1}Design patterns}{12}{subsubsection.1.2.4.1}%
+\contentsline {subsubsection}{\numberline {1.2.4.2}Documentação}{12}{subsubsection.1.2.4.2}%
+\contentsline {subsubsection}{\numberline {1.2.4.3}Typedoc}{12}{subsubsection.1.2.4.3}%
+\contentsline {subsubsection}{\numberline {1.2.4.4}Swagger}{13}{subsubsection.1.2.4.4}%
+\contentsline {subsubsection}{\numberline {1.2.4.5}Testes de código}{13}{subsubsection.1.2.4.5}%

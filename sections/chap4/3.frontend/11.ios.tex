@@ -1,5 +1,5 @@
 \subsection{Ios}
-Após o desenvolvimento completo da aplicação para dispositivos \textit{Android}, foi proposto pela Motorline testar como o esta se comportava num ambiente \textit{iOS}, para isso, esta disponibilizou acesso a um dispositivo móvel \textit{apple}, um computador, uma conta de programador e um colega de trabalho que já possuía experiência de desenvolvimento \textit{iOS} com \textit{flutter}.
+Após o desenvolvimento completo da aplicação para dispositivos \textit{Android}, foi proposto pela Motorline testar como o esta se comportava num ambiente \textit{iOS}, para isso, esta disponibilizou acesso a um dispositivo móvel \textit{apple}, um computador, uma conta de programador e um colega de trabalho que já possuía experiência de desenvolvimento \textit{iOS} com \textit{Flutter}.
 
 Para a compilação, primeiramente foi necessário configurar a ferramenta \textit{XCode}. Esta configuração foi realizada em conjunto com o colega de trabalho.
 
@@ -9,6 +9,6 @@ Para a resolução do problema de navegação foram acrescentados botões de nav
 
 A resolução do problema de notificações proveio de uma pesquisa sobre qual seria a possível fonte do problema, sendo detetado que as permissões poderiam não estar configuradas. Para realizar a configuração foi necessário atribuir as permissões de \textit{Android} para \textit{iOS}, contudo, estas foram implementadas através de um ficheiro com o nome de \textit{info.plist}.
 
-Posteriormente a esta adição, o colega de trabalho indicou que no envio do pedido de notificações para o \textit{Firebase} é necessário também indicar as configurações de \textit{iOS}. Deste modo foi procurado na documentação como se envia as configurações de \textit{iOS}. Com a utilização destas configurações foi alterado o pedido de notificações e de links dinâmicos, visto que, é um pedido do mesmo estilo.
+Posteriormente a esta adição, o colega de trabalho indicou que no envio do pedido de notificações para o \textit{Firebase} é necessário também indicar as configurações de \textit{iOS}. Deste modo foi procurado na documentação como se envia as configurações de \textit{iOS}. Com a utilização destas configurações foi alterado o pedido de notificações e de \textit{links} dinâmicos, visto que, é um pedido do mesmo estilo.
 
 Para além das alterações anteriores foi necessário também configurar  as notificações e \textit{links} no \textit{XCode}. Depois desta configuração foi testado e todas as notificações, \textit{links} de \textit{emails} e permissões funcionaram como planeado.
