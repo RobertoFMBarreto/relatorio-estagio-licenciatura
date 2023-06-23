@@ -9,7 +9,9 @@
 \usepackage{color}
 \usepackage{tabularray}
 \usepackage{longtable}
+\usepackage{csquotes}
 \usepackage[acronym]{glossaries}
+\makeglossaries
 
 \title{App Install \& Go}
 \author{Roberto Filipe Manso Barreto}
@@ -85,12 +87,14 @@ Por fim, mas não menos importante, gostaria de enfatizar toda a orientação, d
 %\lstlistoflistings
 
 % Commentar proximas duas linhas se nao for para usar acronimos
-% \input{acronimos}
-% \printglossary[type=\acronymtype,title={Siglas \& Acrónimos}]
+\input{acronimos}
+
+\printglossary[type=\acronymtype,title={Siglas \& Acrónimos}]
 
 % Commentar proximas duas linhas se nao for para usar glossarios
-%\input{glossario}
-%\printglossary
+% \input{glossario}
+% \printglossary
+
 
 
 %\printglossary
@@ -100,9 +104,9 @@ Por fim, mas não menos importante, gostaria de enfatizar toda a orientação, d
 
 
 % novos capitulos em paginas impares
-% \input{chap1}
+\input{chap1}
 \input{chap2}
-% \input{chap3}
+\input{chap3}
 % \input{chap4}
 % \input{chap5}
 % \input{chap6}

@@ -32,11 +32,11 @@ Sendo assim, foram criados métodos para auxílio na filtragem, tais como, uma p
 \newpage
 
 \subsubsection{Carregamento de tópicos}
-Inicialmente o carregamento de tópicos fazia-se por inteiro, desde carregamento de todos os tópicos, até todos os dados dos mesmos, visto que, não existiam muitos tópicos este não seria um problema para a \textit{API}, mas, conforme os testes foram realizados a quantidade de tópicos existentes foi gradualmente aumentando, pelo que, foi possível visualizar o tempo de demora da resposta do servidor a aumentar, assim como, o desempenho da aplicação no fórum a piorar.
+Inicialmente o carregamento de tópicos fazia-se por inteiro, desde carregamento de todos os tópicos, até todos os dados dos mesmos, visto que, não existiam muitos tópicos este não seria um problema para a \textit{\acrshort{api}}, mas, conforme os testes foram realizados a quantidade de tópicos existentes foi gradualmente aumentando, pelo que, foi possível visualizar o tempo de demora da resposta do servidor a aumentar, assim como, o desempenho da aplicação no fórum a piorar.
 
 A resolução deste problema proveio com uma técnica de \textit{sliding window}, na qual os tópicos mantêm-se carregados, sendo que, a própria \textit{framework} consegue através da lista retirar de renderização os tópicos que o utilizador não consegue ver. 
 
-Esta solução foi implementada através da utilização de três valores, quantidade de tópicos a obter, índice inicial e data do primeiro tópico. O valor de quantidade de tópicos a obter, inicialmente dez, permite limitar a quantidade de tópicos que a \textit{API} irá processar, o que reduz o tempo de resposta. O índice inicial, indica qual o índice do primeiro elemento que se deseja obter da lista. A data do primeiro tópico, mantém uma referência temporal para obter tópicos, o que garante que a lista que está ser a visualizada é sempre a mesma.
+Esta solução foi implementada através da utilização de três valores, quantidade de tópicos a obter, índice inicial e data do primeiro tópico. O valor de quantidade de tópicos a obter, inicialmente dez, permite limitar a quantidade de tópicos que a \textit{\acrshort{api}} irá processar, o que reduz o tempo de resposta. O índice inicial, indica qual o índice do primeiro elemento que se deseja obter da lista. A data do primeiro tópico, mantém uma referência temporal para obter tópicos, o que garante que a lista que está ser a visualizada é sempre a mesma.
 
 \begin{figure}[htb]
  \centering

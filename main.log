@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.4.28)  22 JUN 2023 17:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.4.28)  23 JUN 2023 10:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -590,40 +590,80 @@ Package: tabularray 2022-11-01 v2022D Typeset tabulars and arrays with LaTeX3
 \l__tblr_cell_wd_dim=\dimen304
 \l__tblr_cell_ht_dim=\dimen305
 \l__tblr_diag_box=\box88
-) (./main.aux)
+) (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
+\csq@reset=\count357
+\csq@gtype=\count358
+\csq@glevel=\count359
+\csq@qlevel=\count360
+\csq@maxlvl=\count361
+\csq@tshold=\count362
+\csq@ltx@everypar=\toks39
+ (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+\glswrite=\write3
+\glo@main@file=\write4
+\openout4 = `main.glo'.
+
+Package glossaries Info: Writing glossary file main.glo on input line 14.
+\glo@acronym@file=\write5
+\openout5 = `main.acn'.
+
+Package glossaries Info: Writing glossary file main.acn on input line 14.
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'portuges'.
+ (./main.aux
+
+LaTeX Warning: Label `fig:23' multiply defined.
+
+
+LaTeX Warning: Label `fig:31' multiply defined.
+
+
+LaTeX Warning: Label `fig:31' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count357
+\scratchcounter=\count363
 \scratchdimen=\dimen306
 \scratchbox=\box89
-\nofMPsegments=\count358
-\nofMParguments=\count359
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count360
+\nofMPsegments=\count364
+\nofMParguments=\count365
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count366
 \MPscratchDim=\dimen307
-\MPnumerator=\count361
-\makeMPintoPDFobject=\count362
-\everyMPtoPDFconversion=\toks40
+\MPnumerator=\count367
+\makeMPintoPDFobject=\count368
+\everyMPtoPDFconversion=\toks41
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -674,28 +714,30 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count363
-Package hyperref Info: Link coloring ON on input line 33.
+\c@lstlisting=\count369
+Package hyperref Info: Link coloring ON on input line 35.
 (./main.out) (./main.out)
-\@outlinefile=\write3
-\openout3 = `main.out'.
+\@outlinefile=\write6
+\openout6 = `main.out'.
 
  (./main.glsdefs) (/usr/share/texlive/texmf-dist/tex/latex/ninecolors/ninecolors.sty
 Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
  (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2022-12-17 L3 Experimental document command parser
 ))
-<lesi/logos/logo_ipca.png, id=120, 707.64375pt x 356.33125pt>
+<lesi/logos/logo_ipca.png, id=462, 707.64375pt x 356.33125pt>
 File: lesi/logos/logo_ipca.png Graphic file (type png)
 <use lesi/logos/logo_ipca.png>
-Package pdftex.def Info: lesi/logos/logo_ipca.png  used on input line 37.
+Package pdftex.def Info: lesi/logos/logo_ipca.png  used on input line 39.
 (pdftex.def)             Requested size: 113.00935pt x 56.9055pt.
-<lesi/logos/logo_est.png, id=122, 2971.1pt x 1124.2pt>
+<lesi/logos/logo_est.png, id=464, 2971.1pt x 1124.2pt>
 File: lesi/logos/logo_est.png Graphic file (type png)
 <use lesi/logos/logo_est.png>
-Package pdftex.def Info: lesi/logos/logo_est.png  used on input line 37.
+Package pdftex.def Info: lesi/logos/logo_est.png  used on input line 39.
 (pdftex.def)             Requested size: 150.3771pt x 56.9055pt.
  [1
+
+\openout3 = `main.ist'.
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./lesi/logos/logo_ipca.png> <./lesi/logos/logo_est.png>] [2] [3
@@ -706,109 +748,1788 @@ Package pdftex.def Info: lesi/logos/logo_est.png  used on input line 37.
 
 ] [7] [8
 
-] (./main.toc
-Underfull \vbox (badness 2932) has occurred while \output is active []
+] (./main.toc [9]
+Underfull \vbox (badness 6708) has occurred while \output is active []
 
- [9])
-\tf@toc=\write4
-\openout4 = `main.toc'.
+ [10] [11])
+\tf@toc=\write7
+\openout7 = `main.toc'.
 
- [10] (./main.lof)
-\tf@lof=\write5
-\openout5 = `main.lof'.
+ [12] (./main.lof
 
- [11
+Package natbib Warning: Citation `linking_firebase' on page xiii undefined on input line 5.
 
-] [12
+[13
 
-] (./main.lot)
-\tf@lot=\write6
-\openout6 = `main.lot'.
+])
+\tf@lof=\write8
+\openout8 = `main.lof'.
 
- [13] [14
+ [14] (./main.lot)
+\tf@lot=\write9
+\openout9 = `main.lot'.
 
-] (./chap2.tex
+ (./acronimos.tex
+\@gls@deffile=\write10
+\openout10 = `main.glsdefs'.
+
+) (./main.acr [15
+
+] [16
+
+]) [17
+
+] [18
+
+] (./chap1.tex
 Cap\'{\i }tulo 1.
 [1
 
-] (./sections/chap2/tecnologias_utilizadas/backend/0.web_scraper.tex) (./sections/chap2/tecnologias_utilizadas/backend/1.servicos_backend.tex [2] [3]
-Overfull \hbox (24.2943pt too wide) in paragraph at lines 37--38
-[]\T1/cmr/m/it/12 PostgreSQL \T1/cmr/m/n/12 "(...)\T1/cmr/m/it/12 is an open source ob-ject re-la-ti-o-nal da-ta-base ma-na-ge-ment sys-tem\T1/cmr/m/n/12 (...)"([][]Juba
+] [2]
+<images/etapa1_sprint_planning.png, id=846, 1084.05pt x 1483.5425pt>
+File: images/etapa1_sprint_planning.png Graphic file (type png)
+<use images/etapa1_sprint_planning.png>
+Package pdftex.def Info: images/etapa1_sprint_planning.png  used on input line 40.
+(pdftex.def)             Requested size: 377.85344pt x 517.09714pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./images/etapa1_sprint_planning.png>]) (./chap2.tex [4]
+Cap\'{\i }tulo 2.
+[5
+
+] (./sections/chap2/tecnologias_utilizadas/backend/0.web_scraper.tex
+
+Package natbib Warning: Citation `web_scraping' on page 6 undefined on input line 2.
+
+
+Package natbib Warning: Citation `selenium' on page 6 undefined on input line 10.
+
+
+Package natbib Warning: Citation `selenium' on page 6 undefined on input line 10.
+
+
+Package natbib Warning: Citation `selenium' on page 6 undefined on input line 10.
+
+) [6] (./sections/chap2/tecnologias_utilizadas/backend/1.servicos_backend.tex
+
+Package natbib Warning: Citation `rest_cookbook' on page 7 undefined on input line 4.
+
+
+Package natbib Warning: Citation `api_design' on page 7 undefined on input line 5.
+
+
+Package natbib Warning: Citation `api_design' on page 7 undefined on input line 9.
+
+
+Package natbib Warning: Citation `api_design' on page 7 undefined on input line 9.
+
+
+Package natbib Warning: Citation `Snell2002' on page 7 undefined on input line 11.
+
+
+Package natbib Warning: Citation `Snell2002' on page 7 undefined on input line 11.
+
+
+Package natbib Warning: Citation `Snell2002' on page 7 undefined on input line 11.
+
+
+Package natbib Warning: Citation `Halili2018' on page 7 undefined on input line 13.
+
+
+Package natbib Warning: Citation `Halili2018' on page 7 undefined on input line 13.
+
+[7]
+
+Package natbib Warning: Citation `design_node' on page 8 undefined on input line 19.
+
+
+Package natbib Warning: Citation `design_node' on page 8 undefined on input line 19.
+
+
+Package natbib Warning: Citation `design_node' on page 8 undefined on input line 21.
+
+
+Package natbib Warning: Citation `design_node' on page 8 undefined on input line 21.
+
+
+Package natbib Warning: Citation `design_node' on page 8 undefined on input line 23.
+
+
+Package natbib Warning: Citation `design_node' on page 8 undefined on input line 23.
+
+
+Package natbib Warning: Citation `typescript' on page 8 undefined on input line 29.
+
+
+Package natbib Warning: Citation `typescript' on page 8 undefined on input line 29.
+
+
+Package natbib Warning: Citation `typescript' on page 8 undefined on input line 29.
+
+
+Package natbib Warning: Citation `typescript' on page 8 undefined on input line 31.
+
+
+Package natbib Warning: Citation `typescript' on page 8 undefined on input line 31.
+
+
+Package natbib Warning: Citation `typescript' on page 8 undefined on input line 31.
+
+
+Package natbib Warning: Citation `typescript' on page 8 undefined on input line 31.
+
+[8]
+
+Package natbib Warning: Citation `Juba2015' on page 9 undefined on input line 38.
+
+
+Package natbib Warning: Citation `Juba2015' on page 9 undefined on input line 38.
+
+
+Package natbib Warning: Citation `Juba2015' on page 9 undefined on input line 38.
+
+
+Package natbib Warning: Citation `Juba2015' on page 9 undefined on input line 38.
+
+
+Overfull \hbox (13.53857pt too wide) in paragraph at lines 38--39
+[]\T1/cmr/m/it/12 PostgreSQL \T1/cmr/m/n/12 "(...)\T1/cmr/m/it/12 is an open source ob-ject re-la-ti-o-nal da-ta-base ma-na-ge-ment sys-tem\T1/cmr/m/n/12 (...)"(\T1/cmr/bx/n/12 ?\T1/cmr/m/n/12 ).
  []
 
-[4] (./sections/chap2/tecnologias_utilizadas/backend/2.logging.tex
-Overfull \hbox (26.86778pt too wide) in paragraph at lines 2--3
-\T1/cmr/m/it/12 ap-pli-ca-tion ma-na-ge-ment (lo-gin and lo-gout, ap-pli-ca-tion ac-cess, etc.), and se-cu-rity\T1/cmr/m/n/12 (...)"([][]Chuvakin
- []
+(./sections/chap2/tecnologias_utilizadas/backend/2.logging.tex
 
-) (./sections/chap2/tecnologias_utilizadas/backend/3.envio_de_emails.tex) [5] (./sections/chap2/tecnologias_utilizadas/backend/4.scheduler.tex) (./sections/chap2/tecnologias_utilizadas/backend/5.seguranÃ§a.tex [6]) [7] (./sections/chap2/tecnologias_utilizadas/backend/6.Firebase.tex) (./sections/chap2/tecnologias_utilizadas/backend/7.axios.tex)) [8] (./sections/chap2/tecnologias_utilizadas/frontend/1.frontend.tex (./sections/chap2/tecnologias_utilizadas/frontend/2.cross_platform.tex)
-Overfull \hbox (10.44774pt too wide) in paragraph at lines 9--5
-\T1/cmr/m/n/12 este as-sim como as \T1/cmr/m/it/12 fra-meworks \T1/cmr/m/n/12 na-ti-vas "(...)\T1/cmr/m/it/12 he-a-vily re-lies on OEM com-po-nents\T1/cmr/m/n/12 (...)"([][]Mainkar
- []
+Package natbib Warning: Citation `Logging' on page 9 undefined on input line 2.
 
-[9] (./sections/chap2/tecnologias_utilizadas/frontend/3.flutter.tex
+
+Package natbib Warning: Citation `Logging' on page 9 undefined on input line 2.
+
+
+Package natbib Warning: Citation `Logging' on page 9 undefined on input line 2.
+
+) [9] (./sections/chap2/tecnologias_utilizadas/backend/3.envio_de_emails.tex) (./sections/chap2/tecnologias_utilizadas/backend/4.scheduler.tex
+
+Package natbib Warning: Citation `crontab' on page 10 undefined on input line 4.
+
+
+Package natbib Warning: Citation `node_cron' on page 10 undefined on input line 4.
+
+) (./sections/chap2/tecnologias_utilizadas/backend/5.seguranÃ§a.tex
+
+Package natbib Warning: Citation `bcrypt' on page 10 undefined on input line 2.
+
+
+Package natbib Warning: Citation `bcrypt' on page 10 undefined on input line 2.
+
+[10]) [11] (./sections/chap2/tecnologias_utilizadas/backend/6.Firebase.tex
+
+Package natbib Warning: Citation `Moroney2017' on page 12 undefined on input line 2.
+
+
+Package natbib Warning: Citation `Moroney2017' on page 12 undefined on input line 2.
+
+
+Package natbib Warning: Citation `Moroney2017' on page 12 undefined on input line 4.
+
+
+Package natbib Warning: Citation `Moroney2017' on page 12 undefined on input line 6.
+
+
+Package natbib Warning: Citation `Moroney2017' on page 12 undefined on input line 6.
+
+
+Package natbib Warning: Citation `Moroney2017' on page 12 undefined on input line 6.
+
+
+Package natbib Warning: Citation `Moroney2017' on page 12 undefined on input line 8.
+
+) (./sections/chap2/tecnologias_utilizadas/backend/7.axios.tex
+
+Package natbib Warning: Citation `axios' on page 12 undefined on input line 3.
+
+
+Package natbib Warning: Citation `axios' on page 12 undefined on input line 3.
+
+)) [12] (./sections/chap2/tecnologias_utilizadas/frontend/1.frontend.tex (./sections/chap2/tecnologias_utilizadas/frontend/2.cross_platform.tex
+
+Package natbib Warning: Citation `flutter' on page 13 undefined on input line 4.
+
+
+Package natbib Warning: Citation `flutter' on page 13 undefined on input line 4.
+
+
+Package natbib Warning: Citation `flutter' on page 13 undefined on input line 4.
+
+
+Package natbib Warning: Citation `flutter' on page 13 undefined on input line 4.
+
+
+Package natbib Warning: Citation `flutter' on page 13 undefined on input line 4.
+
+
+Package natbib Warning: Citation `flutter' on page 13 undefined on input line 6.
+
+
+Package natbib Warning: Citation `flutter' on page 13 undefined on input line 6.
+
+
+Package natbib Warning: Citation `flutter' on page 13 undefined on input line 6.
+
+
+Package natbib Warning: Citation `flutter' on page 13 undefined on input line 7.
+
+
+Package natbib Warning: Citation `flutter' on page 13 undefined on input line 9.
+
+
+Package natbib Warning: Citation `flutter' on page 13 undefined on input line 9.
+
+
+Package natbib Warning: Citation `flutter' on page 13 undefined on input line 9.
+
+) [13] (./sections/chap2/tecnologias_utilizadas/frontend/3.flutter.tex
+
+Package natbib Warning: Citation `flutter' on page 14 undefined on input line 2.
+
+
+Package natbib Warning: Citation `flutter' on page 14 undefined on input line 2.
+
+
+Package natbib Warning: Citation `flutter' on page 14 undefined on input line 2.
+
+
+Package natbib Warning: Citation `flutter' on page 14 undefined on input line 4.
+
+
+Package natbib Warning: Citation `flutter' on page 14 undefined on input line 4.
+
+
+Package natbib Warning: Citation `flutter' on page 14 undefined on input line 4.
+
+
 Overfull \hbox (16.06526pt too wide) in paragraph at lines 4--5
 []\T1/cmr/m/n/12 Para o \T1/cmr/m/it/12 Flut-ter \T1/cmr/m/n/12 tudo é um \T1/cmr/m/it/12 wid-get\T1/cmr/m/n/12 , "(...)\T1/cmr/m/it/12 Ori-en-ta-tion, layout, opa-city,animation... everything
  []
 
-) (./sections/chap2/tecnologias_utilizadas/frontend/4.dart.tex) [10] (./sections/chap2/tecnologias_utilizadas/frontend/6.links.tex
-Overfull \hbox (10.96724pt too wide) in paragraph at lines 5--6
-[]\T1/cmr/m/n/12 Os \T1/cmr/m/it/12 app links \T1/cmr/m/n/12 são "(...)\T1/cmr/m/it/12 web links that use the HTTP and HTTPS sche-mes\T1/cmr/m/n/12 (...)"([][]Developers[][],
- []
 
-<images/diagramas/fdl-android-integration.png, id=470, 963.6pt x 722.7pt>
+Package natbib Warning: Citation `flutter' on page 14 undefined on input line 6.
+
+
+Package natbib Warning: Citation `flutter' on page 14 undefined on input line 6.
+
+
+Package natbib Warning: Citation `flutter' on page 14 undefined on input line 6.
+
+
+Package natbib Warning: Citation `flutter' on page 14 undefined on input line 6.
+
+
+Package natbib Warning: Citation `flutter' on page 14 undefined on input line 6.
+
+
+Package natbib Warning: Citation `flutter' on page 14 undefined on input line 6.
+
+) (./sections/chap2/tecnologias_utilizadas/frontend/4.dart.tex
+
+Package natbib Warning: Citation `dart_pg_lang' on page 14 undefined on input line 2.
+
+
+Package natbib Warning: Citation `dart_pg_lang' on page 14 undefined on input line 2.
+
+
+Package natbib Warning: Citation `dart_pg_lang' on page 14 undefined on input line 2.
+
+
+Package natbib Warning: Citation `dart_pg_lang' on page 14 undefined on input line 2.
+
+
+Package natbib Warning: Citation `dart_pg_lang' on page 14 undefined on input line 2.
+
+) [14] (./sections/chap2/tecnologias_utilizadas/frontend/6.links.tex
+
+Package natbib Warning: Citation `linking' on page 15 undefined on input line 5.
+
+
+Package natbib Warning: Citation `linking' on page 15 undefined on input line 5.
+
+
+Package natbib Warning: Citation `linking' on page 15 undefined on input line 5.
+
+
+Package natbib Warning: Citation `linking' on page 15 undefined on input line 8.
+
+
+Package natbib Warning: Citation `dynamic_linking' on page 15 undefined on input line 10.
+
+
+Package natbib Warning: Citation `dynamic_linking' on page 15 undefined on input line 10.
+
+
+Package natbib Warning: Citation `dynamic_linking' on page 15 undefined on input line 10.
+
+<images/diagramas/fdl-android-integration.png, id=908, 963.6pt x 722.7pt>
 File: images/diagramas/fdl-android-integration.png Graphic file (type png)
 <use images/diagramas/fdl-android-integration.png>
 Package pdftex.def Info: images/diagramas/fdl-android-integration.png  used on input line 14.
 (pdftex.def)             Requested size: 377.85344pt x 283.38469pt.
-)) [11 <./images/diagramas/fdl-android-integration.png (PNG copy)>] (./sections/chap2/tecnologias_utilizadas/qualidade_codigo/1.qualidade_codigo.tex (./sections/chap2/tecnologias_utilizadas/qualidade_codigo/2.design_patterns.tex
-Overfull \hbox (16.26569pt too wide) in paragraph at lines 2--3
-\T1/cmr/m/it/12 de-sign struc-ture that make it use-ful for cre-a-ting a reu-sa-ble object-oriented de-sign\T1/cmr/m/n/12 (...)"([][]Gamma
- []
 
-) (./sections/chap2/tecnologias_utilizadas/qualidade_codigo/3.documentacao.tex [12])
-Overfull \hbox (7.77766pt too wide) in paragraph at lines 12--7
-[]\T1/cmr/m/it/12 Swagger \T1/cmr/m/n/12 é uma fer-ra-menta "(...)\T1/cmr/m/it/12 built around the Ope-nAPI Spe-ci-fi-ca-tion\T1/cmr/m/n/12 (...)"([][]SmartBear[][],
- []
+Package natbib Warning: Citation `linking_firebase' on page 15 undefined on input line 15.
 
 
-Overfull \hbox (24.59662pt too wide) in paragraph at lines 12--7
-[][]\T1/cmr/m/n/12 2023[][]) que aju-dam com "(...)\T1/cmr/m/it/12 de-sign, build, do-cu-ment and con-sume REST APIs\T1/cmr/m/n/12 (...)"([][]SmartBear[][],
- []
+Package natbib Warning: Citation `linking_firebase' on page 15 undefined on input line 15.
 
-(./sections/chap2/tecnologias_utilizadas/qualidade_codigo/4.testes.tex)) [13]) (./main.bbl [14
+)) [15 <./images/diagramas/fdl-android-integration.png (PNG copy)>] (./sections/chap2/tecnologias_utilizadas/qualidade_codigo/1.qualidade_codigo.tex (./sections/chap2/tecnologias_utilizadas/qualidade_codigo/2.design_patterns.tex
+
+Package natbib Warning: Citation `design_patterns' on page 16 undefined on input line 2.
+
+
+Package natbib Warning: Citation `design_patterns' on page 16 undefined on input line 2.
+
+
+Package natbib Warning: Citation `design_patterns' on page 16 undefined on input line 4.
+
+
+Package natbib Warning: Citation `design_patterns' on page 16 undefined on input line 4.
+
+
+Package natbib Warning: Citation `design_patterns' on page 16 undefined on input line 4.
+
+
+Package natbib Warning: Citation `design_patterns' on page 16 undefined on input line 4.
+
+
+Package natbib Warning: Citation `design_patterns' on page 16 undefined on input line 4.
+
+
+Package natbib Warning: Citation `design_patterns' on page 16 undefined on input line 4.
+
+
+Package natbib Warning: Citation `design_patterns' on page 16 undefined on input line 4.
+
+) (./sections/chap2/tecnologias_utilizadas/qualidade_codigo/3.documentacao.tex
+
+Package natbib Warning: Citation `typedoc' on page 16 undefined on input line 6.
+
+
+Package natbib Warning: Citation `typedoc' on page 16 undefined on input line 6.
+
+[16]
+
+Package natbib Warning: Citation `swagger' on page 17 undefined on input line 12.
+
+
+Package natbib Warning: Citation `swagger' on page 17 undefined on input line 12.
+
+
+Package natbib Warning: Citation `swagger' on page 17 undefined on input line 12.
+
+
+Package natbib Warning: Citation `swagger' on page 17 undefined on input line 12.
+
+) (./sections/chap2/tecnologias_utilizadas/qualidade_codigo/4.testes.tex
+
+Package natbib Warning: Citation `mocha' on page 17 undefined on input line 4.
+
+
+Package natbib Warning: Citation `chai' on page 17 undefined on input line 6.
+
+
+Package natbib Warning: Citation `chai' on page 17 undefined on input line 6.
+
+
+Package natbib Warning: Citation `chai' on page 17 undefined on input line 6.
+
+)) [17]) (./chap3.tex (./sections/chap3/1.proposta_sistema.tex [18
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 13.
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+Cap\'{\i }tulo 3.
+) (./sections/chap3/2.modelo_negocio.tex) (./sections/chap3/3.objectivos_negocio.tex)
+Underfull \vbox (badness 1831) has occurred while \output is active []
+
+ [19] (./sections/chap3/5.dominio_applicacao_sistema.tex
+<images/diagramas/diagrama_contexto.png, id=934, 1085.05376pt x 561.09625pt>
+File: images/diagramas/diagrama_contexto.png Graphic file (type png)
+<use images/diagramas/diagrama_contexto.png>
+Package pdftex.def Info: images/diagramas/diagrama_contexto.png  used on input line 9.
+(pdftex.def)             Requested size: 455.24411pt x 235.41052pt.
+) [20 <./images/diagramas/diagrama_contexto.png>] (./sections/chap3/6.operacoes_realizar_sistema.tex (./tables/requisitos/requisitos_funcionais.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Underfull \hbox (badness 2717) in paragraph at lines 212--212
+[]\T1/cmr/m/n/12 Os Téc-ni-cos de-ve-rão ser iden-ti-fi-ca-dos
+ []
+
+
+Underfull \hbox (badness 3312) in paragraph at lines 212--212
+[]\T1/cmr/m/n/12 A Em-presa de-verá con-se-guir im-pe-dir
+ []
+
+> Step: build the whole table.
+
+Underfull \hbox (badness 2717) in paragraph at lines 212--212
+[]\T1/cmr/m/n/12 Os Téc-ni-cos de-ve-rão ser iden-ti-fi-ca-dos
+ []
+
+[21] [22]
+Underfull \hbox (badness 3312) in paragraph at lines 212--212
+[]\T1/cmr/m/n/12 A Em-presa de-verá con-se-guir im-pe-dir
+ []
+
+)) (./sections/chap3/7.descricao_intervenientes.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]) (./sections/chap3/8.partes_interessadas.tex) (./sections/chap3/9.condicoes_especificas.tex (./tables/requisitos/requisitos_nao_funcionais.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Overfull \hbox (2.28545pt too wide) in paragraph at lines 20--20
+[]\T1/cmr/m/n/12 RNF01 
+ []
+
+
+Overfull \hbox (2.28545pt too wide) in paragraph at lines 20--20
+[]\T1/cmr/m/n/12 RNF02 
+ []
+
+
+Overfull \hbox (2.28545pt too wide) in paragraph at lines 20--20
+[]\T1/cmr/m/n/12 RNF03 
+ []
+
+
+Overfull \hbox (2.28545pt too wide) in paragraph at lines 20--20
+[]\T1/cmr/m/n/12 RNF04 
+ []
+
+
+Overfull \hbox (2.28545pt too wide) in paragraph at lines 20--20
+[]\T1/cmr/m/n/12 RNF05 
+ []
+
+> Step: build the whole table.
+
+Overfull \hbox (2.28545pt too wide) in paragraph at lines 20--20
+[]\T1/cmr/m/n/12 RNF01 
+ []
+
+
+Overfull \hbox (2.28545pt too wide) in paragraph at lines 20--20
+[]\T1/cmr/m/n/12 RNF02 
+ []
+
+
+Overfull \hbox (2.28545pt too wide) in paragraph at lines 20--20
+[]\T1/cmr/m/n/12 RNF03 
+ []
+
+
+Overfull \hbox (2.28545pt too wide) in paragraph at lines 20--20
+[]\T1/cmr/m/n/12 RNF04 
+ []
+
+
+Overfull \hbox (2.28545pt too wide) in paragraph at lines 20--20
+[]\T1/cmr/m/n/12 RNF05 
+ []
+
+)) [24] (./sections/chap3/10.esquemetizacao_conteudo_paginas.tex
+<images/Arquiteturas/diagrama_superficial_de_aplicacao.png, id=960, 1393.205pt x 1167.36125pt>
+File: images/Arquiteturas/diagrama_superficial_de_aplicacao.png Graphic file (type png)
+<use images/Arquiteturas/diagrama_superficial_de_aplicacao.png>
+Package pdftex.def Info: images/Arquiteturas/diagrama_superficial_de_aplicacao.png  used on input line 9.
+(pdftex.def)             Requested size: 455.24411pt x 381.43636pt.
+ [25 <./images/Arquiteturas/diagrama_superficial_de_aplicacao.png>]
+<images/Arquiteturas/superficial_de_app/home_auth.png, id=967, 438.63875pt x 705.63625pt>
+File: images/Arquiteturas/superficial_de_app/home_auth.png Graphic file (type png)
+<use images/Arquiteturas/superficial_de_app/home_auth.png>
+Package pdftex.def Info: images/Arquiteturas/superficial_de_app/home_auth.png  used on input line 29.
+(pdftex.def)             Requested size: 254.69176pt x 409.71692pt.
+ [26 <./images/Arquiteturas/superficial_de_app/home_auth.png>]
+<images/Arquiteturas/superficial_de_app/forum.png, id=973, 219.82124pt x 275.0275pt>
+File: images/Arquiteturas/superficial_de_app/forum.png Graphic file (type png)
+<use images/Arquiteturas/superficial_de_app/forum.png>
+Package pdftex.def Info: images/Arquiteturas/superficial_de_app/forum.png  used on input line 44.
+(pdftex.def)             Requested size: 145.54869pt x 182.09486pt.
+<images/Arquiteturas/superficial_de_app/criar_topico.png, id=974, 178.6675pt x 193.72375pt>
+File: images/Arquiteturas/superficial_de_app/criar_topico.png Graphic file (type png)
+<use images/Arquiteturas/superficial_de_app/criar_topico.png>
+Package pdftex.def Info: images/Arquiteturas/superficial_de_app/criar_topico.png  used on input line 56.
+(pdftex.def)             Requested size: 125.96059pt x 136.57462pt.
+ [27 <./images/Arquiteturas/superficial_de_app/forum.png> <./images/Arquiteturas/superficial_de_app/criar_topico.png>]
+<images/Arquiteturas/superficial_de_app/detalhes_topico.png, id=981, 297.11pt x 387.4475pt>
+File: images/Arquiteturas/superficial_de_app/detalhes_topico.png Graphic file (type png)
+<use images/Arquiteturas/superficial_de_app/detalhes_topico.png>
+Package pdftex.def Info: images/Arquiteturas/superficial_de_app/detalhes_topico.png  used on input line 72.
+(pdftex.def)             Requested size: 192.00848pt x 250.38564pt.
+<images/Arquiteturas/superficial_de_app/pesquisa_forum.png, id=982, 252.945pt x 212.795pt>
+File: images/Arquiteturas/superficial_de_app/pesquisa_forum.png Graphic file (type png)
+<use images/Arquiteturas/superficial_de_app/pesquisa_forum.png>
+Package pdftex.def Info: images/Arquiteturas/superficial_de_app/pesquisa_forum.png  used on input line 84.
+(pdftex.def)             Requested size: 162.35126pt x 136.57462pt.
+<images/Arquiteturas/superficial_de_app/notificacoes.png, id=983, 182.6825pt x 120.45pt>
+File: images/Arquiteturas/superficial_de_app/notificacoes.png Graphic file (type png)
+<use images/Arquiteturas/superficial_de_app/notificacoes.png>
+Package pdftex.def Info: images/Arquiteturas/superficial_de_app/notificacoes.png  used on input line 95.
+(pdftex.def)             Requested size: 138.09308pt x 91.04742pt.
+ [28 <./images/Arquiteturas/superficial_de_app/detalhes_topico.png> <./images/Arquiteturas/superficial_de_app/pesquisa_forum.png>]
+<images/Arquiteturas/superficial_de_app/perfil.png, id=990, 305.14pt x 422.57875pt>
+File: images/Arquiteturas/superficial_de_app/perfil.png Graphic file (type png)
+<use images/Arquiteturas/superficial_de_app/perfil.png>
+Package pdftex.def Info: images/Arquiteturas/superficial_de_app/perfil.png  used on input line 107.
+(pdftex.def)             Requested size: 115.06042pt x 159.33821pt.
+ [29 <./images/Arquiteturas/superficial_de_app/notificacoes.png> <./images/Arquiteturas/superficial_de_app/perfil.png>]
+<images/Arquiteturas/superficial_de_app/gestao_recursos_humanos.png, id=997, 497.86pt x 650.43pt>
+File: images/Arquiteturas/superficial_de_app/gestao_recursos_humanos.png Graphic file (type png)
+<use images/Arquiteturas/superficial_de_app/gestao_recursos_humanos.png>
+Package pdftex.def Info: images/Arquiteturas/superficial_de_app/gestao_recursos_humanos.png  used on input line 121.
+(pdftex.def)             Requested size: 243.92314pt x 318.66948pt.
+) [30 <./images/Arquiteturas/superficial_de_app/gestao_recursos_humanos.png>] (./sections/chap3/11.historias_utilizador.tex (./tables/user_stories.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+
+Overfull \hbox (10.97488pt too wide) detected at line 123
+ [] 
+ []
+
+[31]
+Overfull \hbox (10.97488pt too wide) detected at line 123
+ [] 
+ []
+
+[32]
+Overfull \hbox (10.97488pt too wide) detected at line 123
+ [] 
+ []
+
+)) [33] (./sections/chap3/12.especificacao_casos_uso.tex (./tables/casos_de_uso/tabela_casos_uso.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]\T1/cmr/m/n/12 Pesquisar tó-pi-cos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]\T1/cmr/m/n/12 Selecionar me-lhor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]\T1/cmr/m/n/12 Responder a co-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]\T1/cmr/m/n/12 Configuração de
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 72--72
+[]\T1/cmr/m/n/12 Impedir acesso a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]\T1/cmr/m/n/12 Pesquisar tó-pi-cos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]\T1/cmr/m/n/12 Selecionar me-lhor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]\T1/cmr/m/n/12 Responder a co-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]\T1/cmr/m/n/12 Configuração de
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 72--72
+[]\T1/cmr/m/n/12 Impedir acesso a
+ []
+
+> Step: build the whole table.
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]\T1/cmr/m/n/12 Pesquisar tó-pi-cos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]\T1/cmr/m/n/12 Selecionar me-lhor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]\T1/cmr/m/n/12 Responder a co-
+ []
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]\T1/cmr/m/n/12 Configuração de
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 72--72
+[]\T1/cmr/m/n/12 Impedir acesso a
+ []
+
+) [35] (./tables/casos_de_uso/listagem_topicos_tecnico.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+> Step: build the whole table.
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+) [36] (./tables/casos_de_uso/criar_topico.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+> Step: build the whole table.
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+) [37] (./tables/casos_de_uso/pesquisa_escrita_forum.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]\T1/cmr/m/n/12 1-Pesquisar as-
+ []
+
+
+Underfull \hbox (badness 7415) in paragraph at lines 42--42
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]\T1/cmr/m/n/12 1-Pesquisar as-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]\T1/cmr/m/n/12 1-Pesquisar as-
+ []
+
+
+Underfull \hbox (badness 7415) in paragraph at lines 42--42
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]\T1/cmr/m/n/12 1-Pesquisar as-
+ []
+
+> Step: build the whole table.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]\T1/cmr/m/n/12 1-Pesquisar as-
+ []
+
+
+Underfull \hbox (badness 7415) in paragraph at lines 42--42
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]\T1/cmr/m/n/12 1-Pesquisar as-
+ []
+
+) (./tables/casos_de_uso/finalizar_topico.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+> Step: build the whole table.
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+) [38] (./tables/casos_de_uso/selecionar_melhor_resposta.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) [39] (./tables/casos_de_uso/eliminar_topico.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) (./tables/casos_de_uso/alterar_visibilidade_topico.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Underfull \hbox (badness 1377) in paragraph at lines 41--41
+[]\T1/cmr/m/n/12 1-Clicar em al-te-rar vi-si-bi-li-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 41--41
+[]\T1/cmr/m/n/12 1-Clicar em al-te-rar vi-si-bi-li-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+> Step: build the whole table.
+
+Underfull \hbox (badness 1377) in paragraph at lines 41--41
+[]\T1/cmr/m/n/12 1-Clicar em al-te-rar vi-si-bi-li-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+) [40] (./tables/casos_de_uso/gostar_topico.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) (./tables/casos_de_uso/gostar_comentario.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) [41] (./tables/casos_de_uso/comentar_topico.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+> Step: build the whole table.
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+) [42] (./tables/casos_de_uso/ativar_conta.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 5036) in paragraph at lines 46--46
+[]\T1/cmr/m/n/12 1-Cancelar Ati-va-ção de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 5036) in paragraph at lines 46--46
+[]\T1/cmr/m/n/12 1-Cancelar Ati-va-ção de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+> Step: build the whole table.
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+
+Underfull \hbox (badness 5036) in paragraph at lines 46--46
+[]\T1/cmr/m/n/12 1-Cancelar Ati-va-ção de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]\T1/cmr/m/n/12 Fluxo Al-ter-na-
+ []
+
+) [43] (./tables/casos_de_uso/config_notificacoes.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) (./tables/casos_de_uso/rec_humanos.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]\T1/cmr/m/n/12 3-Registar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]\T1/cmr/m/n/12 3-Registar
+ []
+
+> Step: build the whole table.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]\T1/cmr/m/n/12 3-Registar
+ []
+
+
+Overfull \hbox (4.51985pt too wide) in paragraph at lines 42--43
+ [][] 
+ []
+
+)) [44] (./sections/chap3/13.diagramas_casos_uso.tex
+<images/diagramas/casos_de_uso/use_case_forum.png, id=1066, 566.115pt x 217.81375pt>
+File: images/diagramas/casos_de_uso/use_case_forum.png Graphic file (type png)
+<use images/diagramas/casos_de_uso/use_case_forum.png>
+Package pdftex.def Info: images/diagramas/casos_de_uso/use_case_forum.png  used on input line 19.
+(pdftex.def)             Requested size: 273.14923pt x 105.0978pt.
+<images/diagramas/casos_de_uso/use_case_forum_search.png, id=1067, 477.785pt x 194.7275pt>
+File: images/diagramas/casos_de_uso/use_case_forum_search.png Graphic file (type png)
+<use images/diagramas/casos_de_uso/use_case_forum_search.png>
+Package pdftex.def Info: images/diagramas/casos_de_uso/use_case_forum_search.png  used on input line 33.
+(pdftex.def)             Requested size: 273.14923pt x 111.32562pt.
+ [45 <./images/diagramas/casos_de_uso/use_case_forum.png> <./images/diagramas/casos_de_uso/use_case_forum_search.png>]
+<images/diagramas/casos_de_uso/use_case_topic_details.png, id=1074, 477.785pt x 522.95375pt>
+File: images/diagramas/casos_de_uso/use_case_topic_details.png Graphic file (type png)
+<use images/diagramas/casos_de_uso/use_case_topic_details.png>
+Package pdftex.def Info: images/diagramas/casos_de_uso/use_case_topic_details.png  used on input line 46.
+(pdftex.def)             Requested size: 227.62206pt x 249.13972pt.
+<images/diagramas/casos_de_uso/use_case_topic_comments.png, id=1075, 381.425pt x 265.99374pt>
+File: images/diagramas/casos_de_uso/use_case_topic_comments.png Graphic file (type png)
+<use images/diagramas/casos_de_uso/use_case_topic_comments.png>
+Package pdftex.def Info: images/diagramas/casos_de_uso/use_case_topic_comments.png  used on input line 58.
+(pdftex.def)             Requested size: 227.62206pt x 158.73701pt.
+
+Underfull \vbox (badness 1062) has occurred while \output is active []
+
+ [46 <./images/diagramas/casos_de_uso/use_case_topic_details.png> <./images/diagramas/casos_de_uso/use_case_topic_comments.png>]
+<images/diagramas/casos_de_uso/use_case_account_validation.png, id=1082, 311.1625pt x 166.6225pt>
+File: images/diagramas/casos_de_uso/use_case_account_validation.png Graphic file (type png)
+<use images/diagramas/casos_de_uso/use_case_account_validation.png>
+Package pdftex.def Info: images/diagramas/casos_de_uso/use_case_account_validation.png  used on input line 71.
+(pdftex.def)             Requested size: 227.62206pt x 121.88765pt.
+<images/diagramas/casos_de_uso/use_case_perfil.png, id=1083, 412.54124pt x 265.99374pt>
+File: images/diagramas/casos_de_uso/use_case_perfil.png Graphic file (type png)
+<use images/diagramas/casos_de_uso/use_case_perfil.png>
+Package pdftex.def Info: images/diagramas/casos_de_uso/use_case_perfil.png  used on input line 83.
+(pdftex.def)             Requested size: 227.62206pt x 146.76376pt.
+ [47 <./images/diagramas/casos_de_uso/use_case_account_validation.png> <./images/diagramas/casos_de_uso/use_case_perfil.png>]
+<images/diagramas/casos_de_uso/use_case_notificacoes.png, id=1090, 349.305pt x 204.765pt>
+File: images/diagramas/casos_de_uso/use_case_notificacoes.png Graphic file (type png)
+<use images/diagramas/casos_de_uso/use_case_notificacoes.png>
+Package pdftex.def Info: images/diagramas/casos_de_uso/use_case_notificacoes.png  used on input line 96.
+(pdftex.def)             Requested size: 227.62206pt x 133.43622pt.
+<images/diagramas/casos_de_uso/use_case_rec_humanos.png, id=1091, 309.155pt x 206.7725pt>
+File: images/diagramas/casos_de_uso/use_case_rec_humanos.png Graphic file (type png)
+<use images/diagramas/casos_de_uso/use_case_rec_humanos.png>
+Package pdftex.def Info: images/diagramas/casos_de_uso/use_case_rec_humanos.png  used on input line 107.
+(pdftex.def)             Requested size: 227.62206pt x 152.24571pt.
+) [48 <./images/diagramas/casos_de_uso/use_case_notificacoes.png> <./images/diagramas/casos_de_uso/use_case_rec_humanos.png>] (./sections/chap3/14.diagrama_entidade_relacao.tex
+<images/diagramas/diagrama_bd.png, id=1098, 1065.9825pt x 822.07124pt>
+File: images/diagramas/diagrama_bd.png Graphic file (type png)
+<use images/diagramas/diagrama_bd.png>
+Package pdftex.def Info: images/diagramas/diagrama_bd.png  used on input line 8.
+(pdftex.def)             Requested size: 455.24411pt x 351.07533pt.
+ [49 <./images/diagramas/diagrama_bd.png>]
+<images/diagramas/diagrama_bd_alt.png, id=1107, 1112.155pt x 816.04875pt>
+File: images/diagramas/diagrama_bd_alt.png Graphic file (type png)
+<use images/diagramas/diagrama_bd_alt.png>
+Package pdftex.def Info: images/diagramas/diagrama_bd_alt.png  used on input line 25.
+(pdftex.def)             Requested size: 455.24411pt x 334.03427pt.
+ [50 <./images/diagramas/diagrama_bd_alt.png>] (./tables/tabela_base_dados.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 124--124
+\T1/cmr/m/n/12 de guar-dar to-dos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Número de con-tri-
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Imagem de per-fil do
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Código de ve-ri-fi-ca-ção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Verificação se tem
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Verificação se ati-vou
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Verificação se ati-vou
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tipo de no-ti-fi-ca-ção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 124--124
+\T1/cmr/m/n/12 de guar-dar to-dos
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 124--124
+\T1/cmr/m/n/12 os tó-pi-cos que fo-
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 124--124
+\T1/cmr/m/n/12 ram gos-ta-dos pelo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 124--124
+\T1/cmr/m/n/12 de guar-dar to-das
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\T1/cmr/m/n/12 as res-pos-tas que
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 124--124
+\T1/cmr/m/n/12 de guar-dar to-das
+ []
+
+
+Underfull \hbox (badness 4403) in paragraph at lines 124--124
+\T1/cmr/m/n/12 as no-ti-fi-ca-ções do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\T1/cmr/m/n/12 tó-pi-cos exis-ten-tes
+ []
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Produto re-fe-rente ao
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 124--124
+\T1/cmr/m/n/12 de guar-dar to-das
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 124--124
+\T1/cmr/m/n/12 de guar-dar to-das
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\T1/cmr/m/n/12 as ca-te-go-rias de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\T1/cmr/m/n/12 sub-ca-te-go-rias de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\T1/cmr/m/n/12 gue de guar-dar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\T1/cmr/m/n/12 as in-for-ma-ções
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\T1/cmr/m/n/12 dos pro-du-tos do
+ []
+
+
+Overfull \hbox (9.09789pt too wide) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 general_information 
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Verificação se o pro-
+ []
+
+
+Underfull \hbox (badness 7186) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Imagem do pro-duto
+ []
+
+
+Overfull \hbox (4.28249pt too wide) in paragraph at lines 124--124
+ []\T1/cmr/m/n/12 product_manuals 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 124--124
+\T1/cmr/m/n/12 nu-ais de uti-li-za-ção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 124--124
+\T1/cmr/m/n/12 de guar-dar as lin-
+ []
+
+> Step: build the whole table.
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 124--124
+\T1/cmr/m/n/12 de guar-dar to-dos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Número de con-tri-
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Imagem de per-fil do
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Código de ve-ri-fi-ca-ção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Verificação se tem
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Verificação se ati-vou
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Verificação se ati-vou
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tipo de no-ti-fi-ca-ção
+ []
+
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 124--124
+\T1/cmr/m/n/12 de guar-dar to-dos
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 124--124
+\T1/cmr/m/n/12 os tó-pi-cos que fo-
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 124--124
+\T1/cmr/m/n/12 ram gos-ta-dos pelo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 124--124
+\T1/cmr/m/n/12 de guar-dar to-das
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\T1/cmr/m/n/12 as res-pos-tas que
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 124--124
+\T1/cmr/m/n/12 de guar-dar to-das
+ []
+
+
+Underfull \hbox (badness 4403) in paragraph at lines 124--124
+\T1/cmr/m/n/12 as no-ti-fi-ca-ções do
+ []
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\T1/cmr/m/n/12 tó-pi-cos exis-ten-tes
+ []
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Produto re-fe-rente ao
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 124--124
+\T1/cmr/m/n/12 de guar-dar to-das
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 124--124
+\T1/cmr/m/n/12 de guar-dar to-das
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\T1/cmr/m/n/12 as ca-te-go-rias de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\T1/cmr/m/n/12 sub-ca-te-go-rias de
+ []
+
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\T1/cmr/m/n/12 gue de guar-dar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\T1/cmr/m/n/12 as in-for-ma-ções
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\T1/cmr/m/n/12 dos pro-du-tos do
+ []
+
+
+Overfull \hbox (9.09789pt too wide) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 general_information 
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Verificação se o pro-
+ []
+
+
+Underfull \hbox (badness 7186) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Imagem do pro-duto
+ []
+
+
+Overfull \hbox (4.28249pt too wide) in paragraph at lines 124--124
+ []\T1/cmr/m/n/12 product_manuals 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 124--124
+\T1/cmr/m/n/12 nu-ais de uti-li-za-ção
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T1/cmr/m/n/12 Tabela en-car-re-gue
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 124--124
+\T1/cmr/m/n/12 de guar-dar as lin-
+ []
+
+)) [54] (./sections/chap3/15.diagrama_classes.tex
+Overfull \hbox (19.62057pt too wide) in paragraph at lines 3--4
+[]\T1/cmr/m/n/12 A fim de pre-ver e or-ga-ni-zar o \T1/cmr/m/it/12 soft-ware \T1/cmr/m/n/12 foi de-sen-vol-vido um di-a-grama de clas-ses(Figura [][]3.21[][])
+ []
+
+<images/diagramas/diagrama_classes.png, id=1131, 1002.74625pt x 695.59875pt>
+File: images/diagramas/diagrama_classes.png Graphic file (type png)
+<use images/diagramas/diagrama_classes.png>
+Package pdftex.def Info: images/diagramas/diagrama_classes.png  used on input line 8.
+(pdftex.def)             Requested size: 455.24411pt x 315.79741pt.
+) [55 <./images/diagramas/diagrama_classes.png>] (./sections/chap3/16.mockups.tex
+<images/mockups/home_screen.png, id=1139, 378.41376pt x 813.0375pt>
+File: images/mockups/home_screen.png Graphic file (type png)
+<use images/mockups/home_screen.png>
+Package pdftex.def Info: images/mockups/home_screen.png  used on input line 10.
+(pdftex.def)             Requested size: 204.85846pt x 440.15025pt.
+ [56 <./images/mockups/home_screen.png>]
+<images/mockups/login.png, id=1145, 391.4625pt x 844.15375pt>
+File: images/mockups/login.png Graphic file (type png)
+<use images/mockups/login.png>
+Package pdftex.def Info: images/mockups/login.png  used on input line 23.
+(pdftex.def)             Requested size: 182.09486pt x 392.66913pt.
+<images/mockups/register.png, id=1146, 378.41376pt x 813.0375pt>
+File: images/mockups/register.png Graphic file (type png)
+<use images/mockups/register.png>
+Package pdftex.def Info: images/mockups/register.png  used on input line 25.
+(pdftex.def)             Requested size: 182.09486pt x 391.23364pt.
+ [57 <./images/mockups/login.png> <./images/mockups/register.png>]
+<images/mockups/account_confirmation.png, id=1153, 378.41376pt x 813.0375pt>
+File: images/mockups/account_confirmation.png Graphic file (type png)
+<use images/mockups/account_confirmation.png>
+Package pdftex.def Info: images/mockups/account_confirmation.png  used on input line 38.
+(pdftex.def)             Requested size: 182.09486pt x 391.23364pt.
+<images/mockups/account_verification.png, id=1154, 378.41376pt x 813.0375pt>
+File: images/mockups/account_verification.png Graphic file (type png)
+<use images/mockups/account_verification.png>
+Package pdftex.def Info: images/mockups/account_verification.png  used on input line 40.
+(pdftex.def)             Requested size: 182.09486pt x 391.23364pt.
+ [58 <./images/mockups/account_confirmation.png> <./images/mockups/account_verification.png>]
+<images/mockups/forum_home.png, id=1161, 378.41376pt x 813.0375pt>
+File: images/mockups/forum_home.png Graphic file (type png)
+<use images/mockups/forum_home.png>
+Package pdftex.def Info: images/mockups/forum_home.png  used on input line 53.
+(pdftex.def)             Requested size: 204.85846pt x 440.15025pt.
+ [59 <./images/mockups/forum_home.png>]
+<images/mockups/topic_not_user.png, id=1167, 378.41376pt x 816.04875pt>
+File: images/mockups/topic_not_user.png Graphic file (type png)
+<use images/mockups/topic_not_user.png>
+Package pdftex.def Info: images/mockups/topic_not_user.png  used on input line 68.
+(pdftex.def)             Requested size: 182.09486pt x 392.68265pt.
+<images/mockups/user_topic.png, id=1168, 378.41376pt x 816.04875pt>
+File: images/mockups/user_topic.png Graphic file (type png)
+<use images/mockups/user_topic.png>
+Package pdftex.def Info: images/mockups/user_topic.png  used on input line 70.
+(pdftex.def)             Requested size: 182.09486pt x 392.68265pt.
+ [60 <./images/mockups/topic_not_user.png> <./images/mockups/user_topic.png>]
+<images/mockups/forum_create_topic.png, id=1175, 336.25626pt x 730.73pt>
+File: images/mockups/forum_create_topic.png Graphic file (type png)
+<use images/mockups/forum_create_topic.png>
+Package pdftex.def Info: images/mockups/forum_create_topic.png  used on input line 83.
+(pdftex.def)             Requested size: 204.85846pt x 445.18715pt.
+ [61 <./images/mockups/forum_create_topic.png>]
+<images/mockups/notifications.png, id=1182, 378.41376pt x 816.04875pt>
+File: images/mockups/notifications.png Graphic file (type png)
+<use images/mockups/notifications.png>
+Package pdftex.def Info: images/mockups/notifications.png  used on input line 96.
+(pdftex.def)             Requested size: 204.85846pt x 441.78044pt.
+ [62 <./images/mockups/notifications.png>]
+<images/mockups/user_profile.png, id=1188, 378.41376pt x 816.04875pt>
+File: images/mockups/user_profile.png Graphic file (type png)
+<use images/mockups/user_profile.png>
+Package pdftex.def Info: images/mockups/user_profile.png  used on input line 111.
+(pdftex.def)             Requested size: 204.85846pt x 441.78044pt.
+ [63 <./images/mockups/user_profile.png>]
+<images/mockups/human_resources.png, id=1194, 378.41376pt x 816.04875pt>
+File: images/mockups/human_resources.png Graphic file (type png)
+<use images/mockups/human_resources.png>
+Package pdftex.def Info: images/mockups/human_resources.png  used on input line 124.
+(pdftex.def)             Requested size: 204.85846pt x 441.78044pt.
+ [64 <./images/mockups/human_resources.png>]
+<images/mockups/professional_profile.png, id=1200, 378.41376pt x 816.04875pt>
+File: images/mockups/professional_profile.png Graphic file (type png)
+<use images/mockups/professional_profile.png>
+Package pdftex.def Info: images/mockups/professional_profile.png  used on input line 137.
+(pdftex.def)             Requested size: 204.85846pt x 441.78044pt.
+ [65 <./images/mockups/professional_profile.png>]
+<images/mockups/account_registering.png, id=1206, 336.25626pt x 734.745pt>
+File: images/mockups/account_registering.png Graphic file (type png)
+<use images/mockups/account_registering.png>
+Package pdftex.def Info: images/mockups/account_registering.png  used on input line 150.
+(pdftex.def)             Requested size: 204.85846pt x 447.63322pt.
+) [66 <./images/mockups/account_registering.png>] (./sections/chap3/17.diagrama_atividades.tex
+<images/diagramas/atividades/diagrama_atividades_home.png, id=1212, 452.69125pt x 257.96375pt>
+File: images/diagramas/atividades/diagrama_atividades_home.png Graphic file (type png)
+<use images/diagramas/atividades/diagrama_atividades_home.png>
+Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_home.png  used on input line 10.
+(pdftex.def)             Requested size: 273.14923pt x 155.65326pt.
+<images/diagramas/atividades/diagrama_atividades_perfil.png, id=1213, 1128.215pt x 417.56pt>
+File: images/diagramas/atividades/diagrama_atividades_perfil.png Graphic file (type png)
+<use images/diagramas/atividades/diagrama_atividades_perfil.png>
+Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_perfil.png  used on input line 21.
+(pdftex.def)             Requested size: 455.24411pt x 168.48647pt.
+ [67 <./images/diagramas/atividades/diagrama_atividades_home.png> <./images/diagramas/atividades/diagrama_atividades_perfil.png>]
+<images/diagramas/atividades/diagrama_atividades_forum.png, id=1221, 1212.53pt x 586.19pt>
+File: images/diagramas/atividades/diagrama_atividades_forum.png Graphic file (type png)
+<use images/diagramas/atividades/diagrama_atividades_forum.png>
+Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_forum.png  used on input line 34.
+(pdftex.def)             Requested size: 455.24411pt x 220.08904pt.
+ [68 <./images/diagramas/atividades/diagrama_atividades_forum.png>]
+<images/diagramas/atividades/diagrama_atividades_criar_tÃ³pico.png, id=1227, 584.1825pt x 545.03625pt>
+File: images/diagramas/atividades/diagrama_atividades_criar_tÃ³pico.png Graphic file (type png)
+<use images/diagramas/atividades/diagrama_atividades_criar_tÃ³pico.png>
+Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_criar_tÃ³pico.png  used on input line 47.
+(pdftex.def)             Requested size: 318.66948pt x 297.32579pt.
+ [69 <./images/diagramas/atividades/diagrama_atividades_criar_tÃ³pico.png>]
+<images/diagramas/atividades/diagrama_atividades_detalhes_topico.png, id=1233, 628.3475pt x 703.62875pt>
+File: images/diagramas/atividades/diagrama_atividades_detalhes_topico.png Graphic file (type png)
+<use images/diagramas/atividades/diagrama_atividades_detalhes_topico.png>
+Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_detalhes_topico.png  used on input line 60.
+(pdftex.def)             Requested size: 409.71692pt x 458.80269pt.
+ [70 <./images/diagramas/atividades/diagrama_atividades_detalhes_topico.png>]
+<images/diagramas/atividades/diagrama_atividades_autenticaÃ§Ã£o.png, id=1239, 973.6375pt x 722.7pt>
+File: images/diagramas/atividades/diagrama_atividades_autenticaÃ§Ã£o.png Graphic file (type png)
+<use images/diagramas/atividades/diagrama_atividades_autenticaÃ§Ã£o.png>
+Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_autenticaÃ§Ã£o.png  used on input line 73.
+(pdftex.def)             Requested size: 364.19667pt x 270.32813pt.
+ [71 <./images/diagramas/atividades/diagrama_atividades_autenticaÃ§Ã£o.png>]
+<images/diagramas/atividades/diagrama_atividades_add_professional.png, id=1245, 619.31375pt x 293.095pt>
+File: images/diagramas/atividades/diagrama_atividades_add_professional.png Graphic file (type png)
+<use images/diagramas/atividades/diagrama_atividades_add_professional.png>
+Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_add_professional.png  used on input line 128.
+(pdftex.def)             Requested size: 364.19667pt x 172.36551pt.
+<images/diagramas/atividades/diagrama_atividades_prof_register.png, id=1246, 570.13pt x 327.2225pt>
+File: images/diagramas/atividades/diagrama_atividades_prof_register.png Graphic file (type png)
+<use images/diagramas/atividades/diagrama_atividades_prof_register.png>
+Package pdftex.def Info: images/diagramas/atividades/diagrama_atividades_prof_register.png  used on input line 139.
+(pdftex.def)             Requested size: 364.19667pt x 209.02724pt.
+) (./sections/chap3/18.diagrama_estados.tex [72 <./images/diagramas/atividades/diagrama_atividades_add_professional.png> <./images/diagramas/atividades/diagrama_atividades_prof_register.png>]
+<images/diagramas/estados/criar_topico.png, id=1253, 893.3375pt x 470.75874pt>
+File: images/diagramas/estados/criar_topico.png Graphic file (type png)
+<use images/diagramas/estados/criar_topico.png>
+Package pdftex.def Info: images/diagramas/estados/criar_topico.png  used on input line 10.
+(pdftex.def)             Requested size: 409.71692pt x 215.91234pt.
+ [73 <./images/diagramas/estados/criar_topico.png>]
+<images/diagramas/estados/responder_topico_tecnico.png, id=1260, 592.2125pt x 416.55624pt>
+File: images/diagramas/estados/responder_topico_tecnico.png Graphic file (type png)
+<use images/diagramas/estados/responder_topico_tecnico.png>
+Package pdftex.def Info: images/diagramas/estados/responder_topico_tecnico.png  used on input line 23.
+(pdftex.def)             Requested size: 318.66948pt x 224.15521pt.
+ [74 <./images/diagramas/estados/responder_topico_tecnico.png>]
+<images/diagramas/estados/autenticacao.png, id=1267, 671.50874pt x 487.8225pt>
+File: images/diagramas/estados/autenticacao.png Graphic file (type png)
+<use images/diagramas/estados/autenticacao.png>
+Package pdftex.def Info: images/diagramas/estados/autenticacao.png  used on input line 36.
+(pdftex.def)             Requested size: 318.66948pt x 231.50223pt.
+) [75 <./images/diagramas/estados/autenticacao.png>] (./sections/chap3/19.diagrama_sequencia.tex
+<images/diagramas/sequencia/diagrama_login.png, id=1274, 756.8275pt x 982.67125pt>
+File: images/diagramas/sequencia/diagrama_login.png Graphic file (type png)
+<use images/diagramas/sequencia/diagrama_login.png>
+Package pdftex.def Info: images/diagramas/sequencia/diagrama_login.png  used on input line 15.
+(pdftex.def)             Requested size: 291.35594pt x 378.29211pt.
+ [76 <./images/diagramas/sequencia/diagrama_login.png>]
+<images/diagramas/sequencia/diagrama_registo.png, id=1281, 888.31876pt x 826.08624pt>
+File: images/diagramas/sequencia/diagrama_registo.png Graphic file (type png)
+<use images/diagramas/sequencia/diagrama_registo.png>
+Package pdftex.def Info: images/diagramas/sequencia/diagrama_registo.png  used on input line 28.
+(pdftex.def)             Requested size: 455.24411pt x 423.35303pt.
+ [77 <./images/diagramas/sequencia/diagrama_registo.png>]
+<images/diagramas/sequencia/registo_tecnico.png, id=1288, 1204.5pt x 557.08125pt>
+File: images/diagramas/sequencia/registo_tecnico.png Graphic file (type png)
+<use images/diagramas/sequencia/registo_tecnico.png>
+Package pdftex.def Info: images/diagramas/sequencia/registo_tecnico.png  used on input line 41.
+(pdftex.def)             Requested size: 455.24411pt x 210.55402pt.
+) [78 <./images/diagramas/sequencia/registo_tecnico.png>] (./sections/chap3/20.Arquitetura_sistema.tex
+<images/Arquiteturas/arquitetura_de_solucao.png, id=1295, 543.02875pt x 131.49126pt>
+File: images/Arquiteturas/arquitetura_de_solucao.png Graphic file (type png)
+<use images/Arquiteturas/arquitetura_de_solucao.png>
+Package pdftex.def Info: images/Arquiteturas/arquitetura_de_solucao.png  used on input line 7.
+(pdftex.def)             Requested size: 318.66948pt x 77.16785pt.
+<images/Arquiteturas/arquitetura_funcional.png, id=1298, 1615.03375pt x 442.65375pt>
+File: images/Arquiteturas/arquitetura_funcional.png Graphic file (type png)
+<use images/Arquiteturas/arquitetura_funcional.png>
+Package pdftex.def Info: images/Arquiteturas/arquitetura_funcional.png  used on input line 21.
+(pdftex.def)             Requested size: 455.24411pt x 124.77298pt.
+ [79 <./images/Arquiteturas/arquitetura_de_solucao.png> <./images/Arquiteturas/arquitetura_funcional.png>]
+<images/Arquiteturas/arquitetura_de_componentes_final.png, id=1305, 695.59875pt x 763.85374pt>
+File: images/Arquiteturas/arquitetura_de_componentes_final.png Graphic file (type png)
+<use images/Arquiteturas/arquitetura_de_componentes_final.png>
+Package pdftex.def Info: images/Arquiteturas/arquitetura_de_componentes_final.png  used on input line 33.
+(pdftex.def)             Requested size: 318.66948pt x 349.9317pt.
+ [80 <./images/Arquiteturas/arquitetura_de_componentes_final.png>] (./tables/tabela_endpoints.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+
+Package tabularray Warning: Table width is too small, need 16.94412pt more!
+
+> Step: build the whole table.
+
+Overfull \hbox (16.94412pt too wide) detected at line 34
+ [] 
+ []
+
+[81]
+Overfull \hbox (16.94412pt too wide) detected at line 34
+ [] 
+ []
+
 )
-Underfull \hbox (badness 10000) in paragraph at lines 44--49
-\T1/cmtt/m/n/12 / / firebase . google . com / docs / dynamic-[]links / operating-[]system-[]integrations$[][]\T1/cmr/m/n/12 .
- []
+<images/implementacao/api/swagger_intro.png, id=1315, 1535.7375pt x 931.48pt>
+File: images/implementacao/api/swagger_intro.png Graphic file (type png)
+<use images/implementacao/api/swagger_intro.png>
+Package pdftex.def Info: images/implementacao/api/swagger_intro.png  used on input line 47.
+(pdftex.def)             Requested size: 455.24411pt x 276.12025pt.
+ [82 <./images/implementacao/api/swagger_intro.png>])) (./main.bbl)
 
+Package natbib Warning: There were undefined citations.
 
-Underfull \hbox (badness 1331) in paragraph at lines 63--67
-[]\T1/cmr/m/n/12 Hale, Coda. 2023.  How to sa-fely store a pas-sword.  [][]$\T1/cmtt/m/n/12 https : / / codahale . com /
- []
+(./main.aux)
 
-[15]) [16] (./main.aux)
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FCD7982A3AC20F2D771328B6B7F7B152;4233.
+(rerunfilecheck)             Checksum: 71445DE95D20C28301DA34A3CC92AAE2;24362.
  ) 
 Here is how much of TeX's memory you used:
- 23861 strings out of 476182
- 427409 string characters out of 5796604
- 1860793 words of memory out of 6000000
- 43679 multiletter control sequences out of 15000+600000
- 526873 words of font info for 60 fonts, out of 8000000 for 9000
+ 27365 strings out of 476182
+ 539885 string characters out of 5796604
+ 1953793 words of memory out of 6000000
+ 46736 multiletter control sequences out of 15000+600000
+ 568706 words of font info for 118 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 106i,6n,105p,2338b,602s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbi1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (30 pages, 563768 bytes).
+ 106i,8n,120p,2338b,1318s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbi1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on main.pdf (100 pages, 2701541 bytes).
 PDF statistics:
- 653 PDF objects out of 1000 (max. 8388607)
- 579 compressed objects within 6 object streams
- 90 named destinations out of 1000 (max. 500000)
- 248 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1456 PDF objects out of 1728 (max. 8388607)
+ 1200 compressed objects within 12 object streams
+ 301 named destinations out of 1000 (max. 500000)
+ 1198 words of extra memory for PDF output out of 10000 (max. 10000000)
 

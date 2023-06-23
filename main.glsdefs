@@ -1,14 +1,14 @@
-\glsdefs@newdocentry{ftp}%
+\glsdefs@newdocentry{api}%
 {%
-name={\acronymfont {\glsentryshort {ftp}}},%
-sort={FTP},%
+name={\acronymfont {\glsentryshort {api}}},%
+sort={API},%
 type={acronym},%
-first={FTP},%
-firstplural={FTPs},%
-text={FTP},%
-plural={FTPs},%
-description={File Transfer Protocol (Protocolo de Transferência de Ficheiros)},%
-descriptionplural={File Transfer Protocol (Protocolo de Transferência de Ficheiros)},%
+first={API},%
+firstplural={APIs},%
+text={API},%
+plural={APIs},%
+description={Application Programming Interface},%
+descriptionplural={Application Programming Interface},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -17,26 +17,26 @@ user3={},%
 user4={},%
 user5={},%
 user6={},%
-long={File Transfer Protocol (Protocolo de Transferência de Ficheiros)},%
-longplural={File Transfer Protocol (Protocolo de Transferência de Ficheiros) s},%
-short={FTP},%
-shortplural={FTPs},%
+long={Application Programming Interface},%
+longplural={Application Programming Interfaces},%
+short={API},%
+shortplural={APIs},%
 counter={page},%
 parent={},%
 %
 }%
 
-\glsdefs@newdocentry{tcp}%
+\glsdefs@newdocentry{mvc}%
 {%
-name={\acronymfont {\glsentryshort {tcp}}},%
-sort={TCP},%
+name={\acronymfont {\glsentryshort {mvc}}},%
+sort={MVC},%
 type={acronym},%
-first={TCP},%
-firstplural={TCPs},%
-text={TCP},%
-plural={TCPs},%
-description={Transmission Control Protocol},%
-descriptionplural={Transmission Control Protocol},%
+first={MVC},%
+firstplural={MVCs},%
+text={MVC},%
+plural={MVCs},%
+description={Model View Controller},%
+descriptionplural={Model View Controller},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -45,26 +45,26 @@ user3={},%
 user4={},%
 user5={},%
 user6={},%
-long={Transmission Control Protocol},%
-longplural={Transmission Control Protocols},%
-short={TCP},%
-shortplural={TCPs},%
+long={Model View Controller},%
+longplural={Model View Controllers},%
+short={MVC},%
+shortplural={MVCs},%
 counter={page},%
 parent={},%
 %
 }%
 
-\glsdefs@newdocentry{http}%
+\glsdefs@newdocentry{json}%
 {%
-name={\acronymfont {\glsentryshort {http}}},%
-sort={HTTP},%
+name={\acronymfont {\glsentryshort {json}}},%
+sort={JSON},%
 type={acronym},%
-first={HTTP},%
-firstplural={HTTPs},%
-text={HTTP},%
-plural={HTTPs},%
-description={HyperText Transfer Protocol (Protocolo de Transferência de Hipertexto)},%
-descriptionplural={HyperText Transfer Protocol (Protocolo de Transferência de Hipertexto)},%
+first={JSON},%
+firstplural={JSONs},%
+text={JSON},%
+plural={JSONs},%
+description={JavaScript Object Notation},%
+descriptionplural={JavaScript Object Notation},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -73,10 +73,66 @@ user3={},%
 user4={},%
 user5={},%
 user6={},%
-long={HyperText Transfer Protocol (Protocolo de Transferência de Hipertexto)},%
-longplural={HyperText Transfer Protocol (Protocolo de Transferência de Hipertexto)s},%
-short={HTTP},%
-shortplural={HTTPs},%
+long={JavaScript Object Notation},%
+longplural={JavaScript Object Notations},%
+short={JSON},%
+shortplural={JSONs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{us}%
+{%
+name={\acronymfont {\glsentryshort {us}}},%
+sort={US},%
+type={acronym},%
+first={US},%
+firstplural={USs},%
+text={US},%
+plural={USs},%
+description={User Stories},%
+descriptionplural={User Stories},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={User Stories},%
+longplural={User Storiess},%
+short={US},%
+shortplural={USs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{uc}%
+{%
+name={\acronymfont {\glsentryshort {uc}}},%
+sort={UC},%
+type={acronym},%
+first={UC},%
+firstplural={UCs},%
+text={UC},%
+plural={UCs},%
+description={Use Cases},%
+descriptionplural={Use Cases},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Use Cases},%
+longplural={Use Casess},%
+short={UC},%
+shortplural={UCs},%
 counter={page},%
 parent={},%
 %
