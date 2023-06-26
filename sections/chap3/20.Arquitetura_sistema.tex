@@ -1,5 +1,5 @@
 \section{Arquitetura de sistema}
-A figura~\ref{fig:46} expõe a arquitetura do sistema que indica as principais componentes. Entre estas, é possível visualizar a aplicação \textit{frontend}, que realiza pedidos a uma aplicação \textit{backend} e espera respostas. O \textit{backend} é composto por uma \textit{api rest} que recebe e responde aos pedidos e por uma base de dados a qual recebe \textit{queries} e devolve dados para a \textit{api rest}.
+A figura~\ref{fig:46} expõe a arquitetura do sistema que indica as principais componentes. Entre estas, é possível visualizar a aplicação \textit{frontend}, que realiza pedidos a uma aplicação \textit{backend} e espera respostas. O \textit{backend} é composto por uma \textit{api rest} que recebe e responde aos pedidos e por uma base de dados a qual recebe \textit{queries} e devolve dados para a \textit{api rest}. Encontra-se no documento de anexos, no anexo 20, uma versão em maiores dimensões da Figura~\ref*{fig:46}.
 
 \begin{figure}[htb]
   \centering
@@ -15,6 +15,8 @@ A especificação da implementação da \textit{api rest} foi realizada através
 Os \textit{middlewares} têm como objetivo realizar todas as ações necessárias antes de proceder à execução do código de rota. Os \textit{middlewares} existentes são o \textit{SessionTokenValidator}, valida a sessão do utilizador a realizar o pedido, de forma similar, o \textit{middleware RefreshTokenValidator}, valida a sessão principal do utilizador e por fim, o \textit{middleware} \textit{RoleValidator}, valida se o utilizador que efetua o pedido tem cargos suficientes para tal. Na eventualidade de não existir nenhum impedimento, o pedido é direcionado para o \textit{controller}.
 
 O \textit{controller} extrai os dados do pedido, verifica se os dados obrigatórios existem e cumprem as regras de negócio e encaminha o pedido para o serviço. O serviço, em caso de necessidade, irá proceder à interação com a base de dados, esta realiza diversas ações como, obter, atualizar, apagar e inserir dados. Por fim, após todo o código de serviço ser executado, a resposta é formulada e devolvida para o utilizador.
+
+Encontra-se no documento de anexos, no anexo 21, uma versão em maiores dimensões da Figura~\ref*{fig:47}.
 
 \begin{figure}[htb]
   \centering
@@ -39,6 +41,8 @@ A arquitetura de componentes contém todos os serviços que deverão ser impleme
 
 \subsection{Tabela de endpoints}
 Com o propósito de evitar colisões de \textit{endpoints} durante a implementação, foi desenvolvida uma tabela de \textit{endpoints}. Esta possui dados semelhantes à arquitetura de componentes (Figura~\ref*{fig:48}), mas para cada serviço é indicada a rota e o método a utilizar.
+
+Encontra-se no documento de anexos, no anexo 25, uma versão em maiores dimensões da Figura~\ref*{docs_swagger}.
 
 \input{tables/tabela_endpoints}
 
