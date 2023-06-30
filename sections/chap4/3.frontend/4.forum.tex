@@ -1,5 +1,5 @@
 \subsection{Fórum}
-O desenvolvimento da página do fórum trouxe diversas dificuldades, entre elas, a gestão de filtros, pesquisas, a mostragem de tópicos e atualização das mesmas.
+O desenvolvimento da página do fórum trouxe diversas dificuldades, entre elas, a gestão de filtros, pesquisas, a mostragem de tópicos e atualização dos mesmos.
 
 \vspace{10mm}
 \begin{figure}[htb]%
@@ -16,7 +16,7 @@ O desenvolvimento da página do fórum trouxe diversas dificuldades, entre elas,
 \subsubsection{Filtragem de tópicos}
 O grande problema com a filtragem dos tópicos é que existem 3 tipos de filtros, o de categoria de tópico, o de tipo de tópico e o de pesquisa. 
 
-Se algum filtro for alterado, os seguintes deverão ser novamente executados para garantir que todos permanecem aplicados. Inicialmente, este tipo de filtragem não era realizado, o que levava a diversos problemas, tais como, na realização de uma pesquisa, esta não era efetuada sobre os tópicos filtradas, o que levava a que a pesquisa fosse efetuada por todas os tópicos.
+Se algum filtro for alterado, os seguintes deverão ser novamente executados para garantir que todos permanecem aplicados. Inicialmente, este tipo de filtragem não era realizado, o que levava a diversos problemas, tais como, na realização de uma pesquisa, esta não era efetuada sobre os tópicos filtradas, o que levava a que a pesquisa fosse efetuada por todos os tópicos.
 
 Outro problema detetado foi a troca de categorias, que por vezes, os filtros adicionavam-se, o que levava a que estes não apresentassem tópicos.
 
@@ -38,7 +38,7 @@ A resolução deste problema proveio com uma técnica de \textit{sliding window}
 
 Esta solução foi implementada através da utilização de três valores, quantidade de tópicos a obter, índice inicial e data do primeiro tópico. O valor de quantidade de tópicos a obter, inicialmente dez, permite limitar a quantidade de tópicos que a \textit{\acrshort{api}} irá processar, o que reduz o tempo de resposta. O índice inicial, indica qual o índice do primeiro elemento que se deseja obter da lista. A data do primeiro tópico, mantém uma referência temporal para obter tópicos, o que garante que a lista que está ser a visualizada é sempre a mesma.
 
-Encontra-se no documento de anexos, no anexo 27, uma versão em maiores dimensões da Figura~\ref*{fig:74}.
+Encontra-se no documento de anexos, no anexo 27, uma versão mais detalhada da Figura~\ref*{fig:74}.
 
 \begin{figure}[htb]
  \centering
@@ -46,7 +46,7 @@ Encontra-se no documento de anexos, no anexo 27, uma versão em maiores dimensõ
  \caption{Carregamento de tópicos}
  \label{fig:74}
 \end{figure}
-Também foi reduzida a quantidade de dados carregados por cada tópico, pelo que, apenas os comentários diretos à tópico são carregados e não as respostas a estes, o que contribuiu para a melhoria do desempenho.
+Também foi reduzida a quantidade de dados carregados por cada tópico, pelo que, apenas os comentários diretos ao tópico são carregados e não as respostas a estes, o que contribuiu para a melhoria do desempenho.
 
 Por fim, sempre que o utilizador alcança o fim da lista de tópicos este poderá deslizar para carregar mais tópicos.
 

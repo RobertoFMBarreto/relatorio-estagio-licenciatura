@@ -1,6 +1,6 @@
 \subsubsection{Logging de erros}
 
-A identificação dos erros no servidor é difícil, uma vez que, os erros são tratados e os dados referentes não são guardados ou utilizados. Para resolver este problema foi determinado que sempre que um erro que não é customizado é detetado é registado um \textit{log}, este contém informações sobre o pedido como data e hora, dados recebidos, a descrição original do erro e serviço referente.
+A identificação dos erros no servidor é difícil, uma vez que, os erros são tratados e os dados referentes não são guardados ou utilizados. Para resolver este problema foi determinado que sempre que um erro que não é customizado é detetado, é registado um \textit{log}, este contém informações sobre o pedido como data e hora, dados recebidos, a descrição original do erro e serviço referente.
 
 Para implementar esta solução foi em primeiro lugar criado um \textit{middleware} que sempre que deteta erros dentro do serviço executa um método. Este método, por sua vez, obtém os dados referentes ao pedido realizado, sendo estes a data e hora, os dados recebidos e o serviço pedido. Após se obter os dados do pedido é obtida a mensagem do erro e estes dados acrescentados numa nova linha no ficheiro de erros do servidor.
 

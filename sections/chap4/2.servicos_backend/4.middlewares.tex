@@ -1,5 +1,5 @@
 \subsection{Middlewares} 
-Um \textit{middleware} comporta-se como uma ligação entre duas partes e permite executar código. Encontra-se no documento de anexos, no anexo 22, uma versão em maiores dimensões da Figura~\ref*{middlewares_png}.
+Um \textit{middleware} comporta-se como uma ligação entre duas partes e permite executar código. Encontra-se no documento de anexos, no anexo 22, uma versão mais detalhada da Figura~\ref*{middlewares_png}.
 
 \begin{figure}[htb]
  \centering
@@ -15,7 +15,7 @@ O bem essencial para uma boa comunicação entre duas partes, é a utilização 
 
 \subsubsection{Autenticação}
 A autenticação dos utilizadores foi implementada através de \textit{JsonWebToken}. Este tipo de autenticação, tem por base a utilização de \textit{tokens} com tempo de expiração, o que significa que enquanto o \textit{token} estiver válido, o utilizador poderá realizar pedidos. Assim que o \textit{token} expirar, este terá de se autenticar novamente para obter um novo \textit{token}.
-A utilização de \textit{tokens} permite assegurar que os pedidos são realizados com \textit{tokens}, gerados pela \textit{\acrshort{api}}, através de uma chave de assinatura de \textit{token}, o que impede a utilização de \textit{tokens} gerados por utilizadores.
+A utilização de \textit{tokens} permite assegurar que os pedidos são realizados com \textit{tokens} gerados pela \textit{\acrshort{api}}, através de uma chave de assinatura de \textit{token}, o que impede a utilização de \textit{tokens} gerados por utilizadores.
 \begin{figure}[htb]
  \centering
  \includegraphics[width=0.5\textwidth]{images/implementacao/api/jwt_session.png}
@@ -25,9 +25,9 @@ A utilização de \textit{tokens} permite assegurar que os pedidos são realizad
 
 A maior valência da utilização da técnica de autenticação mencionada anteriormente é a segurança. Isto acontece porque estes \textit{tokens} têm geralmente uma duração muito curta, como por exemplo, quinze minutos. Sempre que um \textit{token} de sessão expira o utilizador necessita realizar novamente o \textit{login}, o que poderá tornar a utilização da aplicação imprática.
 
-A solução deste problema sem a perda de segurança significativa veio pelo meio da utilização de \textit{tokens} de duração maior em conjunto com os \textit{tokens} de duração curta. Enquanto o \textit{token} de grande duração se encontrar válido, novos \textit{tokens} de curta duração são gerados para o utilizador, o que leva a que o utilizador nunca perca a sua sessão. Estes \textit{tokens} de grande duração têm por nome \textit{refresh tokens} e os \textit{tokens} de curta duração têm por nome \textit{session tokens}. O utilizador sempre que termina a sessão o \textit{refresh tokens} deverá ser apagado.
+A solução deste problema sem a perda de segurança significativa veio pelo meio da utilização de \textit{tokens} de duração maior em conjunto com os \textit{tokens} de duração curta. Enquanto o \textit{token} de grande duração se encontrar válido, novos \textit{tokens} de curta duração são gerados para o utilizador, o que leva a que o utilizador nunca perca a sua sessão. Estes \textit{tokens} de grande duração têm por nome \textit{refresh tokens} e os \textit{tokens} de curta duração têm por nome \textit{session tokens}. O utilizador sempre que termina a sessão o \textit{refresh token} deverá ser apagado.
 
-Sempre que um utilizador realiza um pedido, o seu \textit{token} de sessão deverá ser validado. Caso este seja válido, o seu \textit{refresh token} deverá ser validado e apenas após esta verificação o utilizador estará autenticado. Na eventualidade de o \textit{token} de sessão ou de \textit{refresh} estiverem expirados, este estará sem autorização para realizar o pedido, mas, poderá solicitar um novo \textit{token} de sessão enquanto o seu \textit{refresh token} estiver válido. Isto acontece sem realizar novamente o \textit{login} e sem o utilizador perceber.
+Sempre que um utilizador realiza um pedido, o seu \textit{session token} deverá ser validado. Caso este seja válido, o seu \textit{refresh token} deverá ser validado e apenas após esta verificação o utilizador estará autenticado. Na eventualidade de o \textit{session token} ou do \textit{refresh token} estiverem expirados, este estará sem autorização para realizar o pedido, mas, poderá solicitar um novo \textit{session token} enquanto o seu \textit{refresh token} estiver válido. Isto acontece sem realizar novamente o \textit{login} e sem o utilizador perceber.
 
  Além das funcionalidades atrás mencionadas é possível também associar dados em formato \textit{\acrshort{json}} a um \textit{token}. Esta funcionalidade foi utilizada para enviar o \textit{id} e o cargo do utilizador a qual pertence este \textit{token}.
 

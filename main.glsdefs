@@ -194,3 +194,31 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{yaml}%
+{%
+name={\acronymfont {\glsentryshort {yaml}}},%
+sort={YAML},%
+type={acronym},%
+first={YAML},%
+firstplural={YAMLs},%
+text={YAML},%
+plural={YAMLs},%
+description={YAML ain't markup language},%
+descriptionplural={YAML ain't markup language},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={YAML ain't markup language},%
+longplural={YAML ain't markup languages},%
+short={YAML},%
+shortplural={YAMLs},%
+counter={page},%
+parent={},%
+%
+}%
+

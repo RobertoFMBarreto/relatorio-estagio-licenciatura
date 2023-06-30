@@ -137,8 +137,8 @@
 \contentsline {subsubsection}{\numberline {4.2.4.5}Processamento de erros}{98}{subsubsection.4.2.4.5}%
 \contentsline {subsection}{\numberline {4.2.5}Envio de \textit {emails}}{99}{subsection.4.2.5}%
 \contentsline {subsection}{\numberline {4.2.6}Agendamento de tarefas}{99}{subsection.4.2.6}%
-\contentsline {subsection}{\numberline {4.2.7}Cifra de \textit {passwords}}{100}{subsection.4.2.7}%
-\contentsline {subsubsection}{\numberline {4.2.7.1}Cifra de configurações do servidor}{100}{subsubsection.4.2.7.1}%
+\contentsline {subsection}{\numberline {4.2.7}Encriptação de \textit {passwords}}{100}{subsection.4.2.7}%
+\contentsline {subsubsection}{\numberline {4.2.7.1}Encriptação de configurações do servidor}{100}{subsubsection.4.2.7.1}%
 \contentsline {subsection}{\numberline {4.2.8}Documentação Typedoc}{101}{subsection.4.2.8}%
 \contentsline {subsection}{\numberline {4.2.9}Documentação Swagger}{102}{subsection.4.2.9}%
 \contentsline {section}{\numberline {4.3}Frontend}{103}{section.4.3}%
