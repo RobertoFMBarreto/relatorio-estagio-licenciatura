@@ -4,10 +4,12 @@ A figura~\ref{fig:46} expõe a arquitetura do sistema que indica as principais c
 \begin{figure}[htb]
   \centering
   
-  \includegraphics[width=0.6\textwidth]{images/Arquiteturas/arquitetura_de_solucao.png}
+  \includegraphics[width=0.8\textwidth]{images/Arquiteturas/arquitetura_de_solucao.png}
   \caption{Arquitetura do sistema}
   \label{fig:46}
 \end{figure}
+
+\newpage
 
 \subsection{Arquitetura de funcional}
 A especificação da implementação da \textit{\textit{\acrshort{api}} rest} foi realizada através de uma arquitetura de \textit{backend}(Figura~\ref{fig:47}). Aqui, é possível visualizar que sempre que a \textit{\acrshort{api}} recebe um pedido, este é redirecionado primeiramente para o \textit{router}. O \textit{router} tem como função identificar a rota referente ao pedido e deslocar para os respetivos \textit{middlewares}. 
@@ -21,18 +23,18 @@ Encontra-se no documento de anexos, no anexo 21, uma versão mais detalhada da F
 \begin{figure}[htb]
   \centering
   \includegraphics[width=0.9\textwidth]{images/Arquiteturas/arquitetura_funcional.png}
-  \caption{Arquitetura do funcional}
+  \caption{Arquitetura funcional}
   \label{fig:47}
 \end{figure}
 
 \newpage
 
-\subsection{Arquitetura de componentes}
-A arquitetura de componentes contém todos os serviços que deverão ser implementados no \textit{frontend}, com a identificação dos atores que poderão realizar estes pedidos. Esta foi desenvolvida após uma análise de todos os dados necessários para suporte do \textit{frontend}.
+\subsection{Arquitetura de serviços}
+A arquitetura de serviços contém todos os serviços que deverão ser implementados no \textit{frontend}, com a identificação dos atores que poderão realizar estes pedidos. Esta foi desenvolvida após uma análise de todos os dados necessários para suporte do \textit{frontend}.
 
 \begin{figure}[htb]
   \centering
-  \includegraphics[width=0.7\textwidth]{images/Arquiteturas/arquitetura_de_componentes_final.png}
+  \includegraphics[width=0.8\textwidth]{images/Arquiteturas/arquitetura_de_componentes_final.png}
   \caption{Arquitetura de componentes}
   \label{fig:48}
 \end{figure}

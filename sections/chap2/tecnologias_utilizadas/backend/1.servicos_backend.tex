@@ -4,6 +4,8 @@ Para a realização da integração entre a aplicação \emph{frontend} e os dad
 Uma \textit{\acrshort{api}} "(...)\emph{exposes a set of data and functions to facilitate interactions between computer programs and allow them to exchange information.}(...)"~\citep{rest_cookbook}.
 Estas ferramentas apesar de serem "(...)\emph{designed to work with other programs, they’re mostly intended to be understood and used by humans writing those other programs}(...)"\citep{api_design}.
 
+\newpage
+
 \subsubsection{Serviços RestFull e SOAP}
 Os seviços \emph{RestFull} "(...)\emph{expose data as resources and use standard HTTP methods to represent Create, Read,Update, and Delete (CRUD) transactions against these resources}(...)"
 \citep{api_design}, sendo que a resposta é no formato \textit{\acrfull{json}} "(...)\emph{due to its simplicity and ease of use with JavaScript, JSON has become the standard for modern APIs}(...)"\citep{api_design}.
@@ -11,8 +13,6 @@ Os seviços \emph{RestFull} "(...)\emph{expose data as resources and use standar
 Já \emph{SOAP} é "(...)\emph{XML-based envelope for the information being transferred, and a set of rules for translating application and platform-specific data types into XML representations}(...)"\citep{Snell2002} sendo que a resposta é realizada em \emph{XML} leva a que "(...)\emph{It relies heavily on XML standards like XML Schema and XML Namespaces for its definition and function}(...)"\citep{Snell2002}. A utilização de \emph{XML} permite que "(...)\emph{two applications, regardless of operating system, programming language, or any other technical implementation detail, may openly share information using nothing more than a simple message encoded in a way that both applications understand}(...)"\citep{Snell2002}.
 
 Por fim foi decidido utilizar \emph{RestFull} devido a ser "(...)\emph{much lighter compared to SOAP. It does not require formats like headers to be included in the message, like it is required in SOAP architecture}(...)"\citep{Halili2018}. Outra maior valia é que "(...)\emph{it parses JSON, a human readable language designed to allow data exchange and making it easier to parse and use by the computer. It is estimated to be at around one hundred times faster than XML}(...)"\citep{Halili2018}.
-
-\newpage
 
 \subsubsection{NodeJS}
 
@@ -24,6 +24,7 @@ Para correr \textit{JavaScript} a nível de servidor \emph{web} e a nível de co
 
 \textit{NodeJS} foi escolhido para o \textit{backend}, uma vez que, permite a utilização de \textit{Typescript} para o desenvolvimento e por ser vastamente utilizado, o que dá acesso a diversas fontes de informação para a resolução de problemas, assim como, para o auxílio ao desenvolvimento.
 
+\newpage
 
 \subsubsection{Typescript}
 O Typescript "(...)\emph{is a bit unusual as a language in that it neither runs in an interpreter (as Python and Ruby do) nor compiles down to a lower-level language (as Java and C do).}(...)"\citep{typescript} isto porque este "(...)\emph{compiles to another high-level language, JavaScript}(...)"\citep{typescript}, isto faz com que o \emph{Typescript} seja visto como "(...)\emph{a superset of JavaScript in a syntactic sense}(...)"\citep{typescript}.
@@ -32,8 +33,6 @@ Todos os programas \emph{JavaScript} "(...)\emph{are TypeScript programs, but th
 
 Esta linguagem foi escolhida para o \textit{backend}, visto que, assegura as tipagens, o que proporciona um maior nível de segurança quando se trabalha com dados recebidos, assim como, a agilização do processo de programação devido à capacidade de prever a maioria dos erros de código.
 
-\newpage
-
 \subsubsection{PostgreSQL}
 \emph{PostgreSQL} "(...)\emph{is an open source object relational database management system}(...)"\citep{Juba2015}. Esta "(...)\emph{emphasizes extensibility}(...)"\citep{Juba2015} o que permite a utilização de extensões desenvolvidas pela comunidade, mas "(...)\emph{Also, there are several extensions to access, manage, and monitor PostgreSQL clusters, such as pgAdmin III}(...)"\citep{Juba2015}. Esta ferramenta é de aprendizagem simples devido ao facto de "(...)\emph{it complies with ANSI SQL standards}(...)"\citep{Juba2015}, o que leva a que, qualquer indivíduo com conhecimentos prévios em \emph{SQL} consiga facilmente aprender esta tecnologia.
 
@@ -41,15 +40,11 @@ Esta linguagem foi escolhida para o \textit{backend}, visto que, assegura as tip
 
 \input{sections/chap2/tecnologias_utilizadas/backend/2.logging.tex}
 
-\newpage
-
 \input{sections/chap2/tecnologias_utilizadas/backend/3.envio_de_emails.tex}
 
 \input{sections/chap2/tecnologias_utilizadas/backend/4.scheduler.tex}
 
 \input{sections/chap2/tecnologias_utilizadas/backend/5.segurança.tex}
-
-\newpage
 
 \input{sections/chap2/tecnologias_utilizadas/backend/6.Firebase.tex}
 

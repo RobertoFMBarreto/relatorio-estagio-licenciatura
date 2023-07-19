@@ -126,12 +126,12 @@ O processo de obter os produtos é demorado, pelo que, optou-se pela segunda op�
 
 Com a utilização da biblioteca \textit{Selenium} indicou-se qual o navegador a utilizar. Neste caso foi escolhido o \textit{Chrome}, dado que, encontrava-se instalado no dispositivo. Após ser indicado qual o navegador a utilizar, é necessário para cada página referir qual o elemento a esperar que carregue, pois, por vezes existem elementos que demoram mais tempo a carregar do que a página. A página carregada poderá não conter o elemento a obter, pelo que foi implementado um tempo de espera máximo de 5 segundos, assim que este tempo expira, a operação é cancelada e o \textit{url} é adicionado à lista de \textit{urls} com erros.
 
-\newpage
-
 
 \subsubsection{Melhoria de implementação}
 
 Depois de completo o processo, foi decidido melhorar a implementação com a resolução dos erros encontrados em \textit{urls} específicos. Para perceber exatamente quais os \textit{urls} que possuem erros, foram direcionados os dados obtidos para um ficheiro \textit{\acrshort{json}}. Sendo assim, os \textit{urls} com erros eram os indicados na Figura~\ref{fig:57}.
+
+Posteriormente a uma primeira análise percebeu-se que grande maioria os erros provêm de \textit{urls} de acessórios de produtos, isto deve-se ao facto destes encontrarem-se na página de produtos de subcategoria e serem tratados como um produto, sendo assim, sempre que se trata de um url de acessórios seria necessário correr código para obter dados de acessórios ao invés de detalhes de produtos. Deste modo, compreendeu-se que nos \textit{urls} a palavra accessórios está sempre contida, o que permite que sempre que esta é detetada num \textit{url}, seja corrido o código referente a obter de acessórios. 
 
 \begin{figure}[htb]
   \centering
@@ -141,17 +141,15 @@ Depois de completo o processo, foi decidido melhorar a implementação com a res
   \label{fig:57}
 \end{figure}
 
-Posteriormente a uma primeira análise percebeu-se que grande maioria os erros provêm de \textit{urls} de acessórios de produtos, isto deve-se ao facto destes encontrarem-se na página de produtos de subcategoria e serem tratados como um produto, sendo assim, sempre que se trata de um url de acessórios seria necessário correr código para obter dados de acessórios ao invés de detalhes de produtos. Deste modo, compreendeu-se que nos \textit{urls} a palavra accessórios está sempre contida, o que permite que sempre que esta é detetada num \textit{url}, seja corrido o código referente a obter de acessórios. Para desenvolver este código foi primeiramente analisada a página de acessórios de produtos (Figura~\ref*{fig:58}), esta contém para cada acessório um elemento do tipo artigo o qual detém uma imagem, título e descrição. Esta descrição por vezes possui \textit{urls} para os produtos aos quais este acessório se refere. Sempre que estes \textit{urls} são detetados, os nomes dos produtos são guardados para futuramente realizar a ligação entre os acessórios e os produtos, dado que, não existem produtos com nomes iguais. 
+Para desenvolver este código foi primeiramente analisada a página de acessórios de produtos (Figura~\ref*{fig:58}), esta contém para cada acessório um elemento do tipo artigo o qual detém uma imagem, título e descrição. Esta descrição por vezes possui \textit{urls} para os produtos aos quais este acessório se refere. Sempre que estes \textit{urls} são detetados, os nomes dos produtos são guardados para futuramente realizar a ligação entre os acessórios e os produtos, dado que, não existem produtos com nomes iguais. 
 
 \begin{figure}[htb]
   \centering
   
-  \includegraphics[width=0.45\textwidth]{images/implementacao/scraper/pagina_acessorios.png}
+  \includegraphics[width=0.55\textwidth]{images/implementacao/scraper/pagina_acessorios.png}
   \caption{Exemplo de página de acessórios}
   \label{fig:58}
 \end{figure}
-
-\newpage
 
 Na iteração seguinte determinou-se que a quantidade de \textit{urls} com erros diminuiu, mas mesmo assim existiam produtos com erro, pelo que, estes foram analisados e percebeu-se que o erro ocorria, visto que, por vezes as páginas não continham os vídeos ou imagens de documentação. Para resolver este problema, o código foi alterado para somente obter estes dados se os elementos existirem na página. Após correr novamente o código foi compreendido que a quantidade de falhas obtidas diminuiu drasticamente (Figura~\ref{fig:59}), mas mesmo assim, ainda existiam quatro falhas a ocorrer e após uma análise foi determinado que estas ocorriam devido a uma página de subcategoria de produtos conter um serviço, um produto conter uma página de detalhes de produto com sub produtos, existir uma página de adaptadores de produtos e um produto conter uma página de detalhes diferente das demais.
 
@@ -165,7 +163,7 @@ Na iteração seguinte determinou-se que a quantidade de \textit{urls} com erros
 \begin{figure}[htb]
   \centering
   
-  \includegraphics[width=0.7\textwidth]{images/implementacao/scraper/melhor_corrida.png}
+  \includegraphics[width=0.9\textwidth]{images/implementacao/scraper/melhor_corrida.png}
   \caption{Indicação das páginas com falha}
   \label{fig:59}
 \end{figure}
@@ -178,12 +176,10 @@ A resolução do problema de existirem serviços e subprodutos implica uma alter
 
 \begin{figure}[htb]
   \centering
-  \includegraphics[width=0.7\textwidth]{images/implementacao/scraper/flama.png}
+  \includegraphics[width=0.9\textwidth]{images/implementacao/scraper/flama.png}
   \caption{Exemplo de página de produto incomum}
   \label{fig:60}
 \end{figure}
-
-\newpage
 
 O problema de existirem produtos com subprodutos foi resolvido através da alteração da base de dados, à qual foi adicionada uma nova ligação sobre si mesma na tabela produtos, o que permite que um subproduto possua uma ligação com produto principal. Após ser feita esta alteração, o código para obter os dados do catálogo foi alterado. Em primeiro lugar, foram obtidos todos os dados do produto principal e de seguida os dados específicos a cada subproduto, o que leva a que a organização do produto principal seja igual aos restantes, mas, com um dado extra com os subprodutos. 
 
@@ -203,6 +199,7 @@ Através da estrutura de um serviço foi adicionado à base de dados as tabelas 
   \label{fig:62}
 \end{figure}
 
+\newpage
 
 \subsubsection{Diagrama de base de dados final}
 
