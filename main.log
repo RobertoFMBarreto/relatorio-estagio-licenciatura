@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.4.28)  19 JUL 2023 10:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.4.28)  19 JUL 2023 10:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -788,7 +788,7 @@ Cap\'{\i }tulo 1.
 [1
 
 ] [2]
-<images/etapa1_sprint_planning.png, id=1241, 1084.05pt x 1483.5425pt>
+<images/etapa1_sprint_planning.png, id=1240, 1084.05pt x 1483.5425pt>
 File: images/etapa1_sprint_planning.png Graphic file (type png)
 <use images/etapa1_sprint_planning.png>
 Package pdftex.def Info: images/etapa1_sprint_planning.png  used on input line 53.
@@ -824,7 +824,7 @@ Overfull \hbox (18.04883pt too wide) in paragraph at lines 5--6
  []
 
 [13]
-<images/diagramas/fdl-android-integration.png, id=1485, 963.6pt x 722.7pt>
+<images/diagramas/fdl-android-integration.png, id=1484, 963.6pt x 722.7pt>
 File: images/diagramas/fdl-android-integration.png Graphic file (type png)
 <use images/diagramas/fdl-android-integration.png>
 Package pdftex.def Info: images/diagramas/fdl-android-integration.png  used on input line 18.
@@ -852,7 +852,7 @@ Underfull \vbox (badness 1831) has occurred while \output is active []
  [17
 
 ] (./sections/chap3/5.dominio_applicacao_sistema.tex
-<images/diagramas/diagrama_contexto.png, id=1559, 1085.05376pt x 561.09625pt>
+<images/diagramas/diagrama_contexto.png, id=1558, 1085.05376pt x 561.09625pt>
 File: images/diagramas/diagrama_contexto.png Graphic file (type png)
 <use images/diagramas/diagrama_contexto.png>
 Package pdftex.def Info: images/diagramas/diagrama_contexto.png  used on input line 10.
@@ -949,52 +949,52 @@ Overfull \hbox (2.28545pt too wide) in paragraph at lines 20--20
  []
 
 )) [22] (./sections/chap3/10.esquemetizacao_conteudo_paginas.tex
-<images/Arquiteturas/diagrama_superficial_de_aplicacao.png, id=1586, 1473.505pt x 849.1725pt>
+<images/Arquiteturas/diagrama_superficial_de_aplicacao.png, id=1585, 1473.505pt x 849.1725pt>
 File: images/Arquiteturas/diagrama_superficial_de_aplicacao.png Graphic file (type png)
 <use images/Arquiteturas/diagrama_superficial_de_aplicacao.png>
 Package pdftex.def Info: images/Arquiteturas/diagrama_superficial_de_aplicacao.png  used on input line 9.
 (pdftex.def)             Requested size: 455.24411pt x 262.3467pt.
  [23 <./images/Arquiteturas/diagrama_superficial_de_aplicacao.png>]
-<images/Arquiteturas/superficial_de_app/home_auth.png, id=1592, 438.63875pt x 705.63625pt>
+<images/Arquiteturas/superficial_de_app/home_auth.png, id=1591, 438.63875pt x 705.63625pt>
 File: images/Arquiteturas/superficial_de_app/home_auth.png Graphic file (type png)
 <use images/Arquiteturas/superficial_de_app/home_auth.png>
 Package pdftex.def Info: images/Arquiteturas/superficial_de_app/home_auth.png  used on input line 29.
 (pdftex.def)             Requested size: 254.69176pt x 409.71692pt.
  [24 <./images/Arquiteturas/superficial_de_app/home_auth.png>]
-<images/Arquiteturas/superficial_de_app/forum.png, id=1598, 219.82124pt x 275.0275pt>
+<images/Arquiteturas/superficial_de_app/forum.png, id=1597, 219.82124pt x 275.0275pt>
 File: images/Arquiteturas/superficial_de_app/forum.png Graphic file (type png)
 <use images/Arquiteturas/superficial_de_app/forum.png>
 Package pdftex.def Info: images/Arquiteturas/superficial_de_app/forum.png  used on input line 44.
 (pdftex.def)             Requested size: 145.54869pt x 182.09486pt.
-<images/Arquiteturas/superficial_de_app/criar_topico.png, id=1599, 178.6675pt x 193.72375pt>
+<images/Arquiteturas/superficial_de_app/criar_topico.png, id=1598, 178.6675pt x 193.72375pt>
 File: images/Arquiteturas/superficial_de_app/criar_topico.png Graphic file (type png)
 <use images/Arquiteturas/superficial_de_app/criar_topico.png>
 Package pdftex.def Info: images/Arquiteturas/superficial_de_app/criar_topico.png  used on input line 56.
 (pdftex.def)             Requested size: 125.96059pt x 136.57462pt.
  [25 <./images/Arquiteturas/superficial_de_app/forum.png> <./images/Arquiteturas/superficial_de_app/criar_topico.png>]
-<images/Arquiteturas/superficial_de_app/detalhes_topico.png, id=1606, 536.0025pt x 255.95625pt>
+<images/Arquiteturas/superficial_de_app/detalhes_topico.png, id=1605, 536.0025pt x 255.95625pt>
 File: images/Arquiteturas/superficial_de_app/detalhes_topico.png Graphic file (type png)
 <use images/Arquiteturas/superficial_de_app/detalhes_topico.png>
 Package pdftex.def Info: images/Arquiteturas/superficial_de_app/detalhes_topico.png  used on input line 71.
 (pdftex.def)             Requested size: 333.67578pt x 159.33821pt.
-<images/Arquiteturas/superficial_de_app/pesquisa_forum.png, id=1607, 252.945pt x 212.795pt>
+<images/Arquiteturas/superficial_de_app/pesquisa_forum.png, id=1606, 252.945pt x 212.795pt>
 File: images/Arquiteturas/superficial_de_app/pesquisa_forum.png Graphic file (type png)
 <use images/Arquiteturas/superficial_de_app/pesquisa_forum.png>
 Package pdftex.def Info: images/Arquiteturas/superficial_de_app/pesquisa_forum.png  used on input line 83.
 (pdftex.def)             Requested size: 162.35126pt x 136.57462pt.
  [26 <./images/Arquiteturas/superficial_de_app/detalhes_topico.png> <./images/Arquiteturas/superficial_de_app/pesquisa_forum.png>]
-<images/Arquiteturas/superficial_de_app/notificacoes.png, id=1614, 182.6825pt x 120.45pt>
+<images/Arquiteturas/superficial_de_app/notificacoes.png, id=1613, 182.6825pt x 120.45pt>
 File: images/Arquiteturas/superficial_de_app/notificacoes.png Graphic file (type png)
 <use images/Arquiteturas/superficial_de_app/notificacoes.png>
 Package pdftex.def Info: images/Arquiteturas/superficial_de_app/notificacoes.png  used on input line 96.
 (pdftex.def)             Requested size: 138.09308pt x 91.04742pt.
-<images/Arquiteturas/superficial_de_app/perfil.png, id=1615, 305.14pt x 422.57875pt>
+<images/Arquiteturas/superficial_de_app/perfil.png, id=1614, 305.14pt x 422.57875pt>
 File: images/Arquiteturas/superficial_de_app/perfil.png Graphic file (type png)
 <use images/Arquiteturas/superficial_de_app/perfil.png>
 Package pdftex.def Info: images/Arquiteturas/superficial_de_app/perfil.png  used on input line 108.
 (pdftex.def)             Requested size: 115.06042pt x 159.33821pt.
  [27 <./images/Arquiteturas/superficial_de_app/notificacoes.png> <./images/Arquiteturas/superficial_de_app/perfil.png>]
-<images/Arquiteturas/superficial_de_app/gestao_recursos_humanos.png, id=1623, 497.86pt x 650.43pt>
+<images/Arquiteturas/superficial_de_app/gestao_recursos_humanos.png, id=1622, 497.86pt x 650.43pt>
 File: images/Arquiteturas/superficial_de_app/gestao_recursos_humanos.png Graphic file (type png)
 <use images/Arquiteturas/superficial_de_app/gestao_recursos_humanos.png>
 Package pdftex.def Info: images/Arquiteturas/superficial_de_app/gestao_recursos_humanos.png  used on input line 122.
@@ -2493,14 +2493,8 @@ Underfull \hbox (badness 1331) in paragraph at lines 64--68
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 2F1D2ADA8351F379132D72E260C78B56;33272
-(rerunfilecheck)             After:  2E0D57CCC3C647A97107C2D79F34ECA9;33272.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 2E0D57CCC3C647A97107C2D79F34ECA9;33272.
  ) 
 Here is how much of TeX's memory you used:
  28954 strings out of 476182
@@ -2511,7 +2505,7 @@ Here is how much of TeX's memory you used:
  1137 hyphenation exceptions out of 8191
  106i,8n,120p,2349b,1318s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbi1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (144 pages, 9515051 bytes).
+Output written on main.pdf (144 pages, 9514982 bytes).
 PDF statistics:
  2421 PDF objects out of 2487 (max. 8388607)
  2044 compressed objects within 21 object streams
